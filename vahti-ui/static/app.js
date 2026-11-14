@@ -222,7 +222,6 @@ function initIntroduction() {
       goToIntroStep(step.next);
     }
   };
-  open();
 }
 
 function introHash() {
