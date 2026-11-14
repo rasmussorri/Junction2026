@@ -22,7 +22,11 @@ def load_env():
                 line = line.strip()
                 if line and not line.startswith('#') and '=' in line:
                     k, v = line.split('=', 1)
-                    os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                    k = k.strip()
+                    val = v.strip().strip('"').strip("'")
+                    if k and val:
+                        os.environ[k] = val
+            break
 
 
 load_env()
