@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/**/*.py": {
-      "includeFiles": "vahti-ui/**,data/**,public/**",
+    "api/index.py": {
+      "includeFiles": "vahti-ui/**,data/*.json,public/**",
       "maxDuration": 60
     }
   },
