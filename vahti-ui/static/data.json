@@ -32,28 +32,28 @@
     "Vantaa ja Kerava"
   ],
   "size": {
-    "Itä-Uusimaa": 99415,
-    "Keski-Uusimaa": 207070,
-    "Länsi-Uusimaa": 502067,
-    "Vantaa ja Kerava": 289730,
-    "Varsinais-Suomi": 494819,
-    "Satakunta": 211261,
-    "Kanta-Häme": 169455,
-    "Pirkanmaa": 545406,
-    "Päijät-Häme": 204635,
-    "Kymenlaakso": 157442,
-    "Etelä-Karjala": 125083,
-    "Etelä-Savo": 129376,
-    "Pohjois-Savo": 248815,
-    "Pohjois-Karjala": 162091,
-    "Keski-Suomi": 274112,
-    "Etelä-Pohjanmaa": 189929,
-    "Pohjanmaa": 178749,
-    "Keski-Pohjanmaa": 67723,
-    "Pohjois-Pohjanmaa": 418331,
-    "Kainuu": 69639,
-    "Lappi": 176151,
-    "Helsinki": 684018
+    "Itä-Uusimaa": 1541.0,
+    "Keski-Uusimaa": 1541.0,
+    "Länsi-Uusimaa": 1541.0,
+    "Vantaa ja Kerava": 1541.0,
+    "Varsinais-Suomi": 895.0,
+    "Satakunta": 1409.0,
+    "Kanta-Häme": 823.0,
+    "Pirkanmaa": 2602.0,
+    "Päijät-Häme": 1313.0,
+    "Kymenlaakso": 1261.0,
+    "Etelä-Karjala": 1242.0,
+    "Etelä-Savo": 665.0,
+    "Pohjois-Savo": 2134.0,
+    "Pohjois-Karjala": 116.0,
+    "Keski-Suomi": 1142.0,
+    "Etelä-Pohjanmaa": 935.0,
+    "Pohjanmaa": 2229.0,
+    "Keski-Pohjanmaa": 357.0,
+    "Pohjois-Pohjanmaa": 2320.0,
+    "Kainuu": null,
+    "Lappi": 803.0,
+    "Helsinki": 1541.0
   },
   "measures": {
     "suolisto": {
@@ -66,8 +66,8 @@
       "source": "THL Sotkanet 6103",
       "national": 73.5,
       "values": {
-        "Itä-Uusimaa": 72,
-        "Keski-Uusimaa": 74,
+        "Itä-Uusimaa": 72.0,
+        "Keski-Uusimaa": 74.0,
         "Länsi-Uusimaa": 71.5,
         "Vantaa ja Kerava": 71.3,
         "Varsinais-Suomi": 73.5,
@@ -75,8 +75,8 @@
         "Kanta-Häme": 74.3,
         "Pirkanmaa": 74.3,
         "Päijät-Häme": 75.2,
-        "Kymenlaakso": 70,
-        "Etelä-Karjala": 74,
+        "Kymenlaakso": 70.0,
+        "Etelä-Karjala": 74.0,
         "Etelä-Savo": 76.9,
         "Pohjois-Savo": 75.4,
         "Pohjois-Karjala": 73.2,
@@ -253,13 +253,13 @@
         "Kanta-Häme": 83.4,
         "Pirkanmaa": 83.5,
         "Päijät-Häme": 81.8,
-        "Kymenlaakso": 82,
+        "Kymenlaakso": 82.0,
         "Etelä-Karjala": 83.2,
         "Etelä-Savo": 82.2,
         "Pohjois-Savo": 85.1,
         "Pohjois-Karjala": 84.2,
         "Keski-Suomi": 85.1,
-        "Etelä-Pohjanmaa": 85,
+        "Etelä-Pohjanmaa": 85.0,
         "Pohjanmaa": 84.9,
         "Keski-Pohjanmaa": 85.4,
         "Pohjois-Pohjanmaa": 85.6,
@@ -534,31 +534,31 @@
       "target": 80,
       "unit": "%",
       "period": "2024",
-      "source": "Finnish Cancer Registry, 2024 age-group screening",
-      "national": 76.3,
+      "source": "THL Sotkanet 3620",
+      "national": 73.4,
       "values": {
-        "Itä-Uusimaa": 76.3,
-        "Keski-Uusimaa": 76.7,
-        "Länsi-Uusimaa": 74.3,
-        "Vantaa ja Kerava": 71.7,
-        "Varsinais-Suomi": 77.5,
-        "Satakunta": 71.5,
-        "Kanta-Häme": 69.9,
-        "Pirkanmaa": 71,
-        "Päijät-Häme": 68.2,
-        "Kymenlaakso": 77,
-        "Etelä-Karjala": 76.7,
-        "Etelä-Savo": 82.2,
-        "Pohjois-Savo": 69.5,
-        "Pohjois-Karjala": 67.8,
-        "Keski-Suomi": 70.2,
-        "Etelä-Pohjanmaa": 82,
-        "Pohjanmaa": 72.2,
-        "Keski-Pohjanmaa": 69.1,
-        "Pohjois-Pohjanmaa": 73.4,
+        "Itä-Uusimaa": 75.7,
+        "Keski-Uusimaa": 75.9,
+        "Länsi-Uusimaa": 73.6,
+        "Vantaa ja Kerava": 70.7,
+        "Varsinais-Suomi": 77.6,
+        "Satakunta": 71.3,
+        "Kanta-Häme": 70.4,
+        "Pirkanmaa": 71.5,
+        "Päijät-Häme": 68.9,
+        "Kymenlaakso": 76.5,
+        "Etelä-Karjala": 75.8,
+        "Etelä-Savo": 82.3,
+        "Pohjois-Savo": 70.0,
+        "Pohjois-Karjala": 68.0,
+        "Keski-Suomi": 70.7,
+        "Etelä-Pohjanmaa": 82.3,
+        "Pohjanmaa": 72.4,
+        "Keski-Pohjanmaa": 69.2,
+        "Pohjois-Pohjanmaa": 73.6,
         "Kainuu": 78.5,
-        "Lappi": 79.8,
-        "Helsinki": 71.7
+        "Lappi": 79.9,
+        "Helsinki": 71.4
       },
       "prev": {
         "Itä-Uusimaa": 75.8,
@@ -833,7 +833,7 @@
         "Itä-Uusimaa": 70.9,
         "Keski-Uusimaa": 69.3,
         "Länsi-Uusimaa": 60.1,
-        "Vantaa ja Kerava": 63,
+        "Vantaa ja Kerava": 63.0,
         "Varsinais-Suomi": 76.7,
         "Satakunta": 68.6,
         "Kanta-Häme": 66.7,
@@ -848,7 +848,7 @@
         "Etelä-Pohjanmaa": 65.6,
         "Pohjanmaa": 64.4,
         "Keski-Pohjanmaa": 61.7,
-        "Pohjois-Pohjanmaa": 58,
+        "Pohjois-Pohjanmaa": 58.0,
         "Kainuu": 72.7,
         "Lappi": 70.7,
         "Helsinki": 70.2
@@ -1121,7 +1121,7 @@
       "unit": "%",
       "period": "2026",
       "source": "THL Sotkanet 3297",
-      "national": 58,
+      "national": 58.0,
       "values": {
         "Itä-Uusimaa": 66.1,
         "Keski-Uusimaa": 63.2,
@@ -1129,7 +1129,7 @@
         "Vantaa ja Kerava": 59.3,
         "Varsinais-Suomi": 71.4,
         "Satakunta": 63.9,
-        "Kanta-Häme": 60,
+        "Kanta-Häme": 60.0,
         "Pirkanmaa": 55.5,
         "Päijät-Häme": 48.3,
         "Kymenlaakso": 56.4,
@@ -1142,7 +1142,7 @@
         "Pohjanmaa": 56.4,
         "Keski-Pohjanmaa": 49.7,
         "Pohjois-Pohjanmaa": 49.8,
-        "Kainuu": 62,
+        "Kainuu": 62.0,
         "Lappi": 65.1,
         "Helsinki": 63.2
       },
@@ -3061,37 +3061,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.ita-uusimaa@example.com",
+        "email": "example.example@itauusimaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3099,37 +3099,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.keski-uusimaa@example.com",
+        "email": "example.example@keskiuusimaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3137,37 +3137,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.lansi-uusimaa@example.com",
+        "email": "example.example@lansiuusimaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3175,37 +3175,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.vantaa-ja-kerava@example.com",
+        "email": "example.example@vantaajakerava.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3213,37 +3213,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.varsinais-suomi@example.com",
+        "email": "example.example@varsinaissuomi.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3251,37 +3251,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.satakunta@example.com",
+        "email": "example.example@satakunta.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3289,37 +3289,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.kanta-hame@example.com",
+        "email": "example.example@kantahame.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3327,37 +3327,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.pirkanmaa@example.com",
+        "email": "example.example@pirkanmaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3365,37 +3365,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.paijat-hame@example.com",
+        "email": "example.example@paijathame.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3403,37 +3403,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.kymenlaakso@example.com",
+        "email": "example.example@kymenlaakso.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3441,37 +3441,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.etela-karjala@example.com",
+        "email": "example.example@etelakarjala.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3479,37 +3479,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.etela-savo@example.com",
+        "email": "example.example@etelasavo.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3517,37 +3517,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.pohjois-savo@example.com",
+        "email": "example.example@pohjoissavo.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3555,37 +3555,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.pohjois-karjala@example.com",
+        "email": "example.example@pohjoiskarjala.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3593,37 +3593,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.keski-suomi@example.com",
+        "email": "example.example@keskisuomi.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3631,37 +3631,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.etela-pohjanmaa@example.com",
+        "email": "example.example@etelapohjanmaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3669,37 +3669,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.pohjanmaa@example.com",
+        "email": "example.example@pohjanmaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3707,37 +3707,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.keski-pohjanmaa@example.com",
+        "email": "example.example@keskipohjanmaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3745,37 +3745,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.pohjois-pohjanmaa@example.com",
+        "email": "example.example@pohjoispohjanmaa.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3783,37 +3783,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.kainuu@example.com",
+        "email": "example.example@kainuu.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3821,37 +3821,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.lappi@example.com",
+        "email": "example.example@lappi.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3859,37 +3859,37 @@
       "experience": {
         "role": "Patient experience lead",
         "name": "Example Person",
-        "email": "experience.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "Prevention lead",
         "name": "Example Person",
-        "email": "prevention.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "Screening programme lead",
         "name": "Example Person",
-        "email": "screening.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "Head of cancer care",
         "name": "Example Person",
-        "email": "care.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "Vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "Research and innovation lead",
         "name": "Example Person",
-        "email": "research.helsinki@example.com",
+        "email": "example.example@helsinki.fi",
         "phone": "+358 00 000 0000"
       }
     },
@@ -3897,37 +3897,37 @@
       "experience": {
         "role": "National coordinator – patient experience lead",
         "name": "Example Person",
-        "email": "experience.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       },
       "prevention": {
         "role": "National coordinator – prevention lead",
         "name": "Example Person",
-        "email": "prevention.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       },
       "screening": {
         "role": "National coordinator – screening programme lead",
         "name": "Example Person",
-        "email": "screening.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       },
       "care": {
         "role": "National coordinator – head of cancer care",
         "name": "Example Person",
-        "email": "care.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       },
       "vaccination": {
         "role": "National coordinator – vaccination programme lead",
         "name": "Example Person",
-        "email": "vaccination.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       },
       "research": {
         "role": "National coordinator – research and innovation lead",
         "name": "Example Person",
-        "email": "research.national@example.com",
+        "email": "example.example@kokomaa.fi",
         "phone": "+358 00 000 0000"
       }
     }
@@ -4052,11 +4052,5 @@
         "d": "M56.9 653.5L57.7 651.2L58 649.3L56.7 647.3L55.8 645.9L54.8 646.4L54.7 647.6L54.6 650.6L55 652.5L55.5 653.1L56.9 653.5ZM51.4 655.5L52.8 655L53.2 653.6L53.2 651.8L52.5 650.1L51.9 649.6L50.8 650.1L50.1 651L50 652.4L50.8 654.9L51.4 655.5ZM31.1 659.3L33.2 659.3L33.5 658.5L32.4 657.9L31.8 657.4L30 656.6L29.2 656.9L28.8 657.4L28.9 658.4L29.5 659L31.1 659.3ZM55.8 660.6L57 655.9L55.2 654.5L53.6 655.6L53.3 656.5L53.4 657.7L53.9 659.3L54.6 660.1L55.8 660.6ZM50 661.3L50.5 660.7L50.4 659.3L49.9 658.3L49.1 657.8L48.1 657.8L47.6 659.6L47.9 660.3L48.8 661.2L50 661.3ZM43.7 661.4L44.6 661.3L45.4 660.7L45.8 659.6L45.9 658.6L45.5 658.1L44.9 657.9L43.6 658.9L43.1 660.5L43.7 661.4ZM44.8 667.7L45.5 667.6L46.5 666.8L47.1 665.7L46.9 664.4L45.6 663.1L44.1 663.7L43.7 664.5L44 666.6L44.3 667.3L44.8 667.7ZM30.5 668.3L32.6 666.8L33.2 665.6L32.8 664.5L32.2 664L32.3 663.3L32.9 662.4L32.8 661.5L32.2 661.1L31.5 661.3L30.7 661.8L29.8 662.9L29.4 664.1L30.6 665L30.7 666L30.2 667.3L30.3 668ZM41.2 670.2L42 670L42.7 669.4L42.7 667.9L42.2 666.7L40.8 666.2L40 667.1L40.7 669.7L41.2 670.2ZM36.9 676.9L37.1 675.8L36 674.8L35.2 674.3L33.9 674.3L33.2 675.1L33.5 675.9L35.1 676.8L36.9 676.9ZM25.4 677.1L26.3 677.1L26.9 676.8L26.7 675.1L27.3 673L27 671.1L26.2 671L24.9 672.4L24.4 673.3L24.3 674L24.4 675.1L24.8 676.6L25.4 677.1ZM40.3 677.3L41.7 677.2L42.2 676.5L42.3 675.4L41.5 673.9L40.8 672.3L39.7 671.4L38.6 671.5L37.8 673L38.6 674L39.6 676.8L40.3 677.3ZM30.8 682.9L31.6 682.7L34.4 682L36 681.2L36.6 680.6L36.7 679.7L36.2 678.9L35.1 678.3L33.8 678.2L32.6 678L31.4 678.5L30 679.5L28.2 680.5L27.3 681.5L27.2 682.3L28.2 682.9L30.8 682.9ZM22.6 683L24.2 681.6L24.5 679.7L23.6 679.1L23.7 678.3L24.2 677.2L23.4 675.3L22.8 674.7L21.6 674L20.7 673.9L19.4 674.7L18.4 674.9L17.3 674.5L17.6 673.5L19.1 670.5L19.1 669.4L18.2 668.1L17.4 667.5L17.7 666.6L18.5 665.6L19.6 665.7L20.9 667.3L21.9 668.3L22.9 668.4L24.1 667.7L25.9 667.7L26.6 666.4L27.1 665.3L27 663L26.6 661.8L25.5 660.1L25.3 659.3L24.7 657.9L23.2 657.1L22 655.2L21 654.7L20.1 654.5L18.8 654.1L18 653.3L16.4 651.7L15.3 651.1L14.4 651.3L13.1 652L12 653.3L11.1 654.7L10.9 655.5L11.8 656.2L12.9 656.3L13.4 656.7L14.7 657.5L14.3 659.7L14.1 660.6L13.4 661.4L12.1 661.4L12.2 659.3L12.2 657.6L10.6 657.3L9.2 658.7L7.3 659L5.5 658.7L4.1 659.4L2.4 660.2L0.9 660.8L0.2 661.4L0 662.4L0.6 662.7L1.6 663.3L1.5 664L0.9 665.4L0.9 666.7L1.2 667.9L1.9 668.9L3.2 668.8L3.8 667.2L4.4 666.8L5.1 667.4L6 667.4L6.9 667.4L7.5 667.9L8.6 669.5L8.6 670.5L9 672.3L10.6 673.4L12.1 673.6L12.8 674L13.7 677.3L14.5 677.4L16.3 676.9L17.7 677.3L19.3 678.7L20.2 680.1L20.7 681.3L22 681.2L22.4 682.8ZM46.7 690.5L47.6 690.5L48.2 689.9L48.7 689.3L49.7 689.1L50.5 688.1L50.6 687.1L50 686.6L48.7 686.2L47.5 686.2L46.2 686.6L45.2 687.6L44.8 688.6L45.1 689.2L46.7 690.5Z"
       }
     ]
-  },
-  "snapshot": {
-    "revision": "6186b248f3fece54a053fe118ac6ecb4a9202c50ca9a3a1bde9a6bb25367f25a",
-    "importedAt": "2026-11-14T14:49:32.268Z",
-    "state": "ready",
-    "source": "canonical-data-store"
   }
 }
