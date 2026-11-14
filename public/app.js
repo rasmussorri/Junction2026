@@ -431,11 +431,11 @@ function contactCard(r, role) {
     <div class="who"><span class="n">${esc(c.name)}</span>
     <span class="c"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · ${esc(c.phone)}</span></div></div>`;
 }
-function peersBlock(key, list, valueOf, role, intro, label, sourceOf) {
+function peersBlock(key, list, valueOf, role, intro, label, sourceOf, targetLabel) {
   const all = showAll[key], shown = all ? list : list.slice(0, 5);
   return `<div class="hint">${intro}</div><div class="peers">${shown.map(p => {
     const c = D.contacts[p.r][role];
-    return `<div class="card peer"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"${sourceAttr(sourceOf(p.r))}><span class="pk">${esc(label)}</span>${esc(valueOf(p.r))}${sourceLine(sourceOf(p.r))}</div>
+    return `<div class="card peer" data-peer-region="${esc(p.r)}" data-peer-role="${esc(role)}" data-peer-meets="${p.good}" data-peer-target="${esc(targetLabel)}"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"${sourceAttr(sourceOf(p.r))}><span class="pk">${esc(label)}</span>${esc(valueOf(p.r))}${sourceLine(sourceOf(p.r))}</div>
       <div class="pc"><span class="n">${esc(c.name)}</span><span class="c">${esc(c.role)}</span>
       <span class="c"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · ${esc(c.phone)}</span></div></div>`;
   }).join('')}</div>
@@ -554,7 +554,7 @@ function peersSection(t) {
   const p = peersForTarget(t);
   const intro = p.closest ? closestIntro(p, 'this target')
     : `${p.list.length} areas meet this target${sel === FI ? '' : ', closest in size to ' + esc(sel) + ' first'}.`;
-  return `<h2 data-intro-peers="${esc(t.id)}">Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t), r => targetStatusSource(t, r))}`;
+  return `<h2 data-intro-peers="${esc(t.id)}">Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t), r => targetStatusSource(t, r), tName(t))}`;
 }
 
 const kpi = (k, n, ok, sub, source, subSource) => `<div class="kpi"><div class="k"${sourceAttr(source)}>${esc(k)}</div><div class="n ${cls(ok)}"${sourceAttr(source)}>${n}</div>${sourceLine(combineSources([source, subSource].filter(Boolean)))}${sub ? `<div class="s"${sourceAttr(subSource)}>${esc(sub)}</div>` : ''}</div>`;
@@ -608,7 +608,7 @@ function renderMeasure(v, m) {
     <h2>All areas</h2><div class="card chartcard">${barChart(m)}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, x.role)}
     ${o === false ? `<h2>Areas that meet the target</h2>${peersBlock('m' + m + r, p.list, rr => fmt(m, val(m, rr)), x.role,
-      p.closest ? closestIntro(p, 'the target') : `${p.list.length} areas meet the target ${fmtT(m)}.`, x.short, rr => measureSource(m, rr))}
+      p.closest ? closestIntro(p, 'the target') : `${p.list.length} areas meet the target ${fmtT(m)}.`, x.short, rr => measureSource(m, rr), `${x.short} ${fmtT(m)}`)}
       ${t.report ? `<h2 data-intro-report>AI report: how others have solved it</h2>${reportSlot(t.report)}` : ''}` : ''}
     <h2>Ask about this</h2>${chatCard(`m-${m}-${r}`)}
   </div>`;
@@ -687,6 +687,11 @@ function md(s) {
   let html = '', list = false;
   for (const raw of esc(plainMath(s)).split('\n')) {
     const l = raw;
+    if (/^\[[^\]]+\]\(https?:[^)\s]+\)(?: · \[[^\]]+\]\(https?:[^)\s]+\))*$/.test(l)) {
+      if (list) { html += '</ul>'; list = false; }
+      html += `<div class="chat-citations">${inline(l)}</div>`;
+      continue;
+    }
     if (/^\s*#{1,6}\s/.test(l)) { if (list) { html += '</ul>'; list = false; } html += `<h5>${inline(l.replace(/^\s*#+\s*/, ''))}</h5>`; }
     else if (/^\s*[-*]\s+/.test(l)) { if (!list) { html += '<ul>'; list = true; } html += `<li>${inline(l.replace(/^\s*[-*]\s+/, ''))}</li>`; }
     else if (!l.trim()) { if (list) { html += '</ul>'; list = false; } }
@@ -720,9 +725,21 @@ function bindChats(root, ctx) { root.querySelectorAll('[data-chat]').forEach(b =
 /* the chat gets the text of the open page, so it knows what the user is looking at */
 function pageText() {
   const v = $('#view'); let t = v.innerText;
-  v.querySelectorAll('.chat-card, .more').forEach(el => { const s = el.innerText; if (s) t = t.replace(s, ''); });
+  v.querySelectorAll('.chat-card, .more, .report').forEach(el => { const s = el.innerText; if (s) t = t.replace(s, ''); });
   return t.replace(/\n{3,}/g, '\n\n').trim().slice(0, 12000);
 }
+function nextReplySlice(text, shown) {
+  let end = shown + Math.max(2, Math.ceil((text.length - shown) / 80));
+  // Reveal a Markdown link in one step so the address never flashes as plain text.
+  for (const link of text.matchAll(/\[[^\]\n]+\]\(https?:[^)\s]+\)/g)) {
+    if (link.index < end && link.index + link[0].length > end) {
+      end = link.index + link[0].length;
+      break;
+    }
+  }
+  return text.slice(0, end);
+}
+
 function send(key, text, ctx, draw) {
   text = (text || '').trim(); if (!text) return;
   const firstQuestion = introStep === 'goalChat';
@@ -762,8 +779,30 @@ function send(key, text, ctx, draw) {
     if (firstQuestion && introStep === 'chatWaiting') goToIntroStep('chatReview');
     else updateIntroduction();
   };
+  let received = '', renderTimer = null, completed = false;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const revealReply = () => {
+    renderTimer = null;
+    if (!received.startsWith(pending.text)) pending.text = '';
+    pending.text = reducedMotion ? received : nextReplySlice(received, pending.text.length);
+    if (pending.text !== received) {
+      paint();
+      renderTimer = window.setTimeout(revealReply, 24);
+    } else if (completed) {
+      pending.pending = false;
+      finishReply();
+    } else {
+      paint();
+    }
+  };
+  const queueReply = () => {
+    if (renderTimer === null) revealReply();
+  };
+
   fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ messages: arr.filter(m => m !== pending).map(m => ({ role: m.role, text: m.text })), context: { ...ctx, page: pageText() } }) })
+    body: JSON.stringify({ messages: arr.filter(m => m !== pending).map(m => ({ role: m.role, text: m.text })), context: { ...ctx, page: pageText(), peerContacts: [...$('#view').querySelectorAll('.peer[data-peer-region]')].map(card => ({
+      region: card.dataset.peerRegion, role: card.dataset.peerRole, target: card.dataset.peerTarget, meets: card.dataset.peerMeets === 'true'
+    })), pageSources: [...new Set([...$('#view').querySelectorAll('.report a[href]')].map(link => link.href))] } }) })
     .then(async res => {
       const reader = res.body.getReader(), dec = new TextDecoder();
       let buf = '';
@@ -776,20 +815,27 @@ function send(key, text, ctx, draw) {
           const line = buf.slice(0, i).trim(); buf = buf.slice(i + 1);
           if (!line) continue;
           const ev = JSON.parse(line);
-          if (ev.delta) pending.text += ev.delta;
+          if (typeof ev.preview === 'string') received = ev.preview;
+          if (ev.delta) received += ev.delta;
           if (ev.done) {
-            pending.text = ev.text ?? pending.text;
-            pending.pending = false;
-            finishReply();
+            received = ev.text ?? received;
+            completed = true;
+            queueReply();
             void reader.cancel().catch(() => {});
             return;
           }
-          paint();
+          queueReply();
         }
       }
-      pending.pending = false; finishReply();
+      completed = true;
+      received ||= emptyText();
+      queueReply();
     })
-    .catch(() => { pending.pending = false; pending.text = pending.text || emptyText(); finishReply(); });
+    .catch(() => {
+      completed = true;
+      received ||= emptyText();
+      queueReply();
+    });
 }
 function toggleDrawer(open) {
   const d = $('#drawer'); d.classList.toggle('open', open); d.setAttribute('aria-hidden', String(!open));
