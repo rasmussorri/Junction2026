@@ -68,7 +68,7 @@ EN={'suolisto':('Colorectal cancer screening participation','Colorectal screenin
     'onk90':('Oncology: patients waiting more than 90 days','Oncology, waiting > 90 days','care','THL specialist care waiting times'),
     'gyn90':('Gynaecological oncology: patients waiting more than 90 days','Gyn. oncology, waiting > 90 days','care','THL specialist care waiting times'),
     'hem90':('Haematology: patients waiting more than 90 days','Haematology, waiting > 90 days','care','THL specialist care waiting times'),
-    'lahete21':('Oncology referrals processed in more than 21 days','Referrals > 21 days','care','THL specialist care waiting times')}
+    'lahete21':('Oncology referrals processed in more than 21 days','Referrals handled in over 21 days','care','THL specialist care waiting times')}
 for k,(lab,short,role,src) in EN.items():
     measures[k].update(label=lab,short=short,role=role,source=src,unit={'%':'%','potilasta':'patients'}[measures[k]['unit']])
 for k in measures: measures[k].pop('history_fi',None)
@@ -86,7 +86,7 @@ goals=[
  {'id':'3','title':'Ensure equal and effective cancer care','role':'care','targets':[
    {'id':'S3.1','text':'5-year survival of poor-prognosis cancers reaches the Nordic level**','foot':'** 5-year relative survival rises from the 2023 NORDCAN level by more than 14 percentage points for lung, 6 for pancreatic and 14 for liver cancer. Nordic level = average of Sweden and Norway.',
     'type':'none','need':'Requires NORDCAN comparison data (Finland vs. Sweden and Norway).','src':'Strategy p. 5'},
-   {'id':'S3.2','text':'Cancer mortality falls by 10% (currently 13,300 deaths per year)','short':'Cancer mortality','type':'national','report':'S3.2','role':'care','src':'Strategy p. 5'},
+   {'id':'S3.2','text':'Cancer mortality falls by 10% (to 11,970 deaths per year by 2035)','short':'Cancer mortality','type':'national','report':'S3.2','role':'care','src':'Strategy p. 5'},
    {'id':'S3.3','text':'Patients receive treatment within the target times***','short':'Treatment within target times','foot':'*** THL guidance 21/2016: at most 6 weeks from referral to first treatment when cancer is suspected. A patient waiting more than 90 days is a certain breach.',
     'type':'measures','measures':['onk90','gyn90','hem90','lahete21'],'report':'S3.3','role':'care','src':'Strategy p. 5, p. 33'}]},
  {'id':'4','title':'At the forefront of a changing environment','role':'research','targets':[

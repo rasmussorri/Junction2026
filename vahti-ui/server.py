@@ -47,12 +47,13 @@ def data_context():
     mo = DATA['mort']
     lines.append('## Cancer deaths, whole country (Statistics Finland 13u5) ' + json.dumps(mo['counts']))
     lines.append('## Age-standardised cancer mortality per 100,000 (Statistics Finland 11ay) ' + json.dumps(mo['agestd']))
-    lines.append('Mortality target: 13,300 deaths/year (2025) -> 11,970 by 2035 (-10%). National target, no regional breakdown.')
+    lines.append('Mortality target: at most 11,970 cancer deaths per year by 2035 (-10% from the strategy baseline of about 13,300). National target, no regional breakdown; compare the latest actual count with 11,970.')
     lines.append('## Strategy main goals and targets (strategy p. 5)')
     for g in DATA['goals']:
         lines.append(f"Goal {g['id']}: {g['title']}")
         for t in g['targets']:
             lines.append(f"- {t['id']} {t['text']}" + (f" [no data: {t['need']}]" if t.get('need') and t['type'] == 'none' else ''))
+    lines.append('Status rules used in the app (use the same when you answer): S2.1 and S2.2 are met when the average of their measures reaches the target (HPV 90%, screening 80%); S3.3 is met when all four waiting-time measures are 0; S3.2 is met when the latest yearly death count is at most 11,970. Area colour: 0-3 targets not met = green, 4-5 = yellow, 6 or more = red. Targets without data are not counted.')
     lines.append('Note: in THL waiting-time data, the HUS row covers Helsinki and the four Uusimaa counties. A patient waiting > 90 days is a certain breach of the 6-week target (THL 21/2016).')
     return '\n'.join(lines)
 

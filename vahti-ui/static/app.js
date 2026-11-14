@@ -34,8 +34,7 @@ const byName = (a, b) => a.localeCompare(b, 'fi');
 
 function mort() {
   const mo = D.mort, last = Math.max(...Object.keys(mo.counts).map(Number));
-  const path = Math.round(mo.baseline - (mo.baseline - mo.target) / (mo.target_year - mo.baseline_year) * (last - mo.baseline_year));
-  return { mo, last, v: mo.counts[last], path };
+  return { mo, last, v: mo.counts[last], ok: mo.counts[last] <= mo.target };
 }
 const cls = ok => ok === false ? 'bad' : ok ? 'ok' : '';
 const num = (txt, ok) => `<span class="num ${cls(ok)}">${txt}</span>`;
@@ -46,7 +45,7 @@ function tStatus(t, r) {
     if (s.includes(false)) return 'bad';
     return s.every(x => x == null) ? 'na' : 'ok';
   }
-  if (t.type === 'national') { const x = mort(); return x.v > x.path ? 'bad' : 'ok'; }
+  if (t.type === 'national') return mort().ok ? 'ok' : 'bad';
   return 'na';
 }
 /* main goal: not met if any target is below target; no data if no target has data */
@@ -64,7 +63,7 @@ function agg(t, r) {
   if (M[t.measures[0]].kind === 'zero') {
     const vs = t.measures.filter(m => M[m].unit === 'patients').map(m => val(m, r)).filter(v => v != null);
     const v = vs.length ? vs.reduce((a, b) => a + b, 0) : null;
-    return { label: 'Patients waiting > 90 days', v, text: v == null ? '–' : nf(v, 0), target: '0', ok: v == null ? null : v <= 0 };
+    return { label: 'Patients waiting over 90 days', v, text: v == null ? '–' : nf(v, 0), target: '0', ok: v == null ? null : v <= 0 };
   }
   const tg = M[t.measures[0]].target, vs = t.measures.map(m => val(m, r)).filter(v => v != null);
   const v = vs.length ? vs.reduce((a, b) => a + b, 0) / vs.length : null;
@@ -156,7 +155,7 @@ function renderStatus() {
   const el = $('#status'); if (!el) return;
   const o = overall(sel);
   el.innerHTML = `<div class="st-head"><div class="st-title">${esc(rname(sel))}</div>${pill(o.c, oLabel(o))}</div>
-    <div class="st-sub">${sel === FI ? 'National average · ' : ''}HPV ${M.hpv_tytot.period} · Screening ${M.suolisto.period} · Waiting times ${per(M.onk90.period)} · Mortality ${mort().last}</div>
+    <div class="st-sub">HPV ${M.hpv_tytot.period} · Screening ${M.suolisto.period} · Waiting times ${per(M.onk90.period)} · Mortality ${mort().last}</div>
     ${D.goals.map(g => {
       return `<a class="gcard" href="#/goal/${g.id}?r=${enc(sel)}">
         <div class="gtop"><span class="gnum">${g.id}</span><span class="gtitle">${esc(g.title)}</span></div>
@@ -210,10 +209,10 @@ function peersForTarget(t) {
   return { list: c.map(r => ({ r, good: false })), closest: true };
 }
 function targetValueText(t, r) {
-  if (M[t.measures[0]].kind === 'zero') { const k = t.measures.filter(m => mOk(m, r) === false).length; return k ? `Breaches in ${k} of ${t.measures.length} measures` : 'No breaches'; }
+  if (M[t.measures[0]].kind === 'zero') { const k = t.measures.filter(m => mOk(m, r) === false).length; return k ? `${k} of ${t.measures.length} measures over target` : 'All within target'; }
   return agg(t, r).text;
 }
-const peerLabel = t => M[t.measures[0]].kind === 'zero' ? 'Waiting-time breaches' : t.id === 'S2.1' ? 'Average coverage' : 'Average participation';
+const peerLabel = t => M[t.measures[0]].kind === 'zero' ? 'Waiting times' : AVG_LABEL[t.id];
 
 /* ---------- reports ---------- */
 function reportSlot(id) { return `<div class="card report" data-report="${esc(id)}"><div class="ai-note"><span class="spinner"></span> Loading report…</div></div>`; }
@@ -244,7 +243,7 @@ function renderGoal(v, gid) {
   const roles = [...new Set((bad.length ? bad.map(t => t.role || g.role) : [g.role]))];
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal ${g.id}`)}
-    <div class="card hero"><div class="kicker">Goal ${g.id} · ${esc(rname(r))}${r === FI ? ' (national average)' : ''}</div>
+    <div class="card hero"><div class="kicker">Goal ${g.id} · ${esc(rname(r))}</div>
       <div class="hero-row"><h1>${esc(g.title)}</h1>${pill(s.c, gLabel(s))}</div></div>
     <h2>Targets</h2>
     ${g.targets.map(t => targetCard(t, r)).join('')}
@@ -263,14 +262,15 @@ function targetCard(t, r) {
   let body = '';
   if (t.type === 'measures') {
     const a = agg(t, r), n = agg(t, FI);
-    body = `<div class="mrows"><a class="mrow" href="#/t/${t.id}?r=${enc(r)}"><span class="dot ${s}"></span><span class="lbl">${esc(a.label)}</span>
+    body = `<div class="mrows"><a class="mrow" href="#/t/${t.id}?r=${enc(r)}"><span class="dot ${a.ok === false ? 'bad' : a.ok ? 'ok' : 'na'}"></span><span class="lbl">${esc(a.label)}</span>
       <span class="v ${cls(a.ok)}">${a.text}</span><span class="m">target ${num(a.target)}</span>
-      <span class="m">${r === FI ? 'period ' + num(per(M[t.measures[0]].period)) : 'whole country ' + num(n.text, n.ok)}</span><span class="go">›</span></a></div>`;
+      <span class="m">${r === FI ? 'period ' + num(per(M[t.measures[0]].period)) : 'whole country ' + num(n.text, n.ok)}</span><span class="go">›</span></a>
+      ${M[t.measures[0]].kind === 'zero' ? measureRow('lahete21', r) : ''}</div>`;
   }
   else if (t.type === 'national') {
     const x = mort();
-    body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${x.v > x.path ? 'bad' : 'ok'}"></span><span class="lbl">Cancer deaths, whole country ${x.last}</span>
-      <span class="v ${cls(x.v <= x.path)}">${nf(x.v, 0)}</span><span class="m">target path ${num(nf(x.path, 0))}</span><span class="m">target 2035 ${num(nf(x.mo.target, 0))}</span><span class="go">›</span></a></div>`;
+    body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${s}"></span><span class="lbl">Cancer deaths per year, whole country</span>
+      <span class="v ${cls(x.ok)}">${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m">year ${num(x.last)}</span><span class="go">›</span></a></div>`;
   }
   return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}</div>${pill(s, tLabel(s))}</div>${body}</div>`;
 }
@@ -288,6 +288,8 @@ function peersSection(t) {
   return `<h2>Regions that meet: ${esc(SHORT[t.id])}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t))}`;
 }
 
+const kpi = (k, n, ok, sub) => `<div class="kpi"><div class="k">${esc(k)}</div><div class="n ${cls(ok)}">${n}</div>${sub ? `<div class="s">${esc(sub)}</div>` : ''}</div>`;
+
 /* ---------- target page: summary first, then the breakdown ---------- */
 function renderTarget(v, tid) {
   const t = T(tid), r = sel, s = tStatus(t, r), a = agg(t, r), role = t.role || t.goal.role;
@@ -295,10 +297,12 @@ function renderTarget(v, tid) {
     ${crumbs(`${esc(rname(r))} › Goal ${t.goal.id} › ${esc(SHORT[t.id])}`)}
     <div class="card hero"><div class="kicker">Goal ${t.goal.id} · ${esc(rname(r))}</div>
       <div class="hero-row"><h1>${esc(SHORT[t.id])}</h1>${pill(s, tLabel(s))}</div>
-      <div class="kpis">
+      <div class="kpis">${M[t.measures[0]].kind === 'zero' ? `
+        ${kpi(a.label, a.text, a.ok, `target ${a.target}${r !== FI ? ' · whole country ' + agg(t, FI).text : ''}`)}
+        ${kpi(M.lahete21.label, fmt('lahete21', val('lahete21', r)), mOk('lahete21', r), `target ${fmtT('lahete21')}${r !== FI ? ' · whole country ' + fmt('lahete21', M.lahete21.national) : ''}`)}` : `
         <div class="kpi"><div class="k">${esc(a.label)}</div><div class="n ${cls(a.ok)}">${a.text}</div></div>
         <div class="kpi"><div class="k">Target</div><div class="n">${a.target}</div></div>
-        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(agg(t, FI).ok)}">${agg(t, FI).text}</div></div>` : ''}
+        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(agg(t, FI).ok)}">${agg(t, FI).text}</div></div>` : ''}`}
         <div class="kpi"><div class="k">Period</div><div class="n" style="font-size:14px;font-weight:600">${per(M[t.measures[0]].period)}</div></div>
       </div>
       ${D.hus_area.includes(r) && role === 'care' ? '<div class="note">THL reports Helsinki and the Uusimaa counties as one HUS row.</div>' : ''}
@@ -350,27 +354,25 @@ function barChart(m) {
   const X = v => L + (v / max) * (W - L - Rr);
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(x.label)} by area">
     ${x.kind === 'min' ? `<line x1="${X(x.target)}" x2="${X(x.target)}" y1="4" y2="${H - 22}" stroke="#0f172a" stroke-dasharray="4 4"/>
-      <text x="${X(x.target)}" y="${H - 6}" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0f172a">target ${fmtT(m)}</text>` : `<text x="${L}" y="${H - 6}" font-size="11.5" fill="#64748b">Target 0: any value above zero is a certain breach</text>`}
+      <text x="${X(x.target)}" y="${H - 6}" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0f172a">target ${fmtT(m)}</text>` : `<text x="${L}" y="${H - 6}" font-size="11.5" font-weight="600" fill="#0f172a">target ${fmtT(m)}</text>`}
     ${rows.map((o, i) => {
       const y = 8 + i * rh, ok = isOk(m, o.v), me = o.r === sel;
       const col = o.r === FI ? '#94a3b8' : ok === false ? '#f87171' : ok ? '#4ade80' : '#e2e8f0';
       return `${me ? `<rect x="0" y="${y - 2}" width="${W}" height="${rh}" rx="6" fill="#eef3ff"/>` : ''}
-        <text x="${L - 10}" y="${y + 13}" text-anchor="end" font-size="12" font-weight="${me || o.r === FI ? 700 : 400}" fill="#0f172a">${esc(rname(o.r))}</text>
+        <text x="${L - 10}" y="${y + 13}" text-anchor="end" font-size="12" font-weight="${me || o.r === FI ? 700 : 400}" fill="#0f172a">${esc(rname(o.r))}${x.role === 'care' && D.hus_area.includes(o.r) ? ' (HUS)' : ''}</text>
         <rect x="${L}" y="${y + 3}" width="${Math.max(1.5, o.v == null ? 0 : X(o.v) - L)}" height="${rh - 8}" rx="4" fill="${col}"/>
         <text x="${(o.v == null ? L : X(o.v)) + 6}" y="${y + 13}" font-size="11.5" font-weight="600" stroke="#fff" stroke-width="4" paint-order="stroke" fill="${ok === false ? '#dc2626' : ok ? '#16a34a' : '#0f172a'}">${fmt(m, o.v)}</text>`;
     }).join('')}
   </svg>`;
 }
 function renderMort(v, t) {
-  const r = sel, x = mort(), st = x.v > x.path ? 'bad' : 'ok';
+  const r = sel, x = mort(), st = x.ok ? 'ok' : 'bad';
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal 3 › Cancer mortality`)}
     <div class="card hero"><div class="kicker">${esc(SHORT[t.id])} · ${esc(rname(r))}</div>
       <div class="hero-row"><h1>Cancer deaths per year, whole country</h1>${pill(st, tLabel(st))}</div>
-      <div class="kpis"><div class="kpi"><div class="k">Deaths ${x.last}</div><div class="n ${st}">${nf(x.v, 0)}</div></div>
-        <div class="kpi"><div class="k">Target path ${x.last}</div><div class="n">${nf(x.path, 0)}</div></div>
-        <div class="kpi"><div class="k">Target 2035</div><div class="n">${nf(x.mo.target, 0)}</div></div></div></div>
-    <h2>Trend and target path</h2><div class="card chartcard">${mortChart()}</div>
+      <div class="kpis">${kpi(`Cancer deaths ${x.last}`, nf(x.v, 0), x.ok)}${kpi(`Target by ${x.mo.target_year}`, '≤ ' + nf(x.mo.target, 0))}</div></div>
+    <h2>Trend and target</h2><div class="card chartcard">${mortChart()}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, 'care')}
     ${st === 'bad' ? `<h2>AI report: how others have solved it</h2>${reportSlot('S3.2')}` : ''}
     <h2>Ask about this</h2>${chatCard(`m-mort-${r}`)}
@@ -382,17 +384,16 @@ function mortChart() {
   const W = 760, H = 240, L = 60, R = 24, Tp = 16, B = 30, x0 = ys[0], x1 = mo.target_year, y0 = 11000, y1 = 14000;
   const X = y => L + (y - x0) / (x1 - x0) * (W - L - R), Y = v => Tp + (y1 - v) / (y1 - y0) * (H - Tp - B);
   const line = ys.map((y, i) => `${i ? 'L' : 'M'}${X(y).toFixed(1)} ${Y(mo.counts[y]).toFixed(1)}`).join('');
-  const last = ys[ys.length - 1], vc = mort().v > mort().path ? '#dc2626' : '#16a34a';
-  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cancer deaths and target path">
+  const last = ys[ys.length - 1], vc = mort().ok ? '#16a34a' : '#dc2626';
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cancer deaths and target">
     ${[11000, 12000, 13000, 14000].map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#eef0f3"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end" font-size="11" fill="#0f172a">${nf(v, 0)}</text>`).join('')}
     ${[2010, 2015, 2020, 2025, 2030, 2035].map(y => `<text x="${X(y)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="#0f172a">${y}</text>`).join('')}
-    <path d="M${X(mo.baseline_year)} ${Y(mo.baseline)}L${X(mo.target_year)} ${Y(mo.target)}" stroke="#16a34a" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+    <line x1="${L}" x2="${W - R}" y1="${Y(mo.target)}" y2="${Y(mo.target)}" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5 5"/>
     <path d="${line}" stroke="#0f172a" stroke-width="2.2" fill="none"/>
     <circle cx="${X(last)}" cy="${Y(mo.counts[last])}" r="4" fill="${vc}"/>
     <text x="${X(last) + 8}" y="${Y(mo.counts[last]) - 8}" font-size="12" font-weight="600" fill="${vc}">${nf(mo.counts[last], 0)} (${last})</text>
-    <circle cx="${X(mo.target_year)}" cy="${Y(mo.target)}" r="4" fill="#16a34a"/>
-    <text x="${X(mo.target_year) - 6}" y="${Y(mo.target) + 18}" text-anchor="end" font-size="12" font-weight="600" fill="#0f172a">Target ${nf(mo.target, 0)}</text>
-  </svg><div class="note">Black = actual deaths · green dashed = target path</div>`;
+    <text x="${W - R}" y="${Y(mo.target) + 18}" text-anchor="end" font-size="12" font-weight="600" fill="#0f172a">target ≤ ${nf(mo.target, 0)} by ${mo.target_year}</text>
+  </svg><div class="note">Line = cancer deaths per year · dashed = target</div>`;
 }
 
 /* ---------- chat ---------- */
