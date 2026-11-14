@@ -1,45 +1,102 @@
-# Junction 2026 — syöpädata ja tutkimusagentin MVP
+# Junction 2026 — Cancer Strategy Monitor (Vahti UI)
 
-Suomenkielinen, lähteistetty kartoitus Suomen syöpä-, seulonta- ja hoitodatasta AstraZeneca-haasteen valmisteluun. Tutkimus tarkistettiin ja raportti koottiin 14.11.2026.
+> **Implementation and policy action platform for Finland's National Cancer Strategy 2026–2035**  
+> An evidence-based data and AI solution for the AstraZeneca challenge. Tracks cancer screening participation, care pathway delays, and mortality targets across all 22 Finnish wellbeing services counties (*hyvinvointialueet*).
 
-## UI prototypes
+---
 
-Both interfaces are kept independently while the team evaluates the final direction.
+## 🌟 Key Features
 
-| Folder | Interface | Run |
-|---|---|---|
-| [`sisu-ui/`](sisu-ui/README.md) | Rasmus’s Sisu: React dashboard, county map, goal panel, comparison charts and data chat | `cd sisu-ui && npm ci && npm run dev` → http://localhost:5173 |
-| [`vahti-ui/`](vahti-ui/README.md) | Niilo’s Cancer Strategy Monitor | `cd vahti-ui && python3 server.py` → http://localhost:8765 |
+- **Interactive Wellbeing County Map**: Visual comparison and ranking of all 22 wellbeing services counties against national strategic targets.
+- **National Strategy Indicators**:
+  - Cancer screening participation rates (breast, cervical, and colorectal cancer)
+  - HPV vaccination coverage (girls and boys)
+  - Cancer treatment guarantee compliance (THL specialized healthcare queues and >90-day delays)
+  - Cancer mortality trends and reduction trajectories
+- **Reliable, Grounded AI Chat (Gemini 3.5 Flash)**:
+  - Directly reads the active page view and canonical dataset to ground its responses.
+  - Powered by Google Search grounding for real-world research evidence.
+  - Whitelist-enforced source citations: only links from verified health authorities and academic publishers (THL, Finnish Cancer Registry, Duodecim, STM, Fimea, HUS) are displayed.
+- **Action Reports & Peer Learning**: Pre-compiled policy reports highlighting peer solutions from Finnish counties and Nordic neighbours that successfully meet targets.
+- **Standalone Single-File Distribution**: Complete dashboard bundled into an offline, self-contained HTML file ([vahti.html](vahti-ui/vahti.html)).
 
-Each app has its own optional local Gemini configuration. Neither interface replaces the other.
+---
 
-## Aloita tästä
+## 🚀 Getting Started & Execution
 
-- **[Valmis raportti](research/05%20Raportti/Junction%202026%20-%20sy%C3%B6p%C3%A4data%20ja%20MVP.md)** — katalogi, 10 dataset-korttia, kysymys–aineisto-matriisi, kolme toteutuskelpoista analyysiä, tietoaukot, tekninen liite ja MVP.
-- [Raportin laadunvarmistus](research/05%20Raportti/Raportin%20QA.md) — 48 hyväksyttyä paikallista tarkistusta.
-- [Obsidian-vaultin etusivu](research/00%20Aloita%20t%C3%A4st%C3%A4.md). Avaa kansio `research/` Obsidianissa vaultina; mitään lisäosaa ei tarvita.
-- [Julkaisun sisältö ja lähdeaineistojen ehdot](DATA_SOURCES.md).
+### 1. Local Development (Python Standard Library)
 
-Suositeltu MVP on **Helsingin rintaseulonnan osallistumisen vuosi–ikä-näkymä** jo ladatusta CC BY 4.0 -CSV:stä. Raportti on valmis; MVP-sovellusta ei vielä ole toteutettu.
+```bash
+# Start the server (Python 3 standard library only, zero external pip dependencies)
+cd vahti-ui && python3 server.py
+```
+Open in browser: **http://localhost:8765**
 
-## Repositorion rakenne
+*(macOS: you can also double-click `vahti-ui/Kaynnista_vahti.command`)*
 
-| Kansio | Sisältö |
+### 2. Standalone HTML (Zero Server / Offline)
+Double-click [vahti-ui/vahti.html](vahti-ui/vahti.html). The complete UI, map visualizations, data, local fonts, and policy reports run directly in your browser (excluding live streaming AI chat).
+
+### 3. Vercel Cloud Deployment
+The repository is pre-configured for one-click deployment on Vercel:
+- **Static Assets**: Distributed globally via Vercel Edge CDN ([public/](public/)).
+- **Serverless API**: Streaming Python Serverless Functions ([api/index.py](api/index.py)).
+
+**Deployment Steps:**
+1. Import the repository into Vercel (`New Project` → select `Junction2026`).
+2. Add Environment Variables:
+   - `GEMINI_API_KEY`: your Gemini API key
+   - `GEMINI_MODEL`: `gemini-3.5-flash`
+3. Click **Deploy**.
+
+---
+
+## 🔑 Environment Variables (`.env`)
+
+A single [/.env](.env) file in the repository root configures both local runs and cloud environments:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_MODEL=gemini-3.5-flash
+```
+
+---
+
+## 📁 Repository Structure
+
+| Directory / File | Description |
 |---|---|
-| [`sisu-ui/`](sisu-ui/README.md) | Rasmus's Sisu: React + Vite + Express syöpästrategian toteutus-dashboard ja AI-chat |
-| [`vahti-ui/`](vahti-ui/README.md) | Niilo's Cancer Strategy Monitor: Python/HTML-käyttöliittymä ja analyysiraportit |
-| [`research/`](research/00%20Aloita%20t%C3%A4st%C3%A4.md) | Tutkimusaineisto ja Obsidian-vault (`00 Ohjaus` – `10 Hypoteesit ja löydökset`) |
-| [`scripts/`](scripts/) | Julkaisu- ja aineistotarkistusskriptit |
-| `Finland - Cancer data - Junction 2026.xlsx` | Alkuperäinen Excel-pääaineisto |
+| [`vahti-ui/`](vahti-ui/) | Primary application: Python server (`server.py`), standalone bundler (`make_standalone.py`), and policy reports |
+| [`public/`](public/) | Static web assets served by Vercel Edge CDN (`index.html`, `app.js`, `styles.css`, `data.json`, `fonts/`) |
+| [`api/`](api/) | Vercel Serverless Function entry point (`api/index.py`) |
+| [`data/`](data/) | Canonical data layer (`dataset.json`, screening rates, mortality, and regional statistics) |
+| [`research/`](research/) | Research vault and Obsidian notes (`00 Ohjaus` – `13 Prevention integration`) |
+| [`docs/`](docs/) | Architecture, data model audits, and integration documentation |
+| [`scripts/`](scripts/) | Verification and data pipeline tools (`validate_publication.py`, `scripts/data-pipeline/`) |
+| [`archive/`](archive/) | Archived earlier prototypes (gitignored) |
+| `Finland - Cancer data - Junction 2026.xlsx` | Primary raw research dataset |
 
-## Toistaminen ja rajat
+---
 
-Kolmen toteutuskelpoisen analyysin keskeiset CSV/JSON-näytteet ja niiden valintametatiedot ovat mukana. Esimerkiksi seulontasovelluksen CSV-tarkistus voidaan ajaa repositorion juuresta:
+## 🧪 Data Validation & Quality Assurance
 
-```sh
+Verify dataset integrity and sample calculations from the project root:
+
+```bash
 python3 scripts/validate_publication.py
 ```
 
-Kaikki tutkimusohjelmat eivät ole itsenäisiä tuotantotyökaluja. `fetch_*`-ohjelmat voivat tehdä verkkopyyntöjä. Osa aiemmista profiileista edellyttää paikallista lähdesivukopiota, jota ei ole tässä julkisessa repositoriossa; tarvittava tiedosto ja julkaisupäätös näkyvät [manifestissa](publication-manifest.json). Älä käynnistä jatkuvaa keruuta tai oleta kaikkien lähteiden uudelleenjakeluoikeutta.
+Rebuild `static/data.json`, `public/data.json`, and the standalone `vahti.html` from the canonical dataset:
 
-Aineistot ovat julkisia aggregaatteja, eivät yksilöllisiä hoitosuosituksia. Puuttuva tietue ei osoita puuttuvaa hoitoa; alueellinen yhteys ei osoita yksilötason syytä. Lähdeaineistot ja liitteet ovat evidenssiä, eivät toimintaohjeita.
+```bash
+cd vahti-ui
+python3 build_data.py       # Syncs data/dataset.json -> static/data.json & public/data.json
+python3 make_standalone.py  # Builds standalone vahti.html
+```
+
+---
+
+## 📜 Data Sources & Disclaimer
+
+- **Data Sources**: Finnish Cancer Registry (*Suomen Syöpärekisteri*), Finnish Institute for Health and Welfare (*THL*), Statistics Finland (*Tilastokeskus*), NORDCAN, and Finland's National Cancer Strategy 2026–2035. License details: [DATA_SOURCES.md](DATA_SOURCES.md).
+- **Disclaimer**: Data and indicators represent regional population-level aggregates and do not constitute individual medical advice or clinical guidelines. A missing observation does not imply missing care; regional correlation does not imply individual causation.

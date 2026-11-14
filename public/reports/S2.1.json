@@ -1,0 +1,66 @@
+{
+ "title": "How HPV vaccination coverage has been raised elsewhere (supporting indicator for preventable cancers)",
+ "generated": "2026-11-14",
+ "sections": [
+  {
+   "name": "Finland",
+   "items": [
+    {
+     "text": "According to THL, most children receive the HPV vaccine as recommended in primary school. Few new vaccination series start after basic education, so reaching children at school age is decisive.",
+     "sources": [
+      {
+       "title": "THL press release 29 Nov 2023",
+       "url": "https://www.sttinfo.fi/tiedote/70064492/storsta-delen-av-barnen-far-hpv-vaccin-enligt-rekommendationen-flickornas-vaccinationstackning-ar-hogre-an-pojkarnas?publisherId=69817778"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Other Nordic countries",
+   "items": [
+    {
+     "text": "In Norway, the vaccine is given at school during school hours by a public health nurse and free of charge, so cost and access barriers are minimal.",
+     "sources": [
+      {
+       "title": "BMJ Open 2015: HPV vaccination in the Norwegian school programme",
+       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442157"
+      }
+     ]
+    },
+    {
+     "text": "A Norwegian registry study found that school-based delivery is largely equitable. Information campaigns aimed at lower-uptake groups could narrow the remaining gaps.",
+     "sources": [
+      {
+       "title": "Preventive Medicine 2015: registry study of 90,000 Norwegian girls",
+       "url": "https://doi.org/10.1016/j.ypmed.2015.04.024"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Rest of the world",
+   "items": [
+    {
+     "text": "A meta-analysis found that digital reminders (text messages, alerts to professionals in patient records) increase vaccine uptake, while information alone does not.",
+     "sources": [
+      {
+       "title": "Chandeying & Thongseiratch 2023, npj Digital Medicine",
+       "url": "https://www.nature.com/articles/s41746-023-00912-w"
+      }
+     ]
+    },
+    {
+     "text": "High-coverage countries usually vaccinate at school and send systematic invitations and reminders. Low-coverage countries more often vaccinate in clinics without reminders.",
+     "sources": [
+      {
+       "title": "Systematic review 2024, Human Vaccines & Immunotherapeutics",
+       "url": "https://doi.org/10.1080/21645515.2024.2319426"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -16,13 +16,17 @@ PORT = int(os.environ.get('PORT', '8765'))
 
 
 def load_env():
-    for p in (os.path.join(ROOT, '.env'), os.path.join(ROOT, '..', 'sisu-ui', '.env'), os.path.join(ROOT, '..', '.env')):
+    for p in (os.path.join(ROOT, '..', '.env'), os.path.join(ROOT, '.env')):
         if os.path.exists(p):
             for line in open(p, encoding='utf-8'):
                 line = line.strip()
                 if line and not line.startswith('#') and '=' in line:
                     k, v = line.split('=', 1)
-                    os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                    k = k.strip()
+                    val = v.strip().strip('"').strip("'")
+                    if k and val:
+                        os.environ[k] = val
+            break
 
 
 load_env()

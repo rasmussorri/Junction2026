@@ -1,0 +1,457 @@
+{
+  "sourceUrl": "https://syoparekisteri.fi/assets/themes/ssy3/factsheets/syopa_2024_tilastoraportti.html",
+  "retrievedAt": "2026-11-14",
+  "method": "Official HTML tables 15.12 (women) and 15.13 (men), extracted via web reader; direct HTTP download returned 403.",
+  "period": "2020–2024",
+  "measure": "Five-year relative lung cancer survival, age-standardised to the national patient age distribution",
+  "rows": [
+    {
+      "area": "Etelä-Suomi",
+      "sex": "women",
+      "value": 29,
+      "lower": 26.5,
+      "upper": 31.7,
+      "diagnoses": 2481
+    },
+    {
+      "area": "Etelä-Karjala",
+      "sex": "women",
+      "value": 29.6,
+      "lower": 21.2,
+      "upper": 41.3,
+      "diagnoses": 139
+    },
+    {
+      "area": "Helsingin kaupunki",
+      "sex": "women",
+      "value": 32.9,
+      "lower": 28.2,
+      "upper": 38.3,
+      "diagnoses": 732
+    },
+    {
+      "area": "Itä-Uusimaa",
+      "sex": "women",
+      "value": 32.6,
+      "lower": 23.4,
+      "upper": 45.4,
+      "diagnoses": 127
+    },
+    {
+      "area": "Keski-Uusimaa",
+      "sex": "women",
+      "value": 31.1,
+      "lower": 23.2,
+      "upper": 41.6,
+      "diagnoses": 216
+    },
+    {
+      "area": "Kymenlaakso",
+      "sex": "women",
+      "value": 20.4,
+      "lower": 14.1,
+      "upper": 29.5,
+      "diagnoses": 226
+    },
+    {
+      "area": "Länsi-Uusimaa",
+      "sex": "women",
+      "value": 26.9,
+      "lower": 22,
+      "upper": 32.9,
+      "diagnoses": 452
+    },
+    {
+      "area": "Päijät-Häme",
+      "sex": "women",
+      "value": 24.8,
+      "lower": 18.8,
+      "upper": 32.8,
+      "diagnoses": 292
+    },
+    {
+      "area": "Vantaa ja Kerava",
+      "sex": "women",
+      "value": 34.4,
+      "lower": 27.5,
+      "upper": 43.1,
+      "diagnoses": 297
+    },
+    {
+      "area": "Itä-Suomi",
+      "sex": "women",
+      "value": 26.2,
+      "lower": 22,
+      "upper": 31.3,
+      "diagnoses": 785
+    },
+    {
+      "area": "Etelä-Savo",
+      "sex": "women",
+      "value": 21.2,
+      "lower": 13.2,
+      "upper": 34,
+      "diagnoses": 157
+    },
+    {
+      "area": "Keski-Suomi",
+      "sex": "women",
+      "value": 29.6,
+      "lower": 22,
+      "upper": 39.8,
+      "diagnoses": 230
+    },
+    {
+      "area": "Pohjois-Karjala",
+      "sex": "women",
+      "value": 27.1,
+      "lower": 19.3,
+      "upper": 38,
+      "diagnoses": 168
+    },
+    {
+      "area": "Pohjois-Savo",
+      "sex": "women",
+      "value": 25.5,
+      "lower": 17.6,
+      "upper": 36.9,
+      "diagnoses": 230
+    },
+    {
+      "area": "Sisä-Suomi",
+      "sex": "women",
+      "value": 28.5,
+      "lower": 24.7,
+      "upper": 32.9,
+      "diagnoses": 955
+    },
+    {
+      "area": "Etelä-Pohjanmaa",
+      "sex": "women",
+      "value": 37.1,
+      "lower": 28.5,
+      "upper": 48.4,
+      "diagnoses": 202
+    },
+    {
+      "area": "Kanta-Häme",
+      "sex": "women",
+      "value": 28.1,
+      "lower": 20.8,
+      "upper": 38,
+      "diagnoses": 223
+    },
+    {
+      "area": "Pirkanmaa",
+      "sex": "women",
+      "value": 25.8,
+      "lower": 21,
+      "upper": 31.6,
+      "diagnoses": 530
+    },
+    {
+      "area": "Länsi-Suomi",
+      "sex": "women",
+      "value": 24.9,
+      "lower": 20.9,
+      "upper": 29.6,
+      "diagnoses": 1007
+    },
+    {
+      "area": "Pohjanmaa",
+      "sex": "women",
+      "value": 26.9,
+      "lower": 18.4,
+      "upper": 39.3,
+      "diagnoses": 174
+    },
+    {
+      "area": "Satakunta",
+      "sex": "women",
+      "value": 18.6,
+      "lower": 12.6,
+      "upper": 27.5,
+      "diagnoses": 269
+    },
+    {
+      "area": "Varsinais-Suomi",
+      "sex": "women",
+      "value": 27.4,
+      "lower": 21.9,
+      "upper": 34.2,
+      "diagnoses": 564
+    },
+    {
+      "area": "Pohjois-Suomi",
+      "sex": "women",
+      "value": 24.3,
+      "lower": 20.2,
+      "upper": 29.2,
+      "diagnoses": 808
+    },
+    {
+      "area": "Kainuu",
+      "sex": "women",
+      "value": 25.7,
+      "lower": 14.8,
+      "upper": 44.6,
+      "diagnoses": 80
+    },
+    {
+      "area": "Keski-Pohjanmaa",
+      "sex": "women",
+      "value": 32.9,
+      "lower": 19.8,
+      "upper": 54.8,
+      "diagnoses": 67
+    },
+    {
+      "area": "Lappi",
+      "sex": "women",
+      "value": 21.8,
+      "lower": 15.5,
+      "upper": 30.6,
+      "diagnoses": 252
+    },
+    {
+      "area": "Pohjois-Pohjanmaa",
+      "sex": "women",
+      "value": 25.3,
+      "lower": 19.7,
+      "upper": 32.6,
+      "diagnoses": 409
+    },
+    {
+      "area": "Koko maa",
+      "sex": "women",
+      "value": 27.1,
+      "lower": 25.5,
+      "upper": 28.8,
+      "diagnoses": 6071
+    },
+    {
+      "area": "Etelä-Suomi",
+      "sex": "men",
+      "value": 16.3,
+      "lower": 14.3,
+      "upper": 18.4,
+      "diagnoses": 3100
+    },
+    {
+      "area": "Etelä-Karjala",
+      "sex": "men",
+      "value": 16.4,
+      "lower": 10.4,
+      "upper": 25.9,
+      "diagnoses": 224
+    },
+    {
+      "area": "Helsingin kaupunki",
+      "sex": "men",
+      "value": 16.4,
+      "lower": 12.7,
+      "upper": 21.2,
+      "diagnoses": 767
+    },
+    {
+      "area": "Itä-Uusimaa",
+      "sex": "men",
+      "value": 17.3,
+      "lower": 10.7,
+      "upper": 27.7,
+      "diagnoses": 164
+    },
+    {
+      "area": "Keski-Uusimaa",
+      "sex": "men",
+      "value": 15.8,
+      "lower": 10.4,
+      "upper": 24,
+      "diagnoses": 280
+    },
+    {
+      "area": "Kymenlaakso",
+      "sex": "men",
+      "value": 16.4,
+      "lower": 11.3,
+      "upper": 23.8,
+      "diagnoses": 364
+    },
+    {
+      "area": "Länsi-Uusimaa",
+      "sex": "men",
+      "value": 13.7,
+      "lower": 10.1,
+      "upper": 18.7,
+      "diagnoses": 614
+    },
+    {
+      "area": "Päijät-Häme",
+      "sex": "men",
+      "value": 18.1,
+      "lower": 13.2,
+      "upper": 24.9,
+      "diagnoses": 391
+    },
+    {
+      "area": "Vantaa ja Kerava",
+      "sex": "men",
+      "value": 19.6,
+      "lower": 13.3,
+      "upper": 28.7,
+      "diagnoses": 296
+    },
+    {
+      "area": "Itä-Suomi",
+      "sex": "men",
+      "value": 18.5,
+      "lower": 15.6,
+      "upper": 22,
+      "diagnoses": 1426
+    },
+    {
+      "area": "Etelä-Savo",
+      "sex": "men",
+      "value": 14.5,
+      "lower": 9.1,
+      "upper": 23.3,
+      "diagnoses": 298
+    },
+    {
+      "area": "Keski-Suomi",
+      "sex": "men",
+      "value": 23,
+      "lower": 17.5,
+      "upper": 30.2,
+      "diagnoses": 397
+    },
+    {
+      "area": "Pohjois-Karjala",
+      "sex": "men",
+      "value": 12.1,
+      "lower": 7.3,
+      "upper": 20.3,
+      "diagnoses": 326
+    },
+    {
+      "area": "Pohjois-Savo",
+      "sex": "men",
+      "value": 20.7,
+      "lower": 15.1,
+      "upper": 28.2,
+      "diagnoses": 405
+    },
+    {
+      "area": "Sisä-Suomi",
+      "sex": "men",
+      "value": 17.6,
+      "lower": 14.6,
+      "upper": 21.3,
+      "diagnoses": 1445
+    },
+    {
+      "area": "Etelä-Pohjanmaa",
+      "sex": "men",
+      "value": 16.9,
+      "lower": 11.5,
+      "upper": 24.8,
+      "diagnoses": 354
+    },
+    {
+      "area": "Kanta-Häme",
+      "sex": "men",
+      "value": 19.4,
+      "lower": 14.1,
+      "upper": 26.7,
+      "diagnoses": 323
+    },
+    {
+      "area": "Pirkanmaa",
+      "sex": "men",
+      "value": 17.7,
+      "lower": 13.4,
+      "upper": 23.3,
+      "diagnoses": 768
+    },
+    {
+      "area": "Länsi-Suomi",
+      "sex": "men",
+      "value": 15.1,
+      "lower": 12.3,
+      "upper": 18.6,
+      "diagnoses": 1571
+    },
+    {
+      "area": "Pohjanmaa",
+      "sex": "men",
+      "value": 17.7,
+      "lower": 11.2,
+      "upper": 28.1,
+      "diagnoses": 304
+    },
+    {
+      "area": "Satakunta",
+      "sex": "men",
+      "value": 10.6,
+      "lower": 6.4,
+      "upper": 17.4,
+      "diagnoses": 443
+    },
+    {
+      "area": "Varsinais-Suomi",
+      "sex": "men",
+      "value": 16.9,
+      "lower": 13.2,
+      "upper": 21.6,
+      "diagnoses": 824
+    },
+    {
+      "area": "Pohjois-Suomi",
+      "sex": "men",
+      "value": 16.2,
+      "lower": 12.9,
+      "upper": 20.3,
+      "diagnoses": 1305
+    },
+    {
+      "area": "Kainuu",
+      "sex": "men",
+      "value": 14.9,
+      "lower": 9.1,
+      "upper": 24.3,
+      "diagnoses": 156
+    },
+    {
+      "area": "Keski-Pohjanmaa",
+      "sex": "men",
+      "value": 25,
+      "lower": 15,
+      "upper": 41.7,
+      "diagnoses": 97
+    },
+    {
+      "area": "Lappi",
+      "sex": "men",
+      "value": 13.7,
+      "lower": 8.3,
+      "upper": 22.5,
+      "diagnoses": 422
+    },
+    {
+      "area": "Pohjois-Pohjanmaa",
+      "sex": "men",
+      "value": 16.9,
+      "lower": 12.1,
+      "upper": 23.6,
+      "diagnoses": 630
+    },
+    {
+      "area": "Koko maa",
+      "sex": "men",
+      "value": 16.7,
+      "lower": 15.5,
+      "upper": 18,
+      "diagnoses": 8901
+    }
+  ]
+}

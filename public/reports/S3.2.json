@@ -1,0 +1,66 @@
+{
+ "title": "How cancer mortality has been reduced elsewhere",
+ "generated": "2026-11-14",
+ "sections": [
+  {
+   "name": "Finland",
+   "items": [
+    {
+     "text": "In the NORDCAN comparison, survival improved least in Finland between 2001–2005 and 2011–2015 (5-year survival +3–4 percentage points, compared with +8–12 in Denmark).",
+     "sources": [
+      {
+       "title": "Engholm, ENCR 2018 (NORDCAN presentation)",
+       "url": "https://encr.eu/sites/default/files/2018-ENCR-Conference/EngholmENCR_SurvivalNORDCAN.pdf"
+      }
+     ]
+    },
+    {
+     "text": "Lung cancer causes the most cancer deaths in Finland, and outcomes are worse than in the other Nordic countries. Reasons include slower access to a doctor and narrower diagnostics in primary care.",
+     "sources": [
+      {
+       "title": "University of Helsinki: study in Acta Oncologica 2025",
+       "url": "https://www.helsinki.fi/fi/uutiset/terveys/miksi-suomessa-keuhkosyopaan-kuollaan-aiemmin-kuin-pohjoismaissa"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Other Nordic countries",
+   "items": [
+    {
+     "text": "Denmark closed its survival gap with the other Nordic countries through four national cancer plans (2000–2015), patient pathways, public monitoring of waiting times and expanded screening.",
+     "sources": [
+      {
+       "title": "Engholm, ENCR 2018 (NORDCAN presentation)",
+       "url": "https://encr.eu/sites/default/files/2018-ENCR-Conference/EngholmENCR_SurvivalNORDCAN.pdf"
+      }
+     ]
+    },
+    {
+     "text": "A NORDCAN study attributes the improvements to several factors: earlier diagnosis, better treatment, national cancer plans, uniform guidelines and standardised pathways.",
+     "sources": [
+      {
+       "title": "Lundberg et al. 2020, Acta Oncologica",
+       "url": "https://doi.org/10.1080/0284186X.2020.1822544"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Rest of the world",
+   "items": [
+    {
+     "text": "In the Dutch-Belgian NELSON trial, low-dose CT screening reduced lung cancer mortality among high-risk men by 24% over ten years.",
+     "sources": [
+      {
+       "title": "de Koning et al. 2020, New England Journal of Medicine",
+       "url": "https://doi.org/10.1056/NEJMoa1911793"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

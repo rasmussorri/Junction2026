@@ -1,0 +1,84 @@
+{
+ "title": "How screening participation has been increased elsewhere",
+ "generated": "2026-11-14",
+ "sections": [
+  {
+   "name": "Finland",
+   "items": [
+    {
+     "text": "In a randomised trial in Espoo, mailing an HPV self-sampling kit to women who had missed screening brought in more participants than a reminder letter (29.8% vs 26.2%).",
+     "sources": [
+      {
+       "title": "Virtanen et al. 2011, International Journal of Cancer",
+       "url": "https://doi.org/10.1002/ijc.25581"
+      }
+     ]
+    },
+    {
+     "text": "Offering self-sampling as the first reminder raised total attendance by 17%. A cost analysis suggests a letter as the first reminder and self-sampling as the second.",
+     "sources": [
+      {
+       "title": "Virtanen, Anttila & Nieminen 2015, BMC Women's Health",
+       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4635548"
+      }
+     ]
+    },
+    {
+     "text": "An opt-in model, where non-attenders order a self-sampling kit on request, was also found feasible in Finland.",
+     "sources": [
+      {
+       "title": "Finnish opt-in self-sampling pilot (PMC)",
+       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9796070"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Other Nordic countries",
+   "items": [
+    {
+     "text": "Stockholm sent self-sampling kits directly to about 330,000 women instead of an invitation. Organised screening test coverage rose from 54% to 60% within a year.",
+     "sources": [
+      {
+       "title": "Elfström, Gray & Dillner 2023, eLife",
+       "url": "https://elifesciences.org/articles/80905"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Rest of the world",
+   "items": [
+    {
+     "text": "A systematic review found that postal and telephone reminders, a GP signature on the invitation, and a pre-booked appointment (instead of an open invitation) increase participation.",
+     "sources": [
+      {
+       "title": "BMC Public Health 2013 (systematic review)",
+       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3686655/"
+      }
+     ]
+    },
+    {
+     "text": "In colorectal screening, advance notification letters, mailing the faecal test home, written reminders and a phone call from an adviser increase test return.",
+     "sources": [
+      {
+       "title": "Rat et al. 2018, European Journal of Cancer Prevention (systematic review)",
+       "url": "https://doi.org/10.1097/CEJ.0000000000000344"
+      }
+     ]
+    },
+    {
+     "text": "Pre-screening reminders, GP endorsement, more personal reminders and more acceptable tests (e.g. self-sampling) also work in under-served groups.",
+     "sources": [
+      {
+       "title": "Journal of Medical Screening 2017 (rapid review)",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27754937/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
