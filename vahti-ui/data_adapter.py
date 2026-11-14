@@ -80,75 +80,53 @@ def merge_canonical_into_vahti(canonical_snapshot, base):
                 return o
         return None
 
-    # 1. Colorectal screening (suolisto)
-    if 'suolisto' in measures:
-        m = dict(measures['suolisto'])
-        vals = dict(m.get('values', {}))
-        for r in regions_data:
-            obs = get_region_obs(r, 'screening', 'screening-colon')
-            if obs and obs.get('value') is not None:
-                vals[r['name']] = obs['value']
-        m['values'] = vals
-        m['period'] = '2024'
-        m['national'] = 73.5
-        measures['suolisto'] = m
+    # Keep provenance with each replaced value. The static national screening
+    # figures and any fallback regional values retain their original sources.
+    measure_observations = {
+        'suolisto': ('screening', 'screening-colon', 73.5),
+        'rinta': ('screening', 'screening-breast', 81.6),
+        'kohdunkaula': ('screening', 'screening-cervical', 76.3),
+        'hpv_tytot': ('preventable-cancers', 'hpv-girls', None),
+        'hpv_pojat': ('preventable-cancers', 'hpv-boys', None),
+    }
+    source_names = {
+        'screening-colon': 'Finnish Cancer Registry — Colorectal Cancer Screening Statistics',
+        'screening-breast': 'Finnish Cancer Registry — Breast Cancer Screening Statistics',
+        'screening-cervical': 'Finnish Cancer Registry — Cervical Cancer Screening Statistics',
+    }
 
-    # 2. Breast screening (rinta)
-    if 'rinta' in measures:
-        m = dict(measures['rinta'])
-        vals = dict(m.get('values', {}))
-        for r in regions_data:
-            obs = get_region_obs(r, 'screening', 'screening-breast')
-            if obs and obs.get('value') is not None:
-                vals[r['name']] = obs['value']
-        m['values'] = vals
-        m['period'] = '2024'
-        m['national'] = 81.6
-        measures['rinta'] = m
+    def observation_source(obs):
+        source_id = next(iter(obs.get('sourceIds') or []), None)
+        title = data.get('evidence', {}).get(source_id, {}).get('title')
+        if title and source_id in ('sotkanet-3869', 'sotkanet-3297'):
+            return f'Finnish Institute for Health and Welfare — Sotkanet — {title}'
+        return source_names.get(source_id) or title
 
-    # 3. Cervical screening (kohdunkaula) - Use canonical age-group screening
-    if 'kohdunkaula' in measures:
-        m = dict(measures['kohdunkaula'])
+    for measure_id, (category, obs_id, national_default) in measure_observations.items():
+        if measure_id not in measures:
+            continue
+        m = dict(measures[measure_id])
         vals = dict(m.get('values', {}))
+        sources = dict(m.get('value_sources', {}))
         for r in regions_data:
-            obs = get_region_obs(r, 'screening', 'screening-cervical')
+            obs = get_region_obs(r, category, obs_id)
             if obs and obs.get('value') is not None:
                 vals[r['name']] = obs['value']
+                sources[r['name']] = observation_source(obs)
         m['values'] = vals
-        m['period'] = '2024'
-        m['national'] = 76.3
-        m['source'] = 'Finnish Cancer Registry, 2024 age-group screening'
-        measures['kohdunkaula'] = m
-
-    # 4. HPV vaccination girls (hpv_tytot)
-    if 'hpv_tytot' in measures:
-        m = dict(measures['hpv_tytot'])
-        vals = dict(m.get('values', {}))
-        for r in regions_data:
-            obs = get_region_obs(r, 'preventable-cancers', 'hpv-girls')
-            if obs and obs.get('value') is not None:
-                vals[r['name']] = obs['value']
-        m['values'] = vals
-        m['period'] = '2026'
-        nat = get_national_obs('preventable-cancers', 'hpv-girls')
-        if nat and nat.get('value') is not None:
-            m['national'] = nat['value']
-        measures['hpv_tytot'] = m
-
-    # 5. HPV vaccination boys (hpv_pojat)
-    if 'hpv_pojat' in measures:
-        m = dict(measures['hpv_pojat'])
-        vals = dict(m.get('values', {}))
-        for r in regions_data:
-            obs = get_region_obs(r, 'preventable-cancers', 'hpv-boys')
-            if obs and obs.get('value') is not None:
-                vals[r['name']] = obs['value']
-        m['values'] = vals
-        m['period'] = '2026'
-        nat = get_national_obs('preventable-cancers', 'hpv-boys')
-        if nat and nat.get('value') is not None:
-            m['national'] = nat['value']
-        measures['hpv_pojat'] = m
+        m['value_sources'] = sources
+        m['period'] = '2024' if category == 'screening' else '2026'
+        if national_default is not None:
+            m['national'] = national_default
+            if measure_id == 'kohdunkaula' or national_default != base['measures'][measure_id].get('national'):
+                # This hard-coded national figure has no linked observation.
+                m['national_source'] = None
+        else:
+            nat = get_national_obs(category, obs_id)
+            if nat and nat.get('value') is not None:
+                m['national'] = nat['value']
+                m['national_source'] = observation_source(nat)
+        measures[measure_id] = m
 
     out['measures'] = measures
 
@@ -158,12 +136,16 @@ def merge_canonical_into_vahti(canonical_snapshot, base):
         nat_mort = get_national_obs('mortality', 'cancer-deaths')
         if nat_mort and 'series' in nat_mort:
             counts = dict(mort.get('counts', {}))
+            sources = dict(mort.get('count_sources', {}))
             for pt in nat_mort['series']:
                 try:
-                    counts[str(pt['period'])] = int(pt['value'])
+                    year = str(pt['period'])
+                    counts[year] = int(pt['value'])
+                    sources[year] = observation_source(nat_mort)
                 except (ValueError, TypeError):
                     pass
             mort['counts'] = counts
+            mort['count_sources'] = sources
         out['mort'] = mort
 
     return out
