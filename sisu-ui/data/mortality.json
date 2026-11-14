@@ -1,0 +1,606 @@
+{
+  "source": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/mortality.json",
+  "sourceSha256": "50a9f41f28fd60900e5cf2378242151f6e61b0c1d949240441417ddcf01be4e7",
+  "retrievedAt": "2026-11-14",
+  "baseline": null,
+  "national": [
+    {
+      "year": 2020,
+      "deaths": 12998
+    },
+    {
+      "year": 2021,
+      "deaths": 13159
+    },
+    {
+      "year": 2022,
+      "deaths": 13072
+    },
+    {
+      "year": 2023,
+      "deaths": 13472
+    },
+    {
+      "year": 2024,
+      "deaths": 13316
+    },
+    {
+      "year": 2025,
+      "deaths": 13424
+    }
+  ],
+  "regions": {
+    "HVA01": [
+      {
+        "year": 2020,
+        "deaths": 235
+      },
+      {
+        "year": 2021,
+        "deaths": 258
+      },
+      {
+        "year": 2022,
+        "deaths": 231
+      },
+      {
+        "year": 2023,
+        "deaths": 239
+      },
+      {
+        "year": 2024,
+        "deaths": 241
+      },
+      {
+        "year": 2025,
+        "deaths": 244
+      }
+    ],
+    "HVA02": [
+      {
+        "year": 2020,
+        "deaths": 394
+      },
+      {
+        "year": 2021,
+        "deaths": 397
+      },
+      {
+        "year": 2022,
+        "deaths": 439
+      },
+      {
+        "year": 2023,
+        "deaths": 414
+      },
+      {
+        "year": 2024,
+        "deaths": 458
+      },
+      {
+        "year": 2025,
+        "deaths": 436
+      }
+    ],
+    "HVA03": [
+      {
+        "year": 2020,
+        "deaths": 867
+      },
+      {
+        "year": 2021,
+        "deaths": 915
+      },
+      {
+        "year": 2022,
+        "deaths": 894
+      },
+      {
+        "year": 2023,
+        "deaths": 950
+      },
+      {
+        "year": 2024,
+        "deaths": 951
+      },
+      {
+        "year": 2025,
+        "deaths": 902
+      }
+    ],
+    "HVA04": [
+      {
+        "year": 2020,
+        "deaths": 480
+      },
+      {
+        "year": 2021,
+        "deaths": 473
+      },
+      {
+        "year": 2022,
+        "deaths": 471
+      },
+      {
+        "year": 2023,
+        "deaths": 499
+      },
+      {
+        "year": 2024,
+        "deaths": 481
+      },
+      {
+        "year": 2025,
+        "deaths": 495
+      }
+    ],
+    "HVA05": [
+      {
+        "year": 2020,
+        "deaths": 1211
+      },
+      {
+        "year": 2021,
+        "deaths": 1187
+      },
+      {
+        "year": 2022,
+        "deaths": 1191
+      },
+      {
+        "year": 2023,
+        "deaths": 1166
+      },
+      {
+        "year": 2024,
+        "deaths": 1267
+      },
+      {
+        "year": 2025,
+        "deaths": 1333
+      }
+    ],
+    "HVA06": [
+      {
+        "year": 2020,
+        "deaths": 648
+      },
+      {
+        "year": 2021,
+        "deaths": 666
+      },
+      {
+        "year": 2022,
+        "deaths": 670
+      },
+      {
+        "year": 2023,
+        "deaths": 720
+      },
+      {
+        "year": 2024,
+        "deaths": 636
+      },
+      {
+        "year": 2025,
+        "deaths": 674
+      }
+    ],
+    "HVA07": [
+      {
+        "year": 2020,
+        "deaths": 469
+      },
+      {
+        "year": 2021,
+        "deaths": 456
+      },
+      {
+        "year": 2022,
+        "deaths": 412
+      },
+      {
+        "year": 2023,
+        "deaths": 499
+      },
+      {
+        "year": 2024,
+        "deaths": 490
+      },
+      {
+        "year": 2025,
+        "deaths": 433
+      }
+    ],
+    "HVA08": [
+      {
+        "year": 2020,
+        "deaths": 1152
+      },
+      {
+        "year": 2021,
+        "deaths": 1209
+      },
+      {
+        "year": 2022,
+        "deaths": 1215
+      },
+      {
+        "year": 2023,
+        "deaths": 1319
+      },
+      {
+        "year": 2024,
+        "deaths": 1278
+      },
+      {
+        "year": 2025,
+        "deaths": 1292
+      }
+    ],
+    "HVA09": [
+      {
+        "year": 2020,
+        "deaths": 568
+      },
+      {
+        "year": 2021,
+        "deaths": 551
+      },
+      {
+        "year": 2022,
+        "deaths": 612
+      },
+      {
+        "year": 2023,
+        "deaths": 582
+      },
+      {
+        "year": 2024,
+        "deaths": 585
+      },
+      {
+        "year": 2025,
+        "deaths": 554
+      }
+    ],
+    "HVA10": [
+      {
+        "year": 2020,
+        "deaths": 523
+      },
+      {
+        "year": 2021,
+        "deaths": 535
+      },
+      {
+        "year": 2022,
+        "deaths": 505
+      },
+      {
+        "year": 2023,
+        "deaths": 565
+      },
+      {
+        "year": 2024,
+        "deaths": 546
+      },
+      {
+        "year": 2025,
+        "deaths": 490
+      }
+    ],
+    "HVA11": [
+      {
+        "year": 2020,
+        "deaths": 384
+      },
+      {
+        "year": 2021,
+        "deaths": 339
+      },
+      {
+        "year": 2022,
+        "deaths": 323
+      },
+      {
+        "year": 2023,
+        "deaths": 355
+      },
+      {
+        "year": 2024,
+        "deaths": 364
+      },
+      {
+        "year": 2025,
+        "deaths": 343
+      }
+    ],
+    "HVA12": [
+      {
+        "year": 2020,
+        "deaths": 397
+      },
+      {
+        "year": 2021,
+        "deaths": 413
+      },
+      {
+        "year": 2022,
+        "deaths": 432
+      },
+      {
+        "year": 2023,
+        "deaths": 376
+      },
+      {
+        "year": 2024,
+        "deaths": 412
+      },
+      {
+        "year": 2025,
+        "deaths": 448
+      }
+    ],
+    "HVA13": [
+      {
+        "year": 2020,
+        "deaths": 588
+      },
+      {
+        "year": 2021,
+        "deaths": 613
+      },
+      {
+        "year": 2022,
+        "deaths": 599
+      },
+      {
+        "year": 2023,
+        "deaths": 605
+      },
+      {
+        "year": 2024,
+        "deaths": 586
+      },
+      {
+        "year": 2025,
+        "deaths": 652
+      }
+    ],
+    "HVA14": [
+      {
+        "year": 2020,
+        "deaths": 458
+      },
+      {
+        "year": 2021,
+        "deaths": 466
+      },
+      {
+        "year": 2022,
+        "deaths": 448
+      },
+      {
+        "year": 2023,
+        "deaths": 454
+      },
+      {
+        "year": 2024,
+        "deaths": 439
+      },
+      {
+        "year": 2025,
+        "deaths": 436
+      }
+    ],
+    "HVA15": [
+      {
+        "year": 2020,
+        "deaths": 589
+      },
+      {
+        "year": 2021,
+        "deaths": 600
+      },
+      {
+        "year": 2022,
+        "deaths": 669
+      },
+      {
+        "year": 2023,
+        "deaths": 655
+      },
+      {
+        "year": 2024,
+        "deaths": 624
+      },
+      {
+        "year": 2025,
+        "deaths": 608
+      }
+    ],
+    "HVA16": [
+      {
+        "year": 2020,
+        "deaths": 493
+      },
+      {
+        "year": 2021,
+        "deaths": 535
+      },
+      {
+        "year": 2022,
+        "deaths": 528
+      },
+      {
+        "year": 2023,
+        "deaths": 570
+      },
+      {
+        "year": 2024,
+        "deaths": 507
+      },
+      {
+        "year": 2025,
+        "deaths": 569
+      }
+    ],
+    "HVA17": [
+      {
+        "year": 2020,
+        "deaths": 466
+      },
+      {
+        "year": 2021,
+        "deaths": 431
+      },
+      {
+        "year": 2022,
+        "deaths": 398
+      },
+      {
+        "year": 2023,
+        "deaths": 400
+      },
+      {
+        "year": 2024,
+        "deaths": 412
+      },
+      {
+        "year": 2025,
+        "deaths": 436
+      }
+    ],
+    "HVA18": [
+      {
+        "year": 2020,
+        "deaths": 173
+      },
+      {
+        "year": 2021,
+        "deaths": 177
+      },
+      {
+        "year": 2022,
+        "deaths": 148
+      },
+      {
+        "year": 2023,
+        "deaths": 159
+      },
+      {
+        "year": 2024,
+        "deaths": 159
+      },
+      {
+        "year": 2025,
+        "deaths": 165
+      }
+    ],
+    "HVA19": [
+      {
+        "year": 2020,
+        "deaths": 836
+      },
+      {
+        "year": 2021,
+        "deaths": 865
+      },
+      {
+        "year": 2022,
+        "deaths": 804
+      },
+      {
+        "year": 2023,
+        "deaths": 864
+      },
+      {
+        "year": 2024,
+        "deaths": 876
+      },
+      {
+        "year": 2025,
+        "deaths": 867
+      }
+    ],
+    "HVA20": [
+      {
+        "year": 2020,
+        "deaths": 236
+      },
+      {
+        "year": 2021,
+        "deaths": 197
+      },
+      {
+        "year": 2022,
+        "deaths": 220
+      },
+      {
+        "year": 2023,
+        "deaths": 224
+      },
+      {
+        "year": 2024,
+        "deaths": 195
+      },
+      {
+        "year": 2025,
+        "deaths": 178
+      }
+    ],
+    "HVA21": [
+      {
+        "year": 2020,
+        "deaths": 494
+      },
+      {
+        "year": 2021,
+        "deaths": 490
+      },
+      {
+        "year": 2022,
+        "deaths": 536
+      },
+      {
+        "year": 2023,
+        "deaths": 479
+      },
+      {
+        "year": 2024,
+        "deaths": 499
+      },
+      {
+        "year": 2025,
+        "deaths": 518
+      }
+    ],
+    "HVA90": [
+      {
+        "year": 2020,
+        "deaths": 1253
+      },
+      {
+        "year": 2021,
+        "deaths": 1310
+      },
+      {
+        "year": 2022,
+        "deaths": 1245
+      },
+      {
+        "year": 2023,
+        "deaths": 1308
+      },
+      {
+        "year": 2024,
+        "deaths": 1213
+      },
+      {
+        "year": 2025,
+        "deaths": 1273
+      }
+    ]
+  }
+}

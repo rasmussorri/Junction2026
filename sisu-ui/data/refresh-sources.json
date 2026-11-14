@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "screening": {
+    "adapter": "fcr-annual-html-v1",
+    "minimumYear": 2024,
+    "programs": {
+      "breast": {
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+        "denominator": "Kutsuttu"
+      },
+      "colon": {
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+        "denominator": "Poimittu"
+      },
+      "cervical": {
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+        "denominator": "Kutsuttu",
+        "group": "Ikäryhmäseulonta"
+      }
+    }
+  },
+  "prevention": {
+    "adapter": "sotkanet-v1",
+    "baseUrl": "https://sotkanet.fi/rest/1.1/",
+    "fromYear": 2022,
+    "indicators": [
+      {
+        "id": 3869,
+        "key": "hpv-girls",
+        "title": "Coverage of HPV-vaccine, girls",
+        "label": "HPV vaccination · girls, two doses by age 13",
+        "note": "Girls turning 13 in the reporting year who received two HPV doses during the preceding two school years. The API total series is the total within this girls-only indicator, not both sexes. Vaccination coverage is a supporting prevention indicator, not a count of cancers prevented.",
+        "descriptionSha256": "c6ad0fb411b9c3af1c0d1acf6da86764405a1d5349e36fabda02e9eb6689daf8"
+      },
+      {
+        "id": 3297,
+        "key": "hpv-boys",
+        "title": "Coverage of HPV-vaccine, boys",
+        "label": "HPV vaccination · boys, two doses by age 13",
+        "note": "Boys turning 13 in the reporting year who received two HPV doses during the preceding two school years. The API total series is the total within this boys-only indicator, not both sexes. Small cells may be withheld. Vaccination coverage does not measure cancers prevented.",
+        "descriptionSha256": "898155f693b5d999074fb6a2d3223ec7c51d70804b6f91f1003250a87256467e"
+      },
+      {
+        "id": 4404,
+        "key": "daily-smoking",
+        "title": "Daily smokers (%)",
+        "label": "Daily smoking · age 20+",
+        "note": "Self-reported daily smoking among people aged 20 and over. Survey estimates use nonresponse weights; uncertainty and coverage affect comparisons. This is a supporting risk-factor indicator, not a count of preventable cancer cases.",
+        "descriptionSha256": "b97ac313bec375f5e3f208bf24aabdf0a49163d786bcac346c55591940d92b60"
+      },
+      {
+        "id": 4411,
+        "key": "alcohol-auditc",
+        "title": "Persons who drink too much alcohol (AUDIT-C) (%)",
+        "label": "Excess alcohol use (AUDIT-C) · alcohol users age 20+",
+        "note": "AUDIT-C probable excess use among alcohol users aged 20 and over. Thresholds differ by age and sex. These are self-reported, weighted survey estimates. The denominator is alcohol users, not all residents; this is not a count of preventable cancers.",
+        "descriptionSha256": "fd96d88e65b689687429d28bf2f81cd3645168ddb52e44be4472cf17fb828212"
+      }
+    ]
+  },
+  "mortality": {
+    "adapter": "statfin-jsonstat2-v1",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+    "areaDimension": "alue_23_20260101",
+    "causeDimension": "kuolinsyyt_1_20210101",
+    "cause": "04-21",
+    "measure": "ksyylkm",
+    "fromYear": 2020,
+    "minimumLatestYear": 2025
+  }
+}

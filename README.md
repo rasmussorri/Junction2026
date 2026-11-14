@@ -2,6 +2,17 @@
 
 Suomenkielinen, lähteistetty kartoitus Suomen syöpä-, seulonta- ja hoitodatasta AstraZeneca-haasteen valmisteluun. Tutkimus tarkistettiin ja raportti koottiin 14.11.2026.
 
+## UI prototypes
+
+Both interfaces are kept independently while the team evaluates the final direction.
+
+| Folder | Interface | Run |
+|---|---|---|
+| [`sisu-ui/`](sisu-ui/README.md) | Rasmus’s Sisu: React dashboard, county map, goal panel, comparison charts and data chat | `cd sisu-ui && npm ci && npm run dev` → http://localhost:5173 |
+| [`vahti-ui/`](vahti-ui/README.md) | Niilo’s Cancer Strategy Monitor | `cd vahti-ui && python3 server.py` → http://localhost:8765 |
+
+Each app has its own optional local Gemini configuration. Neither interface replaces the other.
+
 ## Aloita tästä
 
 - **[Valmis raportti](05%20Raportti/Junction%202026%20-%20sy%C3%B6p%C3%A4data%20ja%20MVP.md)** — katalogi, 10 dataset-korttia, kysymys–aineisto-matriisi, kolme toteutuskelpoista analyysiä, tietoaukot, tekninen liite ja MVP.

@@ -1,0 +1,134 @@
+[
+  {
+    "screening_region_name": "Etelä-Karjala",
+    "statfin_region_code": "HVA11",
+    "statfin_region_label": "HVA11 Etelä-Karjalan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Etelä-Pohjanmaa",
+    "statfin_region_code": "HVA16",
+    "statfin_region_label": "HVA16 Etelä-Pohjanmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Etelä-Savo",
+    "statfin_region_code": "HVA12",
+    "statfin_region_label": "HVA12 Etelä-Savon hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Helsingin kaupunki",
+    "statfin_region_code": "HVA90",
+    "statfin_region_label": "HVA90 Helsingin kaupunki",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Itä-Uusimaa",
+    "statfin_region_code": "HVA01",
+    "statfin_region_label": "HVA01 Itä-Uudenmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Kainuu",
+    "statfin_region_code": "HVA20",
+    "statfin_region_label": "HVA20 Kainuun hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Kanta-Häme",
+    "statfin_region_code": "HVA07",
+    "statfin_region_label": "HVA07 Kanta-Hämeen hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Keski-Pohjanmaa",
+    "statfin_region_code": "HVA18",
+    "statfin_region_label": "HVA18 Keski-Pohjanmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Keski-Suomi",
+    "statfin_region_code": "HVA15",
+    "statfin_region_label": "HVA15 Keski-Suomen hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Keski-Uusimaa",
+    "statfin_region_code": "HVA02",
+    "statfin_region_label": "HVA02 Keski-Uudenmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Kymenlaakso",
+    "statfin_region_code": "HVA10",
+    "statfin_region_label": "HVA10 Kymenlaakson hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Lappi",
+    "statfin_region_code": "HVA21",
+    "statfin_region_label": "HVA21 Lapin hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Länsi-Uusimaa",
+    "statfin_region_code": "HVA03",
+    "statfin_region_label": "HVA03 Länsi-Uudenmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Pirkanmaa",
+    "statfin_region_code": "HVA08",
+    "statfin_region_label": "HVA08 Pirkanmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Pohjanmaa",
+    "statfin_region_code": "HVA17",
+    "statfin_region_label": "HVA17 Pohjanmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Pohjois-Karjala",
+    "statfin_region_code": "HVA14",
+    "statfin_region_label": "HVA14 Pohjois-Karjalan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Pohjois-Pohjanmaa",
+    "statfin_region_code": "HVA19",
+    "statfin_region_label": "HVA19 Pohjois-Pohjanmaan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Pohjois-Savo",
+    "statfin_region_code": "HVA13",
+    "statfin_region_label": "HVA13 Pohjois-Savon hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Päijät-Häme",
+    "statfin_region_code": "HVA09",
+    "statfin_region_label": "HVA09 Päijät-Hämeen hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Satakunta",
+    "statfin_region_code": "HVA06",
+    "statfin_region_label": "HVA06 Satakunnan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Vantaa ja Kerava",
+    "statfin_region_code": "HVA04",
+    "statfin_region_label": "HVA04 Vantaan ja Keravan hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  },
+  {
+    "screening_region_name": "Varsinais-Suomi",
+    "statfin_region_code": "HVA05",
+    "statfin_region_label": "HVA05 Varsinais-Suomen hyvinvointialue",
+    "basis": "Explicit analyst name-to-code correspondence, checked against fetched official metadata; not a publisher-supplied crosswalk"
+  }
+]
