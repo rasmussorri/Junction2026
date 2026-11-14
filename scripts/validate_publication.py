@@ -4,7 +4,7 @@ import csv
 import math
 
 ROOT = Path(__file__).resolve().parents[1]
-SAMPLES = ROOT / '10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work'
+SAMPLES = ROOT / 'research/10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work'
 
 for program, expected_rows in [('rinta', 150), ('kohtu', 306)]:
     path = SAMPLES / f'{program}_helsinki_vuosi_ika.csv'
@@ -26,7 +26,7 @@ for program, expected_rows in [('rinta', 150), ('kohtu', 306)]:
         assert sum(int(r['Tarkastettu']) for r in selected) == 28686
     print(f'{program}: {len(rows)} rows, unique keys and all participation rates verified')
 
-report = (ROOT / '05 Raportti/Junction 2026 - syöpädata ja MVP.md').read_text()
+report = (ROOT / 'research/05 Raportti/Junction 2026 - syöpädata ja MVP.md').read_text()
 assert sum(line.startswith('### Kortti ') for line in report.splitlines()) == 10
 assert all(f'### Analyysi {name} ' in report for name in 'ABC')
 print('Report: 10 cards and 3 analysis plans present; no files changed')

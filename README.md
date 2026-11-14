@@ -15,25 +15,22 @@ Each app has its own optional local Gemini configuration. Neither interface repl
 
 ## Aloita tästä
 
-- **[Valmis raportti](05%20Raportti/Junction%202026%20-%20sy%C3%B6p%C3%A4data%20ja%20MVP.md)** — katalogi, 10 dataset-korttia, kysymys–aineisto-matriisi, kolme toteutuskelpoista analyysiä, tietoaukot, tekninen liite ja MVP.
-- [Raportin laadunvarmistus](05%20Raportti/Raportin%20QA.md) — 48 hyväksyttyä paikallista tarkistusta.
-- [Obsidian-vaultin etusivu](00%20Aloita%20t%C3%A4st%C3%A4.md). Avaa tämä repositorio Obsidianissa vaultina; mitään lisäosaa ei tarvita.
+- **[Valmis raportti](research/05%20Raportti/Junction%202026%20-%20sy%C3%B6p%C3%A4data%20ja%20MVP.md)** — katalogi, 10 dataset-korttia, kysymys–aineisto-matriisi, kolme toteutuskelpoista analyysiä, tietoaukot, tekninen liite ja MVP.
+- [Raportin laadunvarmistus](research/05%20Raportti/Raportin%20QA.md) — 48 hyväksyttyä paikallista tarkistusta.
+- [Obsidian-vaultin etusivu](research/00%20Aloita%20t%C3%A4st%C3%A4.md). Avaa kansio `research/` Obsidianissa vaultina; mitään lisäosaa ei tarvita.
 - [Julkaisun sisältö ja lähdeaineistojen ehdot](DATA_SOURCES.md).
 
 Suositeltu MVP on **Helsingin rintaseulonnan osallistumisen vuosi–ikä-näkymä** jo ladatusta CC BY 4.0 -CSV:stä. Raportti on valmis; MVP-sovellusta ei vielä ole toteutettu.
 
-## Kansiot
+## Repositorion rakenne
 
 | Kansio | Sisältö |
 |---|---|
-| `00 Ohjaus` | Työn toimintatapa ja historiallinen tutkimusjono; ei aktiivista ajastusta |
-| `01 Tausta`, `08 Liitteet` | Käyttäjän toimittama briefi, lähtökartoitus ja PDF-liitteet |
-| `02 Lähteet`, `03 Dataset-kortit` | Lähdekatalogi ja työvaiheen kortit; lopulliset kortit raportissa |
-| `04 Analyysit`, `05 Raportti` | Matriisi, analyysisuunnitelmat, valmis raportti ja QA |
-| `06 Tekninen liite` | Lähdemuistiot, pienten latausten lokit, metatiedot ja julkaistavat näytteet |
-| `07 Tutkimusloki` | Tutkimuksen eteneminen ja löydetyt korjaukset |
-| `09 Aineistojen syväanalyysi`, `10 Hypoteesit ja löydökset` | Toistettavat laskelmat, laatu- ja yhdistelytestit sekä avoimet hypoteesit |
-| `work` | Tutkimuksen apuohjelmat; osa on alkuperäisen työympäristön kertakäyttöisiä apureita |
+| [`sisu-ui/`](sisu-ui/README.md) | Rasmus's Sisu: React + Vite + Express syöpästrategian toteutus-dashboard ja AI-chat |
+| [`vahti-ui/`](vahti-ui/README.md) | Niilo's Cancer Strategy Monitor: Python/HTML-käyttöliittymä ja analyysiraportit |
+| [`research/`](research/00%20Aloita%20t%C3%A4st%C3%A4.md) | Tutkimusaineisto ja Obsidian-vault (`00 Ohjaus` – `10 Hypoteesit ja löydökset`) |
+| [`scripts/`](scripts/) | Julkaisu- ja aineistotarkistusskriptit |
+| `Finland - Cancer data - Junction 2026.xlsx` | Alkuperäinen Excel-pääaineisto |
 
 ## Toistaminen ja rajat
 

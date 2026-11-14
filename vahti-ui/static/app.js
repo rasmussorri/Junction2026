@@ -73,11 +73,41 @@ const tLabel = s => ({ ok: 'Met', bad: 'Not met', na: 'No data', nat: 'National 
 const pill = (cls, txt) => `<span class="pill ${cls}">${esc(txt)}</span>`;
 
 /* ---------- start ---------- */
-Promise.all([
-  window.__DATA__ ? Promise.resolve(window.__DATA__) : fetch('data.json').then(r => r.json()),
-  location.protocol === 'file:' ? Promise.resolve({ ai: false, offline: true }) : fetch('api/status').then(r => r.json()).catch(() => ({ ai: false, offline: true }))
-]).then(([d, s]) => {
+function loadData() {
+  if (location.protocol === 'file:') {
+    return window.__DATA__ ? Promise.resolve(window.__DATA__) : fetch('data.json').then(r => r.json());
+  }
+  return fetch('/api/data')
+    .then(r => {
+      if (!r.ok) throw new Error('Data API responded ' + r.status);
+      return r.json();
+    })
+    .catch(err => {
+      console.warn('Falling back to local data:', err.message);
+      return window.__DATA__ ? Promise.resolve(window.__DATA__) : fetch('data.json').then(r => r.json());
+    });
+}
+
+function loadStatus() {
+  if (location.protocol === 'file:') return Promise.resolve({ ai: false, offline: true });
+  return fetch('/api/data/status')
+    .then(r => r.ok ? r.json() : fetch('/api/status').then(res => res.json()))
+    .catch(() => ({ ai: false, offline: true }));
+}
+
+Promise.all([loadData(), loadStatus()]).then(([d, s]) => {
   D = d; M = d.measures; AI = s;
+  if (D.snapshot?.revision) {
+    const sub = document.querySelector('.brand-sub');
+    if (sub && !sub.querySelector('.data-rev-badge')) {
+      const revBadge = document.createElement('span');
+      revBadge.className = 'pill ok data-rev-badge';
+      revBadge.style.cssText = 'margin-left: 8px; font-size: 10px; font-weight: normal; vertical-align: middle; padding: 2px 6px;';
+      revBadge.title = 'Dataset revision: ' + D.snapshot.revision;
+      revBadge.textContent = 'Data: ' + D.snapshot.revision.slice(0, 8);
+      sub.appendChild(revBadge);
+    }
+  }
   $('#askBtn').onclick = () => toggleDrawer(true);
   $('#drawerClose').onclick = () => toggleDrawer(false);
   window.addEventListener('hashchange', route); route();
