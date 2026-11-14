@@ -266,8 +266,13 @@ function loadReports(root) {
   root.querySelectorAll('[data-report]').forEach(box => {
     const id = box.dataset.report, pre = window.__REPORTS__ && window.__REPORTS__[id];
     const p = pre ? Promise.resolve(pre) : AI.offline ? Promise.resolve({ missing: true, reason: 'offline' }) : fetch(`api/report?id=${enc(id)}`).then(r => r.json());
-    p.then(rep => box.innerHTML = reportHtml(rep)).catch(() => box.innerHTML = '<div class="note">Could not load the report.</div>');
+    p.then(rep => { box.innerHTML = reportHtml(rep); showSuggestions(box.querySelector('.sugg'), rep.search_suggestions); }).catch(() => box.innerHTML = '<div class="note">Could not load the report.</div>');
   });
+}
+/* Google's "Search suggestions" for answers grounded in Google Search, shown as provided (own shadow root keeps its CSS apart) */
+function showSuggestions(el, html) {
+  if (!el || !html) return;
+  (el.shadowRoot || el.attachShadow({ mode: 'open' })).innerHTML = html;
 }
 function reportHtml(rep) {
   if (rep.missing) return `<div class="note">${rep.reason === 'no_key' ? 'No report yet. The AI compiles one from the web with Gemini once GEMINI_API_KEY is set in .env.'
@@ -278,7 +283,8 @@ function reportHtml(rep) {
     ${(rep.sections || []).map(s => `<div class="rsec"><h4><span class="flag">${esc(s.name)}</span></h4>
       ${s.items.map(it => `<div class="ritem"><p>${esc(it.text)}</p>${(it.sources || []).map(x =>
         `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)} ↗</a>`).join('')}</div>`).join('')}</div>`).join('')}
-    ${(rep.all_sources || []).length ? `<div class="rsec"><h4><span class="flag">All sources</span></h4>${rep.all_sources.map(x => `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)} ↗</a>`).join('')}</div>` : ''}`;
+    ${(rep.all_sources || []).length ? `<div class="rsec"><h4><span class="flag">All sources</span></h4>${rep.all_sources.map(x => `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)} ↗</a>`).join('')}</div>` : ''}
+    ${rep.search_suggestions ? '<div class="sugg"></div>' : ''}`;
 }
 
 /* ---------- goal page ---------- */
@@ -476,8 +482,8 @@ const emptyText = () => AI.offline ? 'The chat needs the server: start Kaynnista
 function chatCard(key) { return `<div class="card chat-card"><div class="chat-box" data-chat="${esc(key)}"></div></div>`; }
 function chatInner(key) {
   const arr = chats[key] || [];
-  return `<div class="msgs">${arr.length ? arr.map(m => m.role === 'user' ? `<div class="msg user">${esc(m.text)}</div>`
-    : `<div class="msg ai">${md(m.text)}${m.pending ? '<span class="spinner"></span>' : ''}</div>`).join('')
+  return `<div class="msgs">${arr.length ? arr.map((m, i) => m.role === 'user' ? `<div class="msg user">${esc(m.text)}</div>`
+    : `<div class="msg ai">${md(m.text)}${m.pending ? '<span class="spinner"></span>' : ''}${m.suggestions ? `<div class="sugg" data-k="${i}"></div>` : ''}</div>`).join('')
     : `<div class="empty">${emptyText()}</div>`}</div>
     <form class="chat-in"><textarea rows="2" placeholder="Ask a question…"></textarea><button type="submit" aria-label="Send">➤</button></form>`;
 }
@@ -485,6 +491,7 @@ function mountChat(box, ctx) {
   const key = box.dataset.chat;
   const draw = () => {
     box.innerHTML = chatInner(key);
+    box.querySelectorAll('.sugg[data-k]').forEach(el => showSuggestions(el, (chats[key] || [])[+el.dataset.k].suggestions));
     const ms = box.querySelector('.msgs'); ms.scrollTop = ms.scrollHeight;
     const ta = box.querySelector('textarea'), form = box.querySelector('form');
     form.onsubmit = e => { e.preventDefault(); send(key, ta.value, ctx, draw); };
@@ -529,7 +536,7 @@ function send(key, text, ctx, draw) {
           if (!line) continue;
           const ev = JSON.parse(line);
           if (ev.delta) pending.text += ev.delta;
-          if (ev.done) { pending.text = ev.text || pending.text; pending.pending = false; }
+          if (ev.done) { pending.text = ev.text || pending.text; pending.suggestions = ev.suggestions || ''; pending.pending = false; }
           paint();
         }
       }

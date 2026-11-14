@@ -205,25 +205,49 @@ def gemini_stream(system, contents):
 
 def with_inline_sources(text, gm):
     """Puts a clickable link to each trusted search source right after the sentence it supports.
-    Links the model wrote itself are turned into plain text, so every link points to a page Google actually found."""
+    A sentence whose only sources are untrusted sites is removed. Links the model wrote itself are
+    turned into plain text, so every link points to a page Google actually found."""
     chunks = [c.get('web', {}) for c in (gm or {}).get('groundingChunks', [])]
-    at = {}
+    ins, cuts = {}, []
     for sup in (gm or {}).get('groundingSupports', []):
-        end = sup.get('segment', {}).get('endIndex')
-        if end is None:
+        seg = sup.get('segment', {})
+        end = seg.get('endIndex')
+        idx = [j for j in sup.get('groundingChunkIndices', []) if j < len(chunks) and chunks[j].get('uri')]
+        if end is None or not idx:
             continue
-        for j in sup.get('groundingChunkIndices', []):
-            c = chunks[j] if j < len(chunks) else {}
-            if c.get('uri') and trusted(c.get('title'), c['uri']):
-                links = at.setdefault(end, [])
-                if c['uri'] not in [u for _, u in links] and len(links) < 2:
-                    links.append((source_domain(c.get('title'), c['uri']), c['uri']))
-    b, marks = text.encode('utf-8'), []
-    for end in sorted(at, reverse=True):
-        marks.append(at[end])
-        b = b[:end] + f'\x00{len(marks) - 1}\x00'.encode() + b[end:]
-    out = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'\1', b.decode('utf-8', errors='ignore'))
-    return re.sub('\x00(\\d+)\x00', lambda m: ' (' + ', '.join(f'[{t}]({u})' for t, u in marks[int(m.group(1))]) + ')', out)
+        good = [chunks[j] for j in idx if trusted(chunks[j].get('title'), chunks[j]['uri'])]
+        if not good:
+            cuts.append((seg.get('startIndex', 0), end))
+            continue
+        links = ins.setdefault(end, [])
+        for c in good:
+            if c['uri'] not in [u for _, u in links] and len(links) < 2:
+                links.append((source_domain(c.get('title'), c['uri']), c['uri']))
+    b, out, i, marks = text.encode('utf-8'), [], 0, []
+    # walk the text once: copy, add link markers, skip removed sentences (markers first at equal positions)
+    for pos, kind, stop in sorted([(p, 0, None) for p in ins] + [(a, 1, z) for a, z in cuts]):
+        if pos < i:
+            continue
+        out.append(b[i:pos]); i = pos
+        if kind == 0:
+            marks.append(ins[pos]); out.append(f'\x00{len(marks) - 1}\x00'.encode())
+        else:
+            i = max(i, stop)
+    out.append(b[i:])
+    res = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'\1', b''.join(out).decode('utf-8', errors='ignore'))
+    res = re.sub('\x00(\\d+)\x00', lambda m: ' (' + ', '.join(f'[{t}]({u})' for t, u in marks[int(m.group(1))]) + ')', res)
+    # tidy what removed sentences leave behind: double spaces, empty bullets, blank runs
+    res = re.sub(r'[ \t]{2,}', ' ', res)
+    res = re.sub(r' +([.,;:])', r'\1', res)
+    # drop bullets or lines that a removed sentence left empty; keep real blank lines
+    res = '\n'.join(l for l in res.split('\n') if not (l.strip() and re.fullmatch(r'\s*(?:[-*]\s*)?[.,;:]?\s*', l)))
+    res = re.sub(r'\n{3,}', '\n\n', '\n'.join(l.rstrip() for l in res.split('\n'))).strip()
+    return res or 'No reliable sources were found for this question.'
+
+
+def search_suggestions(gm):
+    """Google's required 'Search suggestions' widget for a grounded answer (HTML + CSS, shown as provided)."""
+    return ((gm or {}).get('searchEntryPoint') or {}).get('renderedContent') or ''
 
 
 def bullet_sources(text, gm, chunks):
@@ -272,12 +296,11 @@ def make_report(tid):
             ok = [x for x in src if trusted(x['title'], x['url'])]
             if ok:
                 cur['items'].append({'text': keep_trusted_links(l[2:].strip()), 'sources': ok})
-    rep = {'title': 'How the problem has been solved elsewhere', 'generated': 'live',
-           'sections': [x for x in sections if x['items']],
-           'all_sources': [x for x in sources if trusted(x['title'], x['url'])]}
-    os.makedirs(REPORTS, exist_ok=True)
-    json.dump(rep, open(os.path.join(REPORTS, f'{tid}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    return rep
+    # Google's terms: grounded results go only to the user who asked, with their search suggestions, and are not cached
+    return {'title': 'How the problem has been solved elsewhere', 'generated': 'live',
+            'sections': [x for x in sections if x['items']],
+            'all_sources': [x for x in sources if trusted(x['title'], x['url'])],
+            'search_suggestions': search_suggestions(gm)}
 
 
 class H(SimpleHTTPRequestHandler):
@@ -365,7 +388,7 @@ class H(SimpleHTTPRequestHandler):
             # off-topic answers get no sources or links at all
             text = (re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'\1', full.replace(OFF_TOPIC, '').strip()) if off
                     else with_inline_sources(full, gm).replace(OFF_TOPIC, '').strip())
-            emit({'done': True, 'text': text})
+            emit({'done': True, 'text': text, 'suggestions': '' if off else search_suggestions(gm)})
         except urllib.error.HTTPError as e:
             emit({'done': True, 'text': f'Gemini error {e.code}: {e.read().decode("utf-8")[:300]}'})
         except Exception as e:
