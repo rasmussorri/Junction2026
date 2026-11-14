@@ -1,0 +1,629 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-14T14:41:10.863Z",
+  "screening": {
+    "year": 2024,
+    "regions": [
+      {
+        "id": "HVA01",
+        "screening": {
+          "breast": {
+            "rate": 79.8,
+            "participated": 5546,
+            "denominator": 6948
+          },
+          "colon": {
+            "rate": 72,
+            "participated": 5679,
+            "denominator": 7884
+          },
+          "cervical": {
+            "rate": 76.3,
+            "participated": 3909,
+            "denominator": 5125
+          }
+        }
+      },
+      {
+        "id": "HVA02",
+        "screening": {
+          "breast": {
+            "rate": 80.5,
+            "participated": 10944,
+            "denominator": 13592
+          },
+          "colon": {
+            "rate": 74,
+            "participated": 11236,
+            "denominator": 15179
+          },
+          "cervical": {
+            "rate": 76.7,
+            "participated": 8294,
+            "denominator": 10808
+          }
+        }
+      },
+      {
+        "id": "HVA03",
+        "screening": {
+          "breast": {
+            "rate": 76.1,
+            "participated": 22860,
+            "denominator": 30039
+          },
+          "colon": {
+            "rate": 71.5,
+            "participated": 22976,
+            "denominator": 32139
+          },
+          "cervical": {
+            "rate": 74.3,
+            "participated": 19429,
+            "denominator": 26151
+          }
+        }
+      },
+      {
+        "id": "HVA04",
+        "screening": {
+          "breast": {
+            "rate": 76.7,
+            "participated": 12323,
+            "denominator": 16057
+          },
+          "colon": {
+            "rate": 71.3,
+            "participated": 12433,
+            "denominator": 17443
+          },
+          "cervical": {
+            "rate": 71.7,
+            "participated": 10952,
+            "denominator": 15285
+          }
+        }
+      },
+      {
+        "id": "HVA05",
+        "screening": {
+          "breast": {
+            "rate": 82.7,
+            "participated": 25331,
+            "denominator": 30614
+          },
+          "colon": {
+            "rate": 73.5,
+            "participated": 26943,
+            "denominator": 36669
+          },
+          "cervical": {
+            "rate": 77.5,
+            "participated": 18823,
+            "denominator": 24297
+          }
+        }
+      },
+      {
+        "id": "HVA06",
+        "screening": {
+          "breast": {
+            "rate": 84.9,
+            "participated": 11958,
+            "denominator": 14090
+          },
+          "colon": {
+            "rate": 72.6,
+            "participated": 13115,
+            "denominator": 18076
+          },
+          "cervical": {
+            "rate": 71.5,
+            "participated": 7170,
+            "denominator": 10022
+          }
+        }
+      },
+      {
+        "id": "HVA07",
+        "screening": {
+          "breast": {
+            "rate": 83.4,
+            "participated": 9467,
+            "denominator": 11355
+          },
+          "colon": {
+            "rate": 74.3,
+            "participated": 10705,
+            "denominator": 14399
+          },
+          "cervical": {
+            "rate": 69.9,
+            "participated": 5814,
+            "denominator": 8312
+          }
+        }
+      },
+      {
+        "id": "HVA08",
+        "screening": {
+          "breast": {
+            "rate": 83.5,
+            "participated": 26449,
+            "denominator": 31677
+          },
+          "colon": {
+            "rate": 74.3,
+            "participated": 28058,
+            "denominator": 37764
+          },
+          "cervical": {
+            "rate": 71,
+            "participated": 19198,
+            "denominator": 27033
+          }
+        }
+      },
+      {
+        "id": "HVA09",
+        "screening": {
+          "breast": {
+            "rate": 81.8,
+            "participated": 11313,
+            "denominator": 13832
+          },
+          "colon": {
+            "rate": 75.2,
+            "participated": 12996,
+            "denominator": 17272
+          },
+          "cervical": {
+            "rate": 68.2,
+            "participated": 6817,
+            "denominator": 9996
+          }
+        }
+      },
+      {
+        "id": "HVA10",
+        "screening": {
+          "breast": {
+            "rate": 82,
+            "participated": 9142,
+            "denominator": 11143
+          },
+          "colon": {
+            "rate": 70,
+            "participated": 10098,
+            "denominator": 14431
+          },
+          "cervical": {
+            "rate": 77,
+            "participated": 5968,
+            "denominator": 7751
+          }
+        }
+      },
+      {
+        "id": "HVA11",
+        "screening": {
+          "breast": {
+            "rate": 83.2,
+            "participated": 7047,
+            "denominator": 8466
+          },
+          "colon": {
+            "rate": 74,
+            "participated": 8241,
+            "denominator": 11131
+          },
+          "cervical": {
+            "rate": 76.7,
+            "participated": 4560,
+            "denominator": 5942
+          }
+        }
+      },
+      {
+        "id": "HVA12",
+        "screening": {
+          "breast": {
+            "rate": 82.2,
+            "participated": 7741,
+            "denominator": 9422
+          },
+          "colon": {
+            "rate": 76.9,
+            "participated": 10093,
+            "denominator": 13122
+          },
+          "cervical": {
+            "rate": 82.2,
+            "participated": 4955,
+            "denominator": 6029
+          }
+        }
+      },
+      {
+        "id": "HVA13",
+        "screening": {
+          "breast": {
+            "rate": 85.1,
+            "participated": 13785,
+            "denominator": 16191
+          },
+          "colon": {
+            "rate": 75.4,
+            "participated": 16465,
+            "denominator": 21844
+          },
+          "cervical": {
+            "rate": 69.5,
+            "participated": 8367,
+            "denominator": 12037
+          }
+        }
+      },
+      {
+        "id": "HVA14",
+        "screening": {
+          "breast": {
+            "rate": 84.2,
+            "participated": 8940,
+            "denominator": 10619
+          },
+          "colon": {
+            "rate": 73.2,
+            "participated": 10833,
+            "denominator": 14800
+          },
+          "cervical": {
+            "rate": 67.8,
+            "participated": 5135,
+            "denominator": 7572
+          }
+        }
+      },
+      {
+        "id": "HVA15",
+        "screening": {
+          "breast": {
+            "rate": 85.1,
+            "participated": 14073,
+            "denominator": 16537
+          },
+          "colon": {
+            "rate": 76.5,
+            "participated": 16219,
+            "denominator": 21191
+          },
+          "cervical": {
+            "rate": 70.2,
+            "participated": 9182,
+            "denominator": 13086
+          }
+        }
+      },
+      {
+        "id": "HVA16",
+        "screening": {
+          "breast": {
+            "rate": 85,
+            "participated": 10069,
+            "denominator": 11844
+          },
+          "colon": {
+            "rate": 74.6,
+            "participated": 11899,
+            "denominator": 15941
+          },
+          "cervical": {
+            "rate": 82,
+            "participated": 7315,
+            "denominator": 8922
+          }
+        }
+      },
+      {
+        "id": "HVA17",
+        "screening": {
+          "breast": {
+            "rate": 84.9,
+            "participated": 8487,
+            "denominator": 9991
+          },
+          "colon": {
+            "rate": 75.9,
+            "participated": 9334,
+            "denominator": 12299
+          },
+          "cervical": {
+            "rate": 72.2,
+            "participated": 5841,
+            "denominator": 8088
+          }
+        }
+      },
+      {
+        "id": "HVA18",
+        "screening": {
+          "breast": {
+            "rate": 85.4,
+            "participated": 3329,
+            "denominator": 3898
+          },
+          "colon": {
+            "rate": 73.3,
+            "participated": 3612,
+            "denominator": 4928
+          },
+          "cervical": {
+            "rate": 69.1,
+            "participated": 2152,
+            "denominator": 3114
+          }
+        }
+      },
+      {
+        "id": "HVA19",
+        "screening": {
+          "breast": {
+            "rate": 85.6,
+            "participated": 20168,
+            "denominator": 23560
+          },
+          "colon": {
+            "rate": 75.6,
+            "participated": 22423,
+            "denominator": 29646
+          },
+          "cervical": {
+            "rate": 73.4,
+            "participated": 14288,
+            "denominator": 19455
+          }
+        }
+      },
+      {
+        "id": "HVA20",
+        "screening": {
+          "breast": {
+            "rate": 84.1,
+            "participated": 4033,
+            "denominator": 4798
+          },
+          "colon": {
+            "rate": 76.5,
+            "participated": 5362,
+            "denominator": 7009
+          },
+          "cervical": {
+            "rate": 78.5,
+            "participated": 2594,
+            "denominator": 3305
+          }
+        }
+      },
+      {
+        "id": "HVA21",
+        "screening": {
+          "breast": {
+            "rate": 83.8,
+            "participated": 9678,
+            "denominator": 11548
+          },
+          "colon": {
+            "rate": 73.7,
+            "participated": 11925,
+            "denominator": 16183
+          },
+          "cervical": {
+            "rate": 79.8,
+            "participated": 6825,
+            "denominator": 8555
+          }
+        }
+      },
+      {
+        "id": "HVA90",
+        "screening": {
+          "breast": {
+            "rate": 74.3,
+            "participated": 28686,
+            "denominator": 38630
+          },
+          "colon": {
+            "rate": 69.6,
+            "participated": 29226,
+            "denominator": 42015
+          },
+          "cervical": {
+            "rate": 71.7,
+            "participated": 27514,
+            "denominator": 38382
+          }
+        }
+      }
+    ],
+    "sources": {
+      "breast": {
+        "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/breast.html",
+        "sha256": "736943ae3ee8d665173e52affd00dae9bf328c37962c3ae89f54504fc046380c",
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+        "retrievedAt": "2026-11-14"
+      },
+      "colon": {
+        "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/colon.html",
+        "sha256": "8700c9618456bb29ed7465b04b70492c408e4c47cf1259dbc18638ee2e5e7e52",
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+        "retrievedAt": "2026-11-14"
+      },
+      "cervical": {
+        "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/cervical.html",
+        "sha256": "275e967bd2c9e38455f21261fa15d88e8ea9407cc67f01d282044463ac58f5b7",
+        "url": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+        "retrievedAt": "2026-11-14"
+      }
+    }
+  },
+  "mortality": {
+    "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/mortality.json",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "retrievedAt": "2026-11-14"
+  },
+  "requests": [
+    {
+      "source": "screening",
+      "name": "breast.html",
+      "title": "screening: breast.html",
+      "url": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+      "method": "GET",
+      "requestedAt": "2026-11-14T14:41:10.875Z",
+      "retrievedAt": "2026-11-14",
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+      "bytes": 8662680,
+      "sha256": "736943ae3ee8d665173e52affd00dae9bf328c37962c3ae89f54504fc046380c",
+      "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/breast.html"
+    },
+    {
+      "source": "screening",
+      "name": "colon.html",
+      "title": "screening: colon.html",
+      "url": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+      "method": "GET",
+      "requestedAt": "2026-11-14T14:41:12.481Z",
+      "retrievedAt": "2026-11-14",
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+      "bytes": 7368210,
+      "sha256": "8700c9618456bb29ed7465b04b70492c408e4c47cf1259dbc18638ee2e5e7e52",
+      "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/colon.html"
+    },
+    {
+      "source": "screening",
+      "name": "cervical.html",
+      "title": "screening: cervical.html",
+      "url": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+      "method": "GET",
+      "requestedAt": "2026-11-14T14:41:13.142Z",
+      "retrievedAt": "2026-11-14",
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+      "bytes": 10197651,
+      "sha256": "275e967bd2c9e38455f21261fa15d88e8ea9407cc67f01d282044463ac58f5b7",
+      "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/cervical.html"
+    },
+    {
+      "source": "mortality",
+      "name": "mortality-metadata.json",
+      "title": "mortality: mortality-metadata.json",
+      "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+      "method": "GET",
+      "requestedAt": "2026-11-14T14:41:14.054Z",
+      "retrievedAt": "2026-11-14",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "finalUrl": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+      "bytes": 6496,
+      "sha256": "c294d9f1db6de67f184c9a69f0dc1d918422697d7ac20c661171d7a320e889d7",
+      "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/mortality-metadata.json"
+    },
+    {
+      "source": "mortality",
+      "name": "mortality.json",
+      "title": "mortality: mortality.json",
+      "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+      "method": "POST",
+      "body": {
+        "query": [
+          {
+            "code": "alue_23_20260101",
+            "selection": {
+              "filter": "item",
+              "values": [
+                "SSS",
+                "HVA01",
+                "HVA02",
+                "HVA03",
+                "HVA04",
+                "HVA05",
+                "HVA06",
+                "HVA07",
+                "HVA08",
+                "HVA09",
+                "HVA10",
+                "HVA11",
+                "HVA12",
+                "HVA13",
+                "HVA14",
+                "HVA15",
+                "HVA16",
+                "HVA17",
+                "HVA18",
+                "HVA19",
+                "HVA20",
+                "HVA21",
+                "HVA90"
+              ]
+            }
+          },
+          {
+            "code": "kuolinsyyt_1_20210101",
+            "selection": {
+              "filter": "item",
+              "values": [
+                "04-21"
+              ]
+            }
+          },
+          {
+            "code": "timeperiod_y",
+            "selection": {
+              "filter": "item",
+              "values": [
+                "2020",
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+                "2025"
+              ]
+            }
+          },
+          {
+            "code": "contentscode",
+            "selection": {
+              "filter": "item",
+              "values": [
+                "ksyylkm"
+              ]
+            }
+          }
+        ],
+        "response": {
+          "format": "json-stat2"
+        }
+      },
+      "requestedAt": "2026-11-14T14:41:14.349Z",
+      "retrievedAt": "2026-11-14",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "finalUrl": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+      "bytes": 4938,
+      "sha256": "50a9f41f28fd60900e5cf2378242151f6e61b0c1d949240441417ddcf01be4e7",
+      "file": "research/12 Source releases/c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6/mortality.json"
+    }
+  ],
+  "id": "c7dd994dbb6b462100c5fe21aa4586438f872ad1c429791a3b955a61306730d6"
+}

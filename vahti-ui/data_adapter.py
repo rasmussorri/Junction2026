@@ -1,6 +1,6 @@
 """Data adapter for Vahti UI.
 
-Connects Vahti UI to the project's canonical data layer in sisu-ui/data/dataset.json.
+Connects Vahti UI to the project's canonical data layer in data/dataset.json.
 Provides dynamic caching, revision tracking, and seamless fallback to static/data.json.
 """
 import json
@@ -9,7 +9,7 @@ import time
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(ROOT, '..'))
-DATASET_PATH = os.path.join(PROJECT_ROOT, 'sisu-ui', 'data', 'dataset.json')
+DATASET_PATH = os.path.join(PROJECT_ROOT, 'data', 'dataset.json')
 FALLBACK_PATH = os.path.join(ROOT, 'static', 'data.json')
 
 _cached_mtime = None
@@ -24,7 +24,7 @@ def get_base_vahti():
 
 
 def load_canonical_dataset():
-    """Load raw dataset.json from sisu-ui data layer if available."""
+    """Load raw dataset.json from canonical data layer if available."""
     if not os.path.exists(DATASET_PATH):
         return None
     try:
@@ -35,12 +35,12 @@ def load_canonical_dataset():
         return None
 
 
-def merge_canonical_into_vahti(sisu_snapshot, base):
+def merge_canonical_into_vahti(canonical_snapshot, base):
     """Integrate canonical observations into the Vahti data schema."""
     out = dict(base)
-    data = sisu_snapshot.get('data', {})
-    revision = sisu_snapshot.get('revision', 'unknown')
-    imported_at = sisu_snapshot.get('importedAt', time.strftime('%Y-%m-%dT%H:%M:%SZ'))
+    data = canonical_snapshot.get('data', {})
+    revision = canonical_snapshot.get('revision', 'unknown')
+    imported_at = canonical_snapshot.get('importedAt', time.strftime('%Y-%m-%dT%H:%M:%SZ'))
 
     out['snapshot'] = {
         'revision': revision,

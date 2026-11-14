@@ -1,0 +1,125 @@
+{
+"id" : 4404,
+"data-updated": "2025-05-14",
+"range" : {
+"start": 2013,
+"end": 2024
+},
+"title" : {
+"fi": "Päivittäin tupakoivien osuus (%)",
+"en": "Daily smokers (%)",
+"sv": "Andelen personer som röker dagligen (%)"
+}
+,
+"description" : {
+"fi": "<p>Indikaattori ilmaisee päivittäin tupakoivien 20 vuotta täyttäneiden osuuden prosentteina vastaavanikäisestä suomalaisesta väestöstä. <br><br>Tupakointia kartoitettiin kysymällä vastaajilta: \"Tupakoitteko nykyisin (savukkeita, sikareita tai piippua)?\". Vastausvaihtoehtoina esitettiin 1) kyllä, päivittäin, 2) satunnaisesti ja 3) en lainkaan. Tarkastelussa otettiin huomioon vastausvaihtoehdon 1 valinneiden osuus.</p> ",
+"en": "<p>The indicator gives the percentage of daily smokers aged 20 and over in the total population of the same age. The respondents were requested to answer the following question about smoking: Do you currently smoke (cigarettes, cigars or pipe)?. The response options were 1) yes daily, 2) occasionally, and 3) not at all. The proportion of those who chose the response option 1 were included in the indicator.</p> ",
+"sv": "<p>Indikatorn anger andelen personer i åldern 20 och äldre år som röker dagligen. Andelen anges i procent av den finländska befolkningen i samma ålder. Rökningen kartlades genom att fråga enkätdeltagarna: Röker du numera (cigaretter, cigarrer eller pipa)? Svarsalternativen var 1) ja, dagligen, 2) sporadiskt, 3) nej, inte alls. I granskningen beaktades andelen personer som valt svarsalternativ 1. </p> "
+}
+,
+"interpretation" : {
+"fi": "<p>Indikaattori mittaa tupakointia. Indikaattori erottelee väestöstä ne, jotka tupakoivat päivittäin. <br><br> Tupakoinnilla on laaja-alaisia ja vakavia vaikutuksia lähes kaikkiin ihmisen elintoimintoihin. <br><br><b>Vaikutus väestön hyvinvointiin:</b><BR><BR>Suomessa tupakka aiheuttaa joka viidennen kuoleman aikuisiällä eli vuosittain noin 5 000 suomalaista kuolee tupakan aiheuttamiin sairauksiin. Joka kolmas syöpäkuolema on tupakan aiheuttama, ja joka viides sydän- ja verenkiertoelinten sairaus aiheutuu tupakoinnista. Keskimäärin tupakointi lyhentää elämää kahdeksan vuotta. Tupakointi on monien sairauksien riskitekijä ja pahentaa jo todettuja sairauksia. <BR><BR><b>Taloudellinen merkitys:</b><BR><BR>Vuodessa tupakkasairauksien hoitoon käytetään vähintään yhden keskussairaalan työpanos.<BR><BR><b> Mitä kunnassa / alueella tulisi tehdä? </b><BR><BR>Kunnan valtuusto päättää kunnan siirtymisestä savuttomuuteen. Päätöksen ja sen voimaantulon väliin varataan riittävästi aikaa savuttomuutta tukevien toimenpiteiden ja niiden seurannan suunnittelulle ja käyttöönotolle. <BR><BR> Tavoitteita ja toimenpiteitä suunnittelemaan asetetaan moniammatillinen työryhmä. Työryhmässä sovitaan tavoitteet ja toimenpiteiden aikataulu, työnjako, vastuualueet ja seuranta. <BR><BR>Savuttomuuspäätöksestä ja sen voimaantulosta tiedotetaan monipuolisesti ja hyvissä ajoin. Tässä on avuksi aikataulutettu Viestintäsuunnitelma. Viestinnässä painotetaan savuttomuuden hyötyjä - miksi savuttomuus on tärkeää kunnan, yksittäisen ihmisen ja hänen läheistensä kannalta, mitä tukea tupakoinnin lopettamiseen tarjotaan? </p> ",
+"en": "<p>This indicator measures smoking. The indicator identifies those persons in the population who smoke on a daily basis. <br><br><br />Smoking has extensive and serious effects on almost all of a smoker's vital functions. <br><br><br /><b>Impact on the wellbeing of the population</b> <br><br><br />In Finland, tobacco is the cause of one in five deaths in adulthood; in other words, every year some 5,000 Finns die of smoking-related disorders. One in three deaths from cancer are caused by tobacco, and one in five cases of cardiovascular disease are caused by smoking. On average, smoking shortens a smoker's lifespan by eight years. Smoking is a risk factor for a number of illnesses, and it exacerbates existing conditions. <br><br><br /><b>Financial impact</b> <br><br><br />The annual cost of treating smoking-related illnesses is equal at<br />least to the work input of an entire central hospital. <br><br><br /><b>What should be done in the municipality/region?</b> <br><br><br />The municipal council should decide to declare the municipality a non-smoking municipality. Sufficient time should be allowed between the decision and its entry into force for planning measures to support the non-smoking policy and their implementation and monitoring. <br><br><br />A multi-professional working group should be appointed to plan these measures and targets. The working group should agree on the targets and the timetable for measures along with the division of duties, areas of responsibility and monitoring. <br><br><br />The non-smoking decision and its entry into force should be publicised broadly and well in advance. The publicity should emphasise the benefits of not smoking: why having a non-smoking policy is important for the municipality and for individual residents and their family members, and what support is offered to help smokers quit.</p> ",
+"sv": "<p>Indikatorn mäter rökning. Ur befolkningen skiljer indikatorn åt den del av befolkningen som röker dagligen.<br><br><br />Rökning ger omfattande och allvarliga konsekvenser för nästan alla människans livsfunktioner.<br><br><br /><b>Konsekvenser för befolkningens välfärd</b><br><br><br />I Finland orsakar rökning vart femte dödsfall bland den vuxna befolkningen, dvs. cirka 5 000 finländare dör i sjukdomar som orsakas av rökning. Vart tredje dödsfall på grund av cancer och var femte hjärt- och kärlsjukdom orsakas av rökning. Rökning förkortar livet med i genomsnitt åtta år. I fråga om många sjukdomar är rökning en riskfaktor och förvärrar sjukdomar som redan konstaterats.<br><br><br /><b>Ekonomisk betydelse</b><br><br><br />Under ett år används minst ett centralsjukhus arbetsinsatser för att behandla sjukdomar som beror på rökning.<br><br><br /><b>Vad bör man göra i kommunen/området?</b><br><br><br />Kommunfullmäktige beslutar om rökfrihet i kommunen. Mellan beslutet och ikraftträdandet av detta reserveras tillräckligt med tid för åtgärder som stöder rökfrihet och för planeringen och uppföljningen av dessa. <br><br><br />En mångprofessionell arbetsgrupp tillsätts för att planera målen och åtgärderna. I arbetsgruppen kommer man överens om målen och tidsplanen för åtgärderna, arbetsfördelningen, ansvarsområdena och uppföljningen. <br><br><br />Mångsidig information i god tid ordnas om rökfrihetsbeslutet och ikraftträdandet av detta. I kommunikationen betonas fördelarna med rökfrihet - varför rökfrihet är viktig med tanke på kommunen, en enskild person och dennes närstående, och vilken typ av hjälp som tillhandahålls för att sluta röka.</p> "
+}
+,
+"limits" : {
+"fi": "<p>Tuloksen varmuuteen vaikuttaa se, että aineisto on tuotettu otostutkimusaineistosta,<br />jossa esiintyy vastauskatoa. Vastauskatoa on korjattu tuloksista painokertoimien avulla. <br />Vuoden 2022 tiedonkeruussa vastausaktiivisuus oli 20 - 64-vuotiailla 37 %, <br />65 vuotta täyttäneillä 59 % ja 75 vuotta täyttäneillä 57 %.</p><br /><p><br />Indikaattorin tulkinnassa täytyy ottaa huomioon, että kyseessä on vastaajan itse ilmoittamat tiedot.<br />Lisätietoja: <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Tilastoraportti</a></p> ",
+"en": "<p>The confidence of the result is influenced by the fact that the data is based on survey sampling data,<br />which is affected by nonresponse. <br />In the results, nonresponse has been corrected by using weighting coefficients. <br />In the 2022 data collection, the response rate was 37 % for people aged 20 - 64, <br />59 % for people aged 65 and older, and 57 % for people aged 75 and older.</p><br /><p><br />When interpreting the indicator, it should be noted that this information was reported by <br />the respondents themselves.<br />More information: <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Statistical Report</a> </p> ",
+"sv": "<p>Resultatens tillförlitlighet påverkas av att materialet har inhämtats från urvalsundersökning där det <br />förekommer svarsbortfall. <br />Svarsbortfallet har korrigerats i resultaten med hjälp av viktkoefficienter. <br />I 2022 års datainsamling var svarsaktiviteten 37 % bland 20 - 64-åringar, <br />59 % bland personer som fyllt 65 år och 57 % bland personer som fyllt 75 år.</p><br /><p><br />Vid tolkning av indikatorn bör man beakta att det är fråga om uppgifter som lämnats av respondenten själv.<br />Mer information <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Statistikrapport</a> </p> "
+}
+,
+"legislation" : {
+"fi": "<p>Tupakkalaki eli Laki toimenpiteistä tupakoinnin vähentämiseksi (693/1976) on Suomen lainsäädännössä oleva laki, jonka tarkoituksena on rajoittaa tupakoinnista aiheutuvia terveyshaittoja vähentämällä tupakointia. </p> ",
+"en": "<p>The Tobacco Act (693/1976) is a Finnish national act whose purpose is to reduce the adverse health effects of smoking by curbing smoking.</p> ",
+"sv": "<p>Tobakslagen, dvs. lagen om åtgärder för inskränkande av tobaksrökning (693/1976) är en lag i den finska lagstiftningen vars syfte är att begränsa hälsoskador som orsakas av rökning genom att inskränka rökningen.</p> "
+}
+,
+"notices" : {
+"fi": "<p>Sairaanhoitopiirien tietoina esitetään vastaavien maakuntien tiedot. Itä-Savon ja Länsi-Pohjan sairaanhoitopiirien tiedot jäävät puuttuviksi. Kuntakohtainen tieto vuodelta 2018 näytetään lisäotoksen tilanneille kunnille.</p> ",
+"en": "The indicator presents the data on region for hospital districts. The data of two hospital districts, North Savo and Länsi-Pohja, the results are not shown. Results for the year 2018 are shown only for the municipalities that ordered an extra sample of the FinSote survey. ",
+"sv": "För sjukvårdsdistrikt visas i indikationen information från landskapet. Uppgifterna om två sjukvårdsdistrikt, Östra Savolax och sydvästra Lapplands, visas inte. Resultat för året 2018 visas bara för kommuner som hade beställt ett extra urval av FinSote undersökningen. "
+}
+,
+"primaryValueType" : {
+"code": "PROS",
+"title": {
+"fi": "Prosenttia",
+"en": "Percent",
+"sv": "Procent"
+}
+},
+"decimals" : 1,
+"classifications" : {
+"region" : {
+"title": {
+"fi": "Kunta, maakunta, hyvinvointialue, aluehallintoviraston alue, erityisvastuualue, Manner-Suomi",
+"en": "Municipality, region, the wellbeing services county, area for the regional state administrative agency, university hospital special responsibility area, Mainland Finland",
+"sv": "Kommun, landskap, välfärdsområde, området för regionförvaltningsverket, specialupptagningsområde, Fastlandsfinland"
+}
+,
+"values": ["Aluehallintovirasto","Nuts1","Kunta","Erva","Maakunta"]
+},
+"sex" : {
+"title": {
+"fi": "Miehet, naiset, yhteensä",
+"en": "Male, female, combined",
+"sv": "Män, kvinnor, totalt"
+}
+,
+"values": ["male","female","total"]
+}
+},
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"subjects" : [
+{
+"fi" : "riskitekijät",
+"sv" : "riskfaktorer",
+"en" : "risk factors ",
+"uri" : ""
+},
+{
+"fi" : "elintavat",
+"sv" : "levnadsvanor",
+"en" : "living habits",
+"uri" : "http://www.yso.fi/onto/yso/p5530"
+},
+{
+"fi" : "tupakointi",
+"sv" : "rökning",
+"en" : "smoking",
+"uri" : ""
+}
+],
+"sources": [
+{
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"title" : {
+"fi": "Terve Suomi -tutkimus (THL)",
+"en": "Healthy Finland Survey (THL)",
+"sv": "Undersökningen Hälsosamma Finland (THL)"
+}
+,
+"description" : {
+"fi": "Terve Suomi -tutkimus tuottaa ajankohtaista tietoa Suomessa asuvien aikuisten terveydestä, hyvinvoinnista ja palveluista sekä niissä tapahtuneista muutoksista ja tulevasta kehityksestä. Tutkimuksessa yhdistyvät aiemmat kyselytutkimus FinSote sekä terveystarkastustutkimus FinTerveys.",
+"en": "The Healthy Finland survey provides up-to-date information on the health, well-being and service use of adults living in Finland, as well as on changes and future developments in these areas. The survey brings together the FinSote questionnaire survey and the FinHealth health examination study.",
+"sv": "Undersökningen Hälsosamma Finland producerar aktuell information om hälsa, välfärd och service för vuxna bosatta i Finland samt om förändringarna i dessa, och den framtida utvecklingen. I undersökningen kombineras den tidigare enkätundersökningen FinSote och undersökningen om hälsa, välfärd och social- och hälsovården FinHälsa."
+}
+}
+],
+"groups": [ 821, 769, 560 ]
+}

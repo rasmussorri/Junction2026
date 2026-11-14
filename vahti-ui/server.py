@@ -16,7 +16,7 @@ PORT = int(os.environ.get('PORT', '8765'))
 
 
 def load_env():
-    for p in (os.path.join(ROOT, '..', '.env'), os.path.join(ROOT, '.env'), os.path.join(ROOT, '..', 'sisu-ui', '.env')):
+    for p in (os.path.join(ROOT, '..', '.env'), os.path.join(ROOT, '.env')):
         if os.path.exists(p):
             for line in open(p, encoding='utf-8'):
                 line = line.strip()

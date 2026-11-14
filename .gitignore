@@ -4,6 +4,8 @@
 !.env.example
 *.pem
 *.key
+# Archives
+archive/
 # Local runtime state
 00 Ohjaus/state.json
 00 Ohjaus/STOP

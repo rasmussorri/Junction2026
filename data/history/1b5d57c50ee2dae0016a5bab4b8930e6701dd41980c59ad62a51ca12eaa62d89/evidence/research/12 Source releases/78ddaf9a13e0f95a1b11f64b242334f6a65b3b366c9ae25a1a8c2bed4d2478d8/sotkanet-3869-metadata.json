@@ -1,0 +1,181 @@
+{
+"id" : 3869,
+"data-updated": "2026-09-18",
+"range" : {
+"start": 2015,
+"end": 2026
+},
+"title" : {
+"fi": "Papilloomavirus- eli HPV-rokotuskattavuus, tytöt",
+"en": "Coverage of HPV-vaccine, girls",
+"sv": "Vaccinationstäckning för HPV-vaccin, flickor"
+}
+,
+"description" : {
+"fi": "<p>Indikaattori ilmaisee, kuinka suuri osa tytöistä on saanut useita eri syöpiä ehkäisevät HPV-rokotukset rokotusohjelman mukaisesti alakouluikäisenä. Yhteensä kaksi HPV-rokoteannosta saaneiden tyttöjen osuus niistä, jotka täyttävät raportointivuonna 13 vuotta.<br /></p> <p><br />HPV-rokotuskattavuudet arvioidaan ja julkaistaan syksyisin. Kattavuusarviossa ovat mukana rokotukset, jotka on annettu kahtena raportointisyksyä edeltävänä lukuvuonna. Rokotustiedot kerätään lukuvuosittain ja keruuaika on aina elokuusta seuraavan vuoden heinäkuun loppuun.</p>",
+"en": "<p>The indicator shows the share of girls who have been given the HPV vaccinations preventing several different cancers according to the vaccination programme when in primary school age. The share of girls given a total of two doses of the HPV vaccine of girls turning 13 in the year of reporting. <br /><p>The HPV vaccination coverages are assessed and published in autumn. The coverage assessment includes the vaccinations that have been given during the two school years preceding the autumn of reporting. Vaccination data are collected by school year and the collection time is always from August to the end of July the following year.</p>",
+"sv": "<p>Indikatorn visar hur stor andel av fickorna har fått HPV-vaccin i de lägre klasserna i den grundläggande utbildningen. HPV-vaccinet skyddar mot flera olika cancertyper. enligt vaccinationsprogrammet (elever i femte och sjätte klassen), som skyddar mot flera cancertyper. Andelen av flickor som fått sammanlagt två HPV-doser av alla flickor som fyller 13 år under rapporteringsåret.<br /></p><p><br />HPV-vaccinationstäckningen utvärderas och publiceras på hösten. I täckningsuppskattningen ingår vaccinationer som getts under de två läsår som föregår rapporteringshösten. Vaccinationsuppgifterna samlas in läsårsvis och datainsamlingsperioden är alltid från augusti till slutet av juli följande år.<br /></p>"
+}
+,
+"interpretation" : {
+"fi": "<p>Paras keino suojautua ihmisen papilloomaviruksen tartunnalta on HPV-rokote. Se suojaa hyvin valtaosalta niiltä papilloomavirustyypeiltä, jotka aiheuttavat pahanlaatuisia muutoksia. Osa papilloomavirusten aiheuttamista infektioista etenee esimerkiksi kohdunkaulan, ulkosynnyttimien, emättimen, siittimen tai peräaukon syöviksi. HPV-rokote ehkäisee tehokkaasti etenkin kohdunkaulan syövän esiasteita ja syöpiä.<br /></p><p><br />HPV-rokotuksia on tarjottu osana rokotusohjelmaa tytöille syksystä 2013 ja pojille syksystä 2020. Ilman rokotuksia HPV-infektiot ovat yleisiä. Kaikkien nuorten rokottaminen vähentää tehokkaasti tartuntoja ja papilloomavirusinfektioita. Korkealla rokotuskattavuudella voidaan vähentää syöpien aiheuttamaa tautitaakkaa.<br /></p><p><br />Rokote tehoaa parhaiten, kun sen saa riittävän ajoissa nuorena, jolloin papilloomavirustartuntaa ei todennäköisesti ole vielä saatu. Nuorena elimistö synnyttää paremmin vasta-aineita ja rokote antaa pitkäaikaisen suojan. Rokotusta tarjotaan kaikille 5. - 6.-luokkalaisille. Tämän ikäisellä rokotussarjaan kuuluu yhteensä 2 annosta rokotetta. <br /></p><p><br />Indikaattori kuvaa kuinka suuri osuus tytöistä on saanut HPV-rokotukset kansallisen rokotusohjelman mukaisesti alakouluiässä. Korkea rokotuskattavuus parantaa HPV-rokotuksista saatavaa hyötyä.<br /></p><p><br />Indikaattori kuvaa myös kouluterveydenhuollon laadukasta toteuttamista mm. neuvonnan ja ohjauksen onnistumista, rokotusten tarkistusta ja täydennystä, kirjaamisen tarkkuutta ja Avohilmo-tiedonsiirron onnistumista. HPV-rokotuskattavuuteen vaikuttavat monet eri tekijät mm. kouluterveydenhuollon resurssit sekä sote-sektorin ja koulujen yhteistoiminta. Indikaattoriin voi vaikuttaa riittävällä resursoinnilla ja aktiivisilla rokotuskattavuutta edistävillä toimenpiteillä.</p> ",
+"en": "<p>The HPV vaccine provides the best protection against a human papillomavirus infection. It provides protection against the majority of the papillomavirus types causing malignant changes. Some of the infections caused by papillomaviruses progress to cancers of the cervix, female external genitalia, vagina, penis or anus, for example. The HPV vaccine effectively prevents at least cervical cancer and its precursors. <br /></p><p><br />HPV vaccinations have been offered to girls as part of the vaccination programme since autumn 2013 and to boys since autumn 2020. Without vaccinations, HPV infections are common. Vaccinating all young people reduces transmissions and papillomavirus infections. A high immunisation coverage can be used to reduce the disease burden caused by cancers.<br /></p><p><br />The vaccine is most effective if given at a sufficiently young age as it is unlikely that a young person has yet contracted the virus. A young person’s body produces antibodies better and the vaccine will provide long-term protection. The vaccine is offered to all 5th and 6th-graders. For children of this age, the vaccination series includes a total of 2 doses of the vaccine. <br /></p><p><br />The indicator describes the proportion of girls who have been given the HPV vaccinations according to the national vaccination programme when in primary school age. High immunisation coverage improves the benefits of HPV vaccinations.<br /></p><p><br />The indicator also describes the high-quality implementation of school health care, including the success of advice and counselling, checking for vaccinations and their supplementation, the accuracy of record-keeping, and the success of Avohilmo data transfer. Many different factors affect the HPV immunisation coverage, including school health care resources as well as cooperation between the social and health care sector and schools. The indicator may be affected by sufficient resourcing and active measures promoting vaccination coverage.</p> ",
+"sv": "<p>Bästa sättet att skydda sig mot smitta av humant papillomvirus är vaccination med HPV-vaccin. Det skyddar bra mot majoriteten av de papillomvirustyper som orsakar elakartade förändringar. En del av de infektioner som orsakas av papillomvirus utvecklas exempelvis till cancer i livmoderhalsen, de yttre könsdelarna, slidan, penis eller ändtarmsöppningen. HPV-vaccinet förebygger effektivt i synnerhet förstadier till och cancer i livmoderhalsen.<br /></p><p><br />HPV-vaccinationer har erbjudits som en del av vaccinationsprogrammet för flickor sedan hösten 2013 och för pojkar från och med hösten 2020. Utan vaccinationer är HPV-infektioner vanliga. Vaccination av alla ungdomar minskar effektivt smittor och papillomvirusinfektioner. Med hög vaccinationstäckning kan man minska den sjukdomsbörda som cancer orsakar.<br /></p><p><br />Vaccinet är mest effektivt när det tas emot tillräckligt tidigt i ung ålder, när det är osannolikt att personen smittats av papillomvirus. I ung ålder är kroppen bättre på att generera antikroppar och vaccinet ger ett långsiktigt skydd. Vaccination erbjuds alla elever i årskurs 5 - 6. Vid denna ålder innehåller vaccinationsserien totalt 2 doser av vaccinet.<br /></p><p><br />Indikatorn beskriver andelen flickor som har fått HPV-vaccinationer enligt det nationella vaccinationsprogrammet i de lägre klasserna i den grundläggande utbildningen. Hög vaccinationstäckning förbättrar fördelarna med HPV-vaccinationer.<br /></p><p><br />Indikatorn beskriver också hur hög kvaliteten på skolhälsovården är, bland annat hur rådgivningen och handledningen lyckas, hur väl vaccinationerna kontrolleras och kompletteras, hur noggrann dokumenteringen är och hur väl Avohilmo-dataöverföringen har lyckats. HPV-vaccinationstäckningen påverkas av många olika faktorer, bland annat av resurserna inom skolhälsovården samt av samarbetet mellan vårdsektorn och skolorna. Vi kan påverka indikatorn med hjälp av tillräckliga resurser och med aktiva åtgärder som främjar vaccinationstäckningen.</p>"
+}
+,
+"limits" : {
+"fi": "<p>Ahvenanmaan tiedot ovat puutteelliset syyskuusta 2025 lähtien.</p>Rokotusrekisterin laatuselosteen mukaan laskettu nimittäjätieto, rokotustietoja vuodesta 2009.",
+"en": "<p>Data for Åland has been incomplete since September 2025.</p>Denominator data calculated based on the quality description of the vaccination register.",
+"sv": "Uppgift om nämnare, beräknad enligt kvalitetsbeskrivningen i vaccinationsregistret, vaccinationsuppgifter från 2009."
+}
+,
+"legislation" : {
+"fi": "Tartuntatautilaki ",
+"en": "Communicable Diseases Act ",
+"sv": "Lagen om smittsamma sjukdomar "
+}
+,
+"notices" : {
+"fi": "",
+"en": "",
+"sv": ""
+}
+,
+"primaryValueType" : {
+"code": "PROS",
+"title": {
+"fi": "Prosenttia",
+"en": "Percent",
+"sv": "Procent"
+}
+},
+"decimals" : 1,
+"classifications" : {
+"sex" : {
+"title": {
+"fi": "Naiset",
+"en": "Female",
+"sv": "Kvinnor"
+}
+,
+"values": ["female"]
+},
+"region" : {
+"title": {
+"fi": "Maakunta, hyvinvointialue, sairaanhoitopiiri, aluehallintoviraston alue, erityisvastuualue, suuralue, Manner-Suomi/Ahvenanmaa, koko maa",
+"en": "Region, the wellbeing services county, hospital district, area for the regional state administrative agency, university hospital special responsibility area, major region, Mainland Finland/Åland, whole country",
+"sv": "Landskap, välfärdsområde, sjukvårdsdistrikt, området för regionförvaltningsverket, specialupptagningsområde, storområde, Fastlandsfinland/Åland, hela landet"
+}
+,
+"values": ["Suuralue","Maa","Sairaanhoitopiiri","Aluehallintovirasto","Nuts1","Erva","Maakunta"]
+}
+},
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"subjects" : [
+{
+"fi" : "tartuntataudit",
+"sv" : "smittsamma sjukdomar",
+"en" : "infectious diseases",
+"uri" : ""
+},
+{
+"fi" : "tytöt",
+"sv" : "flickor",
+"en" : "girls",
+"uri" : ""
+},
+{
+"fi" : "rokotus",
+"sv" : "vaccination",
+"en" : "vaccination",
+"uri" : ""
+},
+{
+"fi" : "rokottaminen",
+"sv" : "vaccinering",
+"en" : "vaccination",
+"uri" : ""
+},
+{
+"fi" : "tartuntatautien torjunta",
+"sv" : "smittskydd ",
+"en" : "infection control ",
+"uri" : ""
+},
+{
+"fi" : "infektiotaudit",
+"sv" : "infektionssjukdomar",
+"en" : "infectious diseases",
+"uri" : ""
+},
+{
+"fi" : "papilloomavirusrokote",
+"sv" : "vaccin mot papillomvirus",
+"en" : "human papillomavirus vaccine",
+"uri" : ""
+},
+{
+"fi" : "kouluterveydenhuolto",
+"sv" : "skolhälsovård",
+"en" : "school health care",
+"uri" : "http://www.yso.fi/onto/yso/p11770"
+},
+{
+"fi" : "hyvinvointikertomus",
+"sv" : "välfärdsberättelse",
+"en" : "health report"
+}
+],
+"sources": [
+{
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"title" : {
+"fi": "Rokotusrekisteri (THL)",
+"en": "National vaccination register (THL)",
+"sv": "Vaccinationsregistret (THL)"
+}
+,
+"description" : {
+"fi": "Terveyden ja hyvinvoinnin laitos on perustanut Suomeen valtakunnallisen rokotusrekisterin. Rokotustiedot kerätään suoraan potilastietojärjestelmistä. Rokotusrekisteri kattaa julkisessa perusterveydenhuollossa annetut rokotukset. Tietoa saadaan myös erikoissairaanhoidossa ja yksityisessä terveydenhuollossa annetuista rokotuksista. ",
+"en": "The National Institute for Health and Welfare (THL) maintains the national vaccination register. Vaccination details are obtained electronically directly from patient information systems. The national vaccination register includes vaccinations given in public primary health care. Information is also obtained about vaccinations administered in specialist medical care and private health care. ",
+"sv": "Institutet för hälsa och välfärd har skapat ett vaccinationsregister som omfattar hela Finland. <br />Uppgifter om vaccinationer samlas in direkt ur patientdatasystemen. Vaccinationsregistret omfattar de vaccinationer som ges inom den offentliga primärvården. Registret innefattar också de vaccinationer som ges inom den specialiserade sjukvården och den privata hälso- och sjukvården."
+}
+},
+{
+"organization" : {
+"id" : 3,
+"title": {
+"fi": "Tilastokeskus",
+"en": "Statistics Finland",
+"sv": "Statistikcentralen"
+}
+},
+"title" : {
+"fi": "Väestörakenne (Tilastokeskus)",
+"en": "Population structure (Statistics Finland)",
+"sv": "Befolkningsstruktur (Statistikcentralen)"
+}
+,
+"description" : {
+"fi": "Väestörakennetilasto kuvaa vuoden vaihteessa Suomessa vakinaisesti asuvia Suomen ja ulkomaiden kansalaisia. Henkilöistä tilastoidaan mm. asuinpaikka, sukupuoli, ikä, siviilisääty, kieli, kansalaisuus ja syntymävaltio, samoin tiedot puolisosta ja kaikista lapsista ja henkilön vanhemmista.",
+"en": "Statistics on the structure of the population describe Finnish and foreign citizens permanently resident in Finland at the turn of the year. The statistics contain data on the population's place of residence, age, native language, nationality and country of birth, as well as on the spouse, all children and parents of an individual person. The statistics also contain data on the day a person was married or divorced. The data are obtained from the Population Register Centre's population information system.",
+"sv": "Statistiken över befolkningsstrukturen beskriver finska och utländska medborgare, som vid årsskiftet är fast bosatta i Finland. I statistiken ingår uppgifter om befolkningens boningsort, kön, ålder, civilstånd, språk, nationalitet och födelseland liksom uppgifter om maka/make och samtliga barn samt föräldrar."
+}
+}
+],
+"groups": [ 673, 218 ]
+}

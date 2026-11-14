@@ -1,0 +1,142 @@
+{
+"id" : 4411,
+"data-updated": "2025-05-14",
+"range" : {
+"start": 2013,
+"end": 2024
+},
+"title" : {
+"fi": "Alkoholia liikaa käyttävien osuus (AUDIT-C) (%)",
+"en": "Persons who drink too much alcohol (AUDIT-C) (%)",
+"sv": "Andelen personer som dricker för mycket alkohol (AUDIT-C) (%)"
+}
+,
+"description" : {
+"fi": "<p>Indikaattori (AUDIT-C) ilmaisee alkoholia todennäköisesti liikaa käyttävien osuuden prosentteina 20 vuotta täyttäneistä alkoholin käyttäjistä.<br /><br><br><br />Perustuu AUDIT-C:n kolmeen kysymykseen: \"Kuinka usein juotte olutta, viiniä tai muita alkoholijuomia? Ottakaa mukaan myös ne kerrat, jolloin nautitte vain pieniä määriä, esim. pullon keskiolutta tai tilkan viiniä. Valitkaa se vaihtoehto, joka lähinnä vastaa omaa tilannettanne.\" Vastausvaihtoehtoina esitettiin 1) en koskaan, 2) noin kerran kuukaudessa tai harvemmin, 3) 2-4 kertaa kuukaudessa, 4) 2-3 kertaa viikossa ja 5) 4 kertaa viikossa tai useammin. \"Kuinka monta annosta alkoholia yleensä olette ottanut niinä päivinä, jolloin käytitte alkoholia? Katsokaa oheista laatikkoa.\" Vastausvaihtoehtoina olivat 1) 1-2 annosta, 2) 3-4 annosta, 3) 5-6 annosta, 4) 7-9 annosta ja 5) 10 tai enemmän. \"Kuinka usein olette juonut kerralla kuusi tai useampia annoksia?\" Vastausvaihtoehtoina olivat 1) en koskaan, 2) harvemmin kuin kerran kuukaudessa, 3) kerran kuukaudessa, 4) kerran viikossa ja 5) päivittäin tai lähes päivittäin. Kukin kysymys pisteytettiin 0-4 ja pisteet laskettiin yhteen, jolloin kokonaispistemääräksi voi saada 0-12. Tarkastelussa liikakäytön pisterajoina on 20-64 -vuotiailla miehillä vähintään 6 pistettä, 20-64 -vuotiailla naisilla vähintään 5 pistettä, ja 65 vuotta täyttäneillä miehillä ja naisilla vähintään 4 pistettä.<br /><br><br><br />AUDIT-C -mittari on lyhennetty versio laajemmasta AUDIT-testistä (Alcohol Use Disorders Identification Test), jonka Maailman terveysjärjestö WHO kehitti 1980-luvulla. AUDIT-C mittaa juomisen määriä, sitä kuinka usein juo, kuinka paljon kerralla ja kuinka usein juo runsaasti eli kuusi tai useampia annoksia kerralla. Riskijuomista ja alkoholihaittojen varhaista ilmaantumista mittaavista testeistä AUDIT on tunnetuin, eniten tutkimustukea saanut ja eniten käytössä oleva seulontaväline. Testin käyttö alkoholin käytön kartoituksessa on hyvä, luotettava ja nopea mittari. <br><br>Juomisen riskejä arvioidaan AUDIT-testin palautteessa pisteinä. Testin tavoitteena on tunnistaa ne vastaajat, joiden juomisen aiheuttama riski on koholla. AUDIT-C ei ole varsinaisen ongelmajuomisen mittari, olkoonkin että korkeimmat pistemäärät testissä viittaavat alkoholiongelmaan. Testin avulla halutaan siis löytää vastaajat, joiden juominen vasta alkaa aiheuttaa pulmia ja näin ehkäistä ongelmien paheneminen.</p> ",
+"en": "<p>This indicator (AUDIT-C) gives the percentage (%) of alcohol users aged 20 or over who probably use alcohol to excess.<br /><br><br><br />Based on three questions in AUDIT-C: \"How often do you drink beer, wine or other alcoholic beverages? Include the times when you only had a small amount, e.g. a bottle of medium beer or a sip of wine. Please circle the alternative that best fits your situation.\" The multiple-choice answers were: 1) never, 2) once a month or less often, 3) 2-4 times a month, 4) 2-3 times a week, and 4) 4 or more times a week. \"How many units of alcohol do you usually consume on the days when you drink alcoholic beverages? Please refer to the adjacent box.\" The multiple-choice answers were: 1) 1-2 units, 2) 3-4 units, 3) 5-6 units, 4) 7-9 units, and 5) 10 or more units. \"How often do you consume 6 or more units of alcohol at one time?\" The multiple-choice answers were: 1) never, 2) less often than once a month, 3) once a month, 4) once a week, and 5) daily or almost daily. Each response was given a score of 0 to 4, and the scores were added up, giving a range of 0 to 12. The criterion for excess use in the analysis was a score of 6 points or more for 20-64 year-old men, 5 points or more for 20-64 year-old women, and 4 points or more for men and women age 65 and over.<br /><br><br><br />The AUDIT-C indicator is a condensed version of the broader AUDIT test (Alcohol Use Disorders Identification Test) developed by the World Health Organization in the 1980s. AUDIT-C measures quantities of drinking: how often the respondent drinks, how much the respondent drinks at any one time, and how often the respondent drinks a large amount (6 or more units at one time). AUDIT is the best-known and most used screening tool out of all tests for measuring at-risk drinking habits and for early detection of alcohol abuse; it also has the largest body of research findings endorsing it. It is a good, reliable and quick test for surveying alcohol use.<br /><br><br><br />In the feedback on the AUDIT test, drinking risks are evaluated on the basis of the point scores. The purpose of the test is to identify respondents with an elevated risk caused by drinking. AUDIT-C is not, however, really an indicator of problem drinking, even if high scores in the test do point to an alcohol problem. The main purpose of the test is to identify respondents whose drinking is perhaps only just starting to cause problems and thus to prevent those problems from escalating.</p> ",
+"sv": "<p>Indikatorn (AUDIT-C) anger den procentuella andelen 20-åringar och äldre alkoholbrukare som sannolikt använder för mycket alkohol.<br /><br><br><br />Grundar sig på de tre frågorna i AUDIT-C: \"Hur ofta dricker ni öl, vin eller andra alkoholdrycker? Inkludera även de gånger då ni dricker endast små mängder, till exempel en flaska mellanöl eller en skvätt vin. Välj det alternativ som närmast svarar mot er egen situation.\" Svarsalternativen var 1) aldrig, 2) cirka en gång per månad eller mer sällan, 3) 2-4 gånger per månad, 4) 2-3 gånger per vecka och 5) 4 gånger per vecka eller oftare. \"Hur många doser alkohol har ni i allmänhet druckit de dagar då ni använde alkohol? Se boxen intill.\" Svarsalternativen var 1) 1-2 doser, 2) 3-4 doser, 3) 5-6 doser, 4) 7-9 doser och 5) 10 doser eller mer. \"Hur ofta har ni på en gång druckit sex eller flera doser?\" Svarsalternativen var 1) aldrig, 2) mer sällan än en gång per månad, 3) en gång per månad, 4) en gång per vecka och 5) dagligen eller nästan dagligen. Varje fråga poängsattes med 0-4, och poängen räknades samman, vilket kan ge ett totalt poängantal mellan 0 och 12. I granskningen var poänggränserna för alltför stor konsumtion för 20-64 år gamla män minst 6 poäng, för 20-64 år gamla kvinnor minst 5 poäng, och för män och kvinnor 65 år och äldre minst 4 poäng.<br /><br><br><br />AUDIT-C-indikatorn är en förkortad version av det mer omfattande AUDIT-testet (Alcohol Use Disorders Identification Test) som Världshälsoorganisationen WHO utvecklade på 1980-talet. AUDIT-C mäter mängderna som konsumeras, hur ofta man dricker alkohol, hur mycket per gång och hur ofta man dricker mycket, dvs. sex eller fler doser per gång. Av de test som mäter riskkonsumtion och tidig uppkomst av alkoholskador är AUDIT det mest kända som fått mest forskningsstöd och det screeningverktyg som används mest. Tillämpningen av testet i kartläggningen av alkoholbruk är en bra, tillförlitlig och snabb indikator.<br /><br><br><br />Riskerna med att dricka bedöms i poäng i responsen på AUDIT-testet. Syftet med testet är att identifiera de respondenter som löper en större risk på grund av drickande. AUDIT-C är inte en indikator för egentligt problemdrickande, även om högre poängantal i testet tyder på alkoholproblem. Med hjälp av testet vill man således finna de respondenter vars drickande är i ett skede då det först börjar orsaka problem och på detta sätt förebygga att problemen förvärras.</p> "
+}
+,
+"interpretation" : {
+"fi": "<p>Alkoholin liikakäyttö on yksi keskeisimmistä suomalaisen yhteiskunnan terveysuhkista. Alkoholin liikakäyttöön liittyy sekä terveydellisiä että sosiaalisia haittoja tai huomattava riski sellaisista. Alkoholiin liittyvät kuolemansyyt ovat viimevuosina olleet yksi työikäisten yleisimmistä kuolemansyistä. Lisäksi alkoholi selittää miehillä noin neljänneksen väestöryhmien välisistä ns. sosioekonomisista eroista kuolleisuudessa. <br><br>AUDIT-C on tutkimusten mukaan validi indikaattori alkoholin käytölle, johon liittyy kohonnut riski saada alkoholihaittoja. <BR><BR><b>Vaikutus väestön hyvinvointiin</b><BR><BR> Alkoholin aiheuttamien terveysongelmien määrän tiedetään olevan suorassa suhteessa alkoholin kokonaiskulutukseen. Alkoholin runsas käyttö lisää sairastavuutta, pahentaa monien sairauksien oireita ja lisää riskiä ajautua pois työelämästä. Vanhempien runsas alkoholinkäyttö on riskitekijä myös lasten tasapainoiselle kasvulle ja kehitykselle, koska alkoholin liikakäyttö haittaa huolenpitoa ja hoivaa sekä lapsen kiintymyssuhteiden kehitystä. Runsaasti alkoholia käyttävä vanhempi toimii myös roolimallina lapsen omalle haitalliselle alkoholinkäytölle. Alkoholin liikakäyttö on yksi keskeisimmistä elintapatekijöistä, joka voidaan nähdä sosiaaliryhmien välisten terveys- ja kuolleisuuserojen taustalla: alkoholi selittää miehillä noin 25% väestöryhmien välisistä ns. sosioekonomisista eroista kuolleisuudessa.<BR><BR><b>Taloudellinen merkitys</b><BR><BR>Vuonna 2011 alkoholihaittojen välittömät kustannukset julkiselle vallalle olivat 1248-1454 miljoonaa euroa. Alkoholiveron tuotto oli 1281 miljoonaa euroa. Runsaan kolmanneksen kustannuksista maksavat kunnat terveydenhuollon ja sosiaalihuollon kustannuksina. Toisen runsaan kolmanneksen maksaa valtio järjestyksen ja turvallisuuden ylläpidon, oikeuslaitoksen ja vankeinhoidon kustannuksina. Jäljellä olevasta kolmanneksesta suurimman osan muodostavat eläkkeet ja sairauspäivärahat. Huomattavia välillisiä kustannuksia alkoholi aiheuttaa elinkeinoelämälle alentuneen tuottavuuden ja tuotannon menetysten kautta. Kustannuksia on mahdollisuus alentaa puuttumalla ongelmiin varhaisessa vaiheessa. Päihdehuollossa lyhyet katkaisuhoitojaksot ja perheiden alkoholiongelmien ennaltaehkäisy ja varhainen puuttuminen sekä hoitaminen ilman lasten huostaanottoja tuovat merkittäviä kustannussäästöjä verrattuna myöhempiin erikoissairaanhoidon laitoshoitoihin. Lapsen sijoittaminen kodin ulkopuolelle maksaa sijaisperheessä noin 22 000 euroa, ammatillisessa perhekodissa noin 60 000 euroa ja laitoshoidossa yli 90 000 euroa vuodessa. <BR><BR><b>Miten ilmiöön kyetään vaikuttamaan? </b><BR><BR>Toteuttamalla WHO:n alkoholistrategiaa (2010) ja Euroopan toimintaohjelmaa (2012-2020) haitallisen alkoholinkäytön vähentämiseksi.<BR><BR><b>Mitä kunnassa / alueella tulisi tehdä? </b><BR><BR>Ehkäisevä päihdetyö sisältyy kunnan strategiaan osana hyvinvoinnin ja terveyden edistämistä. Tavoitteet ja niiden toteutumisen seuranta on määritelty ja edistyminen raportoidaan poliittisella tasolla. Ehkäisevää työtä tehdään yhteistyössä kunnan hallinnonalojen ja kolmannen sektorin kanssa. Johtovastuu on osoitettu ja työnjaosta sovittu. Kouluissa ja työpaikoilla on ennaltaehkäisyn, varhaisen puuttumisen ja hoitoonohjauksen kattava hyvinvointi-/päihdeohjelma. Elinkeinon ja valvontaviranomaisten kanssa tehdään yhteistyötä ikärajavalvonnan tehostamiseksi ja päihtymyksestä aiheutuvien haittojen vähentämiseksi. Kunnan tilat ja tapahtumat ovat savuttomia ja päihteettömiä. Asiakastyössä terveys- ja sosiaalipalveluissa otetaan systemaattisesti päihteet puheeksi, ja tuetaan neuvonnalla omatoimista vähentämistä. Puheeksi otto kirjataan seurantaa/uusimista varten. Väestölle tiedotetaan alkoholin ja muiden päihteiden haitoista, oman avun keinoista sekä vertaistuen ja ammattiavun saamisen mahdollisuuksista. Terveys- ja sosiaalipalveluissa painotetaan varhaista puuttumista ja perheiden tukemista. </p> ",
+"en": "<p>Alcohol abuse is one of the major health threats in Finnish society. Alcohol abuse involves both adverse health impacts and adverse social impacts, or an elevated risk of such impacts. Alcohol-related causes have been one of the most common causes of death in the working-age population in recent years. Also, alcohol use explains about one fourth of the socioeconomic differences in mortality between population groups (for men).<br><br><br />Research has shown that AUDIT-C is a valid indicator of alcohol use involving an elevated risk of alcohol-related problems.<br><br><br /><b>Impact on the wellbeing of the population</b><br><br><br />The incidence of alcohol-related health problems is known to correlate directly with the total consumption of alcohol in Finland. Alcohol abuse contributes to morbidity, exacerbates the symptoms of many conditions and increases the risk of dropping out of working life. Heavy drinking by parents is also a risk factor for their child's balanced growth and development, because alcohol abuse interferes with care and nurturing and with the child's bonding. Moreover, a parent who drinks heavily is a role model contributing to subsequent alcohol abuse by the child. Alcohol abuse is one of the most important lifestyle factors identifiable as an underlying factor in differences in health and mortality between social groups; alcohol explains about 25% of socioeconomic differences in mortality between population groups (for men).<br><br><br /><b>Financial impact</b><br><br><br />In 2011, the immediate costs of the adverse effects of alcohol from public funds amounted to EUR 1,248 - 1,454 million. The revenue of alcohol tax was EUR 1,281 million. Just over one third of the costs is paid by local authorities in health care and social welfare costs. Another third consists of central government costs of maintaining public order and safety, the courts and the criminal sanctions system. Of the remaining third, the majority consists of pensions and sickness allowances. Alcohol abuse causes significant indirect costs to the national economy through impaired productivity and production losses. Early intervention in alcohol problems can cut costs. Brief periods of detoxification provided by substance abuse services, prevention of family alcohol problems and early intervention and treatment without taking children into care translate into significant cost savings compared with inpatient specialist medical care later in the process. The annual cost of placing a child in care outside the home is about EUR 22,000 for a foster family, about EUR 60,000 for a professional family home and more than EUR 90,000 in institutional care.<br><br><br /><b>How can this phenomenon be addressed?</b><br><br><br />By implementing the WHO alcohol strategy (2010) and the European action plan to reduce the harmful use of alcohol (2012-2020).</p> ",
+"sv": "<p>Överdrivet alkoholbruk är ett av de mest centrala hälsohoten i den finländska samhället. Både hälsomässiga skador och sociala olägenheter eller en betydande risk för dessa anknyter till överdrivet alkoholbruk. Dödsorsakerna som anknyter till alkohol har under de senaste åren varit de vanligaste dödsorsakerna bland människor i arbetsför ålder. Hos män förklarar alkoholen dessutom cirka en fjärdedel av de så kallade socioekonomiska skillnaderna i dödligheten mellan befolkningsgrupperna.<br><br><br />Enligt undersökningar är AUDIT-C en valid indikator för alkoholbruk som karaktäriseras av en höjd risk för alkoholskador.<br><br><br /><b>Konsekvenser för befolkningens välfärd</b><br><br><br />Man känner till att omfattningen av hälsoproblemen som orsakas av alkohol står i direkt proportion till den totala alkoholkonsumtionen. Rikligt alkoholbruk ökar prevalensen, förvärrar många sjukdomssymtom och ökar risken för att drivas ut från arbetslivet. Föräldrars rikliga alkoholbruk är en riskfaktor även för balanserad uppväxt och utveckling på grund av att överdrivet alkoholbruk får en negativ inverkan på skötseln och omvårdnaden samt utvecklingen av barnens anknytningsrelationer. En förälder som använder rikligt med alkohol blir också en rollmodell för barnet då det gäller eget skadligt alkoholbruk. Överdrivet alkoholbruk är en av de mest centrala faktorerna i levnadsvanorna som kan ses i bakgrunden av hälso- och dödlighetsskillnaderna mellan de sociala grupperna; bland män förklarar alkoholen cirka 25 procent av de så kallade socioekonomiska skillnaderna mellan befolkningsgrupperna.<br><br><br /><b>Ekonomisk betydelse</b><br><br><br />År 2011 var de omedelbara kostnaderna för alkoholskador 1 248-1 454 miljoner euro för den offentliga makten. Alkoholskatten gav intäkter på 1 281 miljoner euro. En dryg tredjedel av kostnaderna betalas av kommunerna i form av hälso- och socialvårdskostnader. En annan dryg tredjedel betalar staten som kostnader för upprätthållande av ordning och säkerhet, rättsväsendet och fångvården. Största delen av den återstående tredjedelen består av pensioner och sjukdagpenning. För näringslivet ger alkoholen upphov till betydande indirekta kostnader genom sänkt produktivitet och produktionsförluster. Kostnaderna kan sänkas genom att ingripa i problemen i ett tidigt skede. I missbrukarvården ger kortvariga alkoholavvänjningsperioder, förebyggande av och tidigt ingripande i samt vård för familjernas alkoholproblem utan omhändertagande av barn betydliga kostnadsinbesparingar jämfört med senare institutionsvård inom den specialiserade sjukvården. En placering av barn utanför hemmet kostar i en fosterfamilj cirka 22 000 euro, i professionella familjehem cirka 60 000 euro och i institutionsvård mer än 90 000 euro per år.<br><br><br /><b>Hur kan man påverka fenomenet?</b> <br><br><br />Genom att förverkliga WHO:s alkoholstrategi (2010) och det europeiska åtgärdsprogrammet (2012-2020) för att minska den skadliga alkoholkonsumtionen.</p> "
+}
+,
+"limits" : {
+"fi": "<br /><p>Tuloksen varmuuteen vaikuttaa se, että aineisto on tuotettu otostutkimusaineistosta,<br />jossa esiintyy vastauskatoa. Vastauskatoa on korjattu tuloksista painokertoimien avulla. <br />Vuoden 2022 tiedonkeruussa vastausaktiivisuus oli 20 - 64-vuotiailla 37 %, <br />65 vuotta täyttäneillä 59 % ja 75 vuotta täyttäneillä 57 %.</p><br /><p><br />Indikaattorin tulkinnassa täytyy ottaa huomioon, että kyseessä on vastaajan itse ilmoittamat tiedot.<br />Lisätietoja: <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Tilastoraportti</a></p>",
+"en": "<br /><p>The confidence of the result is influenced by the fact that the data is based on survey sampling data,<br />which is affected by nonresponse. <br />In the results, nonresponse has been corrected by using weighting coefficients. <br />In the 2022 data collection, the response rate was 37 % for people aged 20 - 64, <br />59 % for people aged 65 and older, and 57 % for people aged 75 and older.</p><br /><p><br />When interpreting the indicator, it should be noted that this information was reported by <br />the respondents themselves.<br />More information: <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Statistical Report</a> </p>",
+"sv": "<br /><p>Resultatens tillförlitlighet påverkas av att materialet har inhämtats från urvalsundersökning där det <br />förekommer svarsbortfall. <br />Svarsbortfallet har korrigerats i resultaten med hjälp av viktkoefficienter. <br />I 2022 års datainsamling var svarsaktiviteten 37 % bland 20 - 64-åringar, <br />59 % bland personer som fyllt 65 år och 57 % bland personer som fyllt 75 år.</p><br /><p><br />Vid tolkning av indikatorn bör man beakta att det är fråga om uppgifter som lämnats av respondenten själv.<br />Mer information <a href =\"https://thl.fi/tilastot/tervesuomi\" target=\"_blank\">Statistikrapport</a> </p>"
+}
+,
+"legislation" : {
+"fi": "",
+"en": "",
+"sv": ""
+}
+,
+"notices" : {
+"fi": "<p>Vuoden 2016 tiedot saatavissa aluetasoilla koko maa ja erityisvastuualue. Koko maan tieto esitetään sekä miehille että naisille. Vuoden 2016 otos on ollut huomattavasti pienempi (N=5000) kuin aikaisempien vuosien otokset.</p><p>Sairaanhoitopiirien vuoden 2018 tietoina esitetään vastaavien maakuntien tiedot. Itä-Savon ja Länsi-Pohjan sairaanhoitopiirien tiedot jäävät puuttuviksi. Kuntakohtainen tieto vuodelta 2018 näytetään lisäotoksen tilanneille kunnille.<p> <br /> ",
+"en": "<p>The data for 2016 is available at the regional levels of the whole country and University hospital special responsibility areas. The sample for 2016 was considerably smaller (N=5,000) than the samples for previous years.</p><p>The indicator presents the data on region for hospital districts. The data of two hospital districts, North Savo and Länsi-Pohja, the results are not shown. Results for the year 2018 are shown only for the municipalities that ordered an extra sample of the FinSote survey.</p> ",
+"sv": "<p>För år 2016 finns det regionala uppgifter endast för specialupptagningsområde och hela landet. År 2016 var urvalet mycket mindre (N=5000) än tidigare. </p> <br /><p>För sjukvårdsdistrikt visas i indikationen information från landskapet. Uppgifterna om två sjukvårdsdistrikt, Östra Savolax och sydvästra Lapplands, visas inte. Resultat för året 2018 visas bara för kommuner som hade beställt ett extra urval av FinSote undersökningen.</p> "
+}
+,
+"primaryValueType" : {
+"code": "PROS",
+"title": {
+"fi": "Prosenttia",
+"en": "Percent",
+"sv": "Procent"
+}
+},
+"decimals" : 1,
+"classifications" : {
+"region" : {
+"title": {
+"fi": "Kunta, maakunta, hyvinvointialue, aluehallintoviraston alue, erityisvastuualue, Manner-Suomi",
+"en": "Municipality, region, the wellbeing services county, area for the regional state administrative agency, university hospital special responsibility area, Mainland Finland",
+"sv": "Kommun, landskap, välfärdsområde, området för regionförvaltningsverket, specialupptagningsområde, Fastlandsfinland"
+}
+,
+"values": ["Aluehallintovirasto","Nuts1","Kunta","Erva","Maakunta"]
+},
+"sex" : {
+"title": {
+"fi": "Miehet, naiset, yhteensä",
+"en": "Male, female, combined",
+"sv": "Män, kvinnor, totalt"
+}
+,
+"values": ["male","female","total"]
+}
+},
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"subjects" : [
+{
+"fi" : "alkoholi",
+"sv" : "alkohol",
+"en" : "alcohol",
+"uri" : "http://www.yso.fi/onto/yso/p9143"
+},
+{
+"fi" : "AUDIT-C",
+"sv" : "AUDIT-C",
+"en" : "the alcohol use disorders identification test (AUDIT-C)",
+"uri" : ""
+},
+{
+"fi" : "liikakäyttö",
+"sv" : "överdrivet bruk",
+"en" : "overuse",
+"uri" : ""
+},
+{
+"fi" : "elintavat",
+"sv" : "levnadsvanor",
+"en" : "living habits",
+"uri" : "http://www.yso.fi/onto/yso/p5530"
+},
+{
+"fi" : "päihteet",
+"sv" : "alkohol och andra droger",
+"en" : "alcohol and drugs",
+"uri" : ""
+},
+{
+"fi" : "hyvinvointikertomus",
+"sv" : "välfärdsberättelse",
+"en" : "health report"
+}
+],
+"sources": [
+{
+"organization" : {
+"id" : 2,
+"title": {
+"fi": "Terveyden ja hyvinvoinnin laitos (THL)",
+"en": "Finnish institute for Health and Welfare (THL)",
+"sv": "Institutet för hälsa och välfärd (THL)"
+}
+},
+"title" : {
+"fi": "Terve Suomi -tutkimus (THL)",
+"en": "Healthy Finland Survey (THL)",
+"sv": "Undersökningen Hälsosamma Finland (THL)"
+}
+,
+"description" : {
+"fi": "Terve Suomi -tutkimus tuottaa ajankohtaista tietoa Suomessa asuvien aikuisten terveydestä, hyvinvoinnista ja palveluista sekä niissä tapahtuneista muutoksista ja tulevasta kehityksestä. Tutkimuksessa yhdistyvät aiemmat kyselytutkimus FinSote sekä terveystarkastustutkimus FinTerveys.",
+"en": "The Healthy Finland survey provides up-to-date information on the health, well-being and service use of adults living in Finland, as well as on changes and future developments in these areas. The survey brings together the FinSote questionnaire survey and the FinHealth health examination study.",
+"sv": "Undersökningen Hälsosamma Finland producerar aktuell information om hälsa, välfärd och service för vuxna bosatta i Finland samt om förändringarna i dessa, och den framtida utvecklingen. I undersökningen kombineras den tidigare enkätundersökningen FinSote och undersökningen om hälsa, välfärd och social- och hälsovården FinHälsa."
+}
+}
+],
+"groups": [ 799, 821, 579 ]
+}
