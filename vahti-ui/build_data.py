@@ -18,6 +18,13 @@ def main():
     with open(FALLBACK_PATH, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Staattinen data.json päivitetty: {FALLBACK_PATH}")
+    
+    # Päivitetään myös Vercel public/data.json jos public-kansio on olemassa
+    public_path = os.path.abspath(os.path.join(ROOT, '..', 'public', 'data.json'))
+    if os.path.exists(os.path.dirname(public_path)):
+        with open(public_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"Public data.json päivitetty: {public_path}")
     print(f"Revisio: {snapshot.get('revision')}")
     print(f"Tuontiaika: {snapshot.get('importedAt')}")
     print(f"Alueita: {len(data.get('regions', []))}, mittareita: {len(data.get('measures', {}))}")

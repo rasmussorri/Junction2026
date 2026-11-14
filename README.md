@@ -14,11 +14,22 @@ Projektin pääkäyttöliittymä on **Vahti UI** (`vahti-ui/`).
 
 ### AI-chat ja raportit (Gemini)
 AI-chat ja verkkolähteistä koottavat toimenpideraportit käyttävät Gemini-mallia.
-Aseta juuren `.env`-tiedostoon:
+Aseta juuren `.env`-tiedostoon (tai Vercelin Environment Variables -asetuksiin):
 ```env
 GEMINI_API_KEY=oma_avaimesi
 GEMINI_MODEL=gemini-3.5-flash
 ```
+
+## Vercel-julkaisu
+
+Sovellus on valmis julkaistavaksi Vercelissä:
+1. Yhdistä GitHub-repositorio Verceliin (`New Project` → valitse `Junction2026`).
+2. Lisää Environment Variables -osioon:
+   - `GEMINI_API_KEY`: oma Gemini API -avain
+   - `GEMINI_MODEL`: `gemini-3.5-flash`
+3. Paina **Deploy**.
+   - Staattiset tiedostot (`public/`) jaetaan globaalin CDN:n kautta.
+   - AI-chat ja API-reitit (`api/index.py`) toimivat Python-palvelinrutiineina Vercel Serverless -alustalla.
 
 ## Repositorion rakenne
 
