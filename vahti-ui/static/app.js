@@ -11,6 +11,12 @@ let sel = FI;
 let locked = false; /* set once an area is clicked: hovering then only previews it on the map */
 const chats = {};
 const showAll = {};
+const introKey = 'vahti.introduction.v2';
+const introRegion = 'Pohjois-Savo';
+let introStep = null;
+const introRoutes = {
+  goal: '#/goal/2', screening: '#/t/S2.2', cervical: '#/m/kohdunkaula'
+};
 
 const SHORT = {
   'S1.1': 'PROM & NPS measured systematically', 'S1.2': 'NPS above 80',
@@ -31,6 +37,32 @@ const rname = r => r === FI ? 'Whole country' : r;
 /* every area-specific figure says where it is from; THL waiting times for the HUS area are one shared figure */
 const inPlace = (r, care) => r === FI ? 'in the whole country' : `in ${r}${care && D.hus_area.includes(r) ? ' (HUS)' : ''}`;
 const val = (m, r) => r === FI ? M[m].national : M[m].values[r];
+const sourceNames = {
+  'THL Sotkanet 6103': 'Finnish Institute for Health and Welfare — Sotkanet — Colorectal cancer screening participation',
+  'THL Sotkanet 3621': 'Finnish Institute for Health and Welfare — Sotkanet — Breast cancer screening participation',
+  'THL Sotkanet 3620': 'Finnish Institute for Health and Welfare — Sotkanet — Cervical cancer screening participation',
+  'THL Sotkanet 3869': 'Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination coverage, girls',
+  'THL Sotkanet 3297': 'Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination coverage, boys',
+  'THL specialist care waiting times': 'Finnish Institute for Health and Welfare — Access to specialised healthcare',
+  'Statistics Finland, causes of death (13u5)': 'Statistics Finland — Causes of Death'
+};
+const sourceName = name => sourceNames[name] || name;
+const sourceAttr = name => name ? ` title="${esc(sourceName(name))}"` : '';
+const measureSource = (m, r) => {
+  if (val(m, r) == null) return '';
+  const x = M[m];
+  return r === FI
+    ? (Object.hasOwn(x, 'national_source') ? x.national_source : x.source)
+    : (Object.hasOwn(x.value_sources || {}, r) ? x.value_sources[r] : x.source);
+};
+const aggregateSource = (t, r) => {
+  const sources = t.measures
+    .filter(m => val(m, r) != null && (M[t.measures[0]].kind !== 'zero' || M[m].unit === 'patients'))
+    .map(m => sourceName(measureSource(m, r)));
+  return sources.every(Boolean) ? [...new Set(sources)].join(' / ') : '';
+};
+const mortalitySource = year => Object.hasOwn(D.mort.count_sources || {}, year)
+  ? D.mort.count_sources[year] : D.mort.source_counts;
 const isOk = (m, v) => v == null ? null : (M[m].kind === 'min' ? v >= M[m].target : v <= 0);
 const mOk = (m, r) => isOk(m, val(m, r));
 const fmt = (m, v) => v == null ? '–' : M[m].unit === '%' ? `${nf(v)}%` : nf(v, 0);
@@ -104,27 +136,22 @@ function loadStatus() {
     .catch(() => ({ ai: false, offline: true }));
 }
 
+initIntroduction();
+
 Promise.all([loadData(), loadStatus()]).then(([d, s]) => {
   D = d; M = d.measures; AI = s;
-  if (D.snapshot?.revision) {
-    const sub = document.querySelector('.brand-sub');
-    if (sub && !sub.querySelector('.data-rev-badge')) {
-      const revBadge = document.createElement('span');
-      revBadge.className = 'pill ok data-rev-badge';
-      revBadge.style.cssText = 'margin-left: 8px; font-size: 10px; font-weight: normal; vertical-align: middle; padding: 2px 6px;';
-      revBadge.title = 'Dataset revision: ' + D.snapshot.revision;
-      revBadge.textContent = 'Data: ' + D.snapshot.revision.slice(0, 8);
-      sub.appendChild(revBadge);
-    }
-  }
   $('#askBtn').onclick = () => toggleDrawer(true);
   $('#drawerClose').onclick = () => toggleDrawer(false);
   window.addEventListener('hashchange', route); route();
+  $('#introStart').disabled = false;
 });
 document.addEventListener('scroll', () => { $('#tooltip').style.opacity = 0; }, true);
 
 function route() {
   $('#tooltip').style.opacity = 0;
+  if (introStep && introStep !== 'done' && location.hash !== introHash()) {
+    history.replaceState(null, '', introHash());
+  }
   const h = location.hash.replace(/^#\/?/, '');
   const [path, q] = h.split('?');
   const r = new URLSearchParams(q || '').get('r');
@@ -135,15 +162,181 @@ function route() {
   else if (kind === 't' && T(id) && T(id).type === 'measures') renderTarget(v, id);
   else if (kind === 'm' && (M[id] || id === 'mort')) renderMeasure(v, id);
   else renderHome(v);
-  window.scrollTo(0, 0);
+  if (!introStep || introStep === 'done') window.scrollTo(0, 0);
+  updateIntroduction({ reveal: true });
 }
+
+/* ---------- interactive introduction ---------- */
+const introSteps = {
+  areas: { title: 'Choose any region', text: 'Click the map or the list.' },
+  areaReview: { title: () => `Review ${sel}`, text: 'See its status compared to the targets.', target: '.st-head, #status .gcard', next: 'chooseSavo', label: 'Next region' },
+  chooseSavo: { title: 'Select Pohjois-Savo', text: 'Click the highlighted region in the list or on the map.', target: '.area[data-r="Pohjois-Savo"], .mapbox path[data-r="Pohjois-Savo"]' },
+  openGoal: { title: 'Open Goal 2', text: 'See its status compared to the targets, then open the highlighted card.', target: '#status', linkTarget: '.gcard[href^="#/goal/2?"]', link: 'goalTitle' },
+  goalTitle: { page: 'goal', title: 'Read the goal and targets', text: 'Take your time. Check Pohjois-Savo’s figures against each target.', target: '.hero, .tcard', next: 'goalContact', label: 'See contact details of this region' },
+  goalContact: { page: 'goal', title: 'Contacts in Pohjois-Savo', text: 'See who to contact in this region.', target: 'h2:has(+ .contact), .contact', next: 'goalPeers', label: 'Continue' },
+  goalPeers: { page: 'goal', title: 'Contact details for other regions', text: 'You can contact these regions to ask how they reached the target.', target: '[data-intro-peers], [data-intro-peers] + .hint, [data-intro-peers] + .hint + .peers', next: 'goalReport', label: 'Continue' },
+  goalReport: { page: 'goal', title: 'Read what others have done to reach these targets', text: 'See what others tried and where the findings came from.', target: '[data-intro-report], [data-intro-report] ~ .report', next: 'goalChat', label: 'Try to chat with AI about the situation' },
+  goalChat: { page: 'goal', title: 'Try the chat', text: () => AI.ai && !AI.offline
+    ? 'Ask about prevention or screening in Pohjois-Savo.'
+    : 'Ask your own question. Practice mode shows a local summary.', target: '.chat-card' },
+  chatWaiting: { page: 'goal', title: 'Waiting for the reply', text: 'The answer will appear in the chat.', target: '.chat-card' },
+  chatReview: { page: 'goal', title: 'Read the reply', text: 'Keep chatting or continue to the next thing.', target: '.chat-card', next: 'openScreening', label: 'Continue' },
+  openScreening: { page: 'goal', title: 'Open average screening participation', text: 'Click the highlighted screening row.', linkTarget: 'a[href^="#/t/S2.2?"]', link: 'screeningSummary' },
+  screeningSummary: { page: 'screening', title: 'Screening participation in more detail', text: 'See the overall result and the breakdown by cancer type.', target: '.hero, .hero + h2, .hero + h2 + .card', next: 'openCervical', label: 'Check out situation for a specific cancer type' },
+  openCervical: { page: 'screening', title: 'Open cervical screening', text: 'Select cervical screening to look closer.', scrollTarget: '.hero + h2', linkTarget: 'a[href^="#/m/kohdunkaula?"]', link: 'cervicalSummary' },
+  cervicalSummary: { page: 'cervical', title: 'Check the situation', target: '.hero', next: 'cervicalChart', label: 'Compare to different regions' },
+  cervicalChart: { page: 'cervical', title: 'Compare all areas', text: 'Check how Pohjois-Savo is doing compared to other regions.', target: '.chartcard', next: 'cervicalDetails', label: 'See the rest of the page' },
+  cervicalDetails: { page: 'cervical', title: 'Explore the rest of the page', text: 'Scroll for contacts, areas meeting the target, the AI report and chat.', target: '.contact, .peers, .report, .chat-card', next: 'done', label: 'Finish introduction' },
+  done: { title: 'Explore on your own', text: 'Choose any area or goal to keep exploring.', label: 'Got it' }
+};
+
+function initIntroduction() {
+  const dialog = $('#introWelcome');
+  const open = () => dialog.showModal();
+  $('#introReplay').onclick = open;
+  dialog.oncancel = e => e.preventDefault();
+  $('#introSkip').onclick = () => {
+    rememberIntroduction();
+    dialog.close();
+  };
+  $('#introStart').onclick = () => {
+    toggleDrawer(false);
+    sel = FI;
+    locked = false;
+    dialog.close();
+    goToIntroStep('areas');
+  };
+  $('#introAction').onclick = () => {
+    const step = introSteps[introStep];
+    if (introStep === 'done') {
+      introStep = null;
+      updateIntroduction();
+      $('#introReplay').focus();
+    } else {
+      goToIntroStep(step.next);
+    }
+  };
+  try {
+    if (localStorage.getItem(introKey) === 'seen') return;
+  } catch { /* storage can be disabled */ }
+  open();
+}
+
+function rememberIntroduction() {
+  try { localStorage.setItem(introKey, 'seen'); } catch { /* storage can be disabled */ }
+}
+
+function introHash() {
+  const page = introSteps[introStep].page;
+  return page ? `${introRoutes[page]}?r=${enc(introRegion)}` : '#/';
+}
+
+function goToIntroStep(next) {
+  const previous = introStep;
+  introStep = next;
+  if (next === 'done') {
+    rememberIntroduction();
+    sel = FI;
+    locked = false;
+  }
+  const hash = introHash();
+  if (next === 'done' || !previous || location.hash !== hash) {
+    history.replaceState(null, '', hash);
+    route();
+  } else {
+    updateIntroduction({ reveal: true });
+  }
+}
+
+function updateIntroduction({ reveal = false } = {}) {
+  const panel = $('#intro');
+  const step = introSteps[introStep];
+  const active = Boolean(step && introStep !== 'done');
+  const view = $('#view');
+  const targets = step?.target ? [...view.querySelectorAll(step.target)] : [];
+  const linkTarget = step?.linkTarget ? $(step.linkTarget, view) : null;
+  const [target] = targets;
+  const home = $('.home', view);
+  home?.classList.toggle('intro-home', active);
+  const chatStep = ['goalChat', 'chatWaiting', 'chatReview'].includes(introStep);
+  panel.hidden = !step;
+  $('#introReplay').hidden = Boolean(step);
+  document.querySelectorAll('.intro-target, .intro-link-target').forEach(el => el.classList.remove('intro-target', 'intro-link-target'));
+  targets.forEach(el => el.classList.add('intro-target'));
+  linkTarget?.classList.add('intro-link-target');
+
+  // Keep reading and scrolling available while restricting interaction to the current task.
+  $('.top').inert = active;
+  $('#drawer').inert = active;
+  $('#view').querySelectorAll('a, button, textarea, .sugg, .mapbox path[data-r]').forEach(el => {
+    const area = el.dataset.r;
+    const allowedArea = area && (
+      (introStep === 'areas' && area !== FI) ||
+      (introStep === 'chooseSavo' && area === introRegion)
+    );
+    const allowedChat = chatStep && target?.contains(el) && (
+      el.matches('.msg.ai a[href^="https://"], .msg.ai a[href^="http://"]') ||
+      (introStep !== 'chatWaiting' && el.matches('textarea, button[type="submit"]'))
+    );
+    el.toggleAttribute('inert', active && !(allowedArea || allowedChat || el === linkTarget));
+  });
+  if (!step) return;
+
+  $('#introTitle').textContent = typeof step.title === 'function' ? step.title() : step.title;
+  $('#introText').textContent = typeof step.text === 'function' ? step.text() : step.text || '';
+  const action = $('#introAction');
+  action.hidden = !step.label;
+  action.textContent = step.label || '';
+
+  if (reveal) {
+    $('#introTitle').focus({ preventScroll: true });
+    const focusTarget = (step.scrollTarget && $(step.scrollTarget, view)) || linkTarget || target;
+    const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth';
+    if (home) {
+      window.scrollTo({ top: 0, behavior });
+      if (focusTarget) {
+        const column = focusTarget.closest('.areas, .status');
+        if (column) revealIntroTarget(focusTarget, panel, behavior, column);
+      }
+    } else if (focusTarget) {
+      revealIntroTarget(focusTarget, panel, behavior, null, linkTarget);
+    }
+  }
+}
+
+function revealIntroTarget(target, panel, behavior, column, requiredLink) {
+  const rect = target.getBoundingClientRect();
+  const topEdge = (column ? column.getBoundingClientRect().top : $('.top').getBoundingClientRect().bottom) + 12;
+  const lowerEdge = Math.min(panel.getBoundingClientRect().top, column?.getBoundingClientRect().bottom ?? window.innerHeight) - 16;
+  const available = Math.max(0, lowerEdge - topEdge);
+  const revealHeight = target.matches('.chat-card') ? rect.height : Math.min(rect.height, available);
+  const end = Math.max(rect.top + revealHeight, requiredLink?.getBoundingClientRect().bottom ?? 0);
+  const offset = end - lowerEdge;
+  const scroller = column || window;
+  const position = column ? column.scrollTop : window.scrollY;
+  // Keep as much of the preceding content visible as possible.
+  scroller.scrollTo({ top: Math.max(0, position + offset), behavior });
+}
+
+function bindIntroNavigation() {
+  $('#view').addEventListener('click', e => {
+    const step = introSteps[introStep];
+    if (!step || introStep === 'done') return;
+    const link = e.target.closest('a');
+    if (!link || link.matches('.chat-card .msg.ai a[href^="https://"], .chat-card .msg.ai a[href^="http://"]')) return;
+    e.preventDefault();
+    if (step.linkTarget && link.matches(step.linkTarget)) goToIntroStep(step.link);
+  });
+}
+
+bindIntroNavigation();
 
 /* ---------- home: areas | map | status ---------- */
 function renderHome(v) {
   const regs = D.regions.slice().sort(byName);
   v.innerHTML = `<div class="home">
     <aside class="areas"><div class="areas-title">Areas</div>
-      ${[FI, ...regs].map(r => `<div class="area ${r === FI ? 'fi' : ''} ${r === sel ? 'on' : ''}" data-r="${esc(r)}">${esc(rname(r))}</div>`).join('')}
+      ${[FI, ...regs].map(r => `<button type="button" class="area ${r === FI ? 'fi' : ''} ${r === sel ? 'on' : ''}" data-r="${esc(r)}" aria-pressed="${r === sel}">${esc(rname(r))}</button>`).join('')}
     </aside>
     <section class="mapcol">
       <div class="map-title"><span class="sub">Hover an area in the list or click the map</span></div>
@@ -153,9 +346,9 @@ function renderHome(v) {
     <aside class="status" id="status"></aside>
   </div>`;
   v.querySelectorAll('.area').forEach(el => {
-    el.addEventListener('mouseenter', () => locked ? preview(el.dataset.r) : select(el.dataset.r));
-    el.addEventListener('mouseleave', () => { if (locked) preview(null); });
-    el.addEventListener('click', () => { locked = true; preview(null); select(el.dataset.r); });
+    el.addEventListener('mouseenter', () => locked || (introStep && introStep !== 'done') ? preview(el.dataset.r) : select(el.dataset.r));
+    el.addEventListener('mouseleave', () => preview(null));
+    el.addEventListener('click', () => chooseArea(el.dataset.r));
   });
   const tip = $('#tooltip');
   v.querySelectorAll('.mapbox path[data-r]').forEach(p => {
@@ -166,7 +359,7 @@ function renderHome(v) {
     });
     p.addEventListener('mouseenter', () => $('#hlHover').setAttribute('d', p.getAttribute('d')));
     p.addEventListener('mouseleave', () => { tip.style.opacity = 0; $('#hlHover').setAttribute('d', ''); });
-    p.addEventListener('click', () => { locked = true; select(p.dataset.r); });
+    p.addEventListener('click', () => chooseArea(p.dataset.r));
   });
   renderStatus();
 }
@@ -182,10 +375,28 @@ function preview(r) {
   const h = $('#hlHover'), p = r && r !== FI ? document.querySelector(`.mapbox path[data-r="${CSS.escape(r)}"]`) : null;
   if (h) h.setAttribute('d', p ? p.getAttribute('d') : '');
 }
+function chooseArea(r) {
+  if (introStep === 'areas') {
+    if (r === FI) return;
+  } else if (introStep === 'chooseSavo') {
+    if (r !== introRegion) return;
+  } else if (introStep && introStep !== 'done') {
+    return;
+  }
+  locked = true;
+  preview(null);
+  select(r);
+  if (introStep === 'areas') goToIntroStep('areaReview');
+  else if (introStep === 'chooseSavo') goToIntroStep('openGoal');
+}
 function select(r) {
   if (r === sel) return;
   sel = r;
-  document.querySelectorAll('.area').forEach(a => a.classList.toggle('on', a.dataset.r === sel));
+  document.querySelectorAll('.area').forEach(a => {
+    const selected = a.dataset.r === sel;
+    a.classList.toggle('on', selected);
+    a.setAttribute('aria-pressed', String(selected));
+  });
   const svg = document.querySelector('.mapbox svg'); if (svg) svg.classList.toggle('fi', sel === FI);
   const sp = document.querySelector(`.mapbox path[data-r="${CSS.escape(sel)}"]`), hs = $('#hlSel');
   if (hs) hs.setAttribute('d', sp ? sp.getAttribute('d') : '');
@@ -219,11 +430,11 @@ function contactCard(r, role) {
     <div class="who"><span class="n">${esc(c.name)}</span>
     <span class="c"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · ${esc(c.phone)}</span></div></div>`;
 }
-function peersBlock(key, list, valueOf, role, intro, label) {
+function peersBlock(key, list, valueOf, role, intro, label, sourceOf) {
   const all = showAll[key], shown = all ? list : list.slice(0, 5);
   return `<div class="hint">${intro}</div><div class="peers">${shown.map(p => {
     const c = D.contacts[p.r][role];
-    return `<div class="card peer"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"><span class="pk">${esc(`${label} ${inPlace(p.r, role === 'care')}`)}</span>${esc(valueOf(p.r))}</div>
+    return `<div class="card peer"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"${sourceAttr(sourceOf(p.r))}><span class="pk">${esc(`${label} ${inPlace(p.r, role === 'care')}`)}</span>${esc(valueOf(p.r))}</div>
       <div class="pc"><span class="n">${esc(c.name)}</span><span class="c">${esc(c.role)}</span>
       <span class="c"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · ${esc(c.phone)}</span></div></div>`;
   }).join('')}</div>
@@ -266,7 +477,7 @@ function loadReports(root) {
   root.querySelectorAll('[data-report]').forEach(box => {
     const id = box.dataset.report, pre = window.__REPORTS__ && window.__REPORTS__[id];
     const p = pre ? Promise.resolve(pre) : AI.offline ? Promise.resolve({ missing: true, reason: 'offline' }) : fetch(`api/report?id=${enc(id)}`).then(r => r.json());
-    p.then(rep => { box.innerHTML = reportHtml(rep); showSuggestions(box.querySelector('.sugg'), rep.search_suggestions); }).catch(() => box.innerHTML = '<div class="note">Could not load the report.</div>');
+    p.then(rep => { box.innerHTML = reportHtml(rep); showSuggestions(box.querySelector('.sugg'), rep.search_suggestions); updateIntroduction(); }).catch(() => box.innerHTML = '<div class="note">Could not load the report.</div>');
   });
 }
 /* Google's "Search suggestions" for answers grounded in Google Search, shown as provided (own shadow root keeps its CSS apart) */
@@ -298,10 +509,10 @@ function renderGoal(v, gid) {
       <div class="hero-row"><h1>${esc(g.title)}</h1>${pill(s.c, gLabel(s))}</div></div>
     <h2>Targets</h2>
     ${g.targets.map(t => targetCard(t, r)).join('')}
-    <h2>Contact in ${esc(rname(r))}</h2>
+    <h2>Contacts in ${esc(rname(r))}</h2>
     ${roles.map(role => contactCard(r, role)).join('')}
     ${bad.length ? bad.map(t => peersSection(t)).join('') + `
-      <h2>AI report: how others have solved it</h2>
+      <h2 data-intro-report>AI report: how others have solved it</h2>
       ${bad.filter(t => t.report).map(t => reportSlot(t.report)).join('')}` : ''}
     <h2>Ask about this goal</h2>${chatCard(`goal-${g.id}-${r}`)}
   </div>`;
@@ -314,22 +525,22 @@ function targetCard(t, r) {
   if (t.type === 'measures') {
     const a = agg(t, r), n = agg(t, FI);
     body = `<div class="mrows"><a class="mrow" href="#/t/${t.id}?r=${enc(r)}"><span class="dot ${a.ok === false ? 'bad' : a.ok ? 'ok' : 'na'}"></span><span class="lbl">${esc(`${a.label} ${inPlace(r, t.role === 'care')}`)}</span>
-      <span class="v ${cls(a.ok)}">${a.text}</span><span class="m">target ${num(a.target)}</span>
-      <span class="m">${r === FI ? 'period ' + num(per(M[t.measures[0]].period)) : 'whole country ' + num(n.text, n.ok)}</span><span class="go">›</span></a>
+      <span class="v ${cls(a.ok)}"${sourceAttr(aggregateSource(t, r))}>${a.text}</span><span class="m">target ${num(a.target)}</span>
+      <span class="m"${sourceAttr(aggregateSource(t, FI))}>${r === FI ? 'period ' + num(per(M[t.measures[0]].period)) : 'whole country ' + num(n.text, n.ok)}</span><span class="go">›</span></a>
       ${M[t.measures[0]].kind === 'zero' ? measureRow('lahete21', r) : ''}</div>`;
   }
   else if (t.type === 'national') {
     const x = mort();
     body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${s}"></span><span class="lbl">Cancer deaths per year, whole country</span>
-      <span class="v ${cls(x.ok)}">${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m">year ${num(x.last)}</span><span class="go">›</span></a></div>`;
+      <span class="v ${cls(x.ok)}"${sourceAttr(mortalitySource(x.last))}>${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m">year ${num(x.last)}</span><span class="go">›</span></a></div>`;
   }
   return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}</div>${pill(s, tLabel(s))}</div>${body}</div>`;
 }
 function measureRow(m, r) {
   const v = val(m, r), o = isOk(m, v);
   return `<a class="mrow" href="#/m/${m}?r=${enc(r)}"><span class="dot ${o === false ? 'bad' : o ? 'ok' : 'na'}"></span><span class="lbl">${esc(`${M[m].short} ${inPlace(r, M[m].role === 'care')}`)}</span>
-    <span class="v ${cls(o)}">${fmt(m, v)}</span><span class="m">target ${num(fmtT(m))}</span>
-    <span class="m">${r === FI ? 'period ' + num(per(M[m].period)) : 'whole country ' + num(fmt(m, M[m].national), mOk(m, FI))}</span><span class="go">›</span></a>`;
+    <span class="v ${cls(o)}"${sourceAttr(measureSource(m, r))}>${fmt(m, v)}</span><span class="m">target ${num(fmtT(m))}</span>
+    <span class="m"${sourceAttr(measureSource(m, FI))}>${r === FI ? 'period ' + num(per(M[m].period)) : 'whole country ' + num(fmt(m, M[m].national), mOk(m, FI))}</span><span class="go">›</span></a>`;
 }
 function closestIntro(p, what) {
   return `<span class="lead-bad">No other area meets ${what} yet.</span> ` + (p.list.length ? 'Closest to the target:'
@@ -340,10 +551,10 @@ function peersSection(t) {
   const p = peersForTarget(t);
   const intro = p.closest ? closestIntro(p, 'this target')
     : `${p.list.length} areas meet this target${sel === FI ? '' : ', closest in size to ' + esc(sel) + ' first'}.`;
-  return `<h2>Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t))}`;
+  return `<h2 data-intro-peers="${esc(t.id)}">Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t), r => aggregateSource(t, r))}`;
 }
 
-const kpi = (k, n, ok, sub) => `<div class="kpi"><div class="k">${esc(k)}</div><div class="n ${cls(ok)}">${n}</div>${sub ? `<div class="s">${esc(sub)}</div>` : ''}</div>`;
+const kpi = (k, n, ok, sub, source, subSource) => `<div class="kpi"><div class="k">${esc(k)}</div><div class="n ${cls(ok)}"${sourceAttr(source)}>${n}</div>${sub ? `<div class="s"${sourceAttr(subSource)}>${esc(sub)}</div>` : ''}</div>`;
 
 /* ---------- target page: summary first, then the breakdown ---------- */
 function renderTarget(v, tid) {
@@ -353,11 +564,11 @@ function renderTarget(v, tid) {
     <div class="card hero"><div class="kicker">Goal ${t.goal.id} · ${esc(rname(r))}</div>
       <div class="hero-row"><div><h1>${esc(tName(t))}</h1>${contrib(t) ? `<div class="contrib">${esc(contrib(t))}</div>` : ''}</div>${pill(s, tLabel(s))}</div>
       <div class="kpis">${M[t.measures[0]].kind === 'zero' ? `
-        ${kpi(`${a.label} ${inPlace(r, true)}`, a.text, a.ok, `target ${a.target}${r !== FI ? ' · whole country ' + agg(t, FI).text : ''}`)}
-        ${kpi(`${M.lahete21.label} ${inPlace(r, true)}`, fmt('lahete21', val('lahete21', r)), mOk('lahete21', r), `target ${fmtT('lahete21')}${r !== FI ? ' · whole country ' + fmt('lahete21', M.lahete21.national) : ''}`)}` : `
-        <div class="kpi"><div class="k">${esc(`${a.label} ${inPlace(r)}`)}</div><div class="n ${cls(a.ok)}">${a.text}</div></div>
+        ${kpi(`${a.label} ${inPlace(r, true)}`, a.text, a.ok, `target ${a.target}${r !== FI ? ' · whole country ' + agg(t, FI).text : ''}`, aggregateSource(t, r), r !== FI && aggregateSource(t, FI))}
+        ${kpi(`${M.lahete21.label} ${inPlace(r, true)}`, fmt('lahete21', val('lahete21', r)), mOk('lahete21', r), `target ${fmtT('lahete21')}${r !== FI ? ' · whole country ' + fmt('lahete21', M.lahete21.national) : ''}`, measureSource('lahete21', r), r !== FI && measureSource('lahete21', FI))}` : `
+        <div class="kpi"><div class="k">${esc(`${a.label} ${inPlace(r)}`)}</div><div class="n ${cls(a.ok)}"${sourceAttr(aggregateSource(t, r))}>${a.text}</div></div>
         <div class="kpi"><div class="k">Target</div><div class="n">${a.target}</div></div>
-        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(agg(t, FI).ok)}">${agg(t, FI).text}</div></div>` : ''}`}
+        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(agg(t, FI).ok)}"${sourceAttr(aggregateSource(t, FI))}>${agg(t, FI).text}</div></div>` : ''}`}
         <div class="kpi"><div class="k">Period</div><div class="n small">${per(M[t.measures[0]].period)}</div></div>
       </div>
       ${D.hus_area.includes(r) && role === 'care' ? '<div class="note">THL reports Helsinki and the Uusimaa counties as one HUS row.</div>' : ''}
@@ -365,7 +576,7 @@ function renderTarget(v, tid) {
     <h2>${{ 'S2.1': 'By group', 'S2.2': 'By cancer type' }[t.id] || 'By specialty'}</h2>
     <div class="card"><div class="mrows">${t.measures.map(m => measureRow(m, r)).join('')}</div></div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, role)}
-    ${s === 'bad' ? peersSection(t) + `<h2>AI report: how others have solved it</h2>${reportSlot(t.report)}` : ''}
+    ${s === 'bad' ? peersSection(t) + `<h2 data-intro-report>AI report: how others have solved it</h2>${reportSlot(t.report)}` : ''}
     <h2>Ask about this</h2>${chatCard(`t-${t.id}-${r}`)}
   </div>`;
   bindMore(v, () => renderTarget(v, tid));
@@ -384,18 +595,18 @@ function renderMeasure(v, m) {
     <div class="card hero"><div class="kicker">${esc(tName(t))} · ${esc(rname(r))}</div>
       <div class="hero-row"><h1>${esc(x.label)}</h1>${pill(st, st === 'na' ? 'No data' : tLabel(st))}</div>
       <div class="kpis">
-        <div class="kpi"><div class="k">${esc(`${x.short} ${inPlace(r, x.role === 'care')}`)}</div><div class="n ${o === false ? 'bad' : o ? 'ok' : ''}">${fmt(m, value)}</div></div>
+        <div class="kpi"><div class="k">${esc(`${x.short} ${inPlace(r, x.role === 'care')}`)}</div><div class="n ${o === false ? 'bad' : o ? 'ok' : ''}"${sourceAttr(measureSource(m, r))}>${fmt(m, value)}</div></div>
         <div class="kpi"><div class="k">Target</div><div class="n">${fmtT(m)}</div></div>
-        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(isOk(m, x.national))}">${fmt(m, x.national)}</div></div>` : ''}
-        <div class="kpi"><div class="k">Period · source</div><div class="n small">${per(x.period)} · ${esc(x.source)}</div></div>
+        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(isOk(m, x.national))}"${sourceAttr(measureSource(m, FI))}>${fmt(m, x.national)}</div></div>` : ''}
+        <div class="kpi"><div class="k">Period</div><div class="n small">${per(x.period)}</div></div>
       </div>
       ${D.hus_area.includes(r) && x.role === 'care' ? '<div class="note">THL reports Helsinki and the Uusimaa counties as one HUS row.</div>' : ''}
     </div>
     <h2>All areas</h2><div class="card chartcard">${barChart(m)}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, x.role)}
     ${o === false ? `<h2>Areas that meet the target</h2>${peersBlock('m' + m + r, p.list, rr => fmt(m, val(m, rr)), x.role,
-      p.closest ? closestIntro(p, 'the target') : `${p.list.length} areas meet the target ${fmtT(m)}.`, x.short)}
-      ${t.report ? `<h2>AI report: how others have solved it</h2>${reportSlot(t.report)}` : ''}` : ''}
+      p.closest ? closestIntro(p, 'the target') : `${p.list.length} areas meet the target ${fmtT(m)}.`, x.short, rr => measureSource(m, rr))}
+      ${t.report ? `<h2 data-intro-report>AI report: how others have solved it</h2>${reportSlot(t.report)}` : ''}` : ''}
     <h2>Ask about this</h2>${chatCard(`m-${m}-${r}`)}
   </div>`;
   bindMore(v, () => renderMeasure(v, m));
@@ -413,10 +624,10 @@ function barChart(m) {
     ${rows.map((o, i) => {
       const y = 8 + i * rh, ok = isOk(m, o.v), me = o.r === sel;
       const col = o.r === FI ? '#94a3b8' : ok === false ? '#f87171' : ok ? '#4ade80' : '#e2e8f0';
-      return `${me ? `<rect x="0" y="${y - 2}" width="${W}" height="${rh}" fill="#e6edf7"/>` : ''}
+      return `<g>${measureSource(m, o.r) ? `<title>${esc(sourceName(measureSource(m, o.r)))}</title>` : ''}${me ? `<rect x="0" y="${y - 2}" width="${W}" height="${rh}" fill="#e6edf7"/>` : ''}
         <text x="${L - 10}" y="${y + 13}" text-anchor="end" font-size="12" font-weight="${me || o.r === FI ? 700 : 400}" fill="#0f172a">${esc(rname(o.r))}${x.role === 'care' && D.hus_area.includes(o.r) ? ' (HUS)' : ''}</text>
         <rect x="${L}" y="${y + 3}" width="${Math.max(1.5, o.v == null ? 0 : X(o.v) - L)}" height="${rh - 8}" rx="2" fill="${col}"/>
-        <text x="${(o.v == null ? L : X(o.v)) + 6}" y="${y + 13}" font-size="11.5" font-weight="600" stroke="#fff" stroke-width="4" paint-order="stroke" fill="${ok === false ? '#dc2626' : ok ? '#16a34a' : '#0f172a'}">${fmt(m, o.v)}</text>`;
+        <text x="${(o.v == null ? L : X(o.v)) + 6}" y="${y + 13}" font-size="11.5" font-weight="600" stroke="#fff" stroke-width="4" paint-order="stroke" fill="${ok === false ? '#dc2626' : ok ? '#16a34a' : '#0f172a'}">${fmt(m, o.v)}</text></g>`;
     }).join('')}
   </svg>`;
 }
@@ -426,10 +637,10 @@ function renderMort(v, t) {
     ${crumbs(`${esc(rname(r))} › Goal 3 › Cancer mortality`)}
     <div class="card hero"><div class="kicker">${esc(SHORT[t.id])} · ${esc(rname(r))}</div>
       <div class="hero-row"><h1>Cancer deaths per year, whole country</h1>${pill(st, tLabel(st))}</div>
-      <div class="kpis">${kpi(`Cancer deaths ${x.last}`, nf(x.v, 0), x.ok)}${kpi(`Target by ${x.mo.target_year}`, '≤ ' + nf(x.mo.target, 0))}</div></div>
+      <div class="kpis">${kpi(`Cancer deaths ${x.last}`, nf(x.v, 0), x.ok, null, mortalitySource(x.last))}${kpi(`Target by ${x.mo.target_year}`, '≤ ' + nf(x.mo.target, 0))}</div></div>
     <h2>Trend and target</h2><div class="card chartcard">${mortChart()}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, 'care')}
-    ${st === 'bad' ? `<h2>AI report: how others have solved it</h2>${reportSlot('S3.2')}` : ''}
+    ${st === 'bad' ? `<h2 data-intro-report>AI report: how others have solved it</h2>${reportSlot('S3.2')}` : ''}
     <h2>Ask about this</h2>${chatCard(`m-mort-${r}`)}
   </div>`;
   loadReports(v); bindChats(v, { region: rname(r), target: t.text });
@@ -444,9 +655,9 @@ function mortChart() {
     ${[11000, 12000, 13000, 14000].map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#eef0f3"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end" font-size="11" fill="#0f172a">${nf(v, 0)}</text>`).join('')}
     ${[2010, 2015, 2020, 2025, 2030, 2035].map(y => `<text x="${X(y)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="#0f172a">${y}</text>`).join('')}
     <line x1="${L}" x2="${W - R}" y1="${Y(mo.target)}" y2="${Y(mo.target)}" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5 5"/>
-    <path d="${line}" stroke="#0f172a" stroke-width="2.2" fill="none"/>
-    <circle cx="${X(last)}" cy="${Y(mo.counts[last])}" r="4" fill="${vc}"/>
-    <text x="${X(last) + 8}" y="${Y(mo.counts[last]) - 8}" font-size="12" font-weight="600" fill="${vc}">${nf(mo.counts[last], 0)} (${last})</text>
+    <path d="${line}" stroke="#0f172a" stroke-width="2.2" fill="none"><title>${esc([...new Set(ys.map(mortalitySource).filter(Boolean).map(sourceName))].join(' / '))}</title></path>
+    <g><title>${esc(sourceName(mortalitySource(last)))}</title><circle cx="${X(last)}" cy="${Y(mo.counts[last])}" r="4" fill="${vc}"/>
+    <text x="${X(last) + 8}" y="${Y(mo.counts[last]) - 8}" font-size="12" font-weight="600" fill="${vc}">${nf(mo.counts[last], 0)} (${last})</text></g>
     <text x="${W - R}" y="${Y(mo.target) + 18}" text-anchor="end" font-size="12" font-weight="600" fill="#0f172a">target ≤ ${nf(mo.target, 0)} by ${mo.target_year}</text>
   </svg><div class="note">Line = cancer deaths per year · dashed = target</div>`;
 }
@@ -482,8 +693,8 @@ const emptyText = () => AI.offline ? 'The chat needs the server: start Kaynnista
 function chatCard(key) { return `<div class="card chat-card"><div class="chat-box" data-chat="${esc(key)}"></div></div>`; }
 function chatInner(key) {
   const arr = chats[key] || [];
-  return `<div class="msgs">${arr.length ? arr.map((m, i) => m.role === 'user' ? `<div class="msg user">${esc(m.text)}</div>`
-    : `<div class="msg ai">${md(m.text)}${m.pending ? '<span class="spinner"></span>' : ''}${m.suggestions ? `<div class="sugg" data-k="${i}"></div>` : ''}</div>`).join('')
+  return `<div class="msgs">${arr.length ? arr.map(m => m.role === 'user' ? `<div class="msg user">${esc(m.text)}</div>`
+    : `<div class="msg ai">${md(m.text)}${m.pending ? '<span class="spinner"></span>' : ''}</div>`).join('')
     : `<div class="empty">${emptyText()}</div>`}</div>
     <form class="chat-in"><textarea rows="2" placeholder="Ask a question…"></textarea><button type="submit" aria-label="Send">➤</button></form>`;
 }
@@ -491,7 +702,6 @@ function mountChat(box, ctx) {
   const key = box.dataset.chat;
   const draw = () => {
     box.innerHTML = chatInner(key);
-    box.querySelectorAll('.sugg[data-k]').forEach(el => showSuggestions(el, (chats[key] || [])[+el.dataset.k].suggestions));
     const ms = box.querySelector('.msgs'); ms.scrollTop = ms.scrollHeight;
     const ta = box.querySelector('textarea'), form = box.querySelector('form');
     form.onsubmit = e => { e.preventDefault(); send(key, ta.value, ctx, draw); };
@@ -508,10 +718,28 @@ function pageText() {
 }
 function send(key, text, ctx, draw) {
   text = (text || '').trim(); if (!text) return;
+  const firstQuestion = introStep === 'goalChat';
+  const practice = (firstQuestion || introStep === 'chatReview') && key === `goal-2-${introRegion}`;
+  if (introStep && introStep !== 'done' && !practice) return;
+  if (practice && (AI.offline || !AI.ai)) {
+    const screening = agg(T('S2.2'), introRegion);
+    const summary = `Practice summary · Live AI is unavailable. Average screening participation in ${introRegion} is ${screening.text}. The target is ${screening.target}, and the national average is ${agg(T('S2.2'), FI).text}.`;
+    const box = $('.chat-card [data-chat]');
+    $('textarea', box).value = '';
+    const messages = $('.msgs', box);
+    $('.empty', messages)?.remove();
+    messages.insertAdjacentHTML('beforeend', `<div class="msg user">${esc(text)}</div><div class="msg ai">${esc(summary)}</div>`);
+    messages.scrollTop = messages.scrollHeight;
+    if (firstQuestion) goToIntroStep('chatReview');
+    return;
+  }
   const arr = chats[key] = chats[key] || [];
+  if (practice && arr.some(message => message.pending)) return;
   arr.push({ role: 'user', text });
   const pending = { role: 'assistant', pending: true, text: '' };
   arr.push(pending); draw();
+  if (firstQuestion) goToIntroStep('chatWaiting');
+  else if (practice) updateIntroduction();
   const box = () => document.querySelector(`[data-chat="${CSS.escape(key)}"]`);
   const redraw = () => { const b = box(); if (b) mountChat(b, ctx); };
   /* the answer is written into the bubble as it arrives */
@@ -519,7 +747,13 @@ function send(key, text, ctx, draw) {
     const b = box(); if (!b) return;
     const el = [...b.querySelectorAll('.msg.ai')].pop(); if (!el) return;
     el.innerHTML = md(pending.text) + (pending.pending ? '<span class="spinner"></span>' : '');
+    if (introStep === 'chatWaiting') updateIntroduction();
     const ms = b.querySelector('.msgs'); ms.scrollTop = ms.scrollHeight;
+  };
+  const finishReply = () => {
+    redraw();
+    if (firstQuestion && introStep === 'chatWaiting') goToIntroStep('chatReview');
+    else updateIntroduction();
   };
   fetch('api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ messages: arr.filter(m => m !== pending).map(m => ({ role: m.role, text: m.text })), context: { ...ctx, page: pageText() } }) })
@@ -536,13 +770,13 @@ function send(key, text, ctx, draw) {
           if (!line) continue;
           const ev = JSON.parse(line);
           if (ev.delta) pending.text += ev.delta;
-          if (ev.done) { pending.text = ev.text || pending.text; pending.suggestions = ev.suggestions || ''; pending.pending = false; }
+          if (ev.done) { pending.text = ev.text || pending.text; pending.pending = false; }
           paint();
         }
       }
-      pending.pending = false; redraw();
+      pending.pending = false; finishReply();
     })
-    .catch(() => { pending.pending = false; pending.text = pending.text || emptyText(); redraw(); });
+    .catch(() => { pending.pending = false; pending.text = pending.text || emptyText(); finishReply(); });
 }
 function toggleDrawer(open) {
   const d = $('#drawer'); d.classList.toggle('open', open); d.setAttribute('aria-hidden', String(!open));
