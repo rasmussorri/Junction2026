@@ -11,7 +11,6 @@ let sel = FI;
 let locked = false; /* set once an area is clicked: hovering then only previews it on the map */
 const chats = {};
 const showAll = {};
-const introKey = 'vahti.introduction.v2';
 let introRegion = FI;
 let introStep = null;
 const introRoutes = {
@@ -205,10 +204,7 @@ function initIntroduction() {
   const open = () => dialog.showModal();
   $('#introReplay').onclick = open;
   dialog.oncancel = e => e.preventDefault();
-  $('#introSkip').onclick = () => {
-    rememberIntroduction();
-    dialog.close();
-  };
+  $('#introSkip').onclick = () => dialog.close();
   $('#introStart').onclick = () => {
     toggleDrawer(false);
     sel = introRegion = FI;
@@ -226,14 +222,7 @@ function initIntroduction() {
       goToIntroStep(step.next);
     }
   };
-  try {
-    if (localStorage.getItem(introKey) === 'seen') return;
-  } catch { /* storage can be disabled */ }
   open();
-}
-
-function rememberIntroduction() {
-  try { localStorage.setItem(introKey, 'seen'); } catch { /* storage can be disabled */ }
 }
 
 function introHash() {
@@ -248,7 +237,6 @@ function goToIntroStep(next) {
   const previous = introStep;
   introStep = next;
   if (next === 'done') {
-    rememberIntroduction();
     sel = FI;
     locked = false;
   }
