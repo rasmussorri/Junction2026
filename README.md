@@ -58,6 +58,7 @@ A single [/.env](.env) file in the repository root configures both local runs an
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=gemini-3.5-flash
+EXA_API_KEY=your_exa_api_key
 ```
 
 ---
