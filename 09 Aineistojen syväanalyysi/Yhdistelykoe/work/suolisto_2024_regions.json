@@ -1,0 +1,222 @@
+[
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Etelä-Karjala",
+    "region_code": "HVA11",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 11131,
+    "participated_count": 8241,
+    "participation_percent_published": 74.0
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Etelä-Pohjanmaa",
+    "region_code": "HVA16",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 15941,
+    "participated_count": 11899,
+    "participation_percent_published": 74.6
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Etelä-Savo",
+    "region_code": "HVA12",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 13122,
+    "participated_count": 10093,
+    "participation_percent_published": 76.9
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Helsingin kaupunki",
+    "region_code": "HVA90",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 42015,
+    "participated_count": 29226,
+    "participation_percent_published": 69.6
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Itä-Uusimaa",
+    "region_code": "HVA01",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 7884,
+    "participated_count": 5679,
+    "participation_percent_published": 72.0
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Kainuu",
+    "region_code": "HVA20",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 7009,
+    "participated_count": 5362,
+    "participation_percent_published": 76.5
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Kanta-Häme",
+    "region_code": "HVA07",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 14399,
+    "participated_count": 10705,
+    "participation_percent_published": 74.3
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Keski-Pohjanmaa",
+    "region_code": "HVA18",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 4928,
+    "participated_count": 3612,
+    "participation_percent_published": 73.3
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Keski-Suomi",
+    "region_code": "HVA15",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 21191,
+    "participated_count": 16219,
+    "participation_percent_published": 76.5
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Keski-Uusimaa",
+    "region_code": "HVA02",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 15179,
+    "participated_count": 11236,
+    "participation_percent_published": 74.0
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Kymenlaakso",
+    "region_code": "HVA10",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 14431,
+    "participated_count": 10098,
+    "participation_percent_published": 70.0
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Lappi",
+    "region_code": "HVA21",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 16183,
+    "participated_count": 11925,
+    "participation_percent_published": 73.7
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Länsi-Uusimaa",
+    "region_code": "HVA03",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 32139,
+    "participated_count": 22976,
+    "participation_percent_published": 71.5
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Pirkanmaa",
+    "region_code": "HVA08",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 37764,
+    "participated_count": 28058,
+    "participation_percent_published": 74.3
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Pohjanmaa",
+    "region_code": "HVA17",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 12299,
+    "participated_count": 9334,
+    "participation_percent_published": 75.9
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Pohjois-Karjala",
+    "region_code": "HVA14",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 14800,
+    "participated_count": 10833,
+    "participation_percent_published": 73.2
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Pohjois-Pohjanmaa",
+    "region_code": "HVA19",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 29646,
+    "participated_count": 22423,
+    "participation_percent_published": 75.6
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Pohjois-Savo",
+    "region_code": "HVA13",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 21844,
+    "participated_count": 16465,
+    "participation_percent_published": 75.4
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Päijät-Häme",
+    "region_code": "HVA09",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 17272,
+    "participated_count": 12996,
+    "participation_percent_published": 75.2
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Satakunta",
+    "region_code": "HVA06",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 18076,
+    "participated_count": 13115,
+    "participation_percent_published": 72.6
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Vantaa ja Kerava",
+    "region_code": "HVA04",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 17443,
+    "participated_count": 12433,
+    "participation_percent_published": 71.3
+  },
+  {
+    "program": "suolisto",
+    "year": 2024,
+    "source_region_name": "Varsinais-Suomi",
+    "region_code": "HVA05",
+    "denominator_source_label": "Poimittu",
+    "denominator_source_value": 36669,
+    "participated_count": 26943,
+    "participation_percent_published": 73.5
+  }
+]

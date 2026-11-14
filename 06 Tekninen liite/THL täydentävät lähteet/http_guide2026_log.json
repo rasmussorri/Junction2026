@@ -1,0 +1,13 @@
+[
+  {
+    "file": "hilmo_guide2026.pdf",
+    "url": "https://www.julkari.fi/server/api/core/bitstreams/6beb36ca-3a6e-4991-baa7-d578520b12ef/content",
+    "method": "GET",
+    "utc": "2026-11-13T23:52:32.772417+00:00",
+    "status": 200,
+    "final_url": "https://www.julkari.fi/server/api/core/bitstreams/6beb36ca-3a6e-4991-baa7-d578520b12ef/content",
+    "content_type": "application/pdf;charset=UTF-8",
+    "bytes": 949258,
+    "sha256": "af0a1525b944383d6fd92e97276476e63c7e4e7cfcaf37bfaba6eaa89d0be771"
+  }
+]

@@ -1,0 +1,5681 @@
+{
+  "manifest": {
+    "suolisto": {
+      "source_url": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+      "raw_sha256": "3d1de50ec0cb6641ae9a39abf975d8f1b5b34ad879194fd46230796705e991e6",
+      "real_tables": 34
+    },
+    "rinta": {
+      "source_url": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+      "raw_sha256": "69acd38a60558e177d4b196b8de271e1897e95d041f27de76fa16cf483255a2b",
+      "real_tables": 61
+    }
+  },
+  "programs": {
+    "suolisto": {
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "stable_regions": [
+        "Etelä-Karjala",
+        "Etelä-Pohjanmaa",
+        "Etelä-Savo",
+        "Helsingin kaupunki",
+        "Itä-Uusimaa",
+        "Kainuu",
+        "Kanta-Häme",
+        "Keski-Pohjanmaa",
+        "Keski-Suomi",
+        "Keski-Uusimaa",
+        "Kymenlaakso",
+        "Lappi",
+        "Länsi-Uusimaa",
+        "Pirkanmaa",
+        "Pohjanmaa",
+        "Pohjois-Karjala",
+        "Pohjois-Pohjanmaa",
+        "Pohjois-Savo",
+        "Päijät-Häme",
+        "Satakunta",
+        "Vantaa ja Kerava",
+        "Varsinais-Suomi"
+      ],
+      "year_summaries": [
+        {
+          "year": 2022,
+          "stable_region_count": 22,
+          "denominator": 354174,
+          "participants": 273708,
+          "weighted_pct": 77.28065865930306,
+          "lowest": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 35103,
+            "participants": 25691,
+            "participation_pct": 73.18747685383016,
+            "published_pct": "73,2",
+            "table_index": 26
+          },
+          "highest": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 11145,
+            "participants": 9058,
+            "participation_pct": 81.27411395244505,
+            "published_pct": "81,3",
+            "table_index": 26
+          },
+          "gap_pp": 8.086637098614887,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Kymenlaakso",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Päijät-Häme",
+            "Keski-Suomi",
+            "Etelä-Savo"
+          ]
+        },
+        {
+          "year": 2023,
+          "stable_region_count": 22,
+          "denominator": 422650,
+          "participants": 314303,
+          "weighted_pct": 74.36484088489294,
+          "lowest": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 14795,
+            "participants": 10288,
+            "participation_pct": 69.53700574518419,
+            "published_pct": "69,5",
+            "table_index": 25
+          },
+          "highest": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13092,
+            "participants": 10183,
+            "participation_pct": 77.7803238619004,
+            "published_pct": "77,8",
+            "table_index": 25
+          },
+          "gap_pp": 8.24331811671621,
+          "bottom_three": [
+            "Kymenlaakso",
+            "Helsingin kaupunki",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Pohjois-Savo",
+            "Keski-Suomi",
+            "Etelä-Savo"
+          ]
+        },
+        {
+          "year": 2024,
+          "stable_region_count": 22,
+          "denominator": 421365,
+          "participants": 309871,
+          "weighted_pct": 73.53980515704912,
+          "lowest": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 42015,
+            "participants": 29226,
+            "participation_pct": 69.56087111745805,
+            "published_pct": "69,6",
+            "table_index": 24
+          },
+          "highest": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13122,
+            "participants": 10093,
+            "participation_pct": 76.9166285627191,
+            "published_pct": "76,9",
+            "table_index": 24
+          },
+          "gap_pp": 7.355757445261048,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Kymenlaakso",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Kainuu",
+            "Keski-Suomi",
+            "Etelä-Savo"
+          ]
+        }
+      ],
+      "adjacent_changes": [
+        {
+          "region": "Etelä-Karjala",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -4.32473957755893,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 9465,
+            "participants": 7456,
+            "participation_pct": 78.7744321183307,
+            "published_pct": "78,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 11221,
+            "participants": 8354,
+            "participation_pct": 74.44969254077176,
+            "published_pct": "74,4",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.502628895229094,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 13622,
+            "participants": 10539,
+            "participation_pct": 77.36749376009396,
+            "published_pct": "77,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15910,
+            "participants": 11911,
+            "participation_pct": 74.86486486486487,
+            "published_pct": "74,9",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.4937900905446497,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 11145,
+            "participants": 9058,
+            "participation_pct": 81.27411395244505,
+            "published_pct": "81,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13092,
+            "participants": 10183,
+            "participation_pct": 77.7803238619004,
+            "published_pct": "77,8",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.474708563821153,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 35103,
+            "participants": 25691,
+            "participation_pct": 73.18747685383016,
+            "published_pct": "73,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 41047,
+            "participants": 28615,
+            "participation_pct": 69.71276829000901,
+            "published_pct": "69,7",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.4463714700097086,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 6523,
+            "participants": 4936,
+            "participation_pct": 75.6707036639583,
+            "published_pct": "75,7",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 7899,
+            "participants": 5705,
+            "participation_pct": 72.2243321939486,
+            "published_pct": "72,2",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.159572361486539,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 6019,
+            "participants": 4780,
+            "participation_pct": 79.41518524671872,
+            "published_pct": "79,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 7171,
+            "participants": 5540,
+            "participation_pct": 77.25561288523218,
+            "published_pct": "77,3",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.2737576915114914,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 12157,
+            "participants": 9532,
+            "participation_pct": 78.40750185078555,
+            "published_pct": "78,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14767,
+            "participants": 11095,
+            "participation_pct": 75.13374415927406,
+            "published_pct": "75,1",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.006391718942325,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 4225,
+            "participants": 3219,
+            "participation_pct": 76.18934911242603,
+            "published_pct": "76,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 5187,
+            "participants": 3796,
+            "participation_pct": 73.1829573934837,
+            "published_pct": "73,2",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.4335272615187193,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 17979,
+            "participants": 14388,
+            "participation_pct": 80.02669781411647,
+            "published_pct": "80,0",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 21788,
+            "participants": 16906,
+            "participation_pct": 77.59317055259775,
+            "published_pct": "77,6",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -5.463759465686778,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12475,
+            "participants": 9828,
+            "participation_pct": 78.78156312625251,
+            "published_pct": "78,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15025,
+            "participants": 11016,
+            "participation_pct": 73.31780366056573,
+            "published_pct": "73,3",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -4.301725036628042,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 12228,
+            "participants": 9029,
+            "participation_pct": 73.83873078181223,
+            "published_pct": "73,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 14795,
+            "participants": 10288,
+            "participation_pct": 69.53700574518419,
+            "published_pct": "69,5",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.667498901247214,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 13972,
+            "participants": 10837,
+            "participation_pct": 77.56226739192671,
+            "published_pct": "77,6",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 16630,
+            "participants": 12455,
+            "participation_pct": 74.8947684906795,
+            "published_pct": "74,9",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.2367525711579788,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 26432,
+            "participants": 20061,
+            "participation_pct": 75.89664043583535,
+            "published_pct": "75,9",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 31569,
+            "participants": 22938,
+            "participation_pct": 72.65988786467737,
+            "published_pct": "72,7",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.156999103630497,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 31540,
+            "participants": 24528,
+            "participation_pct": 77.76791376030438,
+            "published_pct": "77,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 37894,
+            "participants": 28652,
+            "participation_pct": 75.61091465667388,
+            "published_pct": "75,6",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.284820264181022,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 10335,
+            "participants": 8071,
+            "participation_pct": 78.09385582970489,
+            "published_pct": "78,1",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12484,
+            "participants": 9464,
+            "participation_pct": 75.80903556552387,
+            "published_pct": "75,8",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.9812074503751234,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 12737,
+            "participants": 9968,
+            "participation_pct": 78.26018685718772,
+            "published_pct": "78,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 15442,
+            "participants": 11779,
+            "participation_pct": 76.2789794068126,
+            "published_pct": "76,3",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -2.736375498389222,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 25116,
+            "participants": 19809,
+            "participation_pct": 78.87004300047778,
+            "published_pct": "78,9",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 29925,
+            "participants": 22783,
+            "participation_pct": 76.13366750208856,
+            "published_pct": "76,1",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.3777122620324462,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 18463,
+            "participants": 14520,
+            "participation_pct": 78.64377403455559,
+            "published_pct": "78,6",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 21822,
+            "participants": 16861,
+            "participation_pct": 77.26606177252314,
+            "published_pct": "77,3",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.2657042756412267,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14481,
+            "participants": 11501,
+            "participation_pct": 79.42131068296388,
+            "published_pct": "79,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 17480,
+            "participants": 13312,
+            "participation_pct": 76.15560640732265,
+            "published_pct": "76,2",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.114046089792879,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 15346,
+            "participants": 11627,
+            "participation_pct": 75.76567183630914,
+            "published_pct": "75,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 18084,
+            "participants": 13500,
+            "participation_pct": 74.65162574651626,
+            "published_pct": "74,7",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.561549823408569,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 14235,
+            "participants": 10698,
+            "participation_pct": 75.15279241306638,
+            "published_pct": "75,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 17037,
+            "participants": 12197,
+            "participation_pct": 71.59124258965781,
+            "published_pct": "71,6",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -3.2040030555739207,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 30576,
+            "participants": 23632,
+            "participation_pct": 77.28937728937728,
+            "published_pct": "77,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 36381,
+            "participants": 26953,
+            "participation_pct": 74.08537423380336,
+            "published_pct": "74,1",
+            "table_index": 25
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.4132178305031431,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 11221,
+            "participants": 8354,
+            "participation_pct": 74.44969254077176,
+            "published_pct": "74,4",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 11131,
+            "participants": 8241,
+            "participation_pct": 74.03647471026862,
+            "published_pct": "74,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.22086511579016133,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15910,
+            "participants": 11911,
+            "participation_pct": 74.86486486486487,
+            "published_pct": "74,9",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15941,
+            "participants": 11899,
+            "participation_pct": 74.64399974907471,
+            "published_pct": "74,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.8636952991813018,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13092,
+            "participants": 10183,
+            "participation_pct": 77.7803238619004,
+            "published_pct": "77,8",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13122,
+            "participants": 10093,
+            "participation_pct": 76.9166285627191,
+            "published_pct": "76,9",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.15189717255096014,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 41047,
+            "participants": 28615,
+            "participation_pct": 69.71276829000901,
+            "published_pct": "69,7",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 42015,
+            "participants": 29226,
+            "participation_pct": 69.56087111745805,
+            "published_pct": "69,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.19236872362895951,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 7899,
+            "participants": 5705,
+            "participation_pct": 72.2243321939486,
+            "published_pct": "72,2",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 7884,
+            "participants": 5679,
+            "participation_pct": 72.03196347031964,
+            "published_pct": "72,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.7539721376219717,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 7171,
+            "participants": 5540,
+            "participation_pct": 77.25561288523218,
+            "published_pct": "77,3",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 7009,
+            "participants": 5362,
+            "participation_pct": 76.50164074761021,
+            "published_pct": "76,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.788303503672978,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14767,
+            "participants": 11095,
+            "participation_pct": 75.13374415927406,
+            "published_pct": "75,1",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14399,
+            "participants": 10705,
+            "participation_pct": 74.34544065560108,
+            "published_pct": "74,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.11249715197084242,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 5187,
+            "participants": 3796,
+            "participation_pct": 73.1829573934837,
+            "published_pct": "73,2",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 4928,
+            "participants": 3612,
+            "participation_pct": 73.29545454545455,
+            "published_pct": "73,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.0559613600159992,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 21788,
+            "participants": 16906,
+            "participation_pct": 77.59317055259775,
+            "published_pct": "77,6",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 21191,
+            "participants": 16219,
+            "participation_pct": 76.53720919258176,
+            "published_pct": "76,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.7055180338805513,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15025,
+            "participants": 11016,
+            "participation_pct": 73.31780366056573,
+            "published_pct": "73,3",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15179,
+            "participants": 11236,
+            "participation_pct": 74.02332169444628,
+            "published_pct": "74,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.43735500597651367,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 14795,
+            "participants": 10288,
+            "participation_pct": 69.53700574518419,
+            "published_pct": "69,5",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 14431,
+            "participants": 10098,
+            "participation_pct": 69.9743607511607,
+            "published_pct": "70,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.2063300058497362,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 16630,
+            "participants": 12455,
+            "participation_pct": 74.8947684906795,
+            "published_pct": "74,9",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 16183,
+            "participants": 11925,
+            "participation_pct": 73.68843848482976,
+            "published_pct": "73,7",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.17042023967349,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 31569,
+            "participants": 22938,
+            "participation_pct": 72.65988786467737,
+            "published_pct": "72,7",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 32139,
+            "participants": 22976,
+            "participation_pct": 71.48946762500388,
+            "published_pct": "71,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.3126411686959187,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 37894,
+            "participants": 28652,
+            "participation_pct": 75.61091465667388,
+            "published_pct": "75,6",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 37764,
+            "participants": 28058,
+            "participation_pct": 74.29827348797797,
+            "published_pct": "74,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.08331340593721848,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12484,
+            "participants": 9464,
+            "participation_pct": 75.80903556552387,
+            "published_pct": "75,8",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12299,
+            "participants": 9334,
+            "participation_pct": 75.89234897146109,
+            "published_pct": "75,9",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -3.0830334608666448,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 15442,
+            "participants": 11779,
+            "participation_pct": 76.2789794068126,
+            "published_pct": "76,3",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 14800,
+            "participants": 10833,
+            "participation_pct": 73.19594594594595,
+            "published_pct": "73,2",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.4978313015893292,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 29925,
+            "participants": 22783,
+            "participation_pct": 76.13366750208856,
+            "published_pct": "76,1",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 29646,
+            "participants": 22423,
+            "participation_pct": 75.63583620049923,
+            "published_pct": "75,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.8906726496518758,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 21822,
+            "participants": 16861,
+            "participation_pct": 77.26606177252314,
+            "published_pct": "77,3",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 21844,
+            "participants": 16465,
+            "participation_pct": 75.37538912287127,
+            "published_pct": "75,4",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.9124382739275632,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 17480,
+            "participants": 13312,
+            "participation_pct": 76.15560640732265,
+            "published_pct": "76,2",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 17272,
+            "participants": 12996,
+            "participation_pct": 75.24316813339509,
+            "published_pct": "75,2",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -2.0968569923671083,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 18084,
+            "participants": 13500,
+            "participation_pct": 74.65162574651626,
+            "published_pct": "74,7",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 18076,
+            "participants": 13115,
+            "participation_pct": 72.55476875414915,
+            "published_pct": "72,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.31336607758993296,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 17037,
+            "participants": 12197,
+            "participation_pct": 71.59124258965781,
+            "published_pct": "71,6",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 17443,
+            "participants": 12433,
+            "participation_pct": 71.27787651206788,
+            "published_pct": "71,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.6091409031971295,
+          "before": {
+            "program": "suolisto",
+            "year": 2023,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 36381,
+            "participants": 26953,
+            "participation_pct": 74.08537423380336,
+            "published_pct": "74,1",
+            "table_index": 25
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 36669,
+            "participants": 26943,
+            "participation_pct": 73.47623333060623,
+            "published_pct": "73,5",
+            "table_index": 24
+          }
+        }
+      ],
+      "endpoint_changes": [
+        {
+          "region": "Pohjois-Karjala",
+          "change_pp": -5.064240911241768,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 12737,
+            "participants": 9968,
+            "participation_pct": 78.26018685718772,
+            "published_pct": "78,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 14800,
+            "participants": 10833,
+            "participation_pct": 73.19594594594595,
+            "published_pct": "73,2",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "change_pp": -4.758241431806226,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12475,
+            "participants": 9828,
+            "participation_pct": 78.78156312625251,
+            "published_pct": "78,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15179,
+            "participants": 11236,
+            "participation_pct": 74.02332169444628,
+            "published_pct": "74,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "change_pp": -4.737957408062073,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 9465,
+            "participants": 7456,
+            "participation_pct": 78.7744321183307,
+            "published_pct": "78,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Poimittu",
+            "denominator": 11131,
+            "participants": 8241,
+            "participation_pct": 74.03647471026862,
+            "published_pct": "74,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "change_pp": -4.407172810831469,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 26432,
+            "participants": 20061,
+            "participation_pct": 75.89664043583535,
+            "published_pct": "75,9",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 32139,
+            "participants": 22976,
+            "participation_pct": 71.48946762500388,
+            "published_pct": "71,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "change_pp": -4.357485389725952,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 11145,
+            "participants": 9058,
+            "participation_pct": 81.27411395244505,
+            "published_pct": "81,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 13122,
+            "participants": 10093,
+            "participation_pct": 76.9166285627191,
+            "published_pct": "76,9",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "change_pp": -4.17814254956879,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14481,
+            "participants": 11501,
+            "participation_pct": 79.42131068296388,
+            "published_pct": "79,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Päijät-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 17272,
+            "participants": 12996,
+            "participation_pct": 75.24316813339509,
+            "published_pct": "75,2",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "change_pp": -4.062061195184469,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 12157,
+            "participants": 9532,
+            "participation_pct": 78.40750185078555,
+            "published_pct": "78,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kanta-Häme",
+            "denominator_label": "Poimittu",
+            "denominator": 14399,
+            "participants": 10705,
+            "participation_pct": 74.34544065560108,
+            "published_pct": "74,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "change_pp": -3.874915900998502,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 14235,
+            "participants": 10698,
+            "participation_pct": 75.15279241306638,
+            "published_pct": "75,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Poimittu",
+            "denominator": 17443,
+            "participants": 12433,
+            "participation_pct": 71.27787651206788,
+            "published_pct": "71,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Lappi",
+          "change_pp": -3.87382890709695,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 13972,
+            "participants": 10837,
+            "participation_pct": 77.56226739192671,
+            "published_pct": "77,6",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Lappi",
+            "denominator_label": "Poimittu",
+            "denominator": 16183,
+            "participants": 11925,
+            "participation_pct": 73.68843848482976,
+            "published_pct": "73,7",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "change_pp": -3.8643700306515285,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 12228,
+            "participants": 9029,
+            "participation_pct": 73.83873078181223,
+            "published_pct": "73,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kymenlaakso",
+            "denominator_label": "Poimittu",
+            "denominator": 14431,
+            "participants": 10098,
+            "participation_pct": 69.9743607511607,
+            "published_pct": "70,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "change_pp": -3.8131439587710503,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 30576,
+            "participants": 23632,
+            "participation_pct": 77.28937728937728,
+            "published_pct": "77,3",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 36669,
+            "participants": 26943,
+            "participation_pct": 73.47623333060623,
+            "published_pct": "73,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "change_pp": -3.638740193638668,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 6523,
+            "participants": 4936,
+            "participation_pct": 75.6707036639583,
+            "published_pct": "75,7",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Poimittu",
+            "denominator": 7884,
+            "participants": 5679,
+            "participation_pct": 72.03196347031964,
+            "published_pct": "72,0",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "change_pp": -3.626605736372113,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 35103,
+            "participants": 25691,
+            "participation_pct": 73.18747685383016,
+            "published_pct": "73,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Poimittu",
+            "denominator": 42015,
+            "participants": 29226,
+            "participation_pct": 69.56087111745805,
+            "published_pct": "69,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "change_pp": -3.4894886215347185,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 17979,
+            "participants": 14388,
+            "participation_pct": 80.02669781411647,
+            "published_pct": "80,0",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Suomi",
+            "denominator_label": "Poimittu",
+            "denominator": 21191,
+            "participants": 16219,
+            "participation_pct": 76.53720919258176,
+            "published_pct": "76,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "change_pp": -3.4696402723264157,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 31540,
+            "participants": 24528,
+            "participation_pct": 77.76791376030438,
+            "published_pct": "77,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pirkanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 37764,
+            "participants": 28058,
+            "participation_pct": 74.29827348797797,
+            "published_pct": "74,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "change_pp": -3.268384911684322,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 18463,
+            "participants": 14520,
+            "participation_pct": 78.64377403455559,
+            "published_pct": "78,6",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Poimittu",
+            "denominator": 21844,
+            "participants": 16465,
+            "participation_pct": 75.37538912287127,
+            "published_pct": "75,4",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "change_pp": -3.2342067999785513,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 25116,
+            "participants": 19809,
+            "participation_pct": 78.87004300047778,
+            "published_pct": "78,9",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 29646,
+            "participants": 22423,
+            "participation_pct": 75.63583620049923,
+            "published_pct": "75,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Satakunta",
+          "change_pp": -3.2109030821599873,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 15346,
+            "participants": 11627,
+            "participation_pct": 75.76567183630914,
+            "published_pct": "75,8",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Satakunta",
+            "denominator_label": "Poimittu",
+            "denominator": 18076,
+            "participants": 13115,
+            "participation_pct": 72.55476875414915,
+            "published_pct": "72,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Kainuu",
+          "change_pp": -2.913544499108511,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 6019,
+            "participants": 4780,
+            "participation_pct": 79.41518524671872,
+            "published_pct": "79,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Kainuu",
+            "denominator_label": "Poimittu",
+            "denominator": 7009,
+            "participants": 5362,
+            "participation_pct": 76.50164074761021,
+            "published_pct": "76,5",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "change_pp": -2.8938945669714826,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 4225,
+            "participants": 3219,
+            "participation_pct": 76.18934911242603,
+            "published_pct": "76,2",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 4928,
+            "participants": 3612,
+            "participation_pct": 73.29545454545455,
+            "published_pct": "73,3",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "change_pp": -2.7234940110192554,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 13622,
+            "participants": 10539,
+            "participation_pct": 77.36749376009396,
+            "published_pct": "77,4",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 15941,
+            "participants": 11899,
+            "participation_pct": 74.64399974907471,
+            "published_pct": "74,6",
+            "table_index": 24
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "change_pp": -2.2015068582438033,
+          "before": {
+            "program": "suolisto",
+            "year": 2022,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 10335,
+            "participants": 8071,
+            "participation_pct": 78.09385582970489,
+            "published_pct": "78,1",
+            "table_index": 26
+          },
+          "after": {
+            "program": "suolisto",
+            "year": 2024,
+            "region": "Pohjanmaa",
+            "denominator_label": "Poimittu",
+            "denominator": 12299,
+            "participants": 9334,
+            "participation_pct": 75.89234897146109,
+            "published_pct": "75,9",
+            "table_index": 24
+          }
+        }
+      ],
+      "rankings_ascending": {
+        "2022": {
+          "Helsingin kaupunki": 1,
+          "Kymenlaakso": 2,
+          "Vantaa ja Kerava": 3,
+          "Itä-Uusimaa": 4,
+          "Satakunta": 5,
+          "Länsi-Uusimaa": 6,
+          "Keski-Pohjanmaa": 7,
+          "Varsinais-Suomi": 8,
+          "Etelä-Pohjanmaa": 9,
+          "Lappi": 10,
+          "Pirkanmaa": 11,
+          "Pohjanmaa": 12,
+          "Pohjois-Karjala": 13,
+          "Kanta-Häme": 14,
+          "Pohjois-Savo": 15,
+          "Etelä-Karjala": 16,
+          "Keski-Uusimaa": 17,
+          "Pohjois-Pohjanmaa": 18,
+          "Kainuu": 19,
+          "Päijät-Häme": 20,
+          "Keski-Suomi": 21,
+          "Etelä-Savo": 22
+        },
+        "2023": {
+          "Kymenlaakso": 1,
+          "Helsingin kaupunki": 2,
+          "Vantaa ja Kerava": 3,
+          "Itä-Uusimaa": 4,
+          "Länsi-Uusimaa": 5,
+          "Keski-Pohjanmaa": 6,
+          "Keski-Uusimaa": 7,
+          "Varsinais-Suomi": 8,
+          "Etelä-Karjala": 9,
+          "Satakunta": 10,
+          "Etelä-Pohjanmaa": 11,
+          "Lappi": 12,
+          "Kanta-Häme": 13,
+          "Pirkanmaa": 14,
+          "Pohjanmaa": 15,
+          "Pohjois-Pohjanmaa": 16,
+          "Päijät-Häme": 17,
+          "Pohjois-Karjala": 18,
+          "Kainuu": 19,
+          "Pohjois-Savo": 20,
+          "Keski-Suomi": 21,
+          "Etelä-Savo": 22
+        },
+        "2024": {
+          "Helsingin kaupunki": 1,
+          "Kymenlaakso": 2,
+          "Vantaa ja Kerava": 3,
+          "Länsi-Uusimaa": 4,
+          "Itä-Uusimaa": 5,
+          "Satakunta": 6,
+          "Pohjois-Karjala": 7,
+          "Keski-Pohjanmaa": 8,
+          "Varsinais-Suomi": 9,
+          "Lappi": 10,
+          "Keski-Uusimaa": 11,
+          "Etelä-Karjala": 12,
+          "Pirkanmaa": 13,
+          "Kanta-Häme": 14,
+          "Etelä-Pohjanmaa": 15,
+          "Päijät-Häme": 16,
+          "Pohjois-Savo": 17,
+          "Pohjois-Pohjanmaa": 18,
+          "Pohjanmaa": 19,
+          "Kainuu": 20,
+          "Keski-Suomi": 21,
+          "Etelä-Savo": 22
+        }
+      },
+      "endpoint_declines": 22,
+      "adjacent_declines_by_interval": {
+        "2022-2023": 22,
+        "2023-2024": 18
+      }
+    },
+    "rinta": {
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "stable_regions": [
+        "Etelä-Karjala",
+        "Etelä-Pohjanmaa",
+        "Etelä-Savo",
+        "Helsingin kaupunki",
+        "Itä-Uusimaa",
+        "Kainuu",
+        "Kanta-Häme",
+        "Keski-Pohjanmaa",
+        "Keski-Suomi",
+        "Keski-Uusimaa",
+        "Kymenlaakso",
+        "Lappi",
+        "Länsi-Uusimaa",
+        "Pirkanmaa",
+        "Pohjanmaa",
+        "Pohjois-Karjala",
+        "Pohjois-Pohjanmaa",
+        "Pohjois-Savo",
+        "Päijät-Häme",
+        "Satakunta",
+        "Vantaa ja Kerava",
+        "Varsinais-Suomi"
+      ],
+      "year_summaries": [
+        {
+          "year": 2020,
+          "stable_region_count": 22,
+          "denominator": 359948,
+          "participants": 289612,
+          "weighted_pct": 80.4593996910665,
+          "lowest": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 39903,
+            "participants": 28993,
+            "participation_pct": 72.65869734105205,
+            "published_pct": "72,7",
+            "table_index": 54
+          },
+          "highest": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5416,
+            "participants": 4603,
+            "participation_pct": 84.98892171344166,
+            "published_pct": "85,0",
+            "table_index": 54
+          },
+          "gap_pp": 12.330224372389608,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Länsi-Uusimaa",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Etelä-Karjala",
+            "Etelä-Pohjanmaa",
+            "Kainuu"
+          ]
+        },
+        {
+          "year": 2021,
+          "stable_region_count": 22,
+          "denominator": 354463,
+          "participants": 291214,
+          "weighted_pct": 82.15638867808488,
+          "lowest": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38859,
+            "participants": 28949,
+            "participation_pct": 74.49754239687074,
+            "published_pct": "74,5",
+            "table_index": 53
+          },
+          "highest": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17221,
+            "participants": 14782,
+            "participation_pct": 85.83705940421578,
+            "published_pct": "85,8",
+            "table_index": 53
+          },
+          "gap_pp": 11.339517007345037,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Keski-Uusimaa",
+            "Länsi-Uusimaa"
+          ],
+          "top_three": [
+            "Satakunta",
+            "Etelä-Pohjanmaa",
+            "Keski-Suomi"
+          ]
+        },
+        {
+          "year": 2022,
+          "stable_region_count": 22,
+          "denominator": 350809,
+          "participants": 286076,
+          "weighted_pct": 81.54750875832718,
+          "lowest": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38719,
+            "participants": 28430,
+            "participation_pct": 73.42648312198146,
+            "published_pct": "73,4",
+            "table_index": 52
+          },
+          "highest": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5047,
+            "participants": 4337,
+            "participation_pct": 85.93223697245888,
+            "published_pct": "85,9",
+            "table_index": 52
+          },
+          "gap_pp": 12.505753850477419,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Länsi-Uusimaa",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Etelä-Pohjanmaa",
+            "Keski-Pohjanmaa",
+            "Kainuu"
+          ]
+        },
+        {
+          "year": 2023,
+          "stable_region_count": 22,
+          "denominator": 344915,
+          "participants": 280839,
+          "weighted_pct": 81.42266935331894,
+          "lowest": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 37954,
+            "participants": 27462,
+            "participation_pct": 72.3560099067292,
+            "published_pct": "72,4",
+            "table_index": 51
+          },
+          "highest": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16519,
+            "participants": 14151,
+            "participation_pct": 85.66499182759247,
+            "published_pct": "85,7",
+            "table_index": 51
+          },
+          "gap_pp": 13.308981920863275,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Länsi-Uusimaa",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Keski-Suomi",
+            "Satakunta",
+            "Pohjois-Savo"
+          ]
+        },
+        {
+          "year": 2024,
+          "stable_region_count": 22,
+          "denominator": 344851,
+          "participants": 281369,
+          "weighted_pct": 81.59146993919113,
+          "lowest": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38630,
+            "participants": 28686,
+            "participation_pct": 74.2583484338597,
+            "published_pct": "74,3",
+            "table_index": 50
+          },
+          "highest": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23560,
+            "participants": 20168,
+            "participation_pct": 85.60271646859083,
+            "published_pct": "85,6",
+            "table_index": 50
+          },
+          "gap_pp": 11.344368034731133,
+          "bottom_three": [
+            "Helsingin kaupunki",
+            "Länsi-Uusimaa",
+            "Vantaa ja Kerava"
+          ],
+          "top_three": [
+            "Pohjois-Savo",
+            "Keski-Pohjanmaa",
+            "Pohjois-Pohjanmaa"
+          ]
+        }
+      ],
+      "adjacent_changes": [
+        {
+          "region": "Etelä-Karjala",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.9806987216172587,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9171,
+            "participants": 7768,
+            "participation_pct": 84.70177734162033,
+            "published_pct": "84,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8982,
+            "participants": 7696,
+            "participation_pct": 85.68247606323759,
+            "published_pct": "85,7",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.0290189236747835,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12901,
+            "participants": 10939,
+            "participation_pct": 84.79187659871327,
+            "published_pct": "84,8",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12730,
+            "participants": 10925,
+            "participation_pct": 85.82089552238806,
+            "published_pct": "85,8",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.791118166484182,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10365,
+            "participants": 8559,
+            "participation_pct": 82.57597684515196,
+            "published_pct": "82,6",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9883,
+            "participants": 8338,
+            "participation_pct": 84.36709501163614,
+            "published_pct": "84,4",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.8388450558186946,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 39903,
+            "participants": 28993,
+            "participation_pct": 72.65869734105205,
+            "published_pct": "72,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38859,
+            "participants": 28949,
+            "participation_pct": 74.49754239687074,
+            "published_pct": "74,5",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": -0.45172713599410486,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6900,
+            "participants": 5640,
+            "participation_pct": 81.73913043478261,
+            "published_pct": "81,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6851,
+            "participants": 5569,
+            "participation_pct": 81.2874032987885,
+            "published_pct": "81,3",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": -0.13477062892407332,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5416,
+            "participants": 4603,
+            "participation_pct": 84.98892171344166,
+            "published_pct": "85,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5348,
+            "participants": 4538,
+            "participation_pct": 84.85415108451758,
+            "published_pct": "84,9",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.5461440105142827,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11998,
+            "participants": 9830,
+            "participation_pct": 81.93032172028671,
+            "published_pct": "81,9",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12110,
+            "participants": 10109,
+            "participation_pct": 83.476465730801,
+            "published_pct": "83,5",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.7672829992257135,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4145,
+            "participants": 3496,
+            "participation_pct": 84.34258142340168,
+            "published_pct": "84,3",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4278,
+            "participants": 3641,
+            "participation_pct": 85.1098644226274,
+            "published_pct": "85,1",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.1580796834138027,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17407,
+            "participants": 14566,
+            "participation_pct": 83.67897972080198,
+            "published_pct": "83,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17221,
+            "participants": 14782,
+            "participation_pct": 85.83705940421578,
+            "published_pct": "85,8",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.19953112179709365,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13417,
+            "participants": 10293,
+            "participation_pct": 76.71610643213833,
+            "published_pct": "76,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13442,
+            "participants": 10339,
+            "participation_pct": 76.91563755393543,
+            "published_pct": "76,9",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.9115485930825429,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12191,
+            "participants": 10076,
+            "participation_pct": 82.65113608399639,
+            "published_pct": "82,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11845,
+            "participants": 9898,
+            "participation_pct": 83.56268467707893,
+            "published_pct": "83,6",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.2762568508867105,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12679,
+            "participants": 10274,
+            "participation_pct": 81.03162709992901,
+            "published_pct": "81,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12443,
+            "participants": 10366,
+            "participation_pct": 83.30788395081572,
+            "published_pct": "83,3",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.4065481319046,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29811,
+            "participants": 22344,
+            "participation_pct": 74.95219885277247,
+            "published_pct": "75,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29433,
+            "participants": 22769,
+            "participation_pct": 77.35874698467707,
+            "published_pct": "77,4",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.8806425852302766,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 32339,
+            "participants": 26049,
+            "participation_pct": 80.549800550419,
+            "published_pct": "80,5",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31751,
+            "participants": 26490,
+            "participation_pct": 83.43044313564927,
+            "published_pct": "83,4",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.3082814788861157,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10502,
+            "participants": 8747,
+            "participation_pct": 83.28889735288516,
+            "published_pct": "83,3",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10563,
+            "participants": 8936,
+            "participation_pct": 84.59717883177127,
+            "published_pct": "84,6",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.3182102318122304,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11693,
+            "participants": 9870,
+            "participation_pct": 84.40947575472505,
+            "published_pct": "84,4",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11439,
+            "participants": 9692,
+            "participation_pct": 84.72768598653728,
+            "published_pct": "84,7",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 0.9723932449429782,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 24545,
+            "participants": 20615,
+            "participation_pct": 83.9885923813404,
+            "published_pct": "84,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 24350,
+            "participants": 20688,
+            "participation_pct": 84.96098562628337,
+            "published_pct": "85,0",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.9704251382903095,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17637,
+            "participants": 14752,
+            "participation_pct": 83.64234280206384,
+            "published_pct": "83,6",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17168,
+            "participants": 14698,
+            "participation_pct": 85.61276794035415,
+            "published_pct": "85,6",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.26030371150199,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13299,
+            "participants": 10803,
+            "participation_pct": 81.2316715542522,
+            "published_pct": "81,2",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14393,
+            "participants": 12017,
+            "participation_pct": 83.49197526575419,
+            "published_pct": "83,5",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.7192008240872383,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 15237,
+            "participants": 12804,
+            "participation_pct": 84.03228982083087,
+            "published_pct": "84,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14591,
+            "participants": 12512,
+            "participation_pct": 85.7514906449181,
+            "published_pct": "85,8",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 2.519429118736042,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16354,
+            "participants": 12406,
+            "participation_pct": 75.85911703558763,
+            "published_pct": "75,9",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16109,
+            "participants": 12626,
+            "participation_pct": 78.37854615432367,
+            "published_pct": "78,4",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2020,
+          "to": 2021,
+          "change_pp": 1.844597333259827,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 32038,
+            "participants": 26185,
+            "participation_pct": 81.73106935514078,
+            "published_pct": "81,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30674,
+            "participants": 25636,
+            "participation_pct": 83.5756666884006,
+            "published_pct": "83,6",
+            "table_index": 53
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -3.208833619070262,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8982,
+            "participants": 7696,
+            "participation_pct": 85.68247606323759,
+            "published_pct": "85,7",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8821,
+            "participants": 7275,
+            "participation_pct": 82.47364244416733,
+            "published_pct": "82,5",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.7394992317911573,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12730,
+            "participants": 10925,
+            "participation_pct": 85.82089552238806,
+            "published_pct": "85,8",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12347,
+            "participants": 10505,
+            "participation_pct": 85.0813962905969,
+            "published_pct": "85,1",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.40329594716592965,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9883,
+            "participants": 8338,
+            "participation_pct": 84.36709501163614,
+            "published_pct": "84,4",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9834,
+            "participants": 8257,
+            "participation_pct": 83.96379906447021,
+            "published_pct": "84,0",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -1.0710592748892793,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38859,
+            "participants": 28949,
+            "participation_pct": 74.49754239687074,
+            "published_pct": "74,5",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38719,
+            "participants": 28430,
+            "participation_pct": 73.42648312198146,
+            "published_pct": "73,4",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": 0.11707474715508681,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6851,
+            "participants": 5569,
+            "participation_pct": 81.2874032987885,
+            "published_pct": "81,3",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6878,
+            "participants": 5599,
+            "participation_pct": 81.40447804594359,
+            "published_pct": "81,4",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": 1.078085887941299,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5348,
+            "participants": 4538,
+            "participation_pct": 84.85415108451758,
+            "published_pct": "84,9",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5047,
+            "participants": 4337,
+            "participation_pct": 85.93223697245888,
+            "published_pct": "85,9",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.10454222509822841,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12110,
+            "participants": 10109,
+            "participation_pct": 83.476465730801,
+            "published_pct": "83,5",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11661,
+            "participants": 9722,
+            "participation_pct": 83.37192350570277,
+            "published_pct": "83,4",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": 0.09561502942739253,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4278,
+            "participants": 3641,
+            "participation_pct": 85.1098644226274,
+            "published_pct": "85,1",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4015,
+            "participants": 3421,
+            "participation_pct": 85.20547945205479,
+            "published_pct": "85,2",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -1.3489825267688644,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17221,
+            "participants": 14782,
+            "participation_pct": 85.83705940421578,
+            "published_pct": "85,8",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16858,
+            "participants": 14243,
+            "participation_pct": 84.48807687744691,
+            "published_pct": "84,5",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": 3.6181144083879673,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13442,
+            "participants": 10339,
+            "participation_pct": 76.91563755393543,
+            "published_pct": "76,9",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13377,
+            "participants": 10773,
+            "participation_pct": 80.5337519623234,
+            "published_pct": "80,5",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.14703611976153752,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11845,
+            "participants": 9898,
+            "participation_pct": 83.56268467707893,
+            "published_pct": "83,6",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11541,
+            "participants": 9627,
+            "participation_pct": 83.4156485573174,
+            "published_pct": "83,4",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -1.2435165131665258,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12443,
+            "participants": 10366,
+            "participation_pct": 83.30788395081572,
+            "published_pct": "83,3",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12149,
+            "participants": 9970,
+            "participation_pct": 82.0643674376492,
+            "published_pct": "82,1",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.8376230711941446,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29433,
+            "participants": 22769,
+            "participation_pct": 77.35874698467707,
+            "published_pct": "77,4",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29682,
+            "participants": 22713,
+            "participation_pct": 76.52112391348292,
+            "published_pct": "76,5",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -1.1572451565486261,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31751,
+            "participants": 26490,
+            "participation_pct": 83.43044313564927,
+            "published_pct": "83,4",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31867,
+            "participants": 26218,
+            "participation_pct": 82.27319797910064,
+            "published_pct": "82,3",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.04656203130133463,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10563,
+            "participants": 8936,
+            "participation_pct": 84.59717883177127,
+            "published_pct": "84,6",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10214,
+            "participants": 8636,
+            "participation_pct": 84.55061680046994,
+            "published_pct": "84,6",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.40569011468949157,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11439,
+            "participants": 9692,
+            "participation_pct": 84.72768598653728,
+            "published_pct": "84,7",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11143,
+            "participants": 9396,
+            "participation_pct": 84.32199587184779,
+            "published_pct": "84,3",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.04893949750720594,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 24350,
+            "participants": 20688,
+            "participation_pct": 84.96098562628337,
+            "published_pct": "85,0",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23933,
+            "participants": 20322,
+            "participation_pct": 84.91204612877617,
+            "published_pct": "84,9",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.7842405877968872,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17168,
+            "participants": 14698,
+            "participation_pct": 85.61276794035415,
+            "published_pct": "85,6",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16854,
+            "participants": 14297,
+            "participation_pct": 84.82852735255726,
+            "published_pct": "84,8",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.5632526122608965,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14393,
+            "participants": 12017,
+            "participation_pct": 83.49197526575419,
+            "published_pct": "83,5",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14170,
+            "participants": 11751,
+            "participation_pct": 82.9287226534933,
+            "published_pct": "82,9",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.9581362579896364,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14591,
+            "participants": 12512,
+            "participation_pct": 85.7514906449181,
+            "published_pct": "85,8",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14566,
+            "participants": 12351,
+            "participation_pct": 84.79335438692847,
+            "published_pct": "84,8",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -1.5985149530756217,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16109,
+            "participants": 12626,
+            "participation_pct": 78.37854615432367,
+            "published_pct": "78,4",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16025,
+            "participants": 12304,
+            "participation_pct": 76.78003120124805,
+            "published_pct": "76,8",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2021,
+          "to": 2022,
+          "change_pp": -0.2241172477422566,
+          "before": {
+            "program": "rinta",
+            "year": 2021,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30674,
+            "participants": 25636,
+            "participation_pct": 83.5756666884006,
+            "published_pct": "83,6",
+            "table_index": 53
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31108,
+            "participants": 25929,
+            "participation_pct": 83.35154944065835,
+            "published_pct": "83,4",
+            "table_index": 52
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.7588453380062816,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8821,
+            "participants": 7275,
+            "participation_pct": 82.47364244416733,
+            "published_pct": "82,5",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8594,
+            "participants": 7153,
+            "participation_pct": 83.2324877821736,
+            "published_pct": "83,2",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.06964874137871391,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12347,
+            "participants": 10505,
+            "participation_pct": 85.0813962905969,
+            "published_pct": "85,1",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12343,
+            "participants": 10493,
+            "participation_pct": 85.01174754921819,
+            "published_pct": "85,0",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.10310677311323957,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9834,
+            "participants": 8257,
+            "participation_pct": 83.96379906447021,
+            "published_pct": "84,0",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9418,
+            "participants": 7898,
+            "participation_pct": 83.86069229135697,
+            "published_pct": "83,9",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.0704732152522638,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38719,
+            "participants": 28430,
+            "participation_pct": 73.42648312198146,
+            "published_pct": "73,4",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 37954,
+            "participants": 27462,
+            "participation_pct": 72.3560099067292,
+            "published_pct": "72,4",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.3191039561082931,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6878,
+            "participants": 5599,
+            "participation_pct": 81.40447804594359,
+            "published_pct": "81,4",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6823,
+            "participants": 5576,
+            "participation_pct": 81.72358200205188,
+            "published_pct": "81,7",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.6255943876706027,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5047,
+            "participants": 4337,
+            "participation_pct": 85.93223697245888,
+            "published_pct": "85,9",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4983,
+            "participants": 4201,
+            "participation_pct": 84.30664258478828,
+            "published_pct": "84,3",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.161451051327873,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11661,
+            "participants": 9722,
+            "participation_pct": 83.37192350570277,
+            "published_pct": "83,4",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11726,
+            "participants": 9640,
+            "participation_pct": 82.2104724543749,
+            "published_pct": "82,2",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -1.4742463730491266,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4015,
+            "participants": 3421,
+            "participation_pct": 85.20547945205479,
+            "published_pct": "85,2",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4063,
+            "participants": 3402,
+            "participation_pct": 83.73123307900566,
+            "published_pct": "83,7",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.8370971086341967,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16858,
+            "participants": 14243,
+            "participation_pct": 84.48807687744691,
+            "published_pct": "84,5",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16668,
+            "participants": 14222,
+            "participation_pct": 85.32517398608111,
+            "published_pct": "85,3",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.41686349073904694,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13377,
+            "participants": 10773,
+            "participation_pct": 80.5337519623234,
+            "published_pct": "80,5",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13486,
+            "participants": 10917,
+            "participation_pct": 80.95061545306244,
+            "published_pct": "81,0",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.07736366031467412,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11541,
+            "participants": 9627,
+            "participation_pct": 83.4156485573174,
+            "published_pct": "83,4",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11377,
+            "participants": 9499,
+            "participation_pct": 83.49301221763207,
+            "published_pct": "83,5",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.8938319192639881,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12149,
+            "participants": 9970,
+            "participation_pct": 82.0643674376492,
+            "published_pct": "82,1",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11818,
+            "participants": 9804,
+            "participation_pct": 82.95819935691318,
+            "published_pct": "83,0",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.3159574615200853,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29682,
+            "participants": 22713,
+            "participation_pct": 76.52112391348292,
+            "published_pct": "76,5",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29498,
+            "participants": 22479,
+            "participation_pct": 76.20516645196284,
+            "published_pct": "76,2",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 1.1383376588067193,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31867,
+            "participants": 26218,
+            "participation_pct": 82.27319797910064,
+            "published_pct": "82,3",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31329,
+            "participants": 26132,
+            "participation_pct": 83.41153563790736,
+            "published_pct": "83,4",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.7676199060600055,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10214,
+            "participants": 8636,
+            "participation_pct": 84.55061680046994,
+            "published_pct": "84,6",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10304,
+            "participants": 8633,
+            "participation_pct": 83.78299689440993,
+            "published_pct": "83,8",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.6419516892262891,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11143,
+            "participants": 9396,
+            "participation_pct": 84.32199587184779,
+            "published_pct": "84,3",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10864,
+            "participants": 9091,
+            "participation_pct": 83.6800441826215,
+            "published_pct": "83,7",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.3522950565366614,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23933,
+            "participants": 20322,
+            "participation_pct": 84.91204612877617,
+            "published_pct": "84,9",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23782,
+            "participants": 20110,
+            "participation_pct": 84.55975107223951,
+            "published_pct": "84,6",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.8364644750352142,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16854,
+            "participants": 14297,
+            "participation_pct": 84.82852735255726,
+            "published_pct": "84,8",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16519,
+            "participants": 14151,
+            "participation_pct": 85.66499182759247,
+            "published_pct": "85,7",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.044860104558978264,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14170,
+            "participants": 11751,
+            "participation_pct": 82.9287226534933,
+            "published_pct": "82,9",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13794,
+            "participants": 11433,
+            "participation_pct": 82.88386254893432,
+            "published_pct": "82,9",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": 0.6206124957209198,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14566,
+            "participants": 12351,
+            "participation_pct": 84.79335438692847,
+            "published_pct": "84,8",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13890,
+            "participants": 11864,
+            "participation_pct": 85.41396688264939,
+            "published_pct": "85,4",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.5318458828108845,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16025,
+            "participants": 12304,
+            "participation_pct": 76.78003120124805,
+            "published_pct": "76,8",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 15843,
+            "participants": 12080,
+            "participation_pct": 76.24818531843717,
+            "published_pct": "76,2",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2022,
+          "to": 2023,
+          "change_pp": -0.9124596588291922,
+          "before": {
+            "program": "rinta",
+            "year": 2022,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31108,
+            "participants": 25929,
+            "participation_pct": 83.35154944065835,
+            "published_pct": "83,4",
+            "table_index": 52
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29839,
+            "participants": 24599,
+            "participation_pct": 82.43908978182915,
+            "published_pct": "82,4",
+            "table_index": 51
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.006349921582597062,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8594,
+            "participants": 7153,
+            "participation_pct": 83.2324877821736,
+            "published_pct": "83,2",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8466,
+            "participants": 7047,
+            "participation_pct": 83.2388377037562,
+            "published_pct": "83,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.0017614004609782796,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12343,
+            "participants": 10493,
+            "participation_pct": 85.01174754921819,
+            "published_pct": "85,0",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11844,
+            "participants": 10069,
+            "participation_pct": 85.01350894967916,
+            "published_pct": "85,0",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.7019149617029683,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9418,
+            "participants": 7898,
+            "participation_pct": 83.86069229135697,
+            "published_pct": "83,9",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9422,
+            "participants": 7741,
+            "participation_pct": 82.158777329654,
+            "published_pct": "82,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 1.902338527130496,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 37954,
+            "participants": 27462,
+            "participation_pct": 72.3560099067292,
+            "published_pct": "72,4",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38630,
+            "participants": 28686,
+            "participation_pct": 74.2583484338597,
+            "published_pct": "74,3",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Itä-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.9020506261163632,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6823,
+            "participants": 5576,
+            "participation_pct": 81.72358200205188,
+            "published_pct": "81,7",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6948,
+            "participants": 5546,
+            "participation_pct": 79.82153137593552,
+            "published_pct": "79,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kainuu",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.25078597786873047,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4983,
+            "participants": 4201,
+            "participation_pct": 84.30664258478828,
+            "published_pct": "84,3",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4798,
+            "participants": 4033,
+            "participation_pct": 84.05585660691955,
+            "published_pct": "84,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 1.162490997848792,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11726,
+            "participants": 9640,
+            "participation_pct": 82.2104724543749,
+            "published_pct": "82,2",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11355,
+            "participants": 9467,
+            "participation_pct": 83.37296345222369,
+            "published_pct": "83,4",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 1.6715375726105464,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4063,
+            "participants": 3402,
+            "participation_pct": 83.73123307900566,
+            "published_pct": "83,7",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 3898,
+            "participants": 3329,
+            "participation_pct": 85.40277065161621,
+            "published_pct": "85,4",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.2250953744828763,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16668,
+            "participants": 14222,
+            "participation_pct": 85.32517398608111,
+            "published_pct": "85,3",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16537,
+            "participants": 14073,
+            "participation_pct": 85.10007861159824,
+            "published_pct": "85,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.43266371674695847,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13486,
+            "participants": 10917,
+            "participation_pct": 80.95061545306244,
+            "published_pct": "81,0",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13592,
+            "participants": 10944,
+            "participation_pct": 80.51795173631548,
+            "published_pct": "80,5",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.4504743014515071,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11377,
+            "participants": 9499,
+            "participation_pct": 83.49301221763207,
+            "published_pct": "83,5",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11143,
+            "participants": 9142,
+            "participation_pct": 82.04253791618056,
+            "published_pct": "82,0",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Lappi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.848520421403407,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11818,
+            "participants": 9804,
+            "participation_pct": 82.95819935691318,
+            "published_pct": "83,0",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11548,
+            "participants": 9678,
+            "participation_pct": 83.80671977831659,
+            "published_pct": "83,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.1040978411568858,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29498,
+            "participants": 22479,
+            "participation_pct": 76.20516645196284,
+            "published_pct": "76,2",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30039,
+            "participants": 22860,
+            "participation_pct": 76.10106861080595,
+            "published_pct": "76,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.08437622243295095,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31329,
+            "participants": 26132,
+            "participation_pct": 83.41153563790736,
+            "published_pct": "83,4",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31677,
+            "participants": 26449,
+            "participation_pct": 83.49591186034031,
+            "published_pct": "83,5",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 1.1634549122160251,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10304,
+            "participants": 8633,
+            "participation_pct": 83.78299689440993,
+            "published_pct": "83,8",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9991,
+            "participants": 8487,
+            "participation_pct": 84.94645180662596,
+            "published_pct": "84,9",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.5086741524383029,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10864,
+            "participants": 9091,
+            "participation_pct": 83.6800441826215,
+            "published_pct": "83,7",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10619,
+            "participants": 8940,
+            "participation_pct": 84.1887183350598,
+            "published_pct": "84,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 1.0429653963513204,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23782,
+            "participants": 20110,
+            "participation_pct": 84.55975107223951,
+            "published_pct": "84,6",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23560,
+            "participants": 20168,
+            "participation_pct": 85.60271646859083,
+            "published_pct": "85,6",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.5250992947038355,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16519,
+            "participants": 14151,
+            "participation_pct": 85.66499182759247,
+            "published_pct": "85,7",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16191,
+            "participants": 13785,
+            "participation_pct": 85.13989253288864,
+            "published_pct": "85,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -1.0952564182229167,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13794,
+            "participants": 11433,
+            "participation_pct": 82.88386254893432,
+            "published_pct": "82,9",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13832,
+            "participants": 11313,
+            "participation_pct": 81.7886061307114,
+            "published_pct": "81,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Satakunta",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": -0.5452656761199393,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13890,
+            "participants": 11864,
+            "participation_pct": 85.41396688264939,
+            "published_pct": "85,4",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14090,
+            "participants": 11958,
+            "participation_pct": 84.86870120652945,
+            "published_pct": "84,9",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.4971593910353391,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 15843,
+            "participants": 12080,
+            "participation_pct": 76.24818531843717,
+            "published_pct": "76,2",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16057,
+            "participants": 12323,
+            "participation_pct": 76.7453447094725,
+            "published_pct": "76,7",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "from": 2023,
+          "to": 2024,
+          "change_pp": 0.30409960864579944,
+          "before": {
+            "program": "rinta",
+            "year": 2023,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29839,
+            "participants": 24599,
+            "participation_pct": 82.43908978182915,
+            "published_pct": "82,4",
+            "table_index": 51
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30614,
+            "participants": 25331,
+            "participation_pct": 82.74318939047495,
+            "published_pct": "82,7",
+            "table_index": 50
+          }
+        }
+      ],
+      "endpoint_changes": [
+        {
+          "region": "Itä-Uusimaa",
+          "change_pp": -1.9175990588470881,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6900,
+            "participants": 5640,
+            "participation_pct": 81.73913043478261,
+            "published_pct": "81,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Itä-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 6948,
+            "participants": 5546,
+            "participation_pct": 79.82153137593552,
+            "published_pct": "79,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Etelä-Karjala",
+          "change_pp": -1.4629396378641246,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9171,
+            "participants": 7768,
+            "participation_pct": 84.70177734162033,
+            "published_pct": "84,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 8466,
+            "participants": 7047,
+            "participation_pct": 83.2388377037562,
+            "published_pct": "83,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kainuu",
+          "change_pp": -0.9330651065221076,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 5416,
+            "participants": 4603,
+            "participation_pct": 84.98892171344166,
+            "published_pct": "85,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kainuu",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4798,
+            "participants": 4033,
+            "participation_pct": 84.05585660691955,
+            "published_pct": "84,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kymenlaakso",
+          "change_pp": -0.6085981678158277,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12191,
+            "participants": 10076,
+            "participation_pct": 82.65113608399639,
+            "published_pct": "82,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kymenlaakso",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11143,
+            "participants": 9142,
+            "participation_pct": 82.04253791618056,
+            "published_pct": "82,0",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Etelä-Savo",
+          "change_pp": -0.41719951549795553,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10365,
+            "participants": 8559,
+            "participation_pct": 82.57597684515196,
+            "published_pct": "82,6",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9422,
+            "participants": 7741,
+            "participation_pct": 82.158777329654,
+            "published_pct": "82,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Karjala",
+          "change_pp": -0.2207574196652473,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11693,
+            "participants": 9870,
+            "participation_pct": 84.40947575472505,
+            "published_pct": "84,4",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Karjala",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10619,
+            "participants": 8940,
+            "participation_pct": 84.1887183350598,
+            "published_pct": "84,2",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Etelä-Pohjanmaa",
+          "change_pp": 0.22163235096589062,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12901,
+            "participants": 10939,
+            "participation_pct": 84.79187659871327,
+            "published_pct": "84,8",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Etelä-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11844,
+            "participants": 10069,
+            "participation_pct": 85.01350894967916,
+            "published_pct": "85,0",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Päijät-Häme",
+          "change_pp": 0.5569345764591986,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13299,
+            "participants": 10803,
+            "participation_pct": 81.2316715542522,
+            "published_pct": "81,2",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Päijät-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13832,
+            "participants": 11313,
+            "participation_pct": 81.7886061307114,
+            "published_pct": "81,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Satakunta",
+          "change_pp": 0.8364113856985824,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 15237,
+            "participants": 12804,
+            "participation_pct": 84.03228982083087,
+            "published_pct": "84,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Satakunta",
+            "denominator_label": "Kutsuttu",
+            "denominator": 14090,
+            "participants": 11958,
+            "participation_pct": 84.86870120652945,
+            "published_pct": "84,9",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Vantaa ja Kerava",
+          "change_pp": 0.8862276738848749,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16354,
+            "participants": 12406,
+            "participation_pct": 75.85911703558763,
+            "published_pct": "75,9",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Vantaa ja Kerava",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16057,
+            "participants": 12323,
+            "participation_pct": 76.7453447094725,
+            "published_pct": "76,7",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Varsinais-Suomi",
+          "change_pp": 1.0121200353341777,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 32038,
+            "participants": 26185,
+            "participation_pct": 81.73106935514078,
+            "published_pct": "81,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Varsinais-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30614,
+            "participants": 25331,
+            "participation_pct": 82.74318939047495,
+            "published_pct": "82,7",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Pohjanmaa",
+          "change_pp": 1.0601892282145258,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 4145,
+            "participants": 3496,
+            "participation_pct": 84.34258142340168,
+            "published_pct": "84,3",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 3898,
+            "participants": 3329,
+            "participation_pct": 85.40277065161621,
+            "published_pct": "85,4",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Länsi-Uusimaa",
+          "change_pp": 1.1488697580334843,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 29811,
+            "participants": 22344,
+            "participation_pct": 74.95219885277247,
+            "published_pct": "75,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Länsi-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 30039,
+            "participants": 22860,
+            "participation_pct": 76.10106861080595,
+            "published_pct": "76,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Suomi",
+          "change_pp": 1.4210988907962587,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17407,
+            "participants": 14566,
+            "participation_pct": 83.67897972080198,
+            "published_pct": "83,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Suomi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16537,
+            "participants": 14073,
+            "participation_pct": 85.10007861159824,
+            "published_pct": "85,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Kanta-Häme",
+          "change_pp": 1.4426417319369733,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11998,
+            "participants": 9830,
+            "participation_pct": 81.93032172028671,
+            "published_pct": "81,9",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Kanta-Häme",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11355,
+            "participants": 9467,
+            "participation_pct": 83.37296345222369,
+            "published_pct": "83,4",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Savo",
+          "change_pp": 1.497549730824801,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 17637,
+            "participants": 14752,
+            "participation_pct": 83.64234280206384,
+            "published_pct": "83,6",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Savo",
+            "denominator_label": "Kutsuttu",
+            "denominator": 16191,
+            "participants": 13785,
+            "participation_pct": 85.13989253288864,
+            "published_pct": "85,1",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Helsingin kaupunki",
+          "change_pp": 1.5996510928076475,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 39903,
+            "participants": 28993,
+            "participation_pct": 72.65869734105205,
+            "published_pct": "72,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Helsingin kaupunki",
+            "denominator_label": "Kutsuttu",
+            "denominator": 38630,
+            "participants": 28686,
+            "participation_pct": 74.2583484338597,
+            "published_pct": "74,3",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "change_pp": 1.6141240872504312,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 24545,
+            "participants": 20615,
+            "participation_pct": 83.9885923813404,
+            "published_pct": "84,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjois-Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 23560,
+            "participants": 20168,
+            "participation_pct": 85.60271646859083,
+            "published_pct": "85,6",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pohjanmaa",
+          "change_pp": 1.6575544537408007,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 10502,
+            "participants": 8747,
+            "participation_pct": 83.28889735288516,
+            "published_pct": "83,3",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pohjanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 9991,
+            "participants": 8487,
+            "participation_pct": 84.94645180662596,
+            "published_pct": "84,9",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Lappi",
+          "change_pp": 2.77509267838758,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 12679,
+            "participants": 10274,
+            "participation_pct": 81.03162709992901,
+            "published_pct": "81,0",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Lappi",
+            "denominator_label": "Kutsuttu",
+            "denominator": 11548,
+            "participants": 9678,
+            "participation_pct": 83.80671977831659,
+            "published_pct": "83,8",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Pirkanmaa",
+          "change_pp": 2.9461113099213208,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 32339,
+            "participants": 26049,
+            "participation_pct": 80.549800550419,
+            "published_pct": "80,5",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Pirkanmaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 31677,
+            "participants": 26449,
+            "participation_pct": 83.49591186034031,
+            "published_pct": "83,5",
+            "table_index": 50
+          }
+        },
+        {
+          "region": "Keski-Uusimaa",
+          "change_pp": 3.8018453041771494,
+          "before": {
+            "program": "rinta",
+            "year": 2020,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13417,
+            "participants": 10293,
+            "participation_pct": 76.71610643213833,
+            "published_pct": "76,7",
+            "table_index": 54
+          },
+          "after": {
+            "program": "rinta",
+            "year": 2024,
+            "region": "Keski-Uusimaa",
+            "denominator_label": "Kutsuttu",
+            "denominator": 13592,
+            "participants": 10944,
+            "participation_pct": 80.51795173631548,
+            "published_pct": "80,5",
+            "table_index": 50
+          }
+        }
+      ],
+      "rankings_ascending": {
+        "2020": {
+          "Helsingin kaupunki": 1,
+          "Länsi-Uusimaa": 2,
+          "Vantaa ja Kerava": 3,
+          "Keski-Uusimaa": 4,
+          "Pirkanmaa": 5,
+          "Lappi": 6,
+          "Päijät-Häme": 7,
+          "Varsinais-Suomi": 8,
+          "Itä-Uusimaa": 9,
+          "Kanta-Häme": 10,
+          "Etelä-Savo": 11,
+          "Kymenlaakso": 12,
+          "Pohjanmaa": 13,
+          "Pohjois-Savo": 14,
+          "Keski-Suomi": 15,
+          "Pohjois-Pohjanmaa": 16,
+          "Satakunta": 17,
+          "Keski-Pohjanmaa": 18,
+          "Pohjois-Karjala": 19,
+          "Etelä-Karjala": 20,
+          "Etelä-Pohjanmaa": 21,
+          "Kainuu": 22
+        },
+        "2021": {
+          "Helsingin kaupunki": 1,
+          "Keski-Uusimaa": 2,
+          "Länsi-Uusimaa": 3,
+          "Vantaa ja Kerava": 4,
+          "Itä-Uusimaa": 5,
+          "Lappi": 6,
+          "Pirkanmaa": 7,
+          "Kanta-Häme": 8,
+          "Päijät-Häme": 9,
+          "Kymenlaakso": 10,
+          "Varsinais-Suomi": 11,
+          "Etelä-Savo": 12,
+          "Pohjanmaa": 13,
+          "Pohjois-Karjala": 14,
+          "Kainuu": 15,
+          "Pohjois-Pohjanmaa": 16,
+          "Keski-Pohjanmaa": 17,
+          "Pohjois-Savo": 18,
+          "Etelä-Karjala": 19,
+          "Satakunta": 20,
+          "Etelä-Pohjanmaa": 21,
+          "Keski-Suomi": 22
+        },
+        "2022": {
+          "Helsingin kaupunki": 1,
+          "Länsi-Uusimaa": 2,
+          "Vantaa ja Kerava": 3,
+          "Keski-Uusimaa": 4,
+          "Itä-Uusimaa": 5,
+          "Lappi": 6,
+          "Pirkanmaa": 7,
+          "Etelä-Karjala": 8,
+          "Päijät-Häme": 9,
+          "Varsinais-Suomi": 10,
+          "Kanta-Häme": 11,
+          "Kymenlaakso": 12,
+          "Etelä-Savo": 13,
+          "Pohjois-Karjala": 14,
+          "Keski-Suomi": 15,
+          "Pohjanmaa": 16,
+          "Satakunta": 17,
+          "Pohjois-Savo": 18,
+          "Pohjois-Pohjanmaa": 19,
+          "Etelä-Pohjanmaa": 20,
+          "Keski-Pohjanmaa": 21,
+          "Kainuu": 22
+        },
+        "2023": {
+          "Helsingin kaupunki": 1,
+          "Länsi-Uusimaa": 2,
+          "Vantaa ja Kerava": 3,
+          "Keski-Uusimaa": 4,
+          "Itä-Uusimaa": 5,
+          "Kanta-Häme": 6,
+          "Varsinais-Suomi": 7,
+          "Päijät-Häme": 8,
+          "Lappi": 9,
+          "Etelä-Karjala": 10,
+          "Pirkanmaa": 11,
+          "Kymenlaakso": 12,
+          "Pohjois-Karjala": 13,
+          "Keski-Pohjanmaa": 14,
+          "Pohjanmaa": 15,
+          "Etelä-Savo": 16,
+          "Kainuu": 17,
+          "Pohjois-Pohjanmaa": 18,
+          "Etelä-Pohjanmaa": 19,
+          "Keski-Suomi": 20,
+          "Satakunta": 21,
+          "Pohjois-Savo": 22
+        },
+        "2024": {
+          "Helsingin kaupunki": 1,
+          "Länsi-Uusimaa": 2,
+          "Vantaa ja Kerava": 3,
+          "Itä-Uusimaa": 4,
+          "Keski-Uusimaa": 5,
+          "Päijät-Häme": 6,
+          "Kymenlaakso": 7,
+          "Etelä-Savo": 8,
+          "Varsinais-Suomi": 9,
+          "Etelä-Karjala": 10,
+          "Kanta-Häme": 11,
+          "Pirkanmaa": 12,
+          "Lappi": 13,
+          "Kainuu": 14,
+          "Pohjois-Karjala": 15,
+          "Satakunta": 16,
+          "Pohjanmaa": 17,
+          "Etelä-Pohjanmaa": 18,
+          "Keski-Suomi": 19,
+          "Pohjois-Savo": 20,
+          "Keski-Pohjanmaa": 21,
+          "Pohjois-Pohjanmaa": 22
+        }
+      },
+      "endpoint_declines": 6,
+      "adjacent_declines_by_interval": {
+        "2020-2021": 2,
+        "2021-2022": 18,
+        "2022-2023": 13,
+        "2023-2024": 10
+      }
+    }
+  },
+  "comparisons_performed": {
+    "suolisto": {
+      "region_year_rates": 66,
+      "stable_region_year_rates": 66,
+      "adjacent_region_changes": 44,
+      "endpoint_region_changes": 22,
+      "annual_min_max_gaps": 3
+    },
+    "rinta": {
+      "region_year_rates": 114,
+      "stable_region_year_rates": 110,
+      "adjacent_region_changes": 88,
+      "endpoint_region_changes": 22,
+      "annual_min_max_gaps": 5
+    },
+    "cross_program": {
+      "rank_correlations": 1,
+      "matched_regions": 22
+    },
+    "followup_age_sex": {
+      "annual_standardized_estimates": 3,
+      "stratum_endpoint_comparisons": 10
+    }
+  },
+  "cross_program_2024": {
+    "n_regions": 22,
+    "spearman_rho": 0.5505364201016375,
+    "ranks": [
+      {
+        "region": "Etelä-Karjala",
+        "colon_rank": 12,
+        "breast_rank": 10,
+        "colon_pct": 74.03647471026862,
+        "breast_pct": 83.2388377037562
+      },
+      {
+        "region": "Etelä-Pohjanmaa",
+        "colon_rank": 15,
+        "breast_rank": 18,
+        "colon_pct": 74.64399974907471,
+        "breast_pct": 85.01350894967916
+      },
+      {
+        "region": "Etelä-Savo",
+        "colon_rank": 22,
+        "breast_rank": 8,
+        "colon_pct": 76.9166285627191,
+        "breast_pct": 82.158777329654
+      },
+      {
+        "region": "Helsingin kaupunki",
+        "colon_rank": 1,
+        "breast_rank": 1,
+        "colon_pct": 69.56087111745805,
+        "breast_pct": 74.2583484338597
+      },
+      {
+        "region": "Itä-Uusimaa",
+        "colon_rank": 5,
+        "breast_rank": 4,
+        "colon_pct": 72.03196347031964,
+        "breast_pct": 79.82153137593552
+      },
+      {
+        "region": "Kainuu",
+        "colon_rank": 20,
+        "breast_rank": 14,
+        "colon_pct": 76.50164074761021,
+        "breast_pct": 84.05585660691955
+      },
+      {
+        "region": "Kanta-Häme",
+        "colon_rank": 14,
+        "breast_rank": 11,
+        "colon_pct": 74.34544065560108,
+        "breast_pct": 83.37296345222369
+      },
+      {
+        "region": "Keski-Pohjanmaa",
+        "colon_rank": 8,
+        "breast_rank": 21,
+        "colon_pct": 73.29545454545455,
+        "breast_pct": 85.40277065161621
+      },
+      {
+        "region": "Keski-Suomi",
+        "colon_rank": 21,
+        "breast_rank": 19,
+        "colon_pct": 76.53720919258176,
+        "breast_pct": 85.10007861159824
+      },
+      {
+        "region": "Keski-Uusimaa",
+        "colon_rank": 11,
+        "breast_rank": 5,
+        "colon_pct": 74.02332169444628,
+        "breast_pct": 80.51795173631548
+      },
+      {
+        "region": "Kymenlaakso",
+        "colon_rank": 2,
+        "breast_rank": 7,
+        "colon_pct": 69.9743607511607,
+        "breast_pct": 82.04253791618056
+      },
+      {
+        "region": "Lappi",
+        "colon_rank": 10,
+        "breast_rank": 13,
+        "colon_pct": 73.68843848482976,
+        "breast_pct": 83.80671977831659
+      },
+      {
+        "region": "Länsi-Uusimaa",
+        "colon_rank": 4,
+        "breast_rank": 2,
+        "colon_pct": 71.48946762500388,
+        "breast_pct": 76.10106861080595
+      },
+      {
+        "region": "Pirkanmaa",
+        "colon_rank": 13,
+        "breast_rank": 12,
+        "colon_pct": 74.29827348797797,
+        "breast_pct": 83.49591186034031
+      },
+      {
+        "region": "Pohjanmaa",
+        "colon_rank": 19,
+        "breast_rank": 17,
+        "colon_pct": 75.89234897146109,
+        "breast_pct": 84.94645180662596
+      },
+      {
+        "region": "Pohjois-Karjala",
+        "colon_rank": 7,
+        "breast_rank": 15,
+        "colon_pct": 73.19594594594595,
+        "breast_pct": 84.1887183350598
+      },
+      {
+        "region": "Pohjois-Pohjanmaa",
+        "colon_rank": 18,
+        "breast_rank": 22,
+        "colon_pct": 75.63583620049923,
+        "breast_pct": 85.60271646859083
+      },
+      {
+        "region": "Pohjois-Savo",
+        "colon_rank": 17,
+        "breast_rank": 20,
+        "colon_pct": 75.37538912287127,
+        "breast_pct": 85.13989253288864
+      },
+      {
+        "region": "Päijät-Häme",
+        "colon_rank": 16,
+        "breast_rank": 6,
+        "colon_pct": 75.24316813339509,
+        "breast_pct": 81.7886061307114
+      },
+      {
+        "region": "Satakunta",
+        "colon_rank": 6,
+        "breast_rank": 16,
+        "colon_pct": 72.55476875414915,
+        "breast_pct": 84.86870120652945
+      },
+      {
+        "region": "Vantaa ja Kerava",
+        "colon_rank": 3,
+        "breast_rank": 3,
+        "colon_pct": 71.27787651206788,
+        "breast_pct": 76.7453447094725
+      },
+      {
+        "region": "Varsinais-Suomi",
+        "colon_rank": 9,
+        "breast_rank": 9,
+        "colon_pct": 73.47623333060623,
+        "breast_pct": 82.74318939047495
+      }
+    ],
+    "warning": "Different populations and denominators, ecological descriptive association only; no p-value or causal inference."
+  },
+  "colon_national_fixed_age_sex_check": {
+    "strata_count": 10,
+    "standard_population_year": 2022,
+    "standard_population_N": 354174,
+    "annual_results": [
+      {
+        "year": 2022,
+        "age_range": "60,62,64,66,68",
+        "sex_strata": 2,
+        "denominator": 354174,
+        "participants": 273708,
+        "crude_pct_restricted": 77.28065865930306,
+        "direct_standardized_pct_2022_weights": 77.28065865930306
+      },
+      {
+        "year": 2023,
+        "age_range": "60,62,64,66,68",
+        "sex_strata": 2,
+        "denominator": 355042,
+        "participants": 261744,
+        "crude_pct_restricted": 73.72198218802282,
+        "direct_standardized_pct_2022_weights": 73.76765135669838
+      },
+      {
+        "year": 2024,
+        "age_range": "60,62,64,66,68",
+        "sex_strata": 2,
+        "denominator": 352828,
+        "participants": 256706,
+        "crude_pct_restricted": 72.75669731427212,
+        "direct_standardized_pct_2022_weights": 72.81874512957769
+      }
+    ],
+    "strata_declining_2022_to_2024": 10,
+    "warning": "National repeated cross-sections; not regional adjustment or within-person decline."
+  }
+}

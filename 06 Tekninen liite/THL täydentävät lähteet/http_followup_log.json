@@ -1,0 +1,42 @@
+[
+  {
+    "file": "hilmo_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.dimensions.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:49:05.379770+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.dimensions.json",
+    "content_type": "text/javascript;charset=utf-8",
+    "bytes": 3769229,
+    "sha256": "5293be62ca270dac5fe767040d793fd015ac33bafe21588a13232e6e248008c8"
+  },
+  {
+    "file": "pth_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.dimensions.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:49:05.380466+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.dimensions.json",
+    "content_type": "text/javascript;charset=utf-8",
+    "bytes": 6046946,
+    "sha256": "448421f363517cc5dcfea36cc3b288682a60a715d183a7592a66c6ff3131233c"
+  },
+  {
+    "file": "queue_2025_api.pdf",
+    "url": "https://www.julkari.fi/server/api/core/bitstreams/da98593f-8fb0-484e-b300-013f5946730a/content",
+    "method": "GET",
+    "utc": "2026-11-13T23:49:05.380784+00:00",
+    "status": 200,
+    "final_url": "https://www.julkari.fi/server/api/core/bitstreams/da98593f-8fb0-484e-b300-013f5946730a/content",
+    "content_type": "application/pdf;charset=UTF-8",
+    "bytes": 857607,
+    "sha256": "af68f798965e3f78a9e4a94797f3134af207ae449cf6a59ee3139fb2abb68fc9"
+  },
+  {
+    "file": "hilmo_wiki.html",
+    "url": "https://yhteistyotilat.fi/wiki08/display/JULHI22",
+    "method": "GET",
+    "utc": "2026-11-13T23:49:05.381010+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

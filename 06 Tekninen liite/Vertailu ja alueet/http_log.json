@@ -1,0 +1,64 @@
+[
+  {
+    "file": "nordcan_database.html",
+    "url": "https://nordcan.iarc.who.int/en/database",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:56.886871+00:00",
+    "status": 200,
+    "final_url": "https://nordcan.iarc.who.int/en/database",
+    "content_type": "text/html",
+    "bytes": 3776,
+    "sha256": "bb671f6b5e8acf0a0c22de7af0cad5877b282d717c4a37880003162919c1dee2"
+  },
+  {
+    "file": "nordcan_dataviz.html",
+    "url": "https://nordcan.iarc.who.int/en/dataviz",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:56.887155+00:00",
+    "status": 200,
+    "final_url": "https://nordcan.iarc.who.int/en/dataviz",
+    "content_type": "text/html",
+    "bytes": 3776,
+    "sha256": "bb671f6b5e8acf0a0c22de7af0cad5877b282d717c4a37880003162919c1dee2"
+  },
+  {
+    "file": "ecis.html",
+    "url": "https://ecis.jrc.ec.europa.eu/",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:56.887263+00:00",
+    "status": 200,
+    "final_url": "https://ecis.jrc.ec.europa.eu/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 44038,
+    "sha256": "8e89f9a3733f72787005ec3f33932271c6af663e656d87265be3bed3faf936a4"
+  },
+  {
+    "file": "hus_wait.html",
+    "url": "https://www.hus.fi/potilaalle/opas-potilaalle/oikeutesi-potilaana/hoitoonpaasy-erikoissairaanhoidossa",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:56.887359+00:00",
+    "status": 200,
+    "final_url": "https://www.hus.fi/potilaalle/opas-potilaalle/oikeutesi-potilaana/hoitoonpaasy-erikoissairaanhoidossa",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 294152,
+    "sha256": "055bb85a9d984ebbf28e99a09e9d45b5754d9a809072c625b9a708d86727c69a"
+  },
+  {
+    "file": "varha_wait.html",
+    "url": "https://www.varha.fi/fi/tietoa-meista/asiakkaana-hyvinvointialueella/hoitoon-paasyn-tilastot-sote-palveluissa",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:57.276384+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "paijathame_wait.html",
+    "url": "https://paijatha.fi/asiointiopas/hoitoon-paasy/",
+    "method": "GET",
+    "utc": "2026-11-13T23:41:57.277001+00:00",
+    "status": 200,
+    "final_url": "https://paijatha.fi/asiointiopas/hoitoon-paasy/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 419565,
+    "sha256": "387ba3396b4c3aaf3392d33fe9e1c950792c338c5571754d74620c449b577c04"
+  }
+]

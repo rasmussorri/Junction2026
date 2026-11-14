@@ -1,0 +1,77 @@
+[
+  {
+    "file": "hilmo_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.dimensions.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:12.373143+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.dimensions.json",
+    "content_type": "text/javascript;charset=utf-8",
+    "error": "3MB cap exceeded"
+  },
+  {
+    "file": "hilmo_report.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:12.373478+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 39452,
+    "sha256": "a3e82e02c5da58fe0a1cde0b56f74ac9eefc2e4da8d548ff91332fd1cb8c829b"
+  },
+  {
+    "file": "avohilmo_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.dimensions.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:12.373607+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.dimensions.json",
+    "content_type": "text/javascript;charset=utf-8",
+    "bytes": 1196541,
+    "sha256": "52ab2759f9fc8a5e743271324f7723e1af21288ec52c811dd0dfb29d85717bf6"
+  },
+  {
+    "file": "avohilmo_report.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:12.373720+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 38948,
+    "sha256": "bc800f192e7e32a91a901e85c9a1b1d571a65246f178d8a6243c22d46ba582b2"
+  },
+  {
+    "file": "pth_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.dimensions.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:14.434460+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.dimensions.json",
+    "content_type": "text/javascript;charset=utf-8",
+    "error": "3MB cap exceeded"
+  },
+  {
+    "file": "pth_report.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:14.756744+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 36591,
+    "sha256": "638b28734db4847e00c1ca658bce3781cac9f114aab873a0a256c904d0532e08"
+  },
+  {
+    "file": "queue_2024.pdf",
+    "url": "https://www.julkari.fi/server/api/core/bitstreams/0567a669-1ce8-4a27-8f5d-f1f17106bc7a/content",
+    "method": "GET",
+    "utc": "2026-11-13T23:48:14.982141+00:00",
+    "status": 200,
+    "final_url": "https://www.julkari.fi/server/api/core/bitstreams/0567a669-1ce8-4a27-8f5d-f1f17106bc7a/content",
+    "content_type": "application/pdf;charset=UTF-8",
+    "bytes": 703718,
+    "sha256": "954ec191a1eaa5dad0eef1716759aa25d52daf9648d10fb04ac69fc8ad79480b"
+  }
+]

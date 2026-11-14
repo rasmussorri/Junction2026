@@ -1,0 +1,92 @@
+[
+  {
+    "file": "kela_rights_package.json",
+    "url": "https://avoindata.suomi.fi/data/api/3/action/package_show?id=70832958-f7b6-4e09-8350-615362e6ee30",
+    "at_utc": "2026-11-13T23:37:54.089042+00:00",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://avoindata.suomi.fi/data/api/3/action/package_show?id=70832958-f7b6-4e09-8350-615362e6ee30",
+    "bytes": 20426,
+    "sha256": "cd40f5cdca69a20f0565ba75792dd1b1553a7a95f1d774d1a74b8125b868af7d"
+  },
+  {
+    "file": "kela_general_package.json",
+    "url": "https://avoindata.suomi.fi/data/api/3/action/package_show?id=22368122-4f1b-4a8c-8a82-e70cdca843c9",
+    "at_utc": "2026-11-13T23:37:54.089287+00:00",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://avoindata.suomi.fi/data/api/3/action/package_show?id=22368122-4f1b-4a8c-8a82-e70cdca843c9",
+    "bytes": 53435,
+    "sha256": "60642cd2264af8bd6a65a46d0378fdcf0d856a46e57c39ec09e4520682a004a5"
+  },
+  {
+    "file": "kelasto_nit137_metadata.html",
+    "url": "https://raportit.kela.fi/approot/lisatied/NIT137A_fi.html",
+    "at_utc": "2026-11-13T23:37:54.089414+00:00",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://raportit.kela.fi/approot/lisatied/NIT137A_fi.html",
+    "bytes": 5448,
+    "sha256": "73f8ce3e71b37d7f11beb2be1dec7173a6fc0adef0321c0cdd15de9cfb875590"
+  },
+  {
+    "file": "kelasto_nit137_report.html",
+    "url": "https://raportit.kela.fi/ibi_apps/WFServlet?IBIF_ex=NIT137AL&YKIELI=E",
+    "at_utc": "2026-11-13T23:37:54.089514+00:00",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html;charset=iso-8859-1",
+    "final_url": "https://raportit.kela.fi/ibi_apps/WFServlet?IBIF_ex=NIT137AL&YKIELI=E",
+    "bytes": 44072,
+    "sha256": "21f93363618f475867410dbd942eff76bf4c762f58a5992454e4688dad35ab7c"
+  },
+  {
+    "file": "fimea_consumption.html",
+    "url": "https://fimea.fi/en/databases_and_registeries/consumption",
+    "at_utc": "2026-11-13T23:37:54.244623+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "fimea_news2025.html",
+    "url": "https://fimea.fi/-/laakemyynti-kasvoi-165-miljoonaa-euroa-vuonna-2025-uudet-laakkeet-ja-laajentunut-kaytto-selittavat-kasvua",
+    "at_utc": "2026-11-13T23:37:54.446671+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "fimea_adverse2025.html",
+    "url": "https://sic.fimea.fi/-/millaisia-haittavaikutuksia-laakkeista-ilmoitettiin-vuonna-2025-",
+    "at_utc": "2026-11-13T23:37:54.553038+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "fimea_adverse2024.html",
+    "url": "https://sic.fimea.fi/-/millaisia-haittavaikutuksia-laakkeista-ilmoitettiin-vuonna-2024-",
+    "at_utc": "2026-11-13T23:37:54.604071+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "julkari_2025.html",
+    "url": "https://www.julkari.fi/items/55de2a38-552a-4014-863f-5c54afdeef94",
+    "at_utc": "2026-11-13T23:37:54.682024+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "kela_rights_page.html",
+    "url": "https://tietotarjotin.fi/tilastodata/1084823/voimassa-olleet-alkaneet-ja-paattyneet-laakekorvausoikeudet",
+    "at_utc": "2026-11-13T23:37:54.689999+00:00",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://tietotarjotin.fi/tilastodata/1084823/voimassa-olleet-alkaneet-ja-paattyneet-laakekorvausoikeudet",
+    "bytes": 1439,
+    "sha256": "0d6c304ff495f7332c828921f9c279942f13cab7b15d784d0f33d30c85530f7b"
+  }
+]

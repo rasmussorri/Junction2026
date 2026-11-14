@@ -1,0 +1,38 @@
+[
+  {
+    "file": "thl_filtered.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne?filter=erikoisala-862186",
+    "status": 200,
+    "bytes": 102782,
+    "sha256": "a653a7ddc13be172f491e98f5c449d3f2c1254382d02ad785df67a1d878ce342",
+    "verified_local_date": "2026-11-14",
+    "verification_note": "Successful GET observed during this turn; exact per-request timestamp was not logged."
+  },
+  {
+    "file": "thl_dimensions.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.dimensions.json",
+    "status": 200,
+    "bytes": 58538,
+    "sha256": "cae8bbfd859c2332c9858325aeb2aabb9d77ac2e414c752ee545bd7ea113ec3b",
+    "verified_local_date": "2026-11-14",
+    "verification_note": "Successful GET observed during this turn; exact per-request timestamp was not logged."
+  },
+  {
+    "file": "thl_measure.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne/738214",
+    "status": 200,
+    "bytes": 1382,
+    "sha256": "dbd9252f875a5e6429095fac666ef99f650d944502059d12ab9368966590fe54",
+    "verified_local_date": "2026-11-14",
+    "verification_note": "Successful GET observed during this turn; exact per-request timestamp was not logged."
+  },
+  {
+    "file": "thl_explicit.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738214",
+    "status": 200,
+    "bytes": 25154,
+    "sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+    "verified_local_date": "2026-11-14",
+    "verification_note": "Successful GET observed during this turn; exact per-request timestamp was not logged."
+  }
+]

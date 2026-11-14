@@ -1,0 +1,18 @@
+{
+  "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?filter=erikoisala-862186",
+  "status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "bytes": 25154,
+  "sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+  "retrieved_utc": "2026-11-13T23:15:57.257354+00:00",
+  "top_keys": [
+    "dataset"
+  ],
+  "dataset_keys": [
+    "version",
+    "class",
+    "label",
+    "dimension",
+    "value"
+  ]
+}

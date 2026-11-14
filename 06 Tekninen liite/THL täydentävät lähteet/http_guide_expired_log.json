@@ -1,0 +1,13 @@
+[
+  {
+    "file": "hilmo_guide2025_expired.pdf",
+    "url": "https://www.julkari.fi/server/api/core/bitstreams/ee397790-5a63-4dc4-b9d8-52d2c790b788/content",
+    "method": "GET",
+    "utc": "2026-11-13T23:51:39.096038+00:00",
+    "status": 200,
+    "final_url": "https://www.julkari.fi/server/api/core/bitstreams/ee397790-5a63-4dc4-b9d8-52d2c790b788/content",
+    "content_type": "application/pdf;charset=UTF-8",
+    "bytes": 2128634,
+    "sha256": "56113dd0099bd2167ee28b4da02a5f054d964bc41abe8e86225c20fb8cf25a39"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "status": "exploratory objectives, not proven explanations",
+  "created": "2026-11-14",
+  "comparison_counts": {
+    "suolisto": {
+      "region_year_rates": 66,
+      "stable_region_year_rates": 66,
+      "adjacent_region_changes": 44,
+      "endpoint_region_changes": 22,
+      "annual_min_max_gaps": 3
+    },
+    "rinta": {
+      "region_year_rates": 114,
+      "stable_region_year_rates": 110,
+      "adjacent_region_changes": 88,
+      "endpoint_region_changes": 22,
+      "annual_min_max_gaps": 5
+    },
+    "cross_program": {
+      "rank_correlations": 1,
+      "matched_regions": 22
+    },
+    "followup_age_sex": {
+      "annual_standardized_estimates": 3,
+      "stratum_endpoint_comparisons": 10
+    }
+  },
+  "hypotheses": [
+    {
+      "id": "H01",
+      "priority": 1,
+      "observation": "Suoliston osallistuminen laski kaikilla 22 alueella; kansallinen lasku säilyy yhteisten ikä-sukupuoliryhmien vakioinnin jälkeen.",
+      "testable_claim": "Kierros- ja aiemman osallistumisen jakauman vakiointi poistaa vähintään puolet kansallisesta 2022–2024 vakioidusta laskusta.",
+      "falsifier": "Lisävakiointi poistaa alle puolet laskusta.",
+      "competing_explanations": [
+        "kutsujen ja muistutusten toteutus",
+        "kirjaamisviive",
+        "poiminnan muutokset",
+        "väestörakenne"
+      ],
+      "required_data": [
+        "vuosi × ikä × sukupuoli × seulontakierros × aiempi osallistuminen: osallistuneet ja poimitut",
+        "alue × vuosi × ikä × sukupuoli × seulontakelpoisuus: poimitut, kutsutut, osallistuneet"
+      ],
+      "next_action": "Resolve availability of joint region × year × age60 × sex × first-invitation selected/invited/participating counts; distinguish pilot history. Do not add correlations of existing marginals as substitute.",
+      "availability": "required joint table unverified",
+      "status": "avoin; osittainen vastanäyttö yksinkertaiselle marginaaliselitykselle",
+      "tests_completed": [
+        {
+          "test": "National common ages 60,62,64,66,68, both sexes; 2022 fixed weights",
+          "result": "77.2807% to 72.8187%, all 10 strata decline",
+          "interpretation": "Age-sex weights and age70 inclusion alone are insufficient explanations; no causal conclusion"
+        },
+        {
+          "test": "2024 invitation denominator sensitivity and national sex-history standardization",
+          "result": "1399 selected without mailed invitation; denominator change +0.2450 pp. 2022 sex-history weights give 2024 68.7813% versus observed 73.5398%.",
+          "interpretation": "Simple marginal composition-only explanation not supported; joint age-sex-history-region claim remains unresolved.",
+          "evidence": "H01 jatkotutkimus/H01 - kierrosrakenteen ja nimittäjän testi.md"
+        }
+      ],
+      "criterion_note": "Exploratory operational criterion, not a clinical threshold or independent validation."
+    },
+    {
+      "id": "H02",
+      "priority": 1,
+      "observation": "Helsinki, Kymenlaakso ja Vantaa–Kerava alimpina kolmena kaikissa kolmessa suolistoseulontavuodessa.",
+      "testable_claim": "Kaikki kolme pysyvät alimmassa neljänneksessä yhteisellä ikä-, sukupuoli- ja kielivakioinnilla.",
+      "falsifier": "Yksi tai useampi poistuu alimmasta neljänneksestä vakioinnin jälkeen.",
+      "competing_explanations": [
+        "väestörakenne",
+        "kutsuttujen osuus poimituista",
+        "muistutuskäytännöt",
+        "aluemääritelmä"
+      ],
+      "required_data": [
+        "alue × ikä × sukupuoli × kieli × vuosi: poimitut, kutsutut, osallistuneet"
+      ],
+      "next_action": "Etsi alueelliset ositetut aggregaatit ja niiden julkaisu-/pienlukuehdot.",
+      "availability": "required joint table unverified",
+      "status": "avoin",
+      "tests_completed": [],
+      "criterion_note": "Exploratory operational criterion, not a clinical threshold or independent validation."
+    },
+    {
+      "id": "H03",
+      "priority": 2,
+      "observation": "Helsinki alin rintaseulonnan osallistumisessa 2020–2024; koko 22 alueen osuus 2024 korkeampi kuin 2020.",
+      "testable_claim": "Helsingin osallistumisero muihin 21 alueeseen on vähintään 5 prosenttiyksikköä vuonna 2024 vakioinnin jälkeen.",
+      "falsifier": "Vakioitu ero alle 5 prosenttiyksikköä.",
+      "competing_explanations": [
+        "ikä-kielirakenne",
+        "ohjelman ulkopuoliset mammografiat",
+        "kutsujen tavoittavuus",
+        "2020 erityisolosuhteet"
+      ],
+      "required_data": [
+        "ositetut kutsutut ja osallistuneet",
+        "ohjelman ulkopuolisten seulontamammografioiden vertailukelpoiset aggregaatit"
+      ],
+      "next_action": "Selvitä voidaanko ohjelman ulkopuolinen seulonta erottaa oireperusteisesta kuvantamisesta.",
+      "availability": "unverified; not currently feasible as adjusted causal study",
+      "status": "avoin",
+      "tests_completed": [],
+      "criterion_note": "Exploratory operational criterion, not a clinical threshold or independent validation."
+    },
+    {
+      "id": "H04",
+      "priority": 3,
+      "observation": "Alueiden kahden ohjelman vuoden 2024 osallistumisjärjestyksen Spearman rho 0.5505364201 (22 aluetta).",
+      "testable_claim": "Yhteisessä ikä-sukupuoliryhmässä rho on vähintään 0.4 jokaisena vuonna 2022, 2023 ja 2024.",
+      "falsifier": "Yhdenkin vuoden rho alle 0.4.",
+      "competing_explanations": [
+        "väestöero",
+        "vuoden valinta",
+        "sosiodemografia",
+        "ohjelmakohtaiset toteutustavat"
+      ],
+      "required_data": [
+        "alue × vuosi × yhteiset ikäluokat × naiset: molempien ohjelmien osallistumisluvut"
+      ],
+      "next_action": "Varmista yhteisten alueellisten kohorttien saatavuus ennen uusia korrelaatioita.",
+      "availability": "required joint table unverified",
+      "status": "avoin",
+      "tests_completed": [],
+      "criterion_note": "Exploratory operational criterion, not a clinical threshold or independent validation."
+    }
+  ]
+}

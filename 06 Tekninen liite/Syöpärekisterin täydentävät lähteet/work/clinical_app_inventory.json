@@ -1,0 +1,452 @@
+{
+  "scripts": [
+    {
+      "attrs": {
+        "type": "application/shiny-singletons"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "type": "application/html-dependencies"
+      },
+      "chars": 120,
+      "start": "json2[2014.02.04];jquery[3.5.1];shiny[1.5.0];selectize[0.11.2];htmlwidgets[1.5.3];plotly-binding[4.9.3];bootstrap[3.4.1]"
+    },
+    {
+      "attrs": {
+        "src": "shared/json2-min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/jquery.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/shiny.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/selectize/js/selectize.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "htmlwidgets-1.5.3/htmlwidgets.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "plotly-binding-4.9.3/plotly.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/bootstrap/js/bootstrap.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/bootstrap/shim/html5shiv.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "shared/bootstrap/shim/respond.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "https://syoparekisteri.fi/assets/themes/ssy3/dist/js/iframeResizer.contentWindow.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "https://cdn.rawgit.com/zenorocha/clipboard.js/v1.7.1/dist/clipboard.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "__assets__/sockjs-0.3.4.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "__assets__/shiny-server-client.min.js"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {},
+      "chars": 121,
+      "start": "preShinyInit({reconnect:true,disableProtocols:[\"xdr-streaming\",\"xhr-streaming\",\"iframe-eventsource\",\"iframe-htmlfile\"]});"
+    },
+    {
+      "attrs": {
+        "type": "application/json",
+        "data-for": "show_vars2"
+      },
+      "chars": 29,
+      "start": "{\"plugins\":[\"remove_button\"]}"
+    },
+    {
+      "attrs": {
+        "type": "application/json",
+        "data-for": "show_vars1"
+      },
+      "chars": 29,
+      "start": "{\"plugins\":[\"remove_button\"]}"
+    }
+  ],
+  "links": [
+    {
+      "tag": "script",
+      "type": "application/shiny-singletons"
+    },
+    {
+      "tag": "script",
+      "type": "application/html-dependencies"
+    },
+    {
+      "tag": "script",
+      "src": "shared/json2-min.js"
+    },
+    {
+      "tag": "script",
+      "src": "shared/jquery.min.js"
+    },
+    {
+      "tag": "link",
+      "href": "shared/shiny.css",
+      "rel": "stylesheet"
+    },
+    {
+      "tag": "script",
+      "src": "shared/shiny.min.js"
+    },
+    {
+      "tag": "link",
+      "href": "shared/selectize/css/selectize.bootstrap3.css",
+      "rel": "stylesheet"
+    },
+    {
+      "tag": "script",
+      "src": "shared/selectize/js/selectize.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "htmlwidgets-1.5.3/htmlwidgets.js"
+    },
+    {
+      "tag": "script",
+      "src": "plotly-binding-4.9.3/plotly.js"
+    },
+    {
+      "tag": "link",
+      "href": "shared/bootstrap/css/bootstrap.min.css",
+      "rel": "stylesheet"
+    },
+    {
+      "tag": "script",
+      "src": "shared/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "shared/bootstrap/shim/html5shiv.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "shared/bootstrap/shim/respond.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "https://syoparekisteri.fi/assets/themes/ssy3/dist/js/iframeResizer.contentWindow.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "https://cdn.rawgit.com/zenorocha/clipboard.js/v1.7.1/dist/clipboard.min.js"
+    },
+    {
+      "tag": "link",
+      "rel": "stylesheet",
+      "type": "text/css",
+      "href": "https://xn--syprekisteri-icb4w.fi/assets/themes/ssy3/dist/css/external.css"
+    },
+    {
+      "tag": "script",
+      "src": "__assets__/sockjs-0.3.4.min.js"
+    },
+    {
+      "tag": "script",
+      "src": "__assets__/shiny-server-client.min.js"
+    },
+    {
+      "tag": "script"
+    },
+    {
+      "tag": "link",
+      "rel": "stylesheet",
+      "type": "text/css",
+      "href": "__assets__/shiny-server.css"
+    },
+    {
+      "tag": "a",
+      "href": "#tab-4591-1",
+      "data-toggle": "tab",
+      "data-value": "Hyvinvointialueittain"
+    },
+    {
+      "tag": "a",
+      "href": "#tab-4591-2",
+      "data-toggle": "tab",
+      "data-value": "Yhteistyöalueittain"
+    },
+    {
+      "tag": "script",
+      "type": "application/json",
+      "data-for": "show_vars2"
+    },
+    {
+      "tag": "script",
+      "type": "application/json",
+      "data-for": "show_vars1"
+    }
+  ],
+  "selects": [
+    {
+      "attrs": {
+        "id": "show_vars2",
+        "class": "form-control",
+        "multiple": "multiple"
+      },
+      "options": [
+        {
+          "attrs": {
+            "value": "Ahvenanmaa"
+          },
+          "text": "Ahvenanmaa\n"
+        },
+        {
+          "attrs": {
+            "value": "Etelä-Karjalan hyvinvointialue"
+          },
+          "text": "Etelä-Karjalan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Etelä-Pohjanmaan hyvinvointialue"
+          },
+          "text": "Etelä-Pohjanmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Etelä-Savon hyvinvointialue"
+          },
+          "text": "Etelä-Savon hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Helsingin kaupunki"
+          },
+          "text": "Helsingin kaupunki\n"
+        },
+        {
+          "attrs": {
+            "value": "Itä-Uudenmaan hyvinvointialue"
+          },
+          "text": "Itä-Uudenmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Kainuun hyvinvointialue"
+          },
+          "text": "Kainuun hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Kanta-Hämeen hyvinvointialue"
+          },
+          "text": "Kanta-Hämeen hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Keski-Pohjanmaan hyvinvointialue"
+          },
+          "text": "Keski-Pohjanmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Keski-Suomen hyvinvointialue"
+          },
+          "text": "Keski-Suomen hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Keski-Uudenmaan hyvinvointialue"
+          },
+          "text": "Keski-Uudenmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Koko maa",
+            "selected": null
+          },
+          "text": "Koko maa\n"
+        },
+        {
+          "attrs": {
+            "value": "Kymenlaakson hyvinvointialue"
+          },
+          "text": "Kymenlaakson hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Lapin hyvinvointialue"
+          },
+          "text": "Lapin hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Länsi-Uudenmaan hyvinvointialue"
+          },
+          "text": "Länsi-Uudenmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pirkanmaan hyvinvointialue"
+          },
+          "text": "Pirkanmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pohjanmaan hyvinvointialue"
+          },
+          "text": "Pohjanmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pohjois-Karjalan hyvinvointialue"
+          },
+          "text": "Pohjois-Karjalan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pohjois-Pohjanmaan hyvinvointialue"
+          },
+          "text": "Pohjois-Pohjanmaan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pohjois-Savon hyvinvointialue"
+          },
+          "text": "Pohjois-Savon hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Päijät-Hämeen hyvinvointialue"
+          },
+          "text": "Päijät-Hämeen hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Satakunnan hyvinvointialue"
+          },
+          "text": "Satakunnan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Vantaan ja Keravan hyvinvointialue"
+          },
+          "text": "Vantaan ja Keravan hyvinvointialue\n"
+        },
+        {
+          "attrs": {
+            "value": "Varsinais-Suomen hyvinvointialue"
+          },
+          "text": "Varsinais-Suomen hyvinvointialue"
+        }
+      ]
+    },
+    {
+      "attrs": {
+        "id": "show_vars1",
+        "class": "form-control",
+        "multiple": "multiple"
+      },
+      "options": [
+        {
+          "attrs": {
+            "value": "Ahvenanmaa"
+          },
+          "text": "Ahvenanmaa\n"
+        },
+        {
+          "attrs": {
+            "value": "Etelä-Suomen yhteistyöalue"
+          },
+          "text": "Etelä-Suomen yhteistyöalue\n"
+        },
+        {
+          "attrs": {
+            "value": "Itä-Suomen yhteistyöalue"
+          },
+          "text": "Itä-Suomen yhteistyöalue\n"
+        },
+        {
+          "attrs": {
+            "value": "Koko maa",
+            "selected": null
+          },
+          "text": "Koko maa\n"
+        },
+        {
+          "attrs": {
+            "value": "Länsi-Suomen yhteistyöalue"
+          },
+          "text": "Länsi-Suomen yhteistyöalue\n"
+        },
+        {
+          "attrs": {
+            "value": "Pohjois-Suomen yhteistyöalue"
+          },
+          "text": "Pohjois-Suomen yhteistyöalue\n"
+        },
+        {
+          "attrs": {
+            "value": "Sisä-Suomen yhteistyöalue"
+          },
+          "text": "Sisä-Suomen yhteistyöalue"
+        }
+      ]
+    }
+  ]
+}

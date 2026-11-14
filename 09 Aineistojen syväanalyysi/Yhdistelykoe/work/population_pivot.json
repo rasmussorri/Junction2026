@@ -1,0 +1,163 @@
+[
+  {
+    "region_code": "HVA01",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 99415,
+    "vaesto_yli64_p": 23.9
+  },
+  {
+    "region_code": "HVA02",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 207070,
+    "vaesto_yli64_p": 20.7
+  },
+  {
+    "region_code": "HVA03",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 502067,
+    "vaesto_yli64_p": 18.5
+  },
+  {
+    "region_code": "HVA04",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 289730,
+    "vaesto_yli64_p": 16.5
+  },
+  {
+    "region_code": "HVA05",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 494819,
+    "vaesto_yli64_p": 24.3
+  },
+  {
+    "region_code": "HVA06",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 211261,
+    "vaesto_yli64_p": 28.9
+  },
+  {
+    "region_code": "HVA07",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 169455,
+    "vaesto_yli64_p": 27.5
+  },
+  {
+    "region_code": "HVA08",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 545406,
+    "vaesto_yli64_p": 22.4
+  },
+  {
+    "region_code": "HVA09",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 204635,
+    "vaesto_yli64_p": 28.6
+  },
+  {
+    "region_code": "HVA10",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 157442,
+    "vaesto_yli64_p": 30.6
+  },
+  {
+    "region_code": "HVA11",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 125083,
+    "vaesto_yli64_p": 29.4
+  },
+  {
+    "region_code": "HVA12",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 129376,
+    "vaesto_yli64_p": 33.9
+  },
+  {
+    "region_code": "HVA13",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 248815,
+    "vaesto_yli64_p": 27.4
+  },
+  {
+    "region_code": "HVA14",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 162091,
+    "vaesto_yli64_p": 29.2
+  },
+  {
+    "region_code": "HVA15",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 274112,
+    "vaesto_yli64_p": 25
+  },
+  {
+    "region_code": "HVA16",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 189929,
+    "vaesto_yli64_p": 27.4
+  },
+  {
+    "region_code": "HVA17",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 178749,
+    "vaesto_yli64_p": 23.7
+  },
+  {
+    "region_code": "HVA18",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 67723,
+    "vaesto_yli64_p": 25
+  },
+  {
+    "region_code": "HVA19",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 418331,
+    "vaesto_yli64_p": 21.5
+  },
+  {
+    "region_code": "HVA20",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 69639,
+    "vaesto_yli64_p": 31.3
+  },
+  {
+    "region_code": "HVA21",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 176151,
+    "vaesto_yli64_p": 27.7
+  },
+  {
+    "region_code": "HVA90",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 684018,
+    "vaesto_yli64_p": 17.6
+  },
+  {
+    "region_code": "HVA91",
+    "year": 2024,
+    "population_geography_date": "2026-01-01",
+    "vaerak-vaesto": 30654,
+    "vaesto_yli64_p": 24.5
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "avohilmo_measure.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13/131425",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:54.058759+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13/131425",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 1332,
+    "sha256": "04c6ec01cc6585e778b33623236dde91f5c51923e1340d6e25f9dc60908304f2"
+  },
+  {
+    "file": "hilmo_measure.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01/197895",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:54.059135+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01/197895",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 1389,
+    "sha256": "a71d30669c0548d34ae070696ba36fe8ec62e762e933cc9d99641b6b6d24b4fe"
+  },
+  {
+    "file": "pth_measure.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01/25618",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:54.059278+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01/25618",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 1451,
+    "sha256": "bc3ed113a0cbf36d4aed7f00f8bd2192b427c0ca59bc4b0e985be9ce01038404"
+  },
+  {
+    "file": "queue_report.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:54.059372+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 112655,
+    "sha256": "e0c9f47ac6b45e12f560ac84cbfd42779e20e94c2e78f9b0bfe0586f068c76df"
+  }
+]

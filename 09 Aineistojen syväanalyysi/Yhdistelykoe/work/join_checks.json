@@ -1,0 +1,63 @@
+{
+  "screening_year": 2024,
+  "population_reference_date": "2024-12-31",
+  "population_geography_date": "2026-01-01",
+  "statfin_response_updated": "2026-05-29T05:00:00Z",
+  "screening_input_provenance": [
+    {
+      "path": "06 Tekninen liite/suolisto_tables.json",
+      "sha256": "beba5eb6a275b7d673c833716c06a6949c049729a600f881ff85bef40437aa4e",
+      "table_index_zero_based": 24,
+      "headers": [
+        "Suolistosyövän seulontaohjelma:\nvuositilasto",
+        "Hyvinvointialueet",
+        "Seulontaketju",
+        "2024"
+      ]
+    },
+    {
+      "path": "06 Tekninen liite/rinta_tables.json",
+      "sha256": "c87ebda592c89d4ca3d1123122d89818492c6dcad62c41a57f82bc28febeed8f",
+      "table_index_zero_based": 50,
+      "headers": [
+        "Rintasyövän seulontaohjelma:\nvuositilasto",
+        "Hyvinvointialueet",
+        "Seulontaketju",
+        "2024"
+      ]
+    }
+  ],
+  "screening_each_rows": {
+    "suolisto": 22,
+    "rinta": 22
+  },
+  "screening_each_duplicate_region_year_keys": {
+    "suolisto": [],
+    "rinta": []
+  },
+  "screening_join_matched_regions": 22,
+  "screening_left_unmatched": [],
+  "screening_right_unmatched": [],
+  "crosswalk_codes_unique": true,
+  "population_raw_cells": 46,
+  "population_pivot_rows": 23,
+  "screening_to_population_matched": 22,
+  "screening_to_population_unmatched": [],
+  "population_only_regions": [
+    {
+      "code": "HVA91",
+      "label": "HVA91 Ahvenanmaa"
+    }
+  ],
+  "final_duplicate_region_year_keys": [],
+  "naive_long_join_on_region_year": {
+    "screening_rows": 44,
+    "population_rows": 46,
+    "many_to_many_keys": 22,
+    "result_rows": 88,
+    "reason": "2 programs × 2 measures per region; pivot measures and keep program in key or join programs wide first."
+  },
+  "missing_population_cells": 0,
+  "new_population_denominator_rates_created": false,
+  "geography_compatibility": "Name/code correspondence verified. Screening region boundary vintage and residence assignment date not established by this test."
+}

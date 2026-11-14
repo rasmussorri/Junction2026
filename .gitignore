@@ -1,0 +1,15 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local runtime state
+00 Ohjaus/state.json
+00 Ohjaus/STOP
+work/research.lock
+.obsidian/workspace*.json
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc

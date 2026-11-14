@@ -1,0 +1,517 @@
+{
+  "source_url": "https://syoparekisteri.fi/assets/themes/ssy3/factsheets/myeloma.html",
+  "source_sha256": "72f59613b27731152ce5f320f83451e3c7dc805ed1bba018dc32dc5864774fed",
+  "table_count": 11,
+  "total_table_rows": 1136,
+  "tables": [
+    {
+      "file": "myelooma_laaturaportti_kohdejoukko.json",
+      "columns": [
+        "period",
+        "ca",
+        "agegroup",
+        "sex",
+        "n_id",
+        "total",
+        "Arvo"
+      ],
+      "rows": 54
+    },
+    {
+      "file": "myelooma_laaturaportti_ilmaantuvuus_kokomaa.json",
+      "columns": [
+        "tilasto",
+        "grouping",
+        "agegroup",
+        "sex",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "sd_key"
+      ],
+      "rows": 18
+    },
+    {
+      "file": "myelooma_laaturaportti_ilmaantuvuus_yhteistyoalueet.json",
+      "columns": [
+        "period",
+        "grouping",
+        "ca",
+        "agegroup",
+        "sex",
+        "n_id",
+        "Arvo",
+        "sd_key"
+      ],
+      "rows": 45
+    },
+    {
+      "file": "myelooma_laaturaportti_ilmaantuvuus_hyvinvointialueet.json",
+      "columns": [
+        "period",
+        "wsc",
+        "ca",
+        "n_id",
+        "Arvo"
+      ],
+      "rows": 22
+    },
+    {
+      "file": "myelooma_laaturaportti_hoito_kokomaa.json",
+      "columns": [
+        "period",
+        "op",
+        "agegroup",
+        "n_id",
+        "total",
+        "Arvo"
+      ],
+      "rows": 18
+    },
+    {
+      "file": "myelooma_laaturaportti_hoito_yhteistyoalueet.json",
+      "columns": [
+        "period",
+        "op",
+        "grouping",
+        "ca",
+        "agegroup",
+        "sex",
+        "n_id",
+        "total",
+        "Arvo",
+        "sd_key"
+      ],
+      "rows": 270
+    },
+    {
+      "file": "myelooma_laaturaportti_hoito_hyvinvointialueet.json",
+      "columns": [
+        "period",
+        "op",
+        "wsc",
+        "ca",
+        "n_id",
+        "total",
+        "Arvo",
+        "sd_key"
+      ],
+      "rows": 132
+    },
+    {
+      "file": "myelooma_laaturaportti_elossaolo.json",
+      "columns": [
+        "agegroup",
+        "sex",
+        "1",
+        "3",
+        "5"
+      ],
+      "rows": 4
+    },
+    {
+      "file": "myelooma_laaturaportti_aluekohtainen_ilmaantuvuus.json",
+      "columns": [
+        "period",
+        "area",
+        "agegroup",
+        "sex",
+        "n_id",
+        "Arvo",
+        "sd_key"
+      ],
+      "rows": 135
+    },
+    {
+      "file": "myelooma_laaturaportti_aluekohtainen_hoito.json",
+      "columns": [
+        "period",
+        "area",
+        "op",
+        "agegroup",
+        "sex",
+        "n_id",
+        "total",
+        "Arvo",
+        "sd_key"
+      ],
+      "rows": 402
+    },
+    {
+      "file": "myelooma_laaturaportti_hoitokoodit.json",
+      "columns": [
+        "luokka",
+        "tyyppi",
+        "tmp_koodi",
+        "toimenpide_nimi",
+        "n_henk",
+        "n_tmp"
+      ],
+      "rows": 36
+    }
+  ],
+  "plot_axis_evidence": [
+    {
+      "widget_index": 36,
+      "widget_id": "htmlwidget-78b742fd833163cc5923",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Seurannan alku (vuosi)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 43,
+      "widget_id": "htmlwidget-69f9641b7763c02fc6f0",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu ilmaantuvuus (per 100.000)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 49,
+      "widget_id": "htmlwidget-e6b9fdf1e5654c3ca2d9",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu ilmaantuvuus (per 100.000)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 58,
+      "widget_id": "htmlwidget-20eedc47c6b72c817e84",
+      "axis_titles": {
+        "xaxis": "",
+        "yaxis": "",
+        "xaxis2": ""
+      }
+    },
+    {
+      "widget_index": 62,
+      "widget_id": "htmlwidget-8e66643e3c2560996a40",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu osuus (%)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 69,
+      "widget_id": "htmlwidget-43c026f978165693fc70",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu osuus (%)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 79,
+      "widget_id": "htmlwidget-dce8b9de46c770556232",
+      "axis_titles": {
+        "xaxis": "",
+        "yaxis": "",
+        "xaxis2": ""
+      }
+    },
+    {
+      "widget_index": 83,
+      "widget_id": "htmlwidget-5493b0a0cef68cdcf7df",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu ilmaantuvuus (per 100.000)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    },
+    {
+      "widget_index": 85,
+      "widget_id": "htmlwidget-f4c31c6152de32690cf2",
+      "axis_titles": {
+        "xaxis": {
+          "text": "Ikävakioitu osuus (%)",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        },
+        "yaxis": {
+          "text": "",
+          "font": {
+            "color": "rgba(0,0,0,1)",
+            "family": "",
+            "size": 14.611872146118724
+          }
+        }
+      }
+    }
+  ],
+  "national_cohort": [
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "Kaikki ikäryhmät",
+      "sex": "Sukupuolet yhteensä",
+      "n_id": 2336,
+      "total": 2336,
+      "Arvo": "100,0"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "Kaikki ikäryhmät",
+      "sex": "Miehet",
+      "n_id": 1262,
+      "total": 2336,
+      "Arvo": " 54,0"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "Kaikki ikäryhmät",
+      "sex": "Naiset",
+      "n_id": 1074,
+      "total": 2336,
+      "Arvo": " 46,0"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "<70",
+      "sex": "Sukupuolet yhteensä",
+      "n_id": 891,
+      "total": 2336,
+      "Arvo": " 38,1"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "<70",
+      "sex": "Miehet",
+      "n_id": 528,
+      "total": 2336,
+      "Arvo": " 22,6"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "<70",
+      "sex": "Naiset",
+      "n_id": 363,
+      "total": 2336,
+      "Arvo": " 15,5"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "70+",
+      "sex": "Sukupuolet yhteensä",
+      "n_id": 1445,
+      "total": 2336,
+      "Arvo": " 61,9"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "70+",
+      "sex": "Miehet",
+      "n_id": 734,
+      "total": 2336,
+      "Arvo": " 31,4"
+    },
+    {
+      "period": "2019-2023",
+      "ca": "Koko maa",
+      "agegroup": "70+",
+      "sex": "Naiset",
+      "n_id": 711,
+      "total": 2336,
+      "Arvo": " 30,4"
+    }
+  ],
+  "annual_counts": {
+    "tilasto": "Tapausten lukumäärä",
+    "grouping": "Kaikki yhdessä",
+    "agegroup": "Kaikki ikäryhmät",
+    "sex": "Sukupuolet yhteensä",
+    "2019": "476",
+    "2020": "457",
+    "2021": "483",
+    "2022": "456",
+    "2023": "464",
+    "sd_key": "2-1"
+  },
+  "checks": {
+    "annual_counts_sum": 2336,
+    "hva_cases_sum": 2301,
+    "hva_sum_matches_national": false,
+    "national_minus_hva": 35,
+    "country_treatment_percent_checks_passed": 18,
+    "regional_adjustment_example": {
+      "area": "Etelä-Suomi",
+      "treatment": "Autologinen kantasolusiirto",
+      "patients": 154,
+      "cohort": 800,
+      "raw_percent": 19.25,
+      "published_adjusted_percent_ci": "18,0 (15,3 - 21,1)"
+    }
+  },
+  "null_cells": [
+    {
+      "table": "myelooma_laaturaportti_hoitokoodit",
+      "row_index": 0,
+      "column": "n_tmp"
+    },
+    {
+      "table": "myelooma_laaturaportti_hoitokoodit",
+      "row_index": 8,
+      "column": "n_tmp"
+    },
+    {
+      "table": "myelooma_laaturaportti_hoitokoodit",
+      "row_index": 19,
+      "column": "n_tmp"
+    },
+    {
+      "table": "myelooma_laaturaportti_hoitokoodit",
+      "row_index": 24,
+      "column": "n_tmp"
+    },
+    {
+      "table": "myelooma_laaturaportti_hoitokoodit",
+      "row_index": 29,
+      "column": "n_tmp"
+    }
+  ],
+  "searched_missing_markers": [],
+  "country_all_age_treatments": [
+    {
+      "period": "2019-2023",
+      "op": "Autologinen kantasolusiirto",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 472,
+      "total": 2336,
+      "Arvo": "20,2"
+    },
+    {
+      "period": "2019-2023",
+      "op": "Lääkehoito",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 1863,
+      "total": 2336,
+      "Arvo": "79,8"
+    },
+    {
+      "period": "2019-2023",
+      "op": "Lääkehoito (sairaala)",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 1236,
+      "total": 2336,
+      "Arvo": "52,9"
+    },
+    {
+      "period": "2019-2023",
+      "op": "Lääkehoito (osto)",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 1596,
+      "total": 2336,
+      "Arvo": "68,3"
+    },
+    {
+      "period": "2019-2023",
+      "op": "Palliatiivinen hoito",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 260,
+      "total": 2336,
+      "Arvo": "11,1"
+    },
+    {
+      "period": "2019-2023",
+      "op": "Sädehoito",
+      "agegroup": "Kaikki ikäryhmät",
+      "n_id": 439,
+      "total": 2336,
+      "Arvo": "18,8"
+    }
+  ]
+}

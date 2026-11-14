@@ -1,0 +1,17 @@
+Page  Type          URL
+   7  Annotation    http://www.syopasaatio.fi
+   8  Annotation    https://doi.org/10.1787/a0e415cd-fi
+   8  Annotation    https://nordcan.iarc.fr/en
+   9  Annotation    https://stm.fi/sotehenkilosto/ohjelma
+   9  Annotation    http://urn.fi/URN:ISBN:978-952-00-9891-9
+   9  Annotation    https://okm.fi/suomi-liikkeelle
+   9  Annotation    https://stm.fi/terveydeksi-kansallinen-terveys-ja-hyvinvointiohjelma
+   9  Annotation    https://stm.fi/terveys-ja-hyvinvointialan-kasvuohjelma
+   9  Annotation    http://urn.fi/URN:ISBN:978-952-383-864-2
+   9  Annotation    http://urn.fi/URN:ISBN:978-952-383-864-2
+   9  Annotation    https://stm.fi/laakeasioiden-uudistus
+  11  Annotation    https://thl.fi/aiheet/sote-palvelujen-johtaminen/kehittyva-palvelujarjestelma/yhdenvertaiset-palvelut/yhdenvertaisuuden-kasitteet
+  11  Annotation    https://thl.fi/aiheet/sote-palvelujen-johtaminen/kehittyva-palvelujarjestelma/yhdenvertaiset-palvelut/yhdenvertaisuuden-kasitteet
+  14  Annotation    https://www.finlex.fi/fi/lainsaadanto/2021/611
+  54  Annotation    https://www.ism.dk/publikationer-sundhed/2025/maj/et-bedfre-liv-med-og-efter-kraeft
+  54  Annotation    https://www.regeringen.se/informationsmaterial/2024/11/battre-tillsammans--forslag-till-en-uppdaterad-nationell-cancerstrategi/

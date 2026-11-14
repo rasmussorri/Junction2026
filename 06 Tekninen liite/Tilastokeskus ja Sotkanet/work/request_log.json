@@ -1,0 +1,157 @@
+[
+  {
+    "key": "11be_meta",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/11be.px",
+    "timestamp_utc": "2026-11-13T23:37:12.687911+00:00",
+    "method": "GET",
+    "status": 200,
+    "bytes": 93453,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "100b2baf7acd5df332fdba3f0bedb3d7a98aa499f4e239eb67cb077b8b0f8ba8"
+  },
+  {
+    "key": "13u5_meta",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+    "timestamp_utc": "2026-11-13T23:37:13.073899+00:00",
+    "method": "GET",
+    "status": 200,
+    "bytes": 6496,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "c294d9f1db6de67f184c9a69f0dc1d918422697d7ac20c661171d7a320e889d7"
+  },
+  {
+    "key": "sotka5643_meta",
+    "url": "https://sotkanet.fi/rest/1.1/indicators/5643",
+    "timestamp_utc": "2026-11-13T23:37:13.360143+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "sotka5644_meta",
+    "url": "https://sotkanet.fi/rest/1.1/indicators/5644",
+    "timestamp_utc": "2026-11-13T23:37:13.588951+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "sotka_regions",
+    "url": "https://sotkanet.fi/rest/1.1/regions",
+    "timestamp_utc": "2026-11-13T23:37:13.703402+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "11be_sample",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/11be.px",
+    "method": "POST",
+    "timestamp_utc": "2026-11-13T23:37:50.212811+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 4269,
+    "sha256": "c63a006a60770c14893ef621e5f53db26ffc525470ce8bf860b13b0772f567e5"
+  },
+  {
+    "key": "13u5_sample",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ksyyt/13u5.px",
+    "method": "POST",
+    "timestamp_utc": "2026-11-13T23:37:50.443580+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 3224,
+    "sha256": "2fc5b5f6b598e704b40e9b1cafd41eb8d8838a6592ee8611853e847872e6b96a"
+  },
+  {
+    "key": "vaerak_catalog",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/vaerak",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:37:50.606648+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 4614,
+    "sha256": "9637af6a0d2e21bab28475efcca873b1e795b16a4fd574f86db3a73285aaafc0"
+  },
+  {
+    "key": "paavo_catalog",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/Postinumeroalueittainen_avoin_tieto",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:37:50.942601+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 752,
+    "sha256": "0c52f61c8d8eb4912658f6588f4cba2d6cc1ea75ecd86273b26055ac3e4f0813"
+  },
+  {
+    "key": "sotka5643_sample",
+    "url": "https://sotkanet.fi/rest/1.1/json?indicator=5643&years=2024&genders=total",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:37:51.075291+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "sotka5644_sample",
+    "url": "https://sotkanet.fi/rest/1.1/json?indicator=5644&years=2024&genders=total",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:37:51.188737+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "11re_meta",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/vaerak/11re.px",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:38:10.336558+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 8280,
+    "sha256": "e2ceae6c3f74452f29181cc040551ad448c4b06f96a6661acaa44a120b8a6266"
+  },
+  {
+    "key": "paavo2026_catalog",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/Postinumeroalueittainen_avoin_tieto/2026",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:38:10.559899+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 1255,
+    "sha256": "3fbf0bed2531512a6f130a60c339a59baeaac21ac864c6eebf9210b26e7c7dd4"
+  },
+  {
+    "key": "11re_sample",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/vaerak/11re.px",
+    "method": "POST",
+    "timestamp_utc": "2026-11-13T23:38:36.015797+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 3112,
+    "sha256": "22c81d3bd046c5a572f49b653b4b5e245befb09e6b3950e88f5d36ed04bb0739"
+  },
+  {
+    "key": "paavo12ey_meta",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/Postinumeroalueittainen_avoin_tieto/2026/12ey_ja2026.px",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:38:36.393189+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 121523,
+    "sha256": "bc4202b92f8bf1aa894e0caa593c4264c6fb607bc09346969052ace473e80376"
+  },
+  {
+    "key": "paavo12ey_sample",
+    "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/Postinumeroalueittainen_avoin_tieto/2026/12ey_ja2026.px",
+    "method": "POST",
+    "timestamp_utc": "2026-11-13T23:39:21.270781+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 4916,
+    "sha256": "cd57e56e0e4f432c7bb45ead590653e65811f71d20e7ea47c30868712a3aa4ab"
+  },
+  {
+    "key": "paavo_manual2026",
+    "url": "https://media.stat.fi/A7H6ohk0S8qafyCM4bfDaz/cmlt4oevajb2g06uqeojdtq58",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:39:38.887864+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 634188,
+    "sha256": "be9485a311e65e54815cd173669d81b44393fa5c251cdb072742de7fb3cf77dc"
+  }
+]

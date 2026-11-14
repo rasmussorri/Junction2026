@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "file": "08 Liitteet/Kansallinen_syopastrategia_2026_2035_FINAL.pdf",
+    "sha256": "a07a9224413e98322e57a9f5933297aec6cc99684cdff91799a5dc94c3405550",
+    "info": "Title:           Kansallinen syöpästrategia 2026–2035\nAuthor:          Sosiaali- ja terveysministeriö\nCreator:         Adobe InDesign 21.0 (Macintosh)\nProducer:        Adobe PDF Library 18.0\nCreationDate:    Wed Dec 17 13:11:33 2025 EET\nModDate:         Thu Nov 12 11:49:58 2026 EET\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           64\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1551018 bytes\nOptimized:       yes\nPDF version:     1.7\n",
+    "extracted_pages": 64,
+    "text": "01 Tausta/PDF-tarkistus/work/1_text.txt"
+  },
+  {
+    "id": 2,
+    "file": "08 Liitteet/Kansallinen_syopastrategia_toimeenpanon_tiekartta_2026_2031.pdf",
+    "sha256": "f9d4ed478a7531b0ee26c84f9d5df7c96137f8e192ca27efd8afc5b1c1e2ecb5",
+    "info": "Title:           Kansallinen syöpästrategia 2026–2035 – Toimeenpanon tiekartta vuosille 2026–2031\nCreator:         Adobe InDesign 21.5 (Macintosh)\nProducer:        Adobe PDF Library 18.0\nCreationDate:    Mon Sep 14 15:21:32 2026 EEST\nModDate:         Thu Nov 12 11:49:14 2026 EET\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           111\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1401669 bytes\nOptimized:       yes\nPDF version:     1.7\n",
+    "extracted_pages": 111,
+    "text": "01 Tausta/PDF-tarkistus/work/2_text.txt"
+  },
+  {
+    "id": 3,
+    "file": "08 Liitteet/Syöpästrategiat ja syöpädata_linkkikokoelma.pdf",
+    "sha256": "41a6d28e3eff41e1ce6d4f7d0f3ec025a3918728bcbe01c9e526e46f5b73cb08",
+    "info": "Title:           \nSubject:         \nKeywords:        \nAuthor:          Toivola, Hanna\nCreator:         Acrobat PDFMaker 26 for Word\nProducer:        Adobe PDF Library 26.2.15\nCreationDate:    Thu Nov 12 11:57:42 2026 EET\nModDate:         Thu Nov 12 11:57:44 2026 EET\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           2\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       136281 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "extracted_pages": 2,
+    "text": "01 Tausta/PDF-tarkistus/work/3_text.txt"
+  }
+]

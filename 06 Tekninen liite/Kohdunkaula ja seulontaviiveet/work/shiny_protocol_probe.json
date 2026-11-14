@@ -1,0 +1,5 @@
+{
+  "url": "wss://tilastot.syoparekisteri.fi/seulonta/websocket/",
+  "messages": [],
+  "outcome": "InvalidStatus: server rejected WebSocket connection: HTTP 404"
+}

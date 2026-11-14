@@ -1,0 +1,9 @@
+{
+  "url": "https://avoindata.suomi.fi/data/api/3/action/datastore_search?resource_id=cc74cc46-2b92-42b5-9a52-55adb3df512f&limit=1000&filters=%7B%22korvausoikeus_koodi%22%3A+115%2C+%22vuosi%22%3A+2025%7D&sort=_id+asc",
+  "method": "GET",
+  "at_utc": "2026-11-13T23:48:29.108190+00:00",
+  "status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "bytes": 157295,
+  "sha256": "3c5b1806a72e5ab3d960d0f461c9e839f048345f6f5ff51ffd7c6610c18127eb"
+}

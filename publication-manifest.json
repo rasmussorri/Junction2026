@@ -1,0 +1,3102 @@
+{
+  "created_utc": "2026-11-14T08:04:22.797448+00:00",
+  "source": "Junction2026 local research vault",
+  "report_original_sha256": "6777f6211d42d17cdcdf6e037958830eb152f6a8bb183db7af9a093183f501ef",
+  "report_published_sha256": "6777f6211d42d17cdcdf6e037958830eb152f6a8bb183db7af9a093183f501ef",
+  "files": [
+    {
+      "path": ".env",
+      "published": false,
+      "reason": "Local secret/dependency file; content not read"
+    },
+    {
+      "path": ".gitignore",
+      "published": true,
+      "source_sha256": "0bfcd10a7108e014c62a02062c971b44bc7fb2820201467fc7c03c9a13c55790",
+      "bytes": 44,
+      "published_sha256": "6082a0fb84a1ef67ef03ab7a6fbd00c123853b3cd0a8edccf4db56e10656e9e0",
+      "published_bytes": 218
+    },
+    {
+      "path": ".obsidian/app.json",
+      "published": true,
+      "source_sha256": "32c14401c1d51f8609fba2ac0dda2c0b596b7195600b1942f82831da4965f24a",
+      "bytes": 103,
+      "published_sha256": "32c14401c1d51f8609fba2ac0dda2c0b596b7195600b1942f82831da4965f24a",
+      "published_bytes": 103
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "published": true,
+      "source_sha256": "df1b4ea778951a45a723f9451d5ac5061ea2833bf8708ec772685245fd5aa67e",
+      "bytes": 149,
+      "published_sha256": "df1b4ea778951a45a723f9451d5ac5061ea2833bf8708ec772685245fd5aa67e",
+      "published_bytes": 149
+    },
+    {
+      "path": "00 Aloita tästä.md",
+      "published": true,
+      "source_sha256": "e5976c47464e18043999216c685d8aceab6a0a09557768d4563c2c868ebfb218",
+      "bytes": 2599,
+      "published_sha256": "e5976c47464e18043999216c685d8aceab6a0a09557768d4563c2c868ebfb218",
+      "published_bytes": 2599
+    },
+    {
+      "path": "00 Ohjaus/Kiintiötauko ja jatko.md",
+      "published": true,
+      "source_sha256": "3e1868e6b2a00f428a6a1ddb5d47f34824a4a611475788b2466290f64d1c5b69",
+      "bytes": 2975,
+      "published_sha256": "3e1868e6b2a00f428a6a1ddb5d47f34824a4a611475788b2466290f64d1c5b69",
+      "published_bytes": 2975
+    },
+    {
+      "path": "00 Ohjaus/Mallivalinta.md",
+      "published": true,
+      "source_sha256": "130caf8b0600cc8709c05871ee65d58a726737f3df22affa44c62a492b6cd04f",
+      "bytes": 4537,
+      "published_sha256": "130caf8b0600cc8709c05871ee65d58a726737f3df22affa44c62a492b6cd04f",
+      "published_bytes": 4537
+    },
+    {
+      "path": "00 Ohjaus/STOP",
+      "published": false,
+      "reason": "Local execution state",
+      "bytes": 141,
+      "source_sha256": "b9a0ddcb6b62006ed3aa3cd3c4c92580882f70e51bb861c4595565ed68d50f2a"
+    },
+    {
+      "path": "00 Ohjaus/Tutkimusjono.md",
+      "published": true,
+      "source_sha256": "173de04b11134818aea05d696e31dca4099604b4302d7bb5c74434760e761053",
+      "bytes": 3724,
+      "published_sha256": "173de04b11134818aea05d696e31dca4099604b4302d7bb5c74434760e761053",
+      "published_bytes": 3724
+    },
+    {
+      "path": "00 Ohjaus/Tutkimussilmukka.md",
+      "published": true,
+      "source_sha256": "b87a740d7560afe708bc178ce1762aae9e98a7338e26f66cd36fee12cf404d77",
+      "bytes": 5614,
+      "published_sha256": "b87a740d7560afe708bc178ce1762aae9e98a7338e26f66cd36fee12cf404d77",
+      "published_bytes": 5614
+    },
+    {
+      "path": "00 Ohjaus/state.json",
+      "published": false,
+      "reason": "Local execution state",
+      "bytes": 1435,
+      "source_sha256": "348402417561e53556ba8eca0fc83aad052742cc190becb97eee48c6ebcef199"
+    },
+    {
+      "path": "01 Tausta/Alkuperäinen datalähdekartoitus.md",
+      "published": true,
+      "source_sha256": "5ace0687c40233412609138c6d796ccb8ac38642aa19e6d8b402fa7d90e1c83a",
+      "bytes": 19931,
+      "published_sha256": "5ace0687c40233412609138c6d796ccb8ac38642aa19e6d8b402fa7d90e1c83a",
+      "published_bytes": 19931
+    },
+    {
+      "path": "01 Tausta/Liitteiden manifesti.json",
+      "published": true,
+      "source_sha256": "88c2c2c83bb20367a2a240414af38e723649458621bb2fa0a312249c7f1daa47",
+      "bytes": 643,
+      "published_sha256": "88c2c2c83bb20367a2a240414af38e723649458621bb2fa0a312249c7f1daa47",
+      "published_bytes": 643
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/PDF-liitteet ja haasteen rajaus.md",
+      "published": true,
+      "source_sha256": "5db45a4154bceafae99df064479b155410c29218daae82663fa5f6bb64331f00",
+      "bytes": 8760,
+      "published_sha256": "5db45a4154bceafae99df064479b155410c29218daae82663fa5f6bb64331f00",
+      "published_bytes": 8760
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/Tekninen tarkistusloki.md",
+      "published": true,
+      "source_sha256": "7ef865283c9147ba850ebe13069f8ddf1dbb72708736edccdc529234830fff79",
+      "bytes": 1730,
+      "published_sha256": "7ef865283c9147ba850ebe13069f8ddf1dbb72708736edccdc529234830fff79",
+      "published_bytes": 1730
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/1_text.txt",
+      "published": true,
+      "source_sha256": "f969f743e8ba661ed6e2a29d94e70bbb21283cc110bca8b23d3d8de07efb11a7",
+      "bytes": 172416,
+      "published_sha256": "f969f743e8ba661ed6e2a29d94e70bbb21283cc110bca8b23d3d8de07efb11a7",
+      "published_bytes": 172416
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/1_urls.txt",
+      "published": true,
+      "source_sha256": "18e868adefdbd51eca683fc0f749183519ffd53c777449b8c017a527993b4f21",
+      "bytes": 1307,
+      "published_sha256": "18e868adefdbd51eca683fc0f749183519ffd53c777449b8c017a527993b4f21",
+      "published_bytes": 1307
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/2_text.txt",
+      "published": true,
+      "source_sha256": "fda227dabd1848d27d8879cf86bfdcb44c3e83ddcce37d022a90ab4001e468e0",
+      "bytes": 309472,
+      "published_sha256": "fda227dabd1848d27d8879cf86bfdcb44c3e83ddcce37d022a90ab4001e468e0",
+      "published_bytes": 309472
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/2_urls.txt",
+      "published": true,
+      "source_sha256": "a7014b0dfd646411578143999d2c63501a2b872bdeb217f1887f120889c1a03f",
+      "bytes": 9293,
+      "published_sha256": "a7014b0dfd646411578143999d2c63501a2b872bdeb217f1887f120889c1a03f",
+      "published_bytes": 9293
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/3_text.txt",
+      "published": true,
+      "source_sha256": "b87d14e89d00990c5096376e861b2b3bb54c1958506c14dfd8a5fc77347063ef",
+      "bytes": 3229,
+      "published_sha256": "b87d14e89d00990c5096376e861b2b3bb54c1958506c14dfd8a5fc77347063ef",
+      "published_bytes": 3229
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/3_urls.txt",
+      "published": true,
+      "source_sha256": "1ed2404548cf7a0609f0457262e2846871d3ebf95cabfc56035fc03ae01d05bc",
+      "bytes": 4081,
+      "published_sha256": "1ed2404548cf7a0609f0457262e2846871d3ebf95cabfc56035fc03ae01d05bc",
+      "published_bytes": 4081
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/challenge_test.json",
+      "published": true,
+      "source_sha256": "62e17450c481ab6c1d599d08f13effe57de99a11deddef3a229ed65ae40c24ba",
+      "bytes": 161,
+      "published_sha256": "62e17450c481ab6c1d599d08f13effe57de99a11deddef3a229ed65ae40c24ba",
+      "published_bytes": 161
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/link_inventory.json",
+      "published": true,
+      "source_sha256": "830c343e867e19385d2df80d6d40b119cd7825c54df34c571bd7599e3047f062",
+      "bytes": 2457,
+      "published_sha256": "830c343e867e19385d2df80d6d40b119cd7825c54df34c571bd7599e3047f062",
+      "published_bytes": 2457
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/official_download_tests.json",
+      "published": true,
+      "source_sha256": "7d4e99935fd0c1bd67c892bf84396c67a0baf492f0aa7d2c270b8dc9b5b406b0",
+      "bytes": 537,
+      "published_sha256": "7d4e99935fd0c1bd67c892bf84396c67a0baf492f0aa7d2c270b8dc9b5b406b0",
+      "published_bytes": 537
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/pdf_manifest.json",
+      "published": true,
+      "source_sha256": "68aeb4f7536636e7c6cad9748ee3e2cffd4f1b70f8e65c993277bdb0f829eb5a",
+      "bytes": 2711,
+      "published_sha256": "68aeb4f7536636e7c6cad9748ee3e2cffd4f1b70f8e65c993277bdb0f829eb5a",
+      "published_bytes": 2711
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_1_p36.png",
+      "published": true,
+      "source_sha256": "9bdf1e60ba0cc094de1668397750787f2f4c649add774ee41cb6be9747ca001a",
+      "bytes": 171454,
+      "published_sha256": "9bdf1e60ba0cc094de1668397750787f2f4c649add774ee41cb6be9747ca001a",
+      "published_bytes": 171454
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_1_p5.png",
+      "published": true,
+      "source_sha256": "e40cbbfe7f3d057b02e971598b24c910ca7968e3af4ce701fe40eb35b9f4f3f3",
+      "bytes": 296994,
+      "published_sha256": "e40cbbfe7f3d057b02e971598b24c910ca7968e3af4ce701fe40eb35b9f4f3f3",
+      "published_bytes": 296994
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_2_p50.png",
+      "published": true,
+      "source_sha256": "1658b04c16007dec5b85c2d2dd1a5221fe620c9bdc312d4808885f94a2ea4938",
+      "bytes": 285715,
+      "published_sha256": "1658b04c16007dec5b85c2d2dd1a5221fe620c9bdc312d4808885f94a2ea4938",
+      "published_bytes": 285715
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_2_p57.png",
+      "published": true,
+      "source_sha256": "b3eeb636d6823769d5a75ac36c464605e60eeba6fdc1912262c9a7c7b2730771",
+      "bytes": 289810,
+      "published_sha256": "b3eeb636d6823769d5a75ac36c464605e60eeba6fdc1912262c9a7c7b2730771",
+      "published_bytes": 289810
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_2_p60.png",
+      "published": true,
+      "source_sha256": "a6c3730c281458697d53d0bc73ce0eb1dd452334921a3608e5ca43ab3d3ee1a5",
+      "bytes": 329137,
+      "published_sha256": "a6c3730c281458697d53d0bc73ce0eb1dd452334921a3608e5ca43ab3d3ee1a5",
+      "published_bytes": 329137
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_2_p80.png",
+      "published": true,
+      "source_sha256": "ccf7625ba2846a7b906f71b558e53bd77089e78f8c1987df425eeab4449a9770",
+      "bytes": 305303,
+      "published_sha256": "ccf7625ba2846a7b906f71b558e53bd77089e78f8c1987df425eeab4449a9770",
+      "published_bytes": 305303
+    },
+    {
+      "path": "01 Tausta/PDF-tarkistus/work/visual_3_p1.png",
+      "published": true,
+      "source_sha256": "a8b78e0191585bfbfeb4f2a761f912eb9683f5c55e60749d154c40593a094f01",
+      "bytes": 304081,
+      "published_sha256": "a8b78e0191585bfbfeb4f2a761f912eb9683f5c55e60749d154c40593a094f01",
+      "published_bytes": 304081
+    },
+    {
+      "path": "01 Tausta/Toimitettu tutkimusbriefi.txt",
+      "published": true,
+      "source_sha256": "d6761267cf9fe76e3bb02f016d07f6894465cff812af739d89b608289d120720",
+      "bytes": 7237,
+      "published_sha256": "d6761267cf9fe76e3bb02f016d07f6894465cff812af739d89b608289d120720",
+      "published_bytes": 7237
+    },
+    {
+      "path": "02 Lähteet/Dataset-katalogi.md",
+      "published": true,
+      "source_sha256": "13be15860332107c8970630f394f0497bde4fc9697701d2fc090225871a471c6",
+      "bytes": 9376,
+      "published_sha256": "13be15860332107c8970630f394f0497bde4fc9697701d2fc090225871a471c6",
+      "published_bytes": 9376
+    },
+    {
+      "path": "02 Lähteet/Rintasyövän seulonta - ensivarmennus.md",
+      "published": true,
+      "source_sha256": "f1ac3b777d40dad2410c13fadc06db98a3c2d86d3cbbc947f6b24ee540df4c4e",
+      "bytes": 1370,
+      "published_sha256": "f1ac3b777d40dad2410c13fadc06db98a3c2d86d3cbbc947f6b24ee540df4c4e",
+      "published_bytes": 1370
+    },
+    {
+      "path": "02 Lähteet/Suolistosyövän seulonta - ensivarmennus.md",
+      "published": true,
+      "source_sha256": "cfcc14044b8520d42a95bbad978715013f8475d3d5228cebb806a9d5f621e60c",
+      "bytes": 1568,
+      "published_sha256": "cfcc14044b8520d42a95bbad978715013f8475d3d5228cebb806a9d5f621e60c",
+      "published_bytes": 1568
+    },
+    {
+      "path": "02 Lähteet/Syöpärekisteri - varmennettu stage ja laaturaportit.md",
+      "published": true,
+      "source_sha256": "a5f4aa80d591a9d06359a15111ed67a2e18331daea8529feb8dc92ac09320a54",
+      "bytes": 3241,
+      "published_sha256": "a5f4aa80d591a9d06359a15111ed67a2e18331daea8529feb8dc92ac09320a54",
+      "published_bytes": 3241
+    },
+    {
+      "path": "02 Lähteet/THL erikoissairaanhoidon jonot - ensivarmennus.md",
+      "published": true,
+      "source_sha256": "a8afcdbb11636baf09766bf8234247afaae40daa56845c0fd808ce98243295da",
+      "bytes": 1903,
+      "published_sha256": "a8afcdbb11636baf09766bf8234247afaae40daa56845c0fd808ce98243295da",
+      "published_bytes": 1903
+    },
+    {
+      "path": "03 Dataset-kortit/D01 Suomen Syöpärekisteri -  syöpätilastot.md",
+      "published": true,
+      "source_sha256": "5a912d65c39e13573688b1c034292aa345e3c9477a57df44d10ed4fdd539ce80",
+      "bytes": 3289,
+      "published_sha256": "5a912d65c39e13573688b1c034292aa345e3c9477a57df44d10ed4fdd539ce80",
+      "published_bytes": 3289
+    },
+    {
+      "path": "03 Dataset-kortit/D02 Suolistosyövän seulontatilastot.md",
+      "published": true,
+      "source_sha256": "59b0cd7c7d289d3a69f328e4440dfc1d7af2608c6088a9a1b6ff26fc241c268b",
+      "bytes": 5088,
+      "published_sha256": "59b0cd7c7d289d3a69f328e4440dfc1d7af2608c6088a9a1b6ff26fc241c268b",
+      "published_bytes": 5088
+    },
+    {
+      "path": "03 Dataset-kortit/D03 Rintasyövän seulontatilastot.md",
+      "published": true,
+      "source_sha256": "fecd910df257728bf7fc8d660e3948227ba511e28415001d55ed861e54cf4856",
+      "bytes": 5560,
+      "published_sha256": "fecd910df257728bf7fc8d660e3948227ba511e28415001d55ed861e54cf4856",
+      "published_bytes": 5560
+    },
+    {
+      "path": "03 Dataset-kortit/D04 Kohdunkaulan syövän seulontatilastot.md",
+      "published": true,
+      "source_sha256": "649290a4eabb018d36ba49a164f5fb9777e2311926e8f368c23e36844a86fb1a",
+      "bytes": 5696,
+      "published_sha256": "649290a4eabb018d36ba49a164f5fb9777e2311926e8f368c23e36844a86fb1a",
+      "published_bytes": 5696
+    },
+    {
+      "path": "03 Dataset-kortit/D07 Keuhkosyöpä Suomessa 2019–2023 -  laaturaportti.md",
+      "published": true,
+      "source_sha256": "ff3540e54c450abf0501ecea89fa6166bac83f2c4da69e96bd65d8ab52f6766d",
+      "bytes": 3036,
+      "published_sha256": "ff3540e54c450abf0501ecea89fa6166bac83f2c4da69e96bd65d8ab52f6766d",
+      "published_bytes": 3036
+    },
+    {
+      "path": "03 Dataset-kortit/D10 Hilmo -  somaattinen erikoissairaanhoito alueittain.md",
+      "published": true,
+      "source_sha256": "c33ecd3464003069e0d66a0f396d28a04126d300a1daf6d71167b639469e4828",
+      "bytes": 3195,
+      "published_sha256": "c33ecd3464003069e0d66a0f396d28a04126d300a1daf6d71167b639469e4828",
+      "published_bytes": 3195
+    },
+    {
+      "path": "03 Dataset-kortit/D12 Avohilmo -  ICD-10-diagnoosit alueittain.md",
+      "published": true,
+      "source_sha256": "7bf51df417e5ff463101c1f5ab77901c525179990a3bfb012b30935e5dc2a527",
+      "bytes": 2961,
+      "published_sha256": "7bf51df417e5ff463101c1f5ab77901c525179990a3bfb012b30935e5dc2a527",
+      "published_bytes": 2961
+    },
+    {
+      "path": "03 Dataset-kortit/D14 Erikoissairaanhoidon hoitoonpääsy ja jonot.md",
+      "published": true,
+      "source_sha256": "bf254e6f71c150d04822175616441e4926a3c429bfc4bed8e4fb760ef51382c6",
+      "bytes": 3564,
+      "published_sha256": "bf254e6f71c150d04822175616441e4926a3c429bfc4bed8e4fb760ef51382c6",
+      "published_bytes": 3564
+    },
+    {
+      "path": "03 Dataset-kortit/D16 Sotkanet -  syöpäindeksi 5643  -  5644.md",
+      "published": true,
+      "source_sha256": "4e95080ea41a22a36578f07f1e8c3c1d314fa53ec9da24eb7ed465aa3d419c23",
+      "bytes": 2503,
+      "published_sha256": "4e95080ea41a22a36578f07f1e8c3c1d314fa53ec9da24eb7ed465aa3d419c23",
+      "published_bytes": 2503
+    },
+    {
+      "path": "03 Dataset-kortit/D21 Tilastokeskus 11be -  kuolemansyyt ICD-10 - n 3-merkkisellä tasolla.md",
+      "published": true,
+      "source_sha256": "874bf68e1c607251ab181cd307ce2db281da6bb0e1d61cee9c8cf52421cbf734",
+      "bytes": 3170,
+      "published_sha256": "874bf68e1c607251ab181cd307ce2db281da6bb0e1d61cee9c8cf52421cbf734",
+      "published_bytes": 3170
+    },
+    {
+      "path": "04 Analyysit/Analyysit ja MVP.md",
+      "published": true,
+      "source_sha256": "1a422fcd0aa5fe9b81954b5a89e69fa9daa2d3ceb0aa6bedcde8db12667b790b",
+      "bytes": 1156,
+      "published_sha256": "1a422fcd0aa5fe9b81954b5a89e69fa9daa2d3ceb0aa6bedcde8db12667b790b",
+      "published_bytes": 1156
+    },
+    {
+      "path": "04 Analyysit/Kysymys–aineisto-matriisi.md",
+      "published": true,
+      "source_sha256": "941e4cc5925c32f3b78f222e98dfbfcb464720dcf882ea81ef146de93c154fba",
+      "bytes": 3829,
+      "published_sha256": "941e4cc5925c32f3b78f222e98dfbfcb464720dcf882ea81ef146de93c154fba",
+      "published_bytes": 3829
+    },
+    {
+      "path": "04 Analyysit/Tietoaukot.md",
+      "published": true,
+      "source_sha256": "63b15f1e7fd14a18cae7917afec40dcc3c8d077114510a7382dff357bf86c98e",
+      "bytes": 2892,
+      "published_sha256": "63b15f1e7fd14a18cae7917afec40dcc3c8d077114510a7382dff357bf86c98e",
+      "published_bytes": 2892
+    },
+    {
+      "path": "05 Raportti/Junction 2026 - syöpädata ja MVP.md",
+      "published": true,
+      "source_sha256": "6777f6211d42d17cdcdf6e037958830eb152f6a8bb183db7af9a093183f501ef",
+      "bytes": 97462,
+      "published_sha256": "6777f6211d42d17cdcdf6e037958830eb152f6a8bb183db7af9a093183f501ef",
+      "published_bytes": 97462
+    },
+    {
+      "path": "05 Raportti/Raportin QA - tarkistukset.json",
+      "published": true,
+      "source_sha256": "149d942d011f0729a31632699ecf59e7955453fdb9b8c104526289fa0b40b487",
+      "bytes": 8246,
+      "published_sha256": "149d942d011f0729a31632699ecf59e7955453fdb9b8c104526289fa0b40b487",
+      "published_bytes": 8246
+    },
+    {
+      "path": "05 Raportti/Raportin QA.md",
+      "published": true,
+      "source_sha256": "1afe19294145b6d75d945e7ef64f552fea6812cc3f12d8ab40e85e0d5873d9c9",
+      "bytes": 4347,
+      "published_sha256": "34ddb6cbeabff7d679998047335ea783a0fe0d9f6c1b9ecc3c74028bfefd79c5",
+      "published_bytes": 4589
+    },
+    {
+      "path": "05 Raportti/Raportti.md",
+      "published": true,
+      "source_sha256": "b0fb6ebb5678e67e4e6f047b7ad23b12bc29df8ef918cf934c4634f59027883a",
+      "bytes": 941,
+      "published_sha256": "dae7d178645ac59c2cca5c4c8538a0b92573c2c1929a67f3d57467c35eab0b63",
+      "published_bytes": 853
+    },
+    {
+      "path": "06 Tekninen liite/Ensivarmennusten tekninen loki.md",
+      "published": true,
+      "source_sha256": "169ed2138679a2d70aa18c85bc787b8b891251fd03709dbe8e9ea73ef612a1aa",
+      "bytes": 3727,
+      "published_sha256": "169ed2138679a2d70aa18c85bc787b8b891251fd03709dbe8e9ea73ef612a1aa",
+      "published_bytes": 3727
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/Kela ja Fimea - varmennus ja uudet lähteet.md",
+      "published": true,
+      "source_sha256": "e1c2a6659aac1befbd18940eaf7601da0d183a6e63af74ad0deb805c230994e1",
+      "bytes": 9688,
+      "published_sha256": "e1c2a6659aac1befbd18940eaf7601da0d183a6e63af74ad0deb805c230994e1",
+      "published_bytes": 9688
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/fetch_sources.py",
+      "published": true,
+      "source_sha256": "46d74ab3ca7233047e5f3bf85d7a34e36c2454ebb7555d0a035a04745692d488",
+      "bytes": 2002,
+      "published_sha256": "46d74ab3ca7233047e5f3bf85d7a34e36c2454ebb7555d0a035a04745692d488",
+      "published_bytes": 2002
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/general2025_sample.json",
+      "published": true,
+      "source_sha256": "904ecae9557f29cf80fde30cae62c0fd92eb3018cf808cbb4884b873de145023",
+      "bytes": 2076,
+      "published_sha256": "904ecae9557f29cf80fde30cae62c0fd92eb3018cf808cbb4884b873de145023",
+      "published_bytes": 2076
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/general_schema.json",
+      "published": true,
+      "source_sha256": "da6d93e8c424717f8fa2ba82fd4bd3c8595555a8c55d2dd974e33cf39b4af987",
+      "bytes": 55136,
+      "published_sha256": "c940df14f3cee5d47fbdf99bee29242bddaf5808176b0ba86c844f7b116577c5",
+      "published_bytes": 55135,
+      "publication_transform": "Removed trailing blank line from JSON metadata; values unchanged"
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/http_log.json",
+      "published": true,
+      "source_sha256": "3c6e3138b0fc8838b46d6b16624a9382be2769f69725561f23eed057137438f6",
+      "bytes": 3770,
+      "published_sha256": "3c6e3138b0fc8838b46d6b16624a9382be2769f69725561f23eed057137438f6",
+      "published_bytes": 3770
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/kela_general_package.json",
+      "published": true,
+      "source_sha256": "60642cd2264af8bd6a65a46d0378fdcf0d856a46e57c39ec09e4520682a004a5",
+      "bytes": 53435,
+      "published_sha256": "60642cd2264af8bd6a65a46d0378fdcf0d856a46e57c39ec09e4520682a004a5",
+      "published_bytes": 53435
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/kela_rights_package.json",
+      "published": true,
+      "source_sha256": "cd40f5cdca69a20f0565ba75792dd1b1553a7a95f1d774d1a74b8125b868af7d",
+      "bytes": 20426,
+      "published_sha256": "cd40f5cdca69a20f0565ba75792dd1b1553a7a95f1d774d1a74b8125b868af7d",
+      "published_bytes": 20426
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/kela_rights_page.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1439,
+      "source_sha256": "0d6c304ff495f7332c828921f9c279942f13cab7b15d784d0f33d30c85530f7b"
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/kelasto_nit137_metadata.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 5448,
+      "source_sha256": "73f8ce3e71b37d7f11beb2be1dec7173a6fc0adef0321c0cdd15de9cfb875590"
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/kelasto_nit137_report.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 44072,
+      "source_sha256": "21f93363618f475867410dbd942eff76bf4c762f58a5992454e4688dad35ab7c"
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/rights_breast2025_sample.json",
+      "published": true,
+      "source_sha256": "7e065e7b0f808052f2b012d6658fd3f4d9698b6b86a6ca77108388c54bf444c6",
+      "bytes": 5172,
+      "published_sha256": "7e065e7b0f808052f2b012d6658fd3f4d9698b6b86a6ca77108388c54bf444c6",
+      "published_bytes": 5172
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/rights_sample.json",
+      "published": true,
+      "source_sha256": "7dc001234adb604eda629b1c4c341540775f52d2befaecfeba5297b57bfdd7ca",
+      "bytes": 2676,
+      "published_sha256": "7dc001234adb604eda629b1c4c341540775f52d2befaecfeba5297b57bfdd7ca",
+      "published_bytes": 2676
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/rights_schema.json",
+      "published": true,
+      "source_sha256": "63a42cab24a1f737a5a6f9d786a504ef08ff6a980d10f4e2698b34a1c792ecee",
+      "bytes": 38598,
+      "published_sha256": "c4d6ab6f70268da76fcc58d0d4aee1ddee33f51ad823d8844c789e26f0835dcd",
+      "published_bytes": 38597,
+      "publication_transform": "Removed trailing blank line from JSON metadata; values unchanged"
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/sample_http_log.json",
+      "published": true,
+      "source_sha256": "04d3f4a53e8b181ac9d75ec5ce6080911a9f66c428bde7bfc56dad192af9d10c",
+      "bytes": 1714,
+      "published_sha256": "04d3f4a53e8b181ac9d75ec5ce6080911a9f66c428bde7bfc56dad192af9d10c",
+      "published_bytes": 1714
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/small_samples.py",
+      "published": true,
+      "source_sha256": "f73b682414e8a80e93395214285b304a9e3bf26a8bfdb6705c29235c5ede8953",
+      "bytes": 1328,
+      "published_sha256": "f73b682414e8a80e93395214285b304a9e3bf26a8bfdb6705c29235c5ede8953",
+      "published_bytes": 1328
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/targeted_http_log.json",
+      "published": true,
+      "source_sha256": "3cded882292b4c82c58c558d5f6a0127c3457874e8c18060613fe121ae3a833d",
+      "bytes": 950,
+      "published_sha256": "3cded882292b4c82c58c558d5f6a0127c3457874e8c18060613fe121ae3a833d",
+      "published_bytes": 950
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/targeted_samples.py",
+      "published": true,
+      "source_sha256": "5e6712c9982686494442750695bb5dd23f4e054c9f786f3fd8c2de4bdc6be086",
+      "bytes": 1440,
+      "published_sha256": "5e6712c9982686494442750695bb5dd23f4e054c9f786f3fd8c2de4bdc6be086",
+      "published_bytes": 1440
+    },
+    {
+      "path": "06 Tekninen liite/Kela ja Fimea/verified_summary.json",
+      "published": true,
+      "source_sha256": "b726fec27c91eb868701a7f3ec95981b1f8f0418557ef225d229b6cf146270c2",
+      "bytes": 619,
+      "published_sha256": "b726fec27c91eb868701a7f3ec95981b1f8f0418557ef225d229b6cf146270c2",
+      "published_bytes": 619
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/Kohdunkaula - aineistodossier ja laatutestit.md",
+      "published": true,
+      "source_sha256": "b6ff350ddcd50322072ca84d1d23c8795eeaede3aad1efc6ee8d58fa9c2c4f44",
+      "bytes": 8174,
+      "published_sha256": "b6ff350ddcd50322072ca84d1d23c8795eeaede3aad1efc6ee8d58fa9c2c4f44",
+      "published_bytes": 8174
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/Seulontaviiveet - numeroviennin saatavuustesti.md",
+      "published": true,
+      "source_sha256": "61c2b30c08fd0a2779f8647a22655a485ffee25304ea284723870cccd1530d75",
+      "bytes": 6191,
+      "published_sha256": "61c2b30c08fd0a2779f8647a22655a485ffee25304ea284723870cccd1530d75",
+      "published_bytes": 6191
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/kohdunkaula_taulukot.json",
+      "published": false,
+      "reason": "Full static-report table extract; separate report data license unresolved",
+      "bytes": 388856,
+      "source_sha256": "35f0ff6ba705e83468c16a79ad905d8c6e720a5ae0b2681f03fb0c4ee3a89f10"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/saatavuusprofiilit.json",
+      "published": true,
+      "source_sha256": "5cca59dac3d4bb8ca07196b4481909b8a16bbc3b3f4863c82813cb2cfc095d33",
+      "bytes": 97278,
+      "published_sha256": "5cca59dac3d4bb8ca07196b4481909b8a16bbc3b3f4863c82813cb2cfc095d33",
+      "published_bytes": 97278
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/arithmetic_checks.json",
+      "published": true,
+      "source_sha256": "195e556b445373a8c804d15c6578d174cc90fac37da2e14dc3d8e5525ec6de83",
+      "bytes": 799604,
+      "published_sha256": "195e556b445373a8c804d15c6578d174cc90fac37da2e14dc3d8e5525ec6de83",
+      "published_bytes": 799604
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/audit_screening.py",
+      "published": true,
+      "source_sha256": "766aa684c9b6da315d98e0826743a090f30da9639923e36f8d28e78e9e08cfd6",
+      "bytes": 8618,
+      "published_sha256": "766aa684c9b6da315d98e0826743a090f30da9639923e36f8d28e78e9e08cfd6",
+      "published_bytes": 8618
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/cervix.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 10235041,
+      "source_sha256": "9dc86a46dd2c9b67041d0a100fc1e198e816aa16aeece8375d5d0091a429ecda"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_145.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33485,
+      "source_sha256": "db031b6bf9266b5b9404e4fd0f981e66f867985ee77a9c9f6647e06228a19fdc"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_147.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 34365,
+      "source_sha256": "15c28e221aa24af44468935022f89ad1b2e6eaef813e1c24218af304c2e5a0d7"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_149.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 37672,
+      "source_sha256": "ff8e7f51c9a67d3d356754f9e254b6f890254151754ac1233f547c72aaa27429"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_151.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 35665,
+      "source_sha256": "c2d40393ad6eb835eabf059fc9b0ebfb3bc63d9db3aafecff7a6d0b2087a71f8"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_153.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33567,
+      "source_sha256": "c10be43d3d667803eeaa5be1e3a7178a92cf3b19f34425fe25e415e3d70ed37c"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_179.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 22739,
+      "source_sha256": "00e692c0e213e6f22001d8c88a488cf419c1ee2f101cb13e2356d839b19b006f"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_181.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 23232,
+      "source_sha256": "246d1170e8213f13ffb45c4038e5b9720cabc32a588fdba9b66e07ff8d5d2864"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_183.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 21349,
+      "source_sha256": "814d73735c32a29c6b10cd80fcb82a322e4bb66b9d242c737cd0eb9ea35302b3"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_185.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 23957,
+      "source_sha256": "f9bcaa00ec7e6a25ffc6de367ffc0ea992c00ecd8c3490935267ad76feb0defa"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/delay_187.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 22709,
+      "source_sha256": "7b8c7617a849eb80aaa4248eb06552d2c8a578c99ba694e91975d65c0f32505b"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/download_manifest.json",
+      "published": true,
+      "source_sha256": "b072452fe41eee711281120b431434e63b474ec1128d7af9bd28a763c51d9a57",
+      "bytes": 854,
+      "published_sha256": "b072452fe41eee711281120b431434e63b474ec1128d7af9bd28a763c51d9a57",
+      "published_bytes": 854
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 10197651,
+      "source_sha256": "275e967bd2c9e38455f21261fa15d88e8ea9407cc67f01d282044463ac58f5b7"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_00.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33485,
+      "source_sha256": "db031b6bf9266b5b9404e4fd0f981e66f867985ee77a9c9f6647e06228a19fdc"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_01.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 34365,
+      "source_sha256": "15c28e221aa24af44468935022f89ad1b2e6eaef813e1c24218af304c2e5a0d7"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_02.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 37672,
+      "source_sha256": "ff8e7f51c9a67d3d356754f9e254b6f890254151754ac1233f547c72aaa27429"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_03.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 35665,
+      "source_sha256": "c2d40393ad6eb835eabf059fc9b0ebfb3bc63d9db3aafecff7a6d0b2087a71f8"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_04.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33567,
+      "source_sha256": "c10be43d3d667803eeaa5be1e3a7178a92cf3b19f34425fe25e415e3d70ed37c"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_05.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 22739,
+      "source_sha256": "00e692c0e213e6f22001d8c88a488cf419c1ee2f101cb13e2356d839b19b006f"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_06.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 23232,
+      "source_sha256": "246d1170e8213f13ffb45c4038e5b9720cabc32a588fdba9b66e07ff8d5d2864"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_07.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 21349,
+      "source_sha256": "814d73735c32a29c6b10cd80fcb82a322e4bb66b9d242c737cd0eb9ea35302b3"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_08.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 23957,
+      "source_sha256": "f9bcaa00ec7e6a25ffc6de367ffc0ea992c00ecd8c3490935267ad76feb0defa"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_delay_09.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 22709,
+      "source_sha256": "7b8c7617a849eb80aaa4248eb06552d2c8a578c99ba694e91975d65c0f32505b"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_text.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 113572,
+      "source_sha256": "cdcb5be9934210b435b1e198d0e29b3fc8460566ca0f251a54ea88ab88c8f037"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu_widget_inventory.json",
+      "published": true,
+      "source_sha256": "0e3316e6982a4272a31464a4c7fe4cab2acce60bd5f16bb7b58a4c7946775d77",
+      "bytes": 3993,
+      "published_sha256": "0e3316e6982a4272a31464a4c7fe4cab2acce60bd5f16bb7b58a4c7946775d77",
+      "published_bytes": 3993
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_delay_00.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 32524,
+      "source_sha256": "147c9c851939afc81d04c1235f2b9a70775ecf4f383b0af6c0ee8499a1a02728"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_delay_01.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 34579,
+      "source_sha256": "3a74ec1b97daa9e96848368abdece92a839a94084b1dabd7fd3bec17bb564a99"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_delay_02.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33674,
+      "source_sha256": "7cb2430302eeabe2d1818497cbbc57d83c8b7c6187b11e8389d71d287df28b8f"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_delay_03.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 31616,
+      "source_sha256": "5a31d1188ab50c8bfb3df172d50b16e2d7a65dcfca3758c56c8a3a6bd2e400ef"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_delay_04.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 31729,
+      "source_sha256": "0f94774c006d241292586f91a0373185f4302094173bb99e6f3f68cafa9f44ed"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/rinta_widget_inventory.json",
+      "published": true,
+      "source_sha256": "d15ff86b72ac978fe7a71be07208ba6b3be96fce917915584c50b8335d8ee933",
+      "bytes": 3440,
+      "published_sha256": "d15ff86b72ac978fe7a71be07208ba6b3be96fce917915584c50b8335d8ee933",
+      "published_bytes": 3440
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/shiny_protocol_probe.json",
+      "published": true,
+      "source_sha256": "7497421367fd12ed2e172d1fa3d6ae2a92004c449b1b5a4db79653ee521b1e7b",
+      "bytes": 163,
+      "published_sha256": "7497421367fd12ed2e172d1fa3d6ae2a92004c449b1b5a4db79653ee521b1e7b",
+      "published_bytes": 163
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/suolisto_delay_00.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33431,
+      "source_sha256": "88a2f1299b3898d642a9982e2fa9c158aa272878c93c6554997a928375251285"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/suolisto_delay_01.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 33048,
+      "source_sha256": "1c27ee0bacd5792a72a553cc08e8fc3b31467b9799ca0e14c42aba6fa16edebb"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/suolisto_delay_02.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 32380,
+      "source_sha256": "3722e8f243b43caa0be25af7a0547550cc31e9d6e52cab49941daaec3d6fbbf7"
+    },
+    {
+      "path": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/suolisto_widget_inventory.json",
+      "published": true,
+      "source_sha256": "d542c4299f583ab0f071bf9a54a37426451b3b2dc607272e4d0a13bb825ee579",
+      "bytes": 2850,
+      "published_sha256": "d542c4299f583ab0f071bf9a54a37426451b3b2dc607272e4d0a13bb825ee579",
+      "published_bytes": 2850
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/app.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 24879,
+      "source_sha256": "2d62ad07b8f25adc46b6debd7a5beafb2fb9ddb89b31e694be2e0b72e8c47829"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/app_links.json",
+      "published": true,
+      "source_sha256": "510a8a3466b3c569df8e7742a7719aea4edb76c47ee9169cc36499c8bb274626",
+      "bytes": 97,
+      "published_sha256": "510a8a3466b3c569df8e7742a7719aea4edb76c47ee9169cc36499c8bb274626",
+      "published_bytes": 97
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/app_tables.json",
+      "published": true,
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "published_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "published_bytes": 2
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/stage_2020_2024_sample.csv",
+      "published": true,
+      "source_sha256": "a5c1772c576ffdaf48473bf8ea72d80ce7067fc1c921eb0727c838037f37a7d2",
+      "bytes": 439,
+      "published_sha256": "a5c1772c576ffdaf48473bf8ea72d80ce7067fc1c921eb0727c838037f37a7d2",
+      "published_bytes": 439
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/stage_sample_metadata.json",
+      "published": true,
+      "source_sha256": "9034e8fe6dadb7fc0bd4d8c779c746711ddf907f0b1132d526aed238ee6f4a84",
+      "bytes": 3181,
+      "published_sha256": "9034e8fe6dadb7fc0bd4d8c779c746711ddf907f0b1132d526aed238ee6f4a84",
+      "published_bytes": 3181
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisteri/tests.json",
+      "published": true,
+      "source_sha256": "b37dca600d3de48ec487e4e13f75d841cc8d31f9cc271676afaf6bcdeeef1163",
+      "bytes": 815,
+      "published_sha256": "b37dca600d3de48ec487e4e13f75d841cc8d31f9cc271676afaf6bcdeeef1163",
+      "published_bytes": 815
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/Syöpärekisterin täydentävät lähteet.md",
+      "published": true,
+      "source_sha256": "8699a28bb7650fa62eaf124a1c621e8a94d6d880f02666b091a7406ebefca0c2",
+      "bytes": 11785,
+      "published_sha256": "8699a28bb7650fa62eaf124a1c621e8a94d6d880f02666b091a7406ebefca0c2",
+      "published_bytes": 11785
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 7489,
+      "source_sha256": "8d29460dfaab592ddbb7907c525a60b4729b334e7c83d1b0c720f25b7d3cb222"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog_dataset_profiles.json",
+      "published": true,
+      "source_sha256": "99c4e420c9755b53cb1646937762ed9a15d32692f073e2200162c142ad810ceb",
+      "bytes": 265542,
+      "published_sha256": "99c4e420c9755b53cb1646937762ed9a15d32692f073e2200162c142ad810ceb",
+      "published_bytes": 265542
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog_inventory.json",
+      "published": true,
+      "source_sha256": "e320cf0894e120a24a97e2ed70eec69a61649473fbdeed8f83fef48aa9d82b29",
+      "bytes": 1153,
+      "published_sha256": "e320cf0894e120a24a97e2ed70eec69a61649473fbdeed8f83fef48aa9d82b29",
+      "published_bytes": 1153
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog_main.js",
+      "published": false,
+      "reason": "Downloaded third-party application code",
+      "bytes": 2127694,
+      "source_sha256": "765b2d00d4a6682c43fd5e9a195b696294b60e944428d2153338f5019148ba06"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog_selected_fields.json",
+      "published": true,
+      "source_sha256": "75ad8c99cc710f40b7a0c7089fcb8d72039b3e3cc4425d2cd1266a63a2b4f1dc",
+      "bytes": 23114,
+      "published_sha256": "75ad8c99cc710f40b7a0c7089fcb8d72039b3e3cc4425d2cd1266a63a2b4f1dc",
+      "published_bytes": 23114
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/catalog_study.json",
+      "published": true,
+      "source_sha256": "9c754941718f9d271eb0ce55b6b9f2738c00e7118f0d8af53971192675cb8690",
+      "bytes": 594567,
+      "published_sha256": "9c754941718f9d271eb0ce55b6b9f2738c00e7118f0d8af53971192675cb8690",
+      "published_bytes": 594567
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/clinical_app.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 14786,
+      "source_sha256": "bd3f5ddb5cd6897d7298ca550a350b75a1141e49d2edbf72ecdbe3be0cc03e2f"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/clinical_app_inventory.json",
+      "published": true,
+      "source_sha256": "62514e73e4eff00d8348603428b11e0abd733ac078bc15b6104ccf7699f19d48",
+      "bytes": 10307,
+      "published_sha256": "62514e73e4eff00d8348603428b11e0abd733ac078bc15b6104ccf7699f19d48",
+      "published_bytes": 10307
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/extract_catalog.py",
+      "published": true,
+      "source_sha256": "0f8f3a0149f3add6db1f8c2b564b54dfbd8aacddbd4a3eebafa45b42aa3abfa9",
+      "bytes": 1272,
+      "published_sha256": "0f8f3a0149f3add6db1f8c2b564b54dfbd8aacddbd4a3eebafa45b42aa3abfa9",
+      "published_bytes": 1272
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/extract_myeloma.py",
+      "published": true,
+      "source_sha256": "c9683d7998e4a3f08b3ba46568bf910f644096fd64091215cc621da584e9b328",
+      "bytes": 4493,
+      "published_sha256": "c9683d7998e4a3f08b3ba46568bf910f644096fd64091215cc621da584e9b328",
+      "published_bytes": 4493
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/fetch_complements.py",
+      "published": true,
+      "source_sha256": "6a1e499affbc37fc605411395028117b3654d6cb3b0085cd6c59c771c9783001",
+      "bytes": 1124,
+      "published_sha256": "6a1e499affbc37fc605411395028117b3654d6cb3b0085cd6c59c771c9783001",
+      "published_bytes": 1124
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/http_log.json",
+      "published": true,
+      "source_sha256": "cae744a31e66baffb4e5c9a11dafbd06b8723c291a51fc3a0c885bf7e758602b",
+      "bytes": 2739,
+      "published_sha256": "cae744a31e66baffb4e5c9a11dafbd06b8723c291a51fc3a0c885bf7e758602b",
+      "published_bytes": 2739
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_browser_headers.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 10105131,
+      "source_sha256": "72f59613b27731152ce5f320f83451e3c7dc805ed1bba018dc32dc5864774fed"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_browser_headers_inventory.json",
+      "published": true,
+      "source_sha256": "0611c7213f9a1103ef6c03c66733c4817bf8e2d6600c6de49c7c2fa3034a34f8",
+      "bytes": 4467984,
+      "published_sha256": "0611c7213f9a1103ef6c03c66733c4817bf8e2d6600c6de49c7c2fa3034a34f8",
+      "published_bytes": 4467984
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_profile.json",
+      "published": true,
+      "source_sha256": "20abda2da239d36a66f9f7c7c3dde91375830e902195395343c4c18d4af29119",
+      "bytes": 11212,
+      "published_sha256": "20abda2da239d36a66f9f7c7c3dde91375830e902195395343c4c18d4af29119",
+      "published_bytes": 11212
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_visible_text.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 8837,
+      "source_sha256": "ef6eb75ab96a41e47923a7b72dc47f0b7b077f9df1eb6e386b629bd2c0cd9bb4"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_34.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 8693,
+      "source_sha256": "93f16fd6e833dc71d0892dc4664a0f1e4b747950be4401a1cc3546b6c4717d5e"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_36.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 17247,
+      "source_sha256": "958eaca84175564d9f0c579ac8be6382ce027d210042e050ada8ddb62c99b1f9"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_38.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 4311,
+      "source_sha256": "54da79cebc3c531ddef6dfe87fafe05aea6e28c8fd8d3a8d4673569b942aec1a"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_40.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 909,
+      "source_sha256": "1e5cbe16830eb6fbc4b514deb51616d72533a854c77911711510aaa6e43bc20e"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_41.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 966,
+      "source_sha256": "fe53a7b71fd4609c4c7d7a2f971b5d2de3297f697cdbdf27232891bcdaaa6853"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_43.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 23825,
+      "source_sha256": "9c323d33c3bdc4825fc34b737bf3d6df5ca99102311266193408eb5ea3ec5ddb"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_45.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 10248,
+      "source_sha256": "5e86f780ce6b7116fce469f538d79b019525b3f15776a0fc021c0e6f9a2ebb2b"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_47.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 561,
+      "source_sha256": "c2bec40efbcf145ff75a156d0b98d414c7e41a622b4c5531ce4b657835ea52fc"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_49.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 11425,
+      "source_sha256": "b3a9d452211688e155501095afee908b8f587e28684f45274ec503f2e6d9bfa5"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_51.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 5771,
+      "source_sha256": "ea56f2e6f9f58ffd8a11b3f06133e581d7d495e0d455fd42ee13538fc3877d5e"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_58.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 10583,
+      "source_sha256": "909c486ef79bd439bc5269f2cdf412939791e938e74eb4f747ebb5af709fe8f4"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_60.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 5644,
+      "source_sha256": "425cd97de1338b9b4ebd0b6658a3175395edacfe7e3394d10fc2637a5a51fabd"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_62.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 74722,
+      "source_sha256": "b2296a5dd994c4a6f47ca9f8ce4d565b38e990b194031f46db6fb45a130af2f4"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_64.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 37295,
+      "source_sha256": "3fd6712aa1a6af3fbc09e05c9694c2cb0849ffceddb33d4831e823d515496738"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_66.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 2430,
+      "source_sha256": "c0cec02f96e71674703ed5e84c3b5acd1d79767324e8d2a5f26e0256c0d9a4e9"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_67.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 2226,
+      "source_sha256": "64f9a923d5bfba12798638718d3d36d4002bcfe5c5f48f9553120354c3542fd2"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_69.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 36433,
+      "source_sha256": "7c749aed6b58f7cfc636f101d9857429bd7886efde299a98beb2e72f99253b75"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_71.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 19236,
+      "source_sha256": "0561a556387bc8493eefab108874bfec47d9e1d865e903385364734b338e00f7"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_73.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 1200,
+      "source_sha256": "1a90f6f2728fcca9aaed180a97a77284555c067bd440b4ddea59931c25bc2076"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_79.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 42331,
+      "source_sha256": "99dccb603c3af1964c8b31114b883d5a81c48b67034cba923d3d092992bd2d49"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_81.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 1685,
+      "source_sha256": "41dd027ab2ab48c2cdc5596b1106d539ba694eb73e4df8260336983bb64648f7"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_83.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 51482,
+      "source_sha256": "4a88a790d5a82cda1e5106112ab656496927aa10bbcdd0826c08e191dc126026"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_85.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 62081,
+      "source_sha256": "77ece9789ecdf03ad9d10f3e35fb2e9aa5e3b0f3a0361aa5479856286afe3bdc"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_87.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 13987,
+      "source_sha256": "b846ce87622d2dfa1f1285fcc05523397b16013741e1db523aca511154ddb2e6"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_89.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 53556,
+      "source_sha256": "ba47746b96c843122851dbacf324373278ac2931e7cae832f32a1daffc7f9f6f"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_91.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 2343,
+      "source_sha256": "59ba4512e03596fa9d05b19be6428a254644b4fb3d8b56c19dd921e48533d4e1"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myeloma_widget_93.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 7607,
+      "source_sha256": "552de5cfe3bd083a0f3ed83f39d3ccfa50399c5fdee9d7ef1f40e47bda9b447f"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_aluekohtainen_hoito.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 106626,
+      "source_sha256": "6a1b678745d6f8c9a221c9c2b5b5cce84be8c34976dfc0400c91b444ec4dac17"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_aluekohtainen_ilmaantuvuus.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 28889,
+      "source_sha256": "ecf86c4c3841f59ea10e0fd8e3d90e73c7b98cb97714e76a116275e8ffc425db"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_elossaolo.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 995,
+      "source_sha256": "3383cd161c3c9a55dd6e30e6768407dd4f553e8900b890c1ec22302a116b9b8b"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_hoito_hyvinvointialueet.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 30346,
+      "source_sha256": "16f92f2bd3c47f354dc1b93cbf86eb9fe8dffa22f0401bae67bcdbbe237a81c8"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_hoito_kokomaa.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 3402,
+      "source_sha256": "ad0149f085419ce0022583dd022d8b8be27dfb6bc4ad512faf5b71373d5666f6"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_hoito_yhteistyoalueet.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 80082,
+      "source_sha256": "5ea3fdfe4226a1170447b9f04c867760890053f24ea13bb67052a6917abd291b"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_hoitokoodit.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 8028,
+      "source_sha256": "b51836a2f4b02331b3db259471f4342da16a60823b30a9b61915a097848abf71"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_ilmaantuvuus_hyvinvointialueet.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 3700,
+      "source_sha256": "23e8dd87551bd58a50a53c771517eb2e4986fd9697a83c75dfd1f80f95bcb787"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_ilmaantuvuus_kokomaa.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 6098,
+      "source_sha256": "360959b3896cc4d1b363673834831cb83a8e98150c7c1315f5762ed79fcaa924"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_ilmaantuvuus_yhteistyoalueet.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 11167,
+      "source_sha256": "b63f878f1e6f446128fbbf07c4dca6ec9cd5b7ecf4663f46c91396bab8876f38"
+    },
+    {
+      "path": "06 Tekninen liite/Syöpärekisterin täydentävät lähteet/work/myelooma_laaturaportti_kohdejoukko.json",
+      "published": false,
+      "reason": "Full quality-report table extract; separate report data license unresolved",
+      "bytes": 10551,
+      "source_sha256": "0aa7ca7993700e2fc27d5272865520a6a77aa48d0756a182c7789fdfe0969a04"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/THL - viivemittari ja korjatut poiminnat.md",
+      "published": true,
+      "source_sha256": "3a92cb08e718582cebce1d7e16b745a7dcd5a4d3dd933bf31d7e34df943284b7",
+      "bytes": 8995,
+      "published_sha256": "3a92cb08e718582cebce1d7e16b745a7dcd5a4d3dd933bf31d7e34df943284b7",
+      "published_bytes": 8995
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_c50.json",
+      "published": true,
+      "source_sha256": "c6d7462251343ca74c447bf0a3076b7814efe8a0659edddec1eccc6f67d4d9e2",
+      "bytes": 2475,
+      "published_sha256": "c6d7462251343ca74c447bf0a3076b7814efe8a0659edddec1eccc6f67d4d9e2",
+      "published_bytes": 2475
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_c50_area_clients.json",
+      "published": true,
+      "source_sha256": "e590cb4dd3783001b7554f809e3cb69d33ce999b9585ff6cf013e75165f9d04c",
+      "bytes": 5556,
+      "published_sha256": "e590cb4dd3783001b7554f809e3cb69d33ce999b9585ff6cf013e75165f9d04c",
+      "published_bytes": 5556
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_c50_area_view.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 41382,
+      "source_sha256": "7d4bad80f27465924d2d1af236150bda2710508d90cf6dff01d911b2fc8fa913"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_dimensions.js",
+      "published": true,
+      "source_sha256": "1eb96b479521f44bacebdf15dca492ac85b7040f89967a6bb4145813ea9aff27",
+      "bytes": 514261,
+      "published_sha256": "1eb96b479521f44bacebdf15dca492ac85b7040f89967a6bb4145813ea9aff27",
+      "published_bytes": 514261
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_metadata.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 41,
+      "source_sha256": "77b5cafcd63968037142351f9f17b215b462a62fb1a2028e78aa6957bc8a5b7c"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/avohilmo_view.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 40763,
+      "source_sha256": "798f5e54c1aa9e33a4f5d9ef356bc06f326dc4a26e10a536fd0da421634324d7"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/check_thl.py",
+      "published": true,
+      "source_sha256": "e5d498405c1ec8458a4fef28a389d82a11c90462930e4e42f19f92b14458e5f1",
+      "bytes": 1901,
+      "published_sha256": "e5d498405c1ec8458a4fef28a389d82a11c90462930e4e42f19f92b14458e5f1",
+      "published_bytes": 1901
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/faq_test.json",
+      "published": true,
+      "source_sha256": "7eb3bb7e452ecc06696e238736926baff8c0dea316bc2a2783f7861067988eb8",
+      "bytes": 279,
+      "published_sha256": "7eb3bb7e452ecc06696e238736926baff8c0dea316bc2a2783f7861067988eb8",
+      "published_bytes": 279
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/followup_downloads.py",
+      "published": true,
+      "source_sha256": "3c9825a4470fbd5cec7f302bb9d8dc6e84b7b3c6446adaf15f4ded2ab1d592d1",
+      "bytes": 1349,
+      "published_sha256": "3c9825a4470fbd5cec7f302bb9d8dc6e84b7b3c6446adaf15f4ded2ab1d592d1",
+      "published_bytes": 1349
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/hilmo_dimensions.js",
+      "published": true,
+      "source_sha256": "9e210980af78639b638def5500c614561aa137cc5d385712b884c1dbfa615705",
+      "bytes": 36807,
+      "published_sha256": "9e210980af78639b638def5500c614561aa137cc5d385712b884c1dbfa615705",
+      "published_bytes": 36807
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/hilmo_metadata.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 41,
+      "source_sha256": "77b5cafcd63968037142351f9f17b215b462a62fb1a2028e78aa6957bc8a5b7c"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/hilmo_oncology.json",
+      "published": true,
+      "source_sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e",
+      "bytes": 6195,
+      "published_sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e",
+      "published_bytes": 6195
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/hilmo_oncology_explicit.json",
+      "published": true,
+      "source_sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e",
+      "bytes": 6195,
+      "published_sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e",
+      "published_bytes": 6195
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/hilmo_view.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 40769,
+      "source_sha256": "063bd73020c6cb428ff6d8068d66f0cd38f5522965056396cd3da04019a6d6b1"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/http_followup_log.json",
+      "published": true,
+      "source_sha256": "eb27ec577ee7c8624c5bd777034c8afd6dd9c12891fee25d9173fa2d46eec221",
+      "bytes": 2197,
+      "published_sha256": "eb27ec577ee7c8624c5bd777034c8afd6dd9c12891fee25d9173fa2d46eec221",
+      "published_bytes": 2197
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/http_test_log.json",
+      "published": true,
+      "source_sha256": "3652001a54ede4820ed6fb36005493e04308085f1e6d885a6eaa3e406670cb3d",
+      "bytes": 6234,
+      "published_sha256": "3652001a54ede4820ed6fb36005493e04308085f1e6d885a6eaa3e406670cb3d",
+      "published_bytes": 6234
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/profile_thl.py",
+      "published": true,
+      "source_sha256": "06e9e218f8ef7b60a81e882f587d587a6fb63eb97581ca7cd29de81174b3dd19",
+      "bytes": 2325,
+      "published_sha256": "06e9e218f8ef7b60a81e882f587d587a6fb63eb97581ca7cd29de81174b3dd19",
+      "published_bytes": 2325
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/profiles.json",
+      "published": true,
+      "source_sha256": "5ae23871bee21cbbc5f5b6272b64e001ec52f8e1de4c1e94b1e2ef2f6be582b5",
+      "bytes": 4781,
+      "published_sha256": "5ae23871bee21cbbc5f5b6272b64e001ec52f8e1de4c1e94b1e2ef2f6be582b5",
+      "published_bytes": 4781
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/queue_1_90_count.json",
+      "published": true,
+      "source_sha256": "c3c018e5a1dd1caf4a46f79367aaa7de89bda3721064d536c3b98a4884dfb848",
+      "bytes": 25124,
+      "published_sha256": "c3c018e5a1dd1caf4a46f79367aaa7de89bda3721064d536c3b98a4884dfb848",
+      "published_bytes": 25124
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/queue_gt180_count.json",
+      "published": true,
+      "source_sha256": "16a07a2ffab14cea8e269c54c670bff9bbe60cae8b937bcf91664defdb9776e8",
+      "bytes": 24018,
+      "published_sha256": "16a07a2ffab14cea8e269c54c670bff9bbe60cae8b937bcf91664defdb9776e8",
+      "published_bytes": 24018
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/queue_gt180_pct.json",
+      "published": true,
+      "source_sha256": "5edb4f67b9e06a8c3b518ae46fdf4b1ad48b44468a698b6367861d7e984e26ac",
+      "bytes": 26970,
+      "published_sha256": "5edb4f67b9e06a8c3b518ae46fdf4b1ad48b44468a698b6367861d7e984e26ac",
+      "published_bytes": 26970
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/queue_measure_count.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1421,
+      "source_sha256": "e13d298a4bb0e847152c4cabbf412b26b07c10339f9f919d97b7e66017595996"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/queue_measure_pct.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1435,
+      "source_sha256": "9c7b647dc8490885ff20b40af22c65de84153621e843fd7563049d393d22d47c"
+    },
+    {
+      "path": "06 Tekninen liite/THL jatkotarkistus/ratio_checks.json",
+      "published": true,
+      "source_sha256": "c7610bf7222c7a61a0b951a4f0704921f41617e2ce7b2db698e02c811fc707c0",
+      "bytes": 202521,
+      "published_sha256": "c7610bf7222c7a61a0b951a4f0704921f41617e2ce7b2db698e02c811fc707c0",
+      "published_bytes": 202521
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avo_screening_clients.json",
+      "published": true,
+      "source_sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33",
+      "bytes": 2116,
+      "published_sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33",
+      "published_bytes": 2116
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avo_screening_count.json",
+      "published": true,
+      "source_sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33",
+      "bytes": 2116,
+      "published_sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33",
+      "published_bytes": 2116
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_api_index.json",
+      "published": true,
+      "source_sha256": "249c9ef946efea05fcb898d1944b26f5af40f43689f598535cfc0ab6cb829708",
+      "bytes": 500,
+      "published_sha256": "249c9ef946efea05fcb898d1944b26f5af40f43689f598535cfc0ab6cb829708",
+      "published_bytes": 500
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_dictionary_flat.json",
+      "published": true,
+      "source_sha256": "88c0dcb011d7214b588be3fe9b84fee6c6c0e3e15bd7fe2864c00122111d3617",
+      "bytes": 1409737,
+      "published_sha256": "88c0dcb011d7214b588be3fe9b84fee6c6c0e3e15bd7fe2864c00122111d3617",
+      "published_bytes": 1409737
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_dimensions.js",
+      "published": true,
+      "source_sha256": "52ab2759f9fc8a5e743271324f7723e1af21288ec52c811dd0dfb29d85717bf6",
+      "bytes": 1196541,
+      "published_sha256": "52ab2759f9fc8a5e743271324f7723e1af21288ec52c811dd0dfb29d85717bf6",
+      "published_bytes": 1196541
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_measure.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1332,
+      "source_sha256": "04c6ec01cc6585e778b33623236dde91f5c51923e1340d6e25f9dc60908304f2"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_measure.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 337,
+      "source_sha256": "80e1b18f2d41a532323f70a46d6a98d5fdfc0455ed4e6239fc732a171718cb87"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_report.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 38948,
+      "source_sha256": "bc800f192e7e32a91a901e85c9a1b1d571a65246f178d8a6243c22d46ba582b2"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_report.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 4215,
+      "source_sha256": "6a104bbe979a1b544213990867990f9a9bd1a660977296642005a162848a948f"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_summary.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 748158,
+      "source_sha256": "2973fc02d2184e43705be2032954d6490afde357f590f6e65691ce16f0bf44b2"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/avohilmo_summary.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 222411,
+      "source_sha256": "d0ff7ade6b097eedc5fdc419c3bf13bbc01b06f92a6b1d9b299603bcd9b49f2a"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/cancellation_code.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 99346,
+      "source_sha256": "5ed77fc7cdc8498fc7b2346cf280771b8ecb26a9ca1aca12a37900576528df34"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/cancellation_code.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 2482,
+      "source_sha256": "62eab970ad28d344867892e09a5fc0018d0e0a86b04172d8ffaf2bd8cc2495db"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_definitions.py",
+      "published": true,
+      "source_sha256": "cdd2768c23229bf5fcea8e395ebe0a5f05db9eedc137ea88aa5c0dc1d39c9a83",
+      "bytes": 1346,
+      "published_sha256": "cdd2768c23229bf5fcea8e395ebe0a5f05db9eedc137ea88aa5c0dc1d39c9a83",
+      "published_bytes": 1346
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_documentation.py",
+      "published": true,
+      "source_sha256": "3dd264ad50f7653ea0469ce87bfb6ec1e5be5cd1336387b3e3bd43c4c222cf51",
+      "bytes": 1478,
+      "published_sha256": "3dd264ad50f7653ea0469ce87bfb6ec1e5be5cd1336387b3e3bd43c4c222cf51",
+      "published_bytes": 1478
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_followup.py",
+      "published": true,
+      "source_sha256": "9da71fa1657e7db9a764e97fb66c63e2e655bb9a06bce60b898e65e73ed5823f",
+      "bytes": 1375,
+      "published_sha256": "9da71fa1657e7db9a764e97fb66c63e2e655bb9a06bce60b898e65e73ed5823f",
+      "published_bytes": 1375
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_guide.py",
+      "published": true,
+      "source_sha256": "1e9ef40b7a56d871207544335e5a33f67969f399b37ad784ff1e984132bf7c0b",
+      "bytes": 1080,
+      "published_sha256": "1e9ef40b7a56d871207544335e5a33f67969f399b37ad784ff1e984132bf7c0b",
+      "published_bytes": 1080
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_guide2026.py",
+      "published": true,
+      "source_sha256": "bd33d2f4d3ae9096c22f6b4892b0a8aefd01c39ed7169e3a5aeadf9cd22b1e64",
+      "bytes": 1084,
+      "published_sha256": "bd33d2f4d3ae9096c22f6b4892b0a8aefd01c39ed7169e3a5aeadf9cd22b1e64",
+      "published_bytes": 1084
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_guide2026_landing.py",
+      "published": true,
+      "source_sha256": "c36d2d246c733994ee301e15f06ddb8e62169255989260cdb803b80f6bd6f18a",
+      "bytes": 1048,
+      "published_sha256": "c36d2d246c733994ee301e15f06ddb8e62169255989260cdb803b80f6bd6f18a",
+      "published_bytes": 1048
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_guide_expired.py",
+      "published": true,
+      "source_sha256": "04d6f79d7233d5b300d2b9ab37fb2835c4b2ea0524bd098e83adcd83685aa6f9",
+      "bytes": 1096,
+      "published_sha256": "04d6f79d7233d5b300d2b9ab37fb2835c4b2ea0524bd098e83adcd83685aa6f9",
+      "published_bytes": 1096
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_measures.py",
+      "published": true,
+      "source_sha256": "cc3938cc76416ae110649e580a3623967aded71fbb561e6d4d36008e62933eb8",
+      "bytes": 1374,
+      "published_sha256": "cc3938cc76416ae110649e580a3623967aded71fbb561e6d4d36008e62933eb8",
+      "published_bytes": 1374
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_metadata.py",
+      "published": true,
+      "source_sha256": "9c1391732e4b0d5d32333a9e6b1fb9bbda4f4cabe8556294f759e0b6dd38a05f",
+      "bytes": 1368,
+      "published_sha256": "9c1391732e4b0d5d32333a9e6b1fb9bbda4f4cabe8556294f759e0b6dd38a05f",
+      "published_bytes": 1368
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/fetch_samples.py",
+      "published": true,
+      "source_sha256": "39e72317c779b3405c2cd0d94520a942f8bbcee1bf8ea83d82f8b64cf4ff7599",
+      "bytes": 2285,
+      "published_sha256": "39e72317c779b3405c2cd0d94520a942f8bbcee1bf8ea83d82f8b64cf4ff7599",
+      "published_bytes": 2285
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_api_index.json",
+      "published": true,
+      "source_sha256": "811dd0a959cfafadff42af33ddf10de46cf245092e21493329d21f82b5ea6023",
+      "bytes": 382,
+      "published_sha256": "811dd0a959cfafadff42af33ddf10de46cf245092e21493329d21f82b5ea6023",
+      "published_bytes": 382
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_dictionary_flat.json",
+      "published": true,
+      "source_sha256": "4d471cdf0d69ea1c906bb96c4e865ad2739a131103708cfd015a2062629e464d",
+      "bytes": 4464728,
+      "published_sha256": "4d471cdf0d69ea1c906bb96c4e865ad2739a131103708cfd015a2062629e464d",
+      "published_bytes": 4464728
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_dimensions.js",
+      "published": true,
+      "source_sha256": "5293be62ca270dac5fe767040d793fd015ac33bafe21588a13232e6e248008c8",
+      "bytes": 3769229,
+      "published_sha256": "5293be62ca270dac5fe767040d793fd015ac33bafe21588a13232e6e248008c8",
+      "published_bytes": 3769229
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_guide2025_expired.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 2128634,
+      "source_sha256": "56113dd0099bd2167ee28b4da02a5f054d964bc41abe8e86225c20fb8cf25a39"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_guide2026.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 949258,
+      "source_sha256": "af0a1525b944383d6fd92e97276476e63c7e4e7cfcaf37bfaba6eaa89d0be771"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_guide2026_landing.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 455812,
+      "source_sha256": "580365cc7547766f8adcd021bfc0a7fae60734fdd7aa32cd0838928e42140cc8"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_instructions.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 136278,
+      "source_sha256": "12f50768063d1e7e16d63635945d5eebf42feb4577b0b75fea88149962982dfd"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_instructions.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 11379,
+      "source_sha256": "3a048ab75501517c2505ecbc101b751c33fdcfa160f6ae6e9f2b6883877d4237"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_mammography.json",
+      "published": true,
+      "source_sha256": "40e0cea215944c22f7e5024fe8f874ec06be822b7e4a8cebd9e13e45708e83bf",
+      "bytes": 850,
+      "published_sha256": "40e0cea215944c22f7e5024fe8f874ec06be822b7e4a8cebd9e13e45708e83bf",
+      "published_bytes": 850
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_measure.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1389,
+      "source_sha256": "a71d30669c0548d34ae070696ba36fe8ec62e762e933cc9d99641b6b6d24b4fe"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_measure.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 322,
+      "source_sha256": "aa11f6c586bc29b47b388714e9f8e6bd7618d3ae0cedc629ca33edeed51299e9"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_report.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 39452,
+      "source_sha256": "a3e82e02c5da58fe0a1cde0b56f74ac9eefc2e4da8d548ff91332fd1cb8c829b"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_report.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 4365,
+      "source_sha256": "aa357fedff603886b521f73ed912f3485a3bf103665f5b9ce23b0a44f3239605"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/hilmo_screening.json",
+      "published": true,
+      "source_sha256": "9c45beeebfb2704b038f101317becaaabe613ac6b5eb1b002a7f66b301c2a3c0",
+      "bytes": 810,
+      "published_sha256": "9c45beeebfb2704b038f101317becaaabe613ac6b5eb1b002a7f66b301c2a3c0",
+      "published_bytes": 810
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_definitions_log.json",
+      "published": true,
+      "source_sha256": "f1f11367762d9f87b52006a5e95b31e966fe57906e6fe7122509d4e01d0b5179",
+      "bytes": 1555,
+      "published_sha256": "f1f11367762d9f87b52006a5e95b31e966fe57906e6fe7122509d4e01d0b5179",
+      "published_bytes": 1555
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_documentation_log.json",
+      "published": true,
+      "source_sha256": "2c217394d33355926202b852acd160a322cb713b5bcd8e924d5d347ef52cfa38",
+      "bytes": 2316,
+      "published_sha256": "2c217394d33355926202b852acd160a322cb713b5bcd8e924d5d347ef52cfa38",
+      "published_bytes": 2316
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_followup_log.json",
+      "published": true,
+      "source_sha256": "11638a3d5eca54202a467c126456eca89c06283e88a20f83a3b4c01cc8b7a1b5",
+      "bytes": 1709,
+      "published_sha256": "11638a3d5eca54202a467c126456eca89c06283e88a20f83a3b4c01cc8b7a1b5",
+      "published_bytes": 1709
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_guide2026_landing_log.json",
+      "published": true,
+      "source_sha256": "264dea59bc461fac8e069bd61453da0a07cc5ee81ea6aeb597220095c611b58a",
+      "bytes": 434,
+      "published_sha256": "264dea59bc461fac8e069bd61453da0a07cc5ee81ea6aeb597220095c611b58a",
+      "published_bytes": 434
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_guide2026_log.json",
+      "published": true,
+      "source_sha256": "73cda37df4e17dc78b2b710f20f7ebbbf8201ae2fb5ff870ef195fbecb2dc390",
+      "bytes": 512,
+      "published_sha256": "73cda37df4e17dc78b2b710f20f7ebbbf8201ae2fb5ff870ef195fbecb2dc390",
+      "published_bytes": 512
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_guide_expired_log.json",
+      "published": true,
+      "source_sha256": "bc5761f2f88bd122bf3e21ca2055b681cdb40a02ebeb863c8ca45abd1a7436a6",
+      "bytes": 521,
+      "published_sha256": "bc5761f2f88bd122bf3e21ca2055b681cdb40a02ebeb863c8ca45abd1a7436a6",
+      "published_bytes": 521
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_guide_log.json",
+      "published": true,
+      "source_sha256": "ca9adb914e0ace016c7894af1a9dd9af799729f24540dde7929275165b788025",
+      "bytes": 264,
+      "published_sha256": "ca9adb914e0ace016c7894af1a9dd9af799729f24540dde7929275165b788025",
+      "published_bytes": 264
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_measures_log.json",
+      "published": true,
+      "source_sha256": "acaf86e55b62a940e631f409c91868b97efec8d662335092720ddbb1dc4b57af",
+      "bytes": 1860,
+      "published_sha256": "acaf86e55b62a940e631f409c91868b97efec8d662335092720ddbb1dc4b57af",
+      "published_bytes": 1860
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_metadata_log.json",
+      "published": true,
+      "source_sha256": "2d1cde25c7c97e7447d7cce7737a1110be6e2ca5152bbe25a1b204a4a59dab5d",
+      "bytes": 3183,
+      "published_sha256": "2d1cde25c7c97e7447d7cce7737a1110be6e2ca5152bbe25a1b204a4a59dab5d",
+      "published_bytes": 3183
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/http_samples_log.json",
+      "published": true,
+      "source_sha256": "6ff41253de3a2f5b6a7656632e7f7caa08c6e952b68bbce23d548e1e38743b03",
+      "bytes": 4194,
+      "published_sha256": "6ff41253de3a2f5b6a7656632e7f7caa08c6e952b68bbce23d548e1e38743b03",
+      "published_bytes": 4194
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/profile_samples.py",
+      "published": true,
+      "source_sha256": "47c9fc54c0faf4dec99aaf8e1f08ecf03172c236f1edd49920a813393fdee9c0",
+      "bytes": 2028,
+      "published_sha256": "47c9fc54c0faf4dec99aaf8e1f08ecf03172c236f1edd49920a813393fdee9c0",
+      "published_bytes": 2028
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/profiles.json",
+      "published": true,
+      "source_sha256": "149ebf31445135a37f35e3e4458fb4550439e3b42131db125031932974b95fee",
+      "bytes": 8035,
+      "published_sha256": "149ebf31445135a37f35e3e4458fb4550439e3b42131db125031932974b95fee",
+      "published_bytes": 8035
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_definition.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 161209,
+      "source_sha256": "9bc875b0073ce7809048a7647a40f674b5d8fef048482d46bae424d85c527a82"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_dictionary_flat.json",
+      "published": true,
+      "source_sha256": "2c38696a40b40669a0d2c1fdbb8c0bafcb92098c9bfba0756fd0efb946010126",
+      "bytes": 6899076,
+      "published_sha256": "2c38696a40b40669a0d2c1fdbb8c0bafcb92098c9bfba0756fd0efb946010126",
+      "published_bytes": 6899076
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_dimensions.js",
+      "published": true,
+      "source_sha256": "448421f363517cc5dcfea36cc3b288682a60a715d183a7592a66c6ff3131233c",
+      "bytes": 6046946,
+      "published_sha256": "448421f363517cc5dcfea36cc3b288682a60a715d183a7592a66c6ff3131233c",
+      "published_bytes": 6046946
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_measure.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1451,
+      "source_sha256": "bc3ed113a0cbf36d4aed7f00f8bd2192b427c0ca59bc4b0e985be9ce01038404"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_measure.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 395,
+      "source_sha256": "fc57fdb70070ca96d2a188c9591b401cbd1419741852430381d705ab5952a04f"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_report.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 36591,
+      "source_sha256": "638b28734db4847e00c1ca658bce3781cac9f114aab873a0a256c904d0532e08"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_report.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 3651,
+      "source_sha256": "1fe494b393b45acb9bad136c0e97caab123b94de6f715165451364c654c5bf22"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_sept2026_doctor_count.json",
+      "published": true,
+      "source_sha256": "3e707482feca072e97f5b016bb42d05a9af18a89d82e5bc4f8a37a5de04222c3",
+      "bytes": 3868,
+      "published_sha256": "3e707482feca072e97f5b016bb42d05a9af18a89d82e5bc4f8a37a5de04222c3",
+      "published_bytes": 3868
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/pth_sept2026_doctor_pct.json",
+      "published": true,
+      "source_sha256": "cd5712101363ab5c5938d955d8d67f3d7c41a47cf43978a5b38b31e6ec26964c",
+      "bytes": 3714,
+      "published_sha256": "cd5712101363ab5c5938d955d8d67f3d7c41a47cf43978a5b38b31e6ec26964c",
+      "published_bytes": 3714
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2024.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 703718,
+      "source_sha256": "954ec191a1eaa5dad0eef1716759aa25d52daf9648d10fb04ac69fc8ad79480b"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2024.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 99661,
+      "source_sha256": "f39587109627a2fb85fac16059f3fc8913bfdfa4dad037f5991fdd2fd6bc1563"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2025.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 355761,
+      "source_sha256": "f6ca1dab41130c6d88970504c2b046b8b7f5478ad29efeb162281a797af552c8"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2025_api.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 857607,
+      "source_sha256": "af68f798965e3f78a9e4a94797f3134af207ae449cf6a59ee3139fb2abb68fc9"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2025_api.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 101179,
+      "source_sha256": "4e72b3f2a7f80e147de8b7f24e2fde1422fae3ab96e0ce8941d62b068127ba3a"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_2025_definitions.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 470080,
+      "source_sha256": "194a76563ba8819a0023d34bc6251b59a926355dcfa7eda49bf91e8eb83c9f09"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_quality.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 134598,
+      "source_sha256": "585b0e5279998a557bf72b01a85ca3eb921a8d21a1cc09b0d3905df707a58d60"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_quality.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 24261,
+      "source_sha256": "6b8c4449d2151105e75da1d831a08cae77d5c4d55e52d6285f9fdbaa8a3a2345"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_report.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 112655,
+      "source_sha256": "e0c9f47ac6b45e12f560ac84cbfd42779e20e94c2e78f9b0bfe0586f068c76df"
+    },
+    {
+      "path": "06 Tekninen liite/THL täydentävät lähteet/queue_report.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 16492,
+      "source_sha256": "b4e14eeea97e9b51d00ce1fb46161647b0fe2033f71980871ff2e6bb5d23a94a"
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/Tekninen tarkistusloki.md",
+      "published": true,
+      "source_sha256": "251b128bd37e5574f8ceefb77013eddb54fcdf4ccb1ce7eed915c27fd9195f63",
+      "bytes": 4801,
+      "published_sha256": "251b128bd37e5574f8ceefb77013eddb54fcdf4ccb1ce7eed915c27fd9195f63",
+      "published_bytes": 4801
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/Tilastokeskus ja Sotkanet — varmennetut aineistot.md",
+      "published": true,
+      "source_sha256": "e4920a86b244efab4b446042a9ff082d2334c1c6456b8f4007434cfd7f8330a3",
+      "bytes": 10432,
+      "published_sha256": "e4920a86b244efab4b446042a9ff082d2334c1c6456b8f4007434cfd7f8330a3",
+      "published_bytes": 10432
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11be_meta.json",
+      "published": true,
+      "source_sha256": "100b2baf7acd5df332fdba3f0bedb3d7a98aa499f4e239eb67cb077b8b0f8ba8",
+      "bytes": 93453,
+      "published_sha256": "100b2baf7acd5df332fdba3f0bedb3d7a98aa499f4e239eb67cb077b8b0f8ba8",
+      "published_bytes": 93453
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11be_sample.json",
+      "published": true,
+      "source_sha256": "c63a006a60770c14893ef621e5f53db26ffc525470ce8bf860b13b0772f567e5",
+      "bytes": 4269,
+      "published_sha256": "c63a006a60770c14893ef621e5f53db26ffc525470ce8bf860b13b0772f567e5",
+      "published_bytes": 4269
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11be_sample_query.json",
+      "published": true,
+      "source_sha256": "917c83c86814a37af7ee6af3cfa02ba06eb5dc1b2c04afdb22bd0e2031939d9c",
+      "bytes": 853,
+      "published_sha256": "917c83c86814a37af7ee6af3cfa02ba06eb5dc1b2c04afdb22bd0e2031939d9c",
+      "published_bytes": 853
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11re_meta.json",
+      "published": true,
+      "source_sha256": "e2ceae6c3f74452f29181cc040551ad448c4b06f96a6661acaa44a120b8a6266",
+      "bytes": 8280,
+      "published_sha256": "e2ceae6c3f74452f29181cc040551ad448c4b06f96a6661acaa44a120b8a6266",
+      "published_bytes": 8280
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11re_sample.json",
+      "published": true,
+      "source_sha256": "22c81d3bd046c5a572f49b653b4b5e245befb09e6b3950e88f5d36ed04bb0739",
+      "bytes": 3112,
+      "published_sha256": "22c81d3bd046c5a572f49b653b4b5e245befb09e6b3950e88f5d36ed04bb0739",
+      "published_bytes": 3112
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/11re_sample_query.json",
+      "published": true,
+      "source_sha256": "f802d336301c286a5a28271517c0f7eb9097a23bb1b243fbf1e1eaa1907bd51d",
+      "bytes": 901,
+      "published_sha256": "f802d336301c286a5a28271517c0f7eb9097a23bb1b243fbf1e1eaa1907bd51d",
+      "published_bytes": 901
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/13u5_meta.json",
+      "published": true,
+      "source_sha256": "c294d9f1db6de67f184c9a69f0dc1d918422697d7ac20c661171d7a320e889d7",
+      "bytes": 6496,
+      "published_sha256": "c294d9f1db6de67f184c9a69f0dc1d918422697d7ac20c661171d7a320e889d7",
+      "published_bytes": 6496
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/13u5_sample.json",
+      "published": true,
+      "source_sha256": "2fc5b5f6b598e704b40e9b1cafd41eb8d8838a6592ee8611853e847872e6b96a",
+      "bytes": 3224,
+      "published_sha256": "2fc5b5f6b598e704b40e9b1cafd41eb8d8838a6592ee8611853e847872e6b96a",
+      "published_bytes": 3224
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/13u5_sample_query.json",
+      "published": true,
+      "source_sha256": "7d5ee125da3fb881b3bf1f832c2c2c3a998138423bcc04957f083709297f79f0",
+      "bytes": 737,
+      "published_sha256": "7d5ee125da3fb881b3bf1f832c2c2c3a998138423bcc04957f083709297f79f0",
+      "published_bytes": 737
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/artifact_manifest.json",
+      "published": true,
+      "source_sha256": "8a7cf1da68a0f2fe2a8b85a6b6b815e18f1a71ee45d9943496a4bb8a6d6c5f75",
+      "bytes": 3613,
+      "published_sha256": "8a7cf1da68a0f2fe2a8b85a6b6b815e18f1a71ee45d9943496a4bb8a6d6c5f75",
+      "published_bytes": 3613
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/decoded_samples.json",
+      "published": true,
+      "source_sha256": "d7ec2bfea537c91928170c10f3a7c2321af2db607f405947084843499483137d",
+      "bytes": 22612,
+      "published_sha256": "d7ec2bfea537c91928170c10f3a7c2321af2db607f405947084843499483137d",
+      "published_bytes": 22612
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo12ey_meta.json",
+      "published": true,
+      "source_sha256": "bc4202b92f8bf1aa894e0caa593c4264c6fb607bc09346969052ace473e80376",
+      "bytes": 121523,
+      "published_sha256": "bc4202b92f8bf1aa894e0caa593c4264c6fb607bc09346969052ace473e80376",
+      "published_bytes": 121523
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo12ey_sample.json",
+      "published": true,
+      "source_sha256": "cd57e56e0e4f432c7bb45ead590653e65811f71d20e7ea47c30868712a3aa4ab",
+      "bytes": 4916,
+      "published_sha256": "cd57e56e0e4f432c7bb45ead590653e65811f71d20e7ea47c30868712a3aa4ab",
+      "published_bytes": 4916
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo12ey_sample_query.json",
+      "published": true,
+      "source_sha256": "34c562f6343cdc4d53c779f106303eb0470de41efb0854c93c3a7a2355fb1b73",
+      "bytes": 629,
+      "published_sha256": "34c562f6343cdc4d53c779f106303eb0470de41efb0854c93c3a7a2355fb1b73",
+      "published_bytes": 629
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo2026_catalog.json",
+      "published": true,
+      "source_sha256": "3fbf0bed2531512a6f130a60c339a59baeaac21ac864c6eebf9210b26e7c7dd4",
+      "bytes": 1255,
+      "published_sha256": "3fbf0bed2531512a6f130a60c339a59baeaac21ac864c6eebf9210b26e7c7dd4",
+      "published_bytes": 1255
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo_catalog.json",
+      "published": true,
+      "source_sha256": "0c52f61c8d8eb4912658f6588f4cba2d6cc1ea75ecd86273b26055ac3e4f0813",
+      "bytes": 752,
+      "published_sha256": "0c52f61c8d8eb4912658f6588f4cba2d6cc1ea75ecd86273b26055ac3e4f0813",
+      "published_bytes": 752
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo_manual2026.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 634188,
+      "source_sha256": "be9485a311e65e54815cd173669d81b44393fa5c251cdb072742de7fb3cf77dc"
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo_manual_p2.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 332404,
+      "source_sha256": "c92695da21268e0635f2e3411fb88b1993537772481b45e212c42579ad34f5d2"
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo_manual_p4.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 274503,
+      "source_sha256": "b786505fa95e04808227364ede4396785ff14a9964be15d2dd287f4c9da22d22"
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/paavo_sample.py",
+      "published": true,
+      "source_sha256": "4a530d2ee3dba9d10885da1019d976d0a66d26ce8b40811f22ff39243f4d0f8a",
+      "bytes": 2364,
+      "published_sha256": "4a530d2ee3dba9d10885da1019d976d0a66d26ce8b40811f22ff39243f4d0f8a",
+      "published_bytes": 2364
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/query_sources.py",
+      "published": true,
+      "source_sha256": "cf39c7042abf9f7487274069d927c64dc6a9df3454766234acf92b633c5dcf42",
+      "bytes": 2233,
+      "published_sha256": "cf39c7042abf9f7487274069d927c64dc6a9df3454766234acf92b633c5dcf42",
+      "published_bytes": 2233
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/request_log.json",
+      "published": true,
+      "source_sha256": "06260b724c5350f84366e449eab49b3919784d760f70425a9e43caa8944104d0",
+      "bytes": 5595,
+      "published_sha256": "06260b724c5350f84366e449eab49b3919784d760f70425a9e43caa8944104d0",
+      "published_bytes": 5595
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/vaerak_catalog.json",
+      "published": true,
+      "source_sha256": "9637af6a0d2e21bab28475efcca873b1e795b16a4fd574f86db3a73285aaafc0",
+      "bytes": 4614,
+      "published_sha256": "9637af6a0d2e21bab28475efcca873b1e795b16a4fd574f86db3a73285aaafc0",
+      "published_bytes": 4614
+    },
+    {
+      "path": "06 Tekninen liite/Tilastokeskus ja Sotkanet/work/validation_checks.json",
+      "published": true,
+      "source_sha256": "0da370fb93fb30d083e773ffa7a692088f13557885f06ddc49d80ad22b125578",
+      "bytes": 630,
+      "published_sha256": "0da370fb93fb30d083e773ffa7a692088f13557885f06ddc49d80ad22b125578",
+      "published_bytes": 630
+    },
+    {
+      "path": "06 Tekninen liite/Tutkimusinfrastruktuurit/Tutkimusinfrastruktuurit - pääsy ja versiot.md",
+      "published": true,
+      "source_sha256": "629b65017aac4f86ebf6d95efaa40134d225fcd8c8d37678943a74d935fb7c15",
+      "bytes": 5094,
+      "published_sha256": "629b65017aac4f86ebf6d95efaa40134d225fcd8c8d37678943a74d935fb7c15",
+      "published_bytes": 5094
+    },
+    {
+      "path": "06 Tekninen liite/Tutkimusinfrastruktuurit/Tutkimusrepositoriot ja koodi.md",
+      "published": true,
+      "source_sha256": "5aae8f3dacf7837c1e9bba28178b757a69068e540e2d37c4ed2dd6a7173436b9",
+      "bytes": 1799,
+      "published_sha256": "5aae8f3dacf7837c1e9bba28178b757a69068e540e2d37c4ed2dd6a7173436b9",
+      "published_bytes": 1799
+    },
+    {
+      "path": "06 Tekninen liite/Tutkimusinfrastruktuurit/finngen_R13_manifest.tsv",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 820805,
+      "source_sha256": "c9caafa9b98ee5ef050a705766bd1c451fc2154fb8e81b069022012a2f75ae20"
+    },
+    {
+      "path": "06 Tekninen liite/Tutkimusinfrastruktuurit/finngen_manifest_test.json",
+      "published": true,
+      "source_sha256": "0fccc561770d613fcd3347c8b4a9e247155e2ada54663ced3acac51746c09bcd",
+      "bytes": 780,
+      "published_sha256": "0fccc561770d613fcd3347c8b4a9e247155e2ada54663ced3acac51746c09bcd",
+      "published_bytes": 780
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/Vertailu ja alueet - varmennus.md",
+      "published": true,
+      "source_sha256": "d2897cd7f12c8af69b2128c1287e0cd176b4b741340fccc807e4a3b008ec5677",
+      "bytes": 10498,
+      "published_sha256": "d2897cd7f12c8af69b2128c1287e0cd176b4b741340fccc807e4a3b008ec5677",
+      "published_bytes": 10498
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/ecis.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 44038,
+      "source_sha256": "8e89f9a3733f72787005ec3f33932271c6af663e656d87265be3bed3faf936a4"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/ecis_database.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 244,
+      "source_sha256": "79f804ece5f4626959c9d9fbbdacd0949f8159151cd7b273cfb0852c829e46b7"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/ecis_explorer.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 244,
+      "source_sha256": "6daa342bd2361cd5f81cb7c2087d9e6801addc9153ffdf25e55944f85612475c"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/fetch_followups.py",
+      "published": true,
+      "source_sha256": "b66336e94202a239b928f8dd1008419233e6fd2e9adc5297f7322f178d58a4ab",
+      "bytes": 1282,
+      "published_sha256": "b66336e94202a239b928f8dd1008419233e6fd2e9adc5297f7322f178d58a4ab",
+      "published_bytes": 1282
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/fetch_nordcan_helper.py",
+      "published": true,
+      "source_sha256": "3ed8f8744ad3750302e248e03611b718578c7233b833e9e9d03900e9636bf0bc",
+      "bytes": 1061,
+      "published_sha256": "3ed8f8744ad3750302e248e03611b718578c7233b833e9e9d03900e9636bf0bc",
+      "published_bytes": 1061
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/fetch_nordcan_metadata.py",
+      "published": true,
+      "source_sha256": "4b57fb24c7718974dabe209b5be6378975682e2c07641273f11c9593809c5c77",
+      "bytes": 1654,
+      "published_sha256": "4b57fb24c7718974dabe209b5be6378975682e2c07641273f11c9593809c5c77",
+      "published_bytes": 1654
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/fetch_nordcan_sample.py",
+      "published": true,
+      "source_sha256": "12025e85a7195f4b7448a859addfc76da13e3ba955bb166fe16401065e3f2725",
+      "bytes": 1148,
+      "published_sha256": "12025e85a7195f4b7448a859addfc76da13e3ba955bb166fe16401065e3f2725",
+      "published_bytes": 1148
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/followup_http_log.json",
+      "published": true,
+      "source_sha256": "a3b89a0d6fdae7a6d19064a2c6035984e94d70bf49eb3b31e230439762999bd6",
+      "bytes": 1651,
+      "published_sha256": "a3b89a0d6fdae7a6d19064a2c6035984e94d70bf49eb3b31e230439762999bd6",
+      "published_bytes": 1651
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/http_log.json",
+      "published": true,
+      "source_sha256": "2f58cf744ea8460ab281de67b34a6b0f89bf35988cd1591d1249f8a5d0ecd64d",
+      "bytes": 2327,
+      "published_sha256": "2f58cf744ea8460ab281de67b34a6b0f89bf35988cd1591d1249f8a5d0ecd64d",
+      "published_bytes": 2327
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/hus_text.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 17494,
+      "source_sha256": "7511f60b9192ab9c7af8b6e3bcd1c5d53291ebae5494ae3049daccafce450207"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/hus_wait.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 294152,
+      "source_sha256": "055bb85a9d984ebbf28e99a09e9d45b5754d9a809072c625b9a708d86727c69a"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_cancers.json",
+      "published": false,
+      "reason": "NORDCAN source extract; retain source links and analysis, no public data collection",
+      "bytes": 12791,
+      "source_sha256": "dda43d439769b0ebbb83757ab170c7b5bc9ae974e1de5e606eb5afc33d46c067"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_database.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 3776,
+      "source_sha256": "bb671f6b5e8acf0a0c22de7af0cad5877b282d717c4a37880003162919c1dee2"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_database.js",
+      "published": false,
+      "reason": "Downloaded third-party application code",
+      "bytes": 37842,
+      "source_sha256": "ec5e7e126d94b7376ceedf7a0b4e356d9894e54c2070ddd15979baec660fdd72"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_dataviz.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 3776,
+      "source_sha256": "bb671f6b5e8acf0a0c22de7af0cad5877b282d717c4a37880003162919c1dee2"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_finland_breast_2024.json",
+      "published": false,
+      "reason": "NORDCAN source extract; retain source links and analysis, no public data collection",
+      "bytes": 1236,
+      "source_sha256": "9d356b19eefb60059092224e3373e952c47b2cee3e7c56c54a59957f985178a7"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_helper_http_log.json",
+      "published": true,
+      "source_sha256": "8744104f70acf21716dd74ba269b86bd353b68d079af82be3289e94d8a0ffe39",
+      "bytes": 443,
+      "published_sha256": "8744104f70acf21716dd74ba269b86bd353b68d079af82be3289e94d8a0ffe39",
+      "published_bytes": 443
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_main.js",
+      "published": false,
+      "reason": "Downloaded third-party application code",
+      "bytes": 1151675,
+      "source_sha256": "d08aa546fa4a5a848d20a4932e74b7f37cae2242e7212904f7fb4e8a3245cd61"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_metadata_http_log.json",
+      "published": true,
+      "source_sha256": "c02ef5f0953b3435bce1c820468429f8c5ad8544313adae2956a407c091de055",
+      "bytes": 1733,
+      "published_sha256": "c02ef5f0953b3435bce1c820468429f8c5ad8544313adae2956a407c091de055",
+      "published_bytes": 1733
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_populations.json",
+      "published": false,
+      "reason": "NORDCAN source extract; retain source links and analysis, no public data collection",
+      "bytes": 7500,
+      "source_sha256": "49f2b9f23195978e236ea6b11bff4d2e47e11d4daf83c1926f87b275f77d545f"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_post_helper.js",
+      "published": false,
+      "reason": "Downloaded third-party application code",
+      "bytes": 207,
+      "source_sha256": "0439c77de431ca8ef0b11e105fb6fb1c4eea0c811e6e70649388979803cd9575"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_profile.json",
+      "published": true,
+      "source_sha256": "a33788c8f24617eb50ad06ecb5ca7f4cf11c9c52057e86e7df77dbcdfe6d27ad",
+      "bytes": 1057,
+      "published_sha256": "a33788c8f24617eb50ad06ecb5ca7f4cf11c9c52057e86e7df77dbcdfe6d27ad",
+      "published_bytes": 1057
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_sample_http_log.json",
+      "published": true,
+      "source_sha256": "255645fb31c9582394bb18cc7c013ff51643fceffd376581573bb187ff96b6c6",
+      "bytes": 602,
+      "published_sha256": "255645fb31c9582394bb18cc7c013ff51643fceffd376581573bb187ff96b6c6",
+      "published_bytes": 602
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/nordcan_tables.js",
+      "published": false,
+      "reason": "Downloaded third-party application code",
+      "bytes": 25682,
+      "source_sha256": "c5b5af72f485b2932aca8f32eae32fab746799311ab727f4ef2699a4e707def2"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/paijathame_202604.pdf",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 41687,
+      "source_sha256": "febc81b2360d0e4b1a99e3fb0c59f3173380ac2cba874ad78a78ed137669ced8"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/paijathame_202604.txt",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 901,
+      "source_sha256": "6393c7917a0ce0bc24730501b32da13ca913e80fe07ddbc49940babfd406abb1"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/paijathame_202604_page1.png",
+      "published": false,
+      "reason": "Third-party document/image/source snapshot; redistribution scope not established in publication review",
+      "bytes": 86073,
+      "source_sha256": "78420d7ea2108fd8b1aa9cd7f0ac00799c5bbbce1219ac6fa85cf7e3b6111c06"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/paijathame_wait.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 419565,
+      "source_sha256": "387ba3396b4c3aaf3392d33fe9e1c950792c338c5571754d74620c449b577c04"
+    },
+    {
+      "path": "06 Tekninen liite/Vertailu ja alueet/profile_sample.py",
+      "published": true,
+      "source_sha256": "9aa7c32f6a4a8d8deae4f180257b344ba2b5260208c7b4c0a7624165c39ce1af",
+      "bytes": 1072,
+      "published_sha256": "9aa7c32f6a4a8d8deae4f180257b344ba2b5260208c7b4c0a7624165c39ce1af",
+      "published_bytes": 1072
+    },
+    {
+      "path": "06 Tekninen liite/rinta.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 8662680,
+      "source_sha256": "736943ae3ee8d665173e52affd00dae9bf328c37962c3ae89f54504fc046380c"
+    },
+    {
+      "path": "06 Tekninen liite/rinta_tables.json",
+      "published": false,
+      "reason": "Full static-report table extract; separate report data license unresolved",
+      "bytes": 134473,
+      "source_sha256": "c87ebda592c89d4ca3d1123122d89818492c6dcad62c41a57f82bc28febeed8f"
+    },
+    {
+      "path": "06 Tekninen liite/rinta_test.json",
+      "published": true,
+      "source_sha256": "b03312222558be8202731e200698064b1ca569a4e6ceb3339ad5285b91816606",
+      "bytes": 276,
+      "published_sha256": "b03312222558be8202731e200698064b1ca569a4e6ceb3339ad5285b91816606",
+      "published_bytes": 276
+    },
+    {
+      "path": "06 Tekninen liite/suolisto.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 7368210,
+      "source_sha256": "8700c9618456bb29ed7465b04b70492c408e4c47cf1259dbc18638ee2e5e7e52"
+    },
+    {
+      "path": "06 Tekninen liite/suolisto_tables.json",
+      "published": false,
+      "reason": "Full static-report table extract; separate report data license unresolved",
+      "bytes": 90288,
+      "source_sha256": "beba5eb6a275b7d673c833716c06a6949c049729a600f881ff85bef40437aa4e"
+    },
+    {
+      "path": "06 Tekninen liite/suolisto_test.json",
+      "published": true,
+      "source_sha256": "aaeef8c59fdd76cdbb68a2e17568b309c6b078c72f77ac77ea696e18e207c8a3",
+      "bytes": 279,
+      "published_sha256": "aaeef8c59fdd76cdbb68a2e17568b309c6b078c72f77ac77ea696e18e207c8a3",
+      "published_bytes": 279
+    },
+    {
+      "path": "06 Tekninen liite/thl_eshjono.json",
+      "published": true,
+      "source_sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+      "bytes": 25154,
+      "published_sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+      "published_bytes": 25154
+    },
+    {
+      "path": "06 Tekninen liite/thl_eshjono_metadata.json",
+      "published": true,
+      "source_sha256": "7f324b2b3adf8e72aa1ed490f31aaa0916539c5c4167ab16f380a1d356b767e0",
+      "bytes": 288,
+      "published_sha256": "7f324b2b3adf8e72aa1ed490f31aaa0916539c5c4167ab16f380a1d356b767e0",
+      "published_bytes": 288
+    },
+    {
+      "path": "06 Tekninen liite/thl_eshjono_test.json",
+      "published": true,
+      "source_sha256": "3c559242de08ed8e047a1d44bb9a8ef9354d40d8ed14637c048af347152bfb3d",
+      "bytes": 476,
+      "published_sha256": "3c559242de08ed8e047a1d44bb9a8ef9354d40d8ed14637c048af347152bfb3d",
+      "published_bytes": 476
+    },
+    {
+      "path": "07 Tutkimusloki/Tutkimusloki.md",
+      "published": true,
+      "source_sha256": "d59ca18e26aae155b077a4a8a588a84dc70c44aff51f7b1c1421b282509b23c9",
+      "bytes": 4457,
+      "published_sha256": "d59ca18e26aae155b077a4a8a588a84dc70c44aff51f7b1c1421b282509b23c9",
+      "published_bytes": 4457
+    },
+    {
+      "path": "08 Liitteet/Kansallinen_syopastrategia_2026_2035_FINAL.pdf",
+      "published": true,
+      "source_sha256": "a07a9224413e98322e57a9f5933297aec6cc99684cdff91799a5dc94c3405550",
+      "bytes": 1551018,
+      "published_sha256": "a07a9224413e98322e57a9f5933297aec6cc99684cdff91799a5dc94c3405550",
+      "published_bytes": 1551018
+    },
+    {
+      "path": "08 Liitteet/Kansallinen_syopastrategia_toimeenpanon_tiekartta_2026_2031.pdf",
+      "published": true,
+      "source_sha256": "f9d4ed478a7531b0ee26c84f9d5df7c96137f8e192ca27efd8afc5b1c1e2ecb5",
+      "bytes": 1401669,
+      "published_sha256": "f9d4ed478a7531b0ee26c84f9d5df7c96137f8e192ca27efd8afc5b1c1e2ecb5",
+      "published_bytes": 1401669
+    },
+    {
+      "path": "08 Liitteet/Syöpästrategiat ja syöpädata_linkkikokoelma.pdf",
+      "published": true,
+      "source_sha256": "41a6d28e3eff41e1ce6d4f7d0f3ec025a3918728bcbe01c9e526e46f5b73cb08",
+      "bytes": 136281,
+      "published_sha256": "41a6d28e3eff41e1ce6d4f7d0f3ec025a3918728bcbe01c9e526e46f5b73cb08",
+      "published_bytes": 136281
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Kelan korvausoikeudet/Korvausoikeuksien syväprofiili.md",
+      "published": true,
+      "source_sha256": "24ecd499150f5227fda689b8653b3ca904754635fabe75f26c3b9cbaa0447f0a",
+      "bytes": 4101,
+      "published_sha256": "24ecd499150f5227fda689b8653b3ca904754635fabe75f26c3b9cbaa0447f0a",
+      "published_bytes": 4101
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Kelan korvausoikeudet/profile.json",
+      "published": true,
+      "source_sha256": "2dfff5f28c57816622db6286ccebde7379080a418a11d5265143ea6bd3ae8133",
+      "bytes": 14000,
+      "published_sha256": "2dfff5f28c57816622db6286ccebde7379080a418a11d5265143ea6bd3ae8133",
+      "published_bytes": 14000
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Kelan korvausoikeudet/request_log.json",
+      "published": true,
+      "source_sha256": "bb4100309d3a696aeb037fb24b3773f896463234d078dc17cf96b6f9efb15f6f",
+      "bytes": 454,
+      "published_sha256": "bb4100309d3a696aeb037fb24b3773f896463234d078dc17cf96b6f9efb15f6f",
+      "published_bytes": 454
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Kelan korvausoikeudet/rights115_2025.json",
+      "published": true,
+      "source_sha256": "3c5b1806a72e5ab3d960d0f461c9e839f048345f6f5ff51ffd7c6610c18127eb",
+      "bytes": 157295,
+      "published_sha256": "3c5b1806a72e5ab3d960d0f461c9e839f048345f6f5ff51ffd7c6610c18127eb",
+      "published_bytes": 157295
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Seulontanäytteiden syväprofiili.md",
+      "published": true,
+      "source_sha256": "c3b21c39a3b8b9ef7ce604082ad1e2085e4d6f6d9c50dd86abe6318c067b5e1d",
+      "bytes": 4260,
+      "published_sha256": "c3b21c39a3b8b9ef7ce604082ad1e2085e4d6f6d9c50dd86abe6318c067b5e1d",
+      "published_bytes": 4260
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Syväanalyysin tulokset ja toistaminen.md",
+      "published": true,
+      "source_sha256": "77fc834a068a8745f9b521b0689a5d986e6af22903313cc9da870c19ffc46c48",
+      "bytes": 2003,
+      "published_sha256": "77fc834a068a8745f9b521b0689a5d986e6af22903313cc9da870c19ffc46c48",
+      "published_bytes": 2003
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Syväanalyysin työohje.md",
+      "published": true,
+      "source_sha256": "c6b1db514b59fb617c02e96778cb659abc564ec36979e3f8a6f9610c583f0f6c",
+      "bytes": 3467,
+      "published_sha256": "c6b1db514b59fb617c02e96778cb659abc564ec36979e3f8a6f9610c583f0f6c",
+      "published_bytes": 3467
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/THL-jononäytteen syväprofiili.md",
+      "published": true,
+      "source_sha256": "c755a412f1f8de8af8bee4cae759c4620dc09716d500d6aa6ec06b72358de620",
+      "bytes": 2668,
+      "published_sha256": "c755a412f1f8de8af8bee4cae759c4620dc09716d500d6aa6ec06b72358de620",
+      "published_bytes": 2668
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/Seulonnan ja väestön yhdistelykoe.md",
+      "published": true,
+      "source_sha256": "3648ea08d17294ccb14444afa6b0954a0b21b6671004a451cbf9043987cb61e9",
+      "bytes": 8474,
+      "published_sha256": "3648ea08d17294ccb14444afa6b0954a0b21b6671004a451cbf9043987cb61e9",
+      "published_bytes": 8474
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/11ra_hva2024_query.json",
+      "published": true,
+      "source_sha256": "5b7a986b199a40474acc286defd657ed0092607b45bff16e1076b27527d14ed2",
+      "bytes": 963,
+      "published_sha256": "5b7a986b199a40474acc286defd657ed0092607b45bff16e1076b27527d14ed2",
+      "published_bytes": 963
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/11ra_hva2024_sample.json",
+      "published": true,
+      "source_sha256": "2cdb8c8357450d70cd90d06799ad65d233593ca28e87e413423dc3ff02701162",
+      "bytes": 4844,
+      "published_sha256": "2cdb8c8357450d70cd90d06799ad65d233593ca28e87e413423dc3ff02701162",
+      "published_bytes": 4844
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/11ra_meta.json",
+      "published": true,
+      "source_sha256": "0564ea6170a51959f745689d1bd1424d4c896df8c18d64aeaae0e1e460771bc4",
+      "bytes": 17459,
+      "published_sha256": "0564ea6170a51959f745689d1bd1424d4c896df8c18d64aeaae0e1e460771bc4",
+      "published_bytes": 17459
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/http_log.json",
+      "published": true,
+      "source_sha256": "e60f554fe511717aae178226d7cf2fe3cf878516161f9cfb0b13d1466cb61355",
+      "bytes": 569,
+      "published_sha256": "e60f554fe511717aae178226d7cf2fe3cf878516161f9cfb0b13d1466cb61355",
+      "published_bytes": 569
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/join_checks.json",
+      "published": true,
+      "source_sha256": "fc93332900b5618e8ca7236390eaadab0bdb942250db69cf0a8266391cea53cb",
+      "bytes": 2002,
+      "published_sha256": "fc93332900b5618e8ca7236390eaadab0bdb942250db69cf0a8266391cea53cb",
+      "published_bytes": 2002
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/join_screening_population.py",
+      "published": true,
+      "source_sha256": "84e2c66ac107c9c6cc0b18f55cb797f5742f97ca869d8a787f22c397da1fd743",
+      "bytes": 8416,
+      "published_sha256": "84e2c66ac107c9c6cc0b18f55cb797f5742f97ca869d8a787f22c397da1fd743",
+      "published_bytes": 8416
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/joined_2024_regions.json",
+      "published": true,
+      "source_sha256": "f0e0c111247ccb479ec877a4d1b181fbc39595cd0238d6632c296f05b893a104",
+      "bytes": 10475,
+      "published_sha256": "f0e0c111247ccb479ec877a4d1b181fbc39595cd0238d6632c296f05b893a104",
+      "published_bytes": 10475
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/offline_replay_check.json",
+      "published": true,
+      "source_sha256": "4982f16e93e0008a4f93be7e19e151d22b6d037f4739d22faa463df17dc95bdd",
+      "bytes": 159,
+      "published_sha256": "4982f16e93e0008a4f93be7e19e151d22b6d037f4739d22faa463df17dc95bdd",
+      "published_bytes": 159
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/population_pivot.json",
+      "published": true,
+      "source_sha256": "870cbca56f46a2afb137980bdcff21406c053f2541b1193f60d769baeae7bf75",
+      "bytes": 3629,
+      "published_sha256": "870cbca56f46a2afb137980bdcff21406c053f2541b1193f60d769baeae7bf75",
+      "published_bytes": 3629
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/region_crosswalk.json",
+      "published": true,
+      "source_sha256": "8378cf35fec912247cf421a3ae397ac2f27569b5f40dfe68bccfef4d1a49d31d",
+      "bytes": 6521,
+      "published_sha256": "8378cf35fec912247cf421a3ae397ac2f27569b5f40dfe68bccfef4d1a49d31d",
+      "published_bytes": 6521
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/rinta_2024_regions.json",
+      "published": true,
+      "source_sha256": "42fb189f1ef999ce5769c3d4d346aebcf3130ce9929f42d157498e064301f1af",
+      "bytes": 6178,
+      "published_sha256": "42fb189f1ef999ce5769c3d4d346aebcf3130ce9929f42d157498e064301f1af",
+      "published_bytes": 6178
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/source_manifest.json",
+      "published": true,
+      "source_sha256": "b22bc4d108e0fc9c42fd1f9b2c1e8bbf44b4273c79459fb911a7939ebdfb9e8a",
+      "bytes": 1039,
+      "published_sha256": "b22bc4d108e0fc9c42fd1f9b2c1e8bbf44b4273c79459fb911a7939ebdfb9e8a",
+      "published_bytes": 1039
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/Yhdistelykoe/work/suolisto_2024_regions.json",
+      "published": true,
+      "source_sha256": "c51d77912152dbc1e381c1661704d5a4ab2d8e85f95e9bf74bb5f77d1b7c91d4",
+      "bytes": 6252,
+      "published_sha256": "c51d77912152dbc1e381c1661704d5a4ab2d8e85f95e9bf74bb5f77d1b7c91d4",
+      "published_bytes": 6252
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/aineistoprofiilit.json",
+      "published": true,
+      "source_sha256": "24bfc1475137d72cd891c4987a7611a9f1bcf30a2ebe5abe922d0e2e6c80af03",
+      "bytes": 11839,
+      "published_sha256": "24bfc1475137d72cd891c4987a7611a9f1bcf30a2ebe5abe922d0e2e6c80af03",
+      "published_bytes": 11839
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/lataustestit.json",
+      "published": true,
+      "source_sha256": "01e78a88d36675220858c9c4e20781382a96a28f1dc1e5e4c64f01fab1045fc3",
+      "bytes": 1791,
+      "published_sha256": "01e78a88d36675220858c9c4e20781382a96a28f1dc1e5e4c64f01fab1045fc3",
+      "published_bytes": 1791
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/profile_samples.py",
+      "published": true,
+      "source_sha256": "85fb7d7ad6b9cdcd8ec5fe8a336df9b6e652d542c0b6a1ab24fe4a256264e0a5",
+      "bytes": 6300,
+      "published_sha256": "85fb7d7ad6b9cdcd8ec5fe8a336df9b6e652d542c0b6a1ab24fe4a256264e0a5",
+      "published_bytes": 6300
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/tarkistukset_yksityiskohtaiset.json",
+      "published": true,
+      "source_sha256": "a8486bb4e1f5f84918c87415033aef502013e18b4652074a5a7b761365d03590",
+      "bytes": 188990,
+      "published_sha256": "a8486bb4e1f5f84918c87415033aef502013e18b4652074a5a7b761365d03590",
+      "published_bytes": 188990
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/thl_dimensions.json",
+      "published": true,
+      "source_sha256": "cae8bbfd859c2332c9858325aeb2aabb9d77ac2e414c752ee545bd7ea113ec3b",
+      "bytes": 58538,
+      "published_sha256": "cae8bbfd859c2332c9858325aeb2aabb9d77ac2e414c752ee545bd7ea113ec3b",
+      "published_bytes": 58538
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/thl_explicit.json",
+      "published": true,
+      "source_sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+      "bytes": 25154,
+      "published_sha256": "965c074414b9d4863e9f70ccbe0fb9571130fc77eebc854d9e5d912b0597d2eb",
+      "published_bytes": 25154
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/thl_filtered.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 102782,
+      "source_sha256": "a653a7ddc13be172f491e98f5c449d3f2c1254382d02ad785df67a1d878ce342"
+    },
+    {
+      "path": "09 Aineistojen syväanalyysi/work/thl_measure.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1382,
+      "source_sha256": "dbd9252f875a5e6429095fac666ef99f650d944502059d12ab9368966590fe54"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Adaptiivinen tutkimus.md",
+      "published": true,
+      "source_sha256": "087f9973d35b7004630d65448d01b798c995a7663ac7108baa0ac62eaa2e4785",
+      "bytes": 5044,
+      "published_sha256": "087f9973d35b7004630d65448d01b798c995a7663ac7108baa0ac62eaa2e4785",
+      "published_bytes": 5044
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Ensimmäinen eksploratiivinen löydöskierros.md",
+      "published": true,
+      "source_sha256": "cbc2a8cf1427b05aa99d43131ea9913d49102cb9f20a03772adfef14b93ba1ee",
+      "bytes": 9213,
+      "published_sha256": "cbc2a8cf1427b05aa99d43131ea9913d49102cb9f20a03772adfef14b93ba1ee",
+      "published_bytes": 9213
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/H01 - kierrosrakenteen ja nimittäjän testi.md",
+      "published": true,
+      "source_sha256": "ffca0948a5c2316483439432b40597b9a5edb36168339c2295b4a606e5697a1e",
+      "bytes": 7097,
+      "published_sha256": "ffca0948a5c2316483439432b40597b9a5edb36168339c2295b4a606e5697a1e",
+      "published_bytes": 7097
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/H01 - lähde- ja saatavuusloki.md",
+      "published": true,
+      "source_sha256": "71bc91493d35e6867ea0e9150fdf3549d966d5e34f1b90a0b622529efe3b788d",
+      "bytes": 5268,
+      "published_sha256": "71bc91493d35e6867ea0e9150fdf3549d966d5e34f1b90a0b622529efe3b788d",
+      "published_bytes": 5268
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/h01_tulokset.json",
+      "published": true,
+      "source_sha256": "fd0f70e1b8a781135b99533e6a40b97e331cad124106daaaff47b68b3e1cab71",
+      "bytes": 12532,
+      "published_sha256": "fd0f70e1b8a781135b99533e6a40b97e331cad124106daaaff47b68b3e1cab71",
+      "published_bytes": 12532
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/download_manifest.json",
+      "published": true,
+      "source_sha256": "9fbeb27b86e7643fd32d756a8b1946e3c2dbcdc09b3939749eb905112ea6bf8c",
+      "bytes": 1385,
+      "published_sha256": "9fbeb27b86e7643fd32d756a8b1946e3c2dbcdc09b3939749eb905112ea6bf8c",
+      "published_bytes": 1385
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/seulonta_help_test.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1112262,
+      "source_sha256": "0dc04116c5154f2498ec4611ce234eb8e294181bf4713de2602066afbd2d8c79"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/seulonta_help_text.txt",
+      "published": false,
+      "reason": "Full third-party help text; original source linked",
+      "bytes": 7567,
+      "source_sha256": "9ef63eb461e471deaef73da49295f92ca3e32c09e1e493cc45156a25707edef2"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/seulontasovellus.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 24710,
+      "source_sha256": "1570fa28714cc0c8e94fe57ca817c8143190746bcc4fec8256c0667a6b9fb76e"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/syovat_help.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1133165,
+      "source_sha256": "454ba5665d9012d3db6da59590ad7ef1474c206366c23bb2db6e8e0bd55602ad"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/H01 jatkotutkimus/work/test_h01.py",
+      "published": true,
+      "source_sha256": "efbd5be8e873b1d44dc69744488bad1bfcfad451cf18a7594fef4b1cdc575774",
+      "bytes": 6083,
+      "published_sha256": "efbd5be8e873b1d44dc69744488bad1bfcfad451cf18a7594fef4b1cdc575774",
+      "published_bytes": 6083
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/Seulontasovellus - vahvistettu CSV ja yhteisositus.md",
+      "published": true,
+      "source_sha256": "293561fdea69a1ae6cf6fc5c96ca206e3504ce12cb59033b43930c9e67f3016d",
+      "bytes": 6957,
+      "published_sha256": "293561fdea69a1ae6cf6fc5c96ca206e3504ce12cb59033b43930c9e67f3016d",
+      "published_bytes": 6957
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/koepoiminnan_profiili.json",
+      "published": true,
+      "source_sha256": "9719cef2b8408bceecf046a66b0bfa48a6c5b7c237cb11a57879a61ac263fa1e",
+      "bytes": 18079,
+      "published_sha256": "9719cef2b8408bceecf046a66b0bfa48a6c5b7c237cb11a57879a61ac263fa1e",
+      "published_bytes": 18079
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/kohtu_helsinki_vuosi_ika.json",
+      "published": true,
+      "source_sha256": "e6a5de37d077241593676255f480c64797a61ff05c06f6d98f6f98c4d9ee2c11",
+      "bytes": 112882,
+      "published_sha256": "e6a5de37d077241593676255f480c64797a61ff05c06f6d98f6f98c4d9ee2c11",
+      "published_bytes": 112882
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/rinta_helsinki_vuosi_ika.json",
+      "published": true,
+      "source_sha256": "085a7bc63476e3eb4f68d37e44584e0296720a0810d61795a366766014d512ee",
+      "bytes": 55044,
+      "published_sha256": "085a7bc63476e3eb4f68d37e44584e0296720a0810d61795a366766014d512ee",
+      "published_bytes": 55044
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/kohtu_helsinki_vuosi_ika.csv",
+      "published": true,
+      "source_sha256": "f3ba29382709e02622b0e411f2f996dc82086a5b484f37424b3d5eace3e521b0",
+      "bytes": 20099,
+      "published_sha256": "f3ba29382709e02622b0e411f2f996dc82086a5b484f37424b3d5eace3e521b0",
+      "published_bytes": 20099
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/kohtu_participation_checks.json",
+      "published": true,
+      "source_sha256": "eb7fbcfc076be67653f37e2bf157337b9bab9ff4d53f5522418da0885ed4d992",
+      "bytes": 62271,
+      "published_sha256": "eb7fbcfc076be67653f37e2bf157337b9bab9ff4d53f5522418da0885ed4d992",
+      "published_bytes": 62271
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/profile_exports.py",
+      "published": true,
+      "source_sha256": "281471036b72db88c8bab32371b1e97fa22a6839f5661421ff12476829de0828",
+      "bytes": 6448,
+      "published_sha256": "281471036b72db88c8bab32371b1e97fa22a6839f5661421ff12476829de0828",
+      "published_bytes": 6448
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/rinta_helsinki_vuosi_ika.csv",
+      "published": true,
+      "source_sha256": "42178050ef646cb666012e984f81d4da766bfdd93bea31b7d27daee5bf18ea89",
+      "bytes": 9402,
+      "published_sha256": "42178050ef646cb666012e984f81d4da766bfdd93bea31b7d27daee5bf18ea89",
+      "published_bytes": 9402
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/rinta_participation_checks.json",
+      "published": true,
+      "source_sha256": "fa4f033e30b8b924b2137c95cd08dc77c6235cf0787eb509af50cbf284d14784",
+      "bytes": 30526,
+      "published_sha256": "fa4f033e30b8b924b2137c95cd08dc77c6235cf0787eb509af50cbf284d14784",
+      "published_bytes": 30526
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/seulonta_help_license_snapshot.html",
+      "published": false,
+      "reason": "Full third-party web snapshot; use cited original source",
+      "bytes": 1112262,
+      "source_sha256": "0dc04116c5154f2498ec4611ce234eb8e294181bf4713de2602066afbd2d8c79"
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/alue_vuosi_osallistuminen.json",
+      "published": true,
+      "source_sha256": "a02a33a64f1b2882227b87d8a4ea4f17cf169d1b030b1afc27d0d201d9b6ff9f",
+      "bytes": 52526,
+      "published_sha256": "a02a33a64f1b2882227b87d8a4ea4f17cf169d1b030b1afc27d0d201d9b6ff9f",
+      "published_bytes": 52526
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/hypoteesit.json",
+      "published": true,
+      "source_sha256": "a0dbf803a263b85782e0404c9b3ef788c0511aecf69db60ec4ccb995bbc22cc8",
+      "bytes": 6050,
+      "published_sha256": "a0dbf803a263b85782e0404c9b3ef788c0511aecf69db60ec4ccb995bbc22cc8",
+      "published_bytes": 6050
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/work/exploration_results.json",
+      "published": true,
+      "source_sha256": "1127aef0ac7c219833b0b18935bc88ca6658030dca801fa2fd1e71a04c56b6ae",
+      "bytes": 175657,
+      "published_sha256": "1127aef0ac7c219833b0b18935bc88ca6658030dca801fa2fd1e71a04c56b6ae",
+      "published_bytes": 175657
+    },
+    {
+      "path": "10 Hypoteesit ja löydökset/work/explore_participation.py",
+      "published": true,
+      "source_sha256": "bbfb42db3af4eef949b08fa321c1ab70fbf6d27bce955439d1253869fdf801ac",
+      "bytes": 7425,
+      "published_sha256": "bbfb42db3af4eef949b08fa321c1ab70fbf6d27bce955439d1253869fdf801ac",
+      "published_bytes": 7425
+    },
+    {
+      "path": "suomalaiset-syöpä-ja-hoitodatalähteet.md",
+      "published": true,
+      "source_sha256": "5ace0687c40233412609138c6d796ccb8ac38642aa19e6d8b402fa7d90e1c83a",
+      "bytes": 19931,
+      "published_sha256": "5ace0687c40233412609138c6d796ccb8ac38642aa19e6d8b402fa7d90e1c83a",
+      "published_bytes": 19931
+    },
+    {
+      "path": "work/create_vault.py",
+      "published": true,
+      "source_sha256": "027d363c03903bcceb642a0f03d4344ee705f6c6a9a2b723b6c0469cae5c9009",
+      "bytes": 14119,
+      "published_sha256": "027d363c03903bcceb642a0f03d4344ee705f6c6a9a2b723b6c0469cae5c9009",
+      "published_bytes": 14119
+    },
+    {
+      "path": "work/integrate_catalog.py",
+      "published": true,
+      "source_sha256": "83a460f0a0f8a402f7159fec65ac21c854a5847e19a5a0ff3af3f81909be397e",
+      "bytes": 15896,
+      "published_sha256": "83a460f0a0f8a402f7159fec65ac21c854a5847e19a5a0ff3af3f81909be397e",
+      "published_bytes": 15896
+    },
+    {
+      "path": "work/integrate_verified.py",
+      "published": true,
+      "source_sha256": "52ba477e44019d7e5267f0569136870f1b78e2bdd0d37587204a113573dd0b59",
+      "bytes": 12473,
+      "published_sha256": "52ba477e44019d7e5267f0569136870f1b78e2bdd0d37587204a113573dd0b59",
+      "published_bytes": 12473
+    },
+    {
+      "path": "work/probe_cancer.py",
+      "published": true,
+      "source_sha256": "9ec2fe4537461e7c1846969ceee24b9ccb654680d7a771e28fb14a685a2bde9f",
+      "bytes": 2305,
+      "published_sha256": "9ec2fe4537461e7c1846969ceee24b9ccb654680d7a771e28fb14a685a2bde9f",
+      "published_bytes": 2305
+    },
+    {
+      "path": "work/profile_kela_rights.py",
+      "published": true,
+      "source_sha256": "cf8ba08888ccf291b1e4b2c3bf2ad0a058e06f68c1229c290fe5a40313d37778",
+      "bytes": 3757,
+      "published_sha256": "cf8ba08888ccf291b1e4b2c3bf2ad0a058e06f68c1229c290fe5a40313d37778",
+      "published_bytes": 3757
+    },
+    {
+      "path": "work/save_cancer_evidence.js",
+      "published": true,
+      "source_sha256": "25489f7563abf0c2bb58fcf7babc70155f5e9888521c20a272a63e9f12a67786",
+      "bytes": 1828,
+      "published_sha256": "25489f7563abf0c2bb58fcf7babc70155f5e9888521c20a272a63e9f12a67786",
+      "published_bytes": 1828
+    },
+    {
+      "path": "work/update_cards.py",
+      "published": true,
+      "source_sha256": "170237cb874e4eb8435bd27edfbef80549d4a1bfe3c18b10b5714aebc633fb22",
+      "bytes": 7299,
+      "published_sha256": "170237cb874e4eb8435bd27edfbef80549d4a1bfe3c18b10b5714aebc633fb22",
+      "published_bytes": 7299
+    }
+  ]
+}

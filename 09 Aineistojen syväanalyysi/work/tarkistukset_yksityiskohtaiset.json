@@ -1,0 +1,6819 @@
+{
+  "created_utc": "2026-11-13T23:25:18.203316+00:00",
+  "scope": "Saved snapshots; verification is sample-specific, not population completeness.",
+  "suolisto": {
+    "sha256_html": "3d1de50ec0cb6641ae9a39abf975d8f1b5b34ad879194fd46230796705e991e6",
+    "real_table_count": 34,
+    "extracted_table_count": 34,
+    "raw_table_token_count": 39,
+    "all_cells_match_independent_parser": true,
+    "manual_checks": [
+      {
+        "table_index": 24,
+        "row_index": 2,
+        "column_index": 2,
+        "region": "Etelä-Karjala",
+        "raw_html_value": "8241",
+        "extracted_value": "8241"
+      },
+      {
+        "table_index": 24,
+        "row_index": 3,
+        "column_index": 2,
+        "region": "Etelä-Pohjanmaa",
+        "raw_html_value": "11899",
+        "extracted_value": "11899"
+      },
+      {
+        "table_index": 24,
+        "row_index": 4,
+        "column_index": 2,
+        "region": "Etelä-Savo",
+        "raw_html_value": "10093",
+        "extracted_value": "10093"
+      }
+    ],
+    "special_tokens_after_two_header_rows": {
+      "0": 17,
+      "0,0": 10
+    },
+    "special_token_locations": [],
+    "area_year_profiles": [
+      {
+        "year": "2024",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      },
+      {
+        "year": "2023",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      },
+      {
+        "year": "2022",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      }
+    ],
+    "arithmetic_checks": [
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 8241,
+        "denominator": 11131,
+        "reported_pct": 74.0,
+        "calculated_pct": 74.03647471026862,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "positive",
+        "numerator": 375,
+        "denominator": 8241,
+        "reported_pct": 4.6,
+        "calculated_pct": 4.550418638514743,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 284,
+        "denominator": 375,
+        "reported_pct": 75.7,
+        "calculated_pct": 75.73333333333333,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 20,
+        "denominator": 284,
+        "reported_pct": 7.0,
+        "calculated_pct": 7.042253521126761,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 11899,
+        "denominator": 15941,
+        "reported_pct": 74.6,
+        "calculated_pct": 74.64399974907471,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 588,
+        "denominator": 11899,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.941591730397512,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 481,
+        "denominator": 588,
+        "reported_pct": 81.8,
+        "calculated_pct": 81.80272108843538,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 18,
+        "denominator": 481,
+        "reported_pct": 3.7,
+        "calculated_pct": 3.7422037422037424,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 10093,
+        "denominator": 13122,
+        "reported_pct": 76.9,
+        "calculated_pct": 76.9166285627191,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "positive",
+        "numerator": 441,
+        "denominator": 10093,
+        "reported_pct": 4.4,
+        "calculated_pct": 4.369364906370752,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 339,
+        "denominator": 441,
+        "reported_pct": 76.9,
+        "calculated_pct": 76.87074829931973,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 14,
+        "denominator": 339,
+        "reported_pct": 4.1,
+        "calculated_pct": 4.129793510324483,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 29226,
+        "denominator": 42015,
+        "reported_pct": 69.6,
+        "calculated_pct": 69.56087111745805,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "positive",
+        "numerator": 1284,
+        "denominator": 29226,
+        "reported_pct": 4.4,
+        "calculated_pct": 4.393348388421269,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 870,
+        "denominator": 1284,
+        "reported_pct": 67.8,
+        "calculated_pct": 67.75700934579439,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 46,
+        "denominator": 870,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.287356321839081,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5679,
+        "denominator": 7884,
+        "reported_pct": 72.0,
+        "calculated_pct": 72.03196347031964,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "positive",
+        "numerator": 261,
+        "denominator": 5679,
+        "reported_pct": 4.6,
+        "calculated_pct": 4.595879556259905,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 171,
+        "denominator": 261,
+        "reported_pct": 65.5,
+        "calculated_pct": 65.51724137931035,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 10,
+        "denominator": 171,
+        "reported_pct": 5.8,
+        "calculated_pct": 5.847953216374269,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 5362,
+        "denominator": 7009,
+        "reported_pct": 76.5,
+        "calculated_pct": 76.50164074761021,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "positive",
+        "numerator": 280,
+        "denominator": 5362,
+        "reported_pct": 5.2,
+        "calculated_pct": 5.221932114882507,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 182,
+        "denominator": 280,
+        "reported_pct": 65.0,
+        "calculated_pct": 65.0,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 8,
+        "denominator": 182,
+        "reported_pct": 4.4,
+        "calculated_pct": 4.395604395604396,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 10705,
+        "denominator": 14399,
+        "reported_pct": 74.3,
+        "calculated_pct": 74.34544065560108,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "positive",
+        "numerator": 544,
+        "denominator": 10705,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.081737505838393,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 406,
+        "denominator": 544,
+        "reported_pct": 74.6,
+        "calculated_pct": 74.63235294117646,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 29,
+        "denominator": 406,
+        "reported_pct": 7.1,
+        "calculated_pct": 7.142857142857143,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3612,
+        "denominator": 4928,
+        "reported_pct": 73.3,
+        "calculated_pct": 73.29545454545455,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 168,
+        "denominator": 3612,
+        "reported_pct": 4.7,
+        "calculated_pct": 4.651162790697675,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 125,
+        "denominator": 168,
+        "reported_pct": 74.4,
+        "calculated_pct": 74.4047619047619,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 9,
+        "denominator": 125,
+        "reported_pct": 7.2,
+        "calculated_pct": 7.2,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 16219,
+        "denominator": 21191,
+        "reported_pct": 76.5,
+        "calculated_pct": 76.53720919258176,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "positive",
+        "numerator": 669,
+        "denominator": 16219,
+        "reported_pct": 4.1,
+        "calculated_pct": 4.124791910721993,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 506,
+        "denominator": 669,
+        "reported_pct": 75.6,
+        "calculated_pct": 75.63527653213752,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 43,
+        "denominator": 506,
+        "reported_pct": 8.5,
+        "calculated_pct": 8.49802371541502,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 11236,
+        "denominator": 15179,
+        "reported_pct": 74.0,
+        "calculated_pct": 74.02332169444628,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "positive",
+        "numerator": 567,
+        "denominator": 11236,
+        "reported_pct": 5.0,
+        "calculated_pct": 5.046279814880741,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 398,
+        "denominator": 567,
+        "reported_pct": 70.2,
+        "calculated_pct": 70.19400352733686,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 13,
+        "denominator": 398,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.2663316582914574,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 10098,
+        "denominator": 14431,
+        "reported_pct": 70.0,
+        "calculated_pct": 69.9743607511607,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "positive",
+        "numerator": 496,
+        "denominator": 10098,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.911863735393148,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 308,
+        "denominator": 496,
+        "reported_pct": 62.1,
+        "calculated_pct": 62.096774193548384,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 19,
+        "denominator": 308,
+        "reported_pct": 6.2,
+        "calculated_pct": 6.1688311688311686,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 11925,
+        "denominator": 16183,
+        "reported_pct": 73.7,
+        "calculated_pct": 73.68843848482976,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "positive",
+        "numerator": 571,
+        "denominator": 11925,
+        "reported_pct": 4.8,
+        "calculated_pct": 4.788259958071279,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 415,
+        "denominator": 571,
+        "reported_pct": 72.7,
+        "calculated_pct": 72.67950963222417,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 15,
+        "denominator": 415,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.6144578313253013,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22976,
+        "denominator": 32139,
+        "reported_pct": 71.5,
+        "calculated_pct": 71.48946762500388,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "positive",
+        "numerator": 946,
+        "denominator": 22976,
+        "reported_pct": 4.1,
+        "calculated_pct": 4.117339832869081,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 705,
+        "denominator": 946,
+        "reported_pct": 74.5,
+        "calculated_pct": 74.52431289640592,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 49,
+        "denominator": 705,
+        "reported_pct": 7.0,
+        "calculated_pct": 6.950354609929078,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 28058,
+        "denominator": 37764,
+        "reported_pct": 74.3,
+        "calculated_pct": 74.29827348797797,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "positive",
+        "numerator": 1236,
+        "denominator": 28058,
+        "reported_pct": 4.4,
+        "calculated_pct": 4.405160738470311,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 868,
+        "denominator": 1236,
+        "reported_pct": 70.2,
+        "calculated_pct": 70.22653721682848,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 44,
+        "denominator": 868,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.0691244239631335,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 9334,
+        "denominator": 12299,
+        "reported_pct": 75.9,
+        "calculated_pct": 75.89234897146109,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "positive",
+        "numerator": 418,
+        "denominator": 9334,
+        "reported_pct": 4.5,
+        "calculated_pct": 4.478251553460467,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 308,
+        "denominator": 418,
+        "reported_pct": 73.7,
+        "calculated_pct": 73.6842105263158,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 11,
+        "denominator": 308,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.5714285714285716,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 10833,
+        "denominator": 14800,
+        "reported_pct": 73.2,
+        "calculated_pct": 73.19594594594595,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "positive",
+        "numerator": 425,
+        "denominator": 10833,
+        "reported_pct": 3.9,
+        "calculated_pct": 3.9231976368503645,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 338,
+        "denominator": 425,
+        "reported_pct": 79.5,
+        "calculated_pct": 79.52941176470588,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 14,
+        "denominator": 338,
+        "reported_pct": 4.1,
+        "calculated_pct": 4.1420118343195265,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 22423,
+        "denominator": 29646,
+        "reported_pct": 75.6,
+        "calculated_pct": 75.63583620049923,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 953,
+        "denominator": 22423,
+        "reported_pct": 4.3,
+        "calculated_pct": 4.2501003433974045,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 701,
+        "denominator": 953,
+        "reported_pct": 73.6,
+        "calculated_pct": 73.55718782791186,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 43,
+        "denominator": 701,
+        "reported_pct": 6.1,
+        "calculated_pct": 6.134094151212554,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 16465,
+        "denominator": 21844,
+        "reported_pct": 75.4,
+        "calculated_pct": 75.37538912287127,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "positive",
+        "numerator": 739,
+        "denominator": 16465,
+        "reported_pct": 4.5,
+        "calculated_pct": 4.488308533252353,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 513,
+        "denominator": 739,
+        "reported_pct": 69.4,
+        "calculated_pct": 69.41813261163735,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 16,
+        "denominator": 513,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.1189083820662766,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 12996,
+        "denominator": 17272,
+        "reported_pct": 75.2,
+        "calculated_pct": 75.24316813339509,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "positive",
+        "numerator": 565,
+        "denominator": 12996,
+        "reported_pct": 4.3,
+        "calculated_pct": 4.347491535857187,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 402,
+        "denominator": 565,
+        "reported_pct": 71.2,
+        "calculated_pct": 71.15044247787611,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 22,
+        "denominator": 402,
+        "reported_pct": 5.5,
+        "calculated_pct": 5.472636815920398,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 13115,
+        "denominator": 18076,
+        "reported_pct": 72.6,
+        "calculated_pct": 72.55476875414915,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "positive",
+        "numerator": 693,
+        "denominator": 13115,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.284025924513915,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 499,
+        "denominator": 693,
+        "reported_pct": 72.0,
+        "calculated_pct": 72.005772005772,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 19,
+        "denominator": 499,
+        "reported_pct": 3.8,
+        "calculated_pct": 3.8076152304609217,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12433,
+        "denominator": 17443,
+        "reported_pct": 71.3,
+        "calculated_pct": 71.27787651206788,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "positive",
+        "numerator": 604,
+        "denominator": 12433,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.858039089519826,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 441,
+        "denominator": 604,
+        "reported_pct": 73.0,
+        "calculated_pct": 73.01324503311258,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 22,
+        "denominator": 441,
+        "reported_pct": 5.0,
+        "calculated_pct": 4.988662131519274,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 26943,
+        "denominator": 36669,
+        "reported_pct": 73.5,
+        "calculated_pct": 73.47623333060623,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "positive",
+        "numerator": 1260,
+        "denominator": 26943,
+        "reported_pct": 4.7,
+        "calculated_pct": 4.676539360872954,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 984,
+        "denominator": 1260,
+        "reported_pct": 78.1,
+        "calculated_pct": 78.0952380952381,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 64,
+        "denominator": 984,
+        "reported_pct": 6.5,
+        "calculated_pct": 6.504065040650406,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 309871,
+        "denominator": 421365,
+        "reported_pct": 73.5,
+        "calculated_pct": 73.53980515704912,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "positive",
+        "numerator": 14083,
+        "denominator": 309871,
+        "reported_pct": 4.5,
+        "calculated_pct": 4.544794446721378,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 10244,
+        "denominator": 14083,
+        "reported_pct": 72.7,
+        "calculated_pct": 72.74018319960236,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 548,
+        "denominator": 10244,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.349472862163218,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 8354,
+        "denominator": 11221,
+        "reported_pct": 74.4,
+        "calculated_pct": 74.44969254077176,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "positive",
+        "numerator": 474,
+        "denominator": 8354,
+        "reported_pct": 5.7,
+        "calculated_pct": 5.673928656930811,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 398,
+        "denominator": 474,
+        "reported_pct": 84.0,
+        "calculated_pct": 83.96624472573839,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 27,
+        "denominator": 398,
+        "reported_pct": 6.8,
+        "calculated_pct": 6.78391959798995,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 11911,
+        "denominator": 15910,
+        "reported_pct": 74.9,
+        "calculated_pct": 74.86486486486487,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 616,
+        "denominator": 11911,
+        "reported_pct": 5.2,
+        "calculated_pct": 5.171690034421963,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 519,
+        "denominator": 616,
+        "reported_pct": 84.3,
+        "calculated_pct": 84.25324675324676,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 34,
+        "denominator": 519,
+        "reported_pct": 6.6,
+        "calculated_pct": 6.551059730250482,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 10183,
+        "denominator": 13092,
+        "reported_pct": 77.8,
+        "calculated_pct": 77.7803238619004,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "positive",
+        "numerator": 584,
+        "denominator": 10183,
+        "reported_pct": 5.7,
+        "calculated_pct": 5.735048610429146,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 524,
+        "denominator": 584,
+        "reported_pct": 89.7,
+        "calculated_pct": 89.72602739726027,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 36,
+        "denominator": 524,
+        "reported_pct": 6.9,
+        "calculated_pct": 6.870229007633588,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 28615,
+        "denominator": 41047,
+        "reported_pct": 69.7,
+        "calculated_pct": 69.71276829000901,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "positive",
+        "numerator": 1452,
+        "denominator": 28615,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.074261750829984,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 995,
+        "denominator": 1452,
+        "reported_pct": 68.5,
+        "calculated_pct": 68.52617079889806,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 51,
+        "denominator": 995,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.125628140703518,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5705,
+        "denominator": 7899,
+        "reported_pct": 72.2,
+        "calculated_pct": 72.2243321939486,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "positive",
+        "numerator": 292,
+        "denominator": 5705,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.118317265556529,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 240,
+        "denominator": 292,
+        "reported_pct": 82.2,
+        "calculated_pct": 82.1917808219178,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 23,
+        "denominator": 240,
+        "reported_pct": 9.6,
+        "calculated_pct": 9.583333333333334,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 5540,
+        "denominator": 7171,
+        "reported_pct": 77.3,
+        "calculated_pct": 77.25561288523218,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "positive",
+        "numerator": 308,
+        "denominator": 5540,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.55956678700361,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 243,
+        "denominator": 308,
+        "reported_pct": 78.9,
+        "calculated_pct": 78.8961038961039,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 21,
+        "denominator": 243,
+        "reported_pct": 8.6,
+        "calculated_pct": 8.641975308641975,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 11095,
+        "denominator": 14767,
+        "reported_pct": 75.1,
+        "calculated_pct": 75.13374415927406,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "positive",
+        "numerator": 596,
+        "denominator": 11095,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.37178909418657,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 480,
+        "denominator": 596,
+        "reported_pct": 80.5,
+        "calculated_pct": 80.53691275167785,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 59,
+        "denominator": 480,
+        "reported_pct": 12.3,
+        "calculated_pct": 12.291666666666666,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3796,
+        "denominator": 5187,
+        "reported_pct": 73.2,
+        "calculated_pct": 73.1829573934837,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 203,
+        "denominator": 3796,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.347734457323498,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 165,
+        "denominator": 203,
+        "reported_pct": 81.3,
+        "calculated_pct": 81.2807881773399,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 7,
+        "denominator": 165,
+        "reported_pct": 4.2,
+        "calculated_pct": 4.242424242424242,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 16906,
+        "denominator": 21788,
+        "reported_pct": 77.6,
+        "calculated_pct": 77.59317055259775,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "positive",
+        "numerator": 832,
+        "denominator": 16906,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.921329705430025,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 645,
+        "denominator": 832,
+        "reported_pct": 77.5,
+        "calculated_pct": 77.52403846153847,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 40,
+        "denominator": 645,
+        "reported_pct": 6.2,
+        "calculated_pct": 6.2015503875969,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 11016,
+        "denominator": 15025,
+        "reported_pct": 73.3,
+        "calculated_pct": 73.31780366056573,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "positive",
+        "numerator": 591,
+        "denominator": 11016,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.364923747276689,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 451,
+        "denominator": 591,
+        "reported_pct": 76.3,
+        "calculated_pct": 76.31133671742809,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 35,
+        "denominator": 451,
+        "reported_pct": 7.8,
+        "calculated_pct": 7.760532150776053,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 10288,
+        "denominator": 14795,
+        "reported_pct": 69.5,
+        "calculated_pct": 69.53700574518419,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "positive",
+        "numerator": 616,
+        "denominator": 10288,
+        "reported_pct": 6.0,
+        "calculated_pct": 5.9875583203732505,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 452,
+        "denominator": 616,
+        "reported_pct": 73.4,
+        "calculated_pct": 73.37662337662337,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 38,
+        "denominator": 452,
+        "reported_pct": 8.4,
+        "calculated_pct": 8.4070796460177,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 12455,
+        "denominator": 16630,
+        "reported_pct": 74.9,
+        "calculated_pct": 74.8947684906795,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "positive",
+        "numerator": 701,
+        "denominator": 12455,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.62826174227218,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 554,
+        "denominator": 701,
+        "reported_pct": 79.0,
+        "calculated_pct": 79.0299572039943,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 32,
+        "denominator": 554,
+        "reported_pct": 5.8,
+        "calculated_pct": 5.776173285198556,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22938,
+        "denominator": 31569,
+        "reported_pct": 72.7,
+        "calculated_pct": 72.65988786467737,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "positive",
+        "numerator": 1157,
+        "denominator": 22938,
+        "reported_pct": 5.0,
+        "calculated_pct": 5.044031737727788,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 891,
+        "denominator": 1157,
+        "reported_pct": 77.0,
+        "calculated_pct": 77.00950734658599,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 84,
+        "denominator": 891,
+        "reported_pct": 9.4,
+        "calculated_pct": 9.427609427609427,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 28652,
+        "denominator": 37894,
+        "reported_pct": 75.6,
+        "calculated_pct": 75.61091465667388,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "positive",
+        "numerator": 1427,
+        "denominator": 28652,
+        "reported_pct": 5.0,
+        "calculated_pct": 4.980455116571269,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 1101,
+        "denominator": 1427,
+        "reported_pct": 77.2,
+        "calculated_pct": 77.15487035739314,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 89,
+        "denominator": 1101,
+        "reported_pct": 8.1,
+        "calculated_pct": 8.083560399636694,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 9464,
+        "denominator": 12484,
+        "reported_pct": 75.8,
+        "calculated_pct": 75.80903556552387,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "positive",
+        "numerator": 473,
+        "denominator": 9464,
+        "reported_pct": 5.0,
+        "calculated_pct": 4.99788672865596,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 371,
+        "denominator": 473,
+        "reported_pct": 78.4,
+        "calculated_pct": 78.43551797040169,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 31,
+        "denominator": 371,
+        "reported_pct": 8.4,
+        "calculated_pct": 8.355795148247978,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 11779,
+        "denominator": 15442,
+        "reported_pct": 76.3,
+        "calculated_pct": 76.2789794068126,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "positive",
+        "numerator": 417,
+        "denominator": 11779,
+        "reported_pct": 3.5,
+        "calculated_pct": 3.5401986586297647,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 366,
+        "denominator": 417,
+        "reported_pct": 87.8,
+        "calculated_pct": 87.76978417266187,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 34,
+        "denominator": 366,
+        "reported_pct": 9.3,
+        "calculated_pct": 9.289617486338798,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 22783,
+        "denominator": 29925,
+        "reported_pct": 76.1,
+        "calculated_pct": 76.13366750208856,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 1111,
+        "denominator": 22783,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.876442961857525,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 902,
+        "denominator": 1111,
+        "reported_pct": 81.2,
+        "calculated_pct": 81.18811881188118,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 52,
+        "denominator": 902,
+        "reported_pct": 5.8,
+        "calculated_pct": 5.764966740576496,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 16861,
+        "denominator": 21822,
+        "reported_pct": 77.3,
+        "calculated_pct": 77.26606177252314,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "positive",
+        "numerator": 944,
+        "denominator": 16861,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.598718937192337,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 699,
+        "denominator": 944,
+        "reported_pct": 74.0,
+        "calculated_pct": 74.04661016949153,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 34,
+        "denominator": 699,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.86409155937053,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 13312,
+        "denominator": 17480,
+        "reported_pct": 76.2,
+        "calculated_pct": 76.15560640732265,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "positive",
+        "numerator": 739,
+        "denominator": 13312,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.551382211538462,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 547,
+        "denominator": 739,
+        "reported_pct": 74.0,
+        "calculated_pct": 74.01894451962112,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 55,
+        "denominator": 547,
+        "reported_pct": 10.1,
+        "calculated_pct": 10.054844606946984,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 13500,
+        "denominator": 18084,
+        "reported_pct": 74.7,
+        "calculated_pct": 74.65162574651626,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "positive",
+        "numerator": 824,
+        "denominator": 13500,
+        "reported_pct": 6.1,
+        "calculated_pct": 6.103703703703704,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 685,
+        "denominator": 824,
+        "reported_pct": 83.1,
+        "calculated_pct": 83.13106796116504,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 50,
+        "denominator": 685,
+        "reported_pct": 7.3,
+        "calculated_pct": 7.299270072992701,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12197,
+        "denominator": 17037,
+        "reported_pct": 71.6,
+        "calculated_pct": 71.59124258965781,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "positive",
+        "numerator": 677,
+        "denominator": 12197,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.55054521603673,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 496,
+        "denominator": 677,
+        "reported_pct": 73.3,
+        "calculated_pct": 73.26440177252584,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 46,
+        "denominator": 496,
+        "reported_pct": 9.3,
+        "calculated_pct": 9.274193548387096,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 26953,
+        "denominator": 36381,
+        "reported_pct": 74.1,
+        "calculated_pct": 74.08537423380336,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "positive",
+        "numerator": 1467,
+        "denominator": 26953,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.442807850703076,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 1247,
+        "denominator": 1467,
+        "reported_pct": 85.0,
+        "calculated_pct": 85.00340831629175,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 97,
+        "denominator": 1247,
+        "reported_pct": 7.8,
+        "calculated_pct": 7.778668805132318,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 314303,
+        "denominator": 422650,
+        "reported_pct": 74.4,
+        "calculated_pct": 74.36484088489294,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "positive",
+        "numerator": 16501,
+        "denominator": 314303,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.250029430199521,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 12971,
+        "denominator": 16501,
+        "reported_pct": 78.6,
+        "calculated_pct": 78.60735712987092,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 975,
+        "denominator": 12971,
+        "reported_pct": 7.5,
+        "calculated_pct": 7.516768175159973,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7456,
+        "denominator": 9465,
+        "reported_pct": 78.8,
+        "calculated_pct": 78.7744321183307,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "positive",
+        "numerator": 419,
+        "denominator": 7456,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.619635193133047,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 325,
+        "denominator": 419,
+        "reported_pct": 77.6,
+        "calculated_pct": 77.56563245823389,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 32,
+        "denominator": 325,
+        "reported_pct": 9.8,
+        "calculated_pct": 9.846153846153847,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10539,
+        "denominator": 13622,
+        "reported_pct": 77.4,
+        "calculated_pct": 77.36749376009396,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 540,
+        "denominator": 10539,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.123825789923143,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 451,
+        "denominator": 540,
+        "reported_pct": 83.5,
+        "calculated_pct": 83.51851851851852,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 40,
+        "denominator": 451,
+        "reported_pct": 8.9,
+        "calculated_pct": 8.869179600886918,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 9058,
+        "denominator": 11145,
+        "reported_pct": 81.3,
+        "calculated_pct": 81.27411395244505,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "positive",
+        "numerator": 476,
+        "denominator": 9058,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.255023183925811,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 421,
+        "denominator": 476,
+        "reported_pct": 88.4,
+        "calculated_pct": 88.4453781512605,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 23,
+        "denominator": 421,
+        "reported_pct": 5.5,
+        "calculated_pct": 5.463182897862233,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 25691,
+        "denominator": 35103,
+        "reported_pct": 73.2,
+        "calculated_pct": 73.18747685383016,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "positive",
+        "numerator": 1282,
+        "denominator": 25691,
+        "reported_pct": 5.0,
+        "calculated_pct": 4.990074345101397,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 933,
+        "denominator": 1282,
+        "reported_pct": 72.8,
+        "calculated_pct": 72.77691107644306,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 59,
+        "denominator": 933,
+        "reported_pct": 6.3,
+        "calculated_pct": 6.323687031082529,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 4936,
+        "denominator": 6523,
+        "reported_pct": 75.7,
+        "calculated_pct": 75.6707036639583,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "positive",
+        "numerator": 266,
+        "denominator": 4936,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.388978930307942,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 206,
+        "denominator": 266,
+        "reported_pct": 77.4,
+        "calculated_pct": 77.44360902255639,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 18,
+        "denominator": 206,
+        "reported_pct": 8.7,
+        "calculated_pct": 8.737864077669903,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4780,
+        "denominator": 6019,
+        "reported_pct": 79.4,
+        "calculated_pct": 79.41518524671872,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "positive",
+        "numerator": 269,
+        "denominator": 4780,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.627615062761507,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 210,
+        "denominator": 269,
+        "reported_pct": 78.1,
+        "calculated_pct": 78.06691449814126,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 13,
+        "denominator": 210,
+        "reported_pct": 6.2,
+        "calculated_pct": 6.190476190476191,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 9532,
+        "denominator": 12157,
+        "reported_pct": 78.4,
+        "calculated_pct": 78.40750185078555,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "positive",
+        "numerator": 521,
+        "denominator": 9532,
+        "reported_pct": 5.5,
+        "calculated_pct": 5.465799412505246,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 425,
+        "denominator": 521,
+        "reported_pct": 81.6,
+        "calculated_pct": 81.57389635316699,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 51,
+        "denominator": 425,
+        "reported_pct": 12.0,
+        "calculated_pct": 12.0,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3219,
+        "denominator": 4225,
+        "reported_pct": 76.2,
+        "calculated_pct": 76.18934911242603,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 158,
+        "denominator": 3219,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.908356632494564,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 137,
+        "denominator": 158,
+        "reported_pct": 86.7,
+        "calculated_pct": 86.70886075949367,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 17,
+        "denominator": 137,
+        "reported_pct": 12.4,
+        "calculated_pct": 12.408759124087592,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14388,
+        "denominator": 17979,
+        "reported_pct": 80.0,
+        "calculated_pct": 80.02669781411647,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "positive",
+        "numerator": 665,
+        "denominator": 14388,
+        "reported_pct": 4.6,
+        "calculated_pct": 4.6219071448429245,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 548,
+        "denominator": 665,
+        "reported_pct": 82.4,
+        "calculated_pct": 82.40601503759399,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 44,
+        "denominator": 548,
+        "reported_pct": 8.0,
+        "calculated_pct": 8.02919708029197,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 9828,
+        "denominator": 12475,
+        "reported_pct": 78.8,
+        "calculated_pct": 78.78156312625251,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "positive",
+        "numerator": 515,
+        "denominator": 9828,
+        "reported_pct": 5.2,
+        "calculated_pct": 5.24013024013024,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 361,
+        "denominator": 515,
+        "reported_pct": 70.1,
+        "calculated_pct": 70.09708737864078,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 24,
+        "denominator": 361,
+        "reported_pct": 6.6,
+        "calculated_pct": 6.648199445983379,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 9029,
+        "denominator": 12228,
+        "reported_pct": 73.8,
+        "calculated_pct": 73.83873078181223,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "positive",
+        "numerator": 540,
+        "denominator": 9029,
+        "reported_pct": 6.0,
+        "calculated_pct": 5.98072876287518,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 412,
+        "denominator": 540,
+        "reported_pct": 76.3,
+        "calculated_pct": 76.29629629629629,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 22,
+        "denominator": 412,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.339805825242719,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 10837,
+        "denominator": 13972,
+        "reported_pct": 77.6,
+        "calculated_pct": 77.56226739192671,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "positive",
+        "numerator": 588,
+        "denominator": 10837,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.42585586416905,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 469,
+        "denominator": 588,
+        "reported_pct": 79.8,
+        "calculated_pct": 79.76190476190476,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 35,
+        "denominator": 469,
+        "reported_pct": 7.5,
+        "calculated_pct": 7.462686567164179,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 20061,
+        "denominator": 26432,
+        "reported_pct": 75.9,
+        "calculated_pct": 75.89664043583535,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "positive",
+        "numerator": 991,
+        "denominator": 20061,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.939933203728628,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 763,
+        "denominator": 991,
+        "reported_pct": 77.0,
+        "calculated_pct": 76.99293642785065,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 76,
+        "denominator": 763,
+        "reported_pct": 10.0,
+        "calculated_pct": 9.960681520314548,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 24528,
+        "denominator": 31540,
+        "reported_pct": 77.8,
+        "calculated_pct": 77.76791376030438,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "positive",
+        "numerator": 1252,
+        "denominator": 24528,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.104370515329419,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 976,
+        "denominator": 1252,
+        "reported_pct": 78.0,
+        "calculated_pct": 77.95527156549521,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 81,
+        "denominator": 976,
+        "reported_pct": 8.3,
+        "calculated_pct": 8.299180327868852,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8071,
+        "denominator": 10335,
+        "reported_pct": 78.1,
+        "calculated_pct": 78.09385582970489,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "positive",
+        "numerator": 374,
+        "denominator": 8071,
+        "reported_pct": 4.6,
+        "calculated_pct": 4.633874365010532,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 294,
+        "denominator": 374,
+        "reported_pct": 78.6,
+        "calculated_pct": 78.6096256684492,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 29,
+        "denominator": 294,
+        "reported_pct": 9.9,
+        "calculated_pct": 9.863945578231293,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 9968,
+        "denominator": 12737,
+        "reported_pct": 78.3,
+        "calculated_pct": 78.26018685718772,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "positive",
+        "numerator": 336,
+        "denominator": 9968,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.3707865168539324,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 301,
+        "denominator": 336,
+        "reported_pct": 89.6,
+        "calculated_pct": 89.58333333333333,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 25,
+        "denominator": 301,
+        "reported_pct": 8.3,
+        "calculated_pct": 8.305647840531561,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 19809,
+        "denominator": 25116,
+        "reported_pct": 78.9,
+        "calculated_pct": 78.87004300047778,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "positive",
+        "numerator": 955,
+        "denominator": 19809,
+        "reported_pct": 4.8,
+        "calculated_pct": 4.82104094098642,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 752,
+        "denominator": 955,
+        "reported_pct": 78.7,
+        "calculated_pct": 78.7434554973822,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 51,
+        "denominator": 752,
+        "reported_pct": 6.8,
+        "calculated_pct": 6.781914893617022,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 14520,
+        "denominator": 18463,
+        "reported_pct": 78.6,
+        "calculated_pct": 78.64377403455559,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "positive",
+        "numerator": 807,
+        "denominator": 14520,
+        "reported_pct": 5.6,
+        "calculated_pct": 5.5578512396694215,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 605,
+        "denominator": 807,
+        "reported_pct": 75.0,
+        "calculated_pct": 74.96902106567534,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 43,
+        "denominator": 605,
+        "reported_pct": 7.1,
+        "calculated_pct": 7.107438016528926,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 11501,
+        "denominator": 14481,
+        "reported_pct": 79.4,
+        "calculated_pct": 79.42131068296388,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "positive",
+        "numerator": 564,
+        "denominator": 11501,
+        "reported_pct": 4.9,
+        "calculated_pct": 4.903921398139293,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 451,
+        "denominator": 564,
+        "reported_pct": 80.0,
+        "calculated_pct": 79.9645390070922,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 38,
+        "denominator": 451,
+        "reported_pct": 8.4,
+        "calculated_pct": 8.425720620842572,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 11627,
+        "denominator": 15346,
+        "reported_pct": 75.8,
+        "calculated_pct": 75.76567183630914,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "positive",
+        "numerator": 660,
+        "denominator": 11627,
+        "reported_pct": 5.7,
+        "calculated_pct": 5.676442762535478,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 565,
+        "denominator": 660,
+        "reported_pct": 85.6,
+        "calculated_pct": 85.60606060606061,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 42,
+        "denominator": 565,
+        "reported_pct": 7.4,
+        "calculated_pct": 7.433628318584071,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 10698,
+        "denominator": 14235,
+        "reported_pct": 75.2,
+        "calculated_pct": 75.15279241306638,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "positive",
+        "numerator": 545,
+        "denominator": 10698,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.094410170125257,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 410,
+        "denominator": 545,
+        "reported_pct": 75.2,
+        "calculated_pct": 75.22935779816514,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 36,
+        "denominator": 410,
+        "reported_pct": 8.8,
+        "calculated_pct": 8.78048780487805,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 23632,
+        "denominator": 30576,
+        "reported_pct": 77.3,
+        "calculated_pct": 77.28937728937728,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "positive",
+        "numerator": 1297,
+        "denominator": 23632,
+        "reported_pct": 5.5,
+        "calculated_pct": 5.488320920785376,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 1026,
+        "denominator": 1297,
+        "reported_pct": 79.1,
+        "calculated_pct": 79.10562837316886,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 77,
+        "denominator": 1026,
+        "reported_pct": 7.5,
+        "calculated_pct": 7.504873294346979,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 273708,
+        "denominator": 354174,
+        "reported_pct": 77.3,
+        "calculated_pct": 77.28065865930306,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "positive",
+        "numerator": 14020,
+        "denominator": 273708,
+        "reported_pct": 5.1,
+        "calculated_pct": 5.122247066216552,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "colonoscopy_test_positive_denominator",
+        "numerator": 11041,
+        "denominator": 14020,
+        "reported_pct": 78.8,
+        "calculated_pct": 78.75178316690442,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "treatment_colonoscopy_denominator",
+        "numerator": 876,
+        "denominator": 11041,
+        "reported_pct": 7.9,
+        "calculated_pct": 7.93406394348338,
+        "within_half_tenth": true
+      }
+    ],
+    "arithmetic_summary": {
+      "checks": 276,
+      "failed": 0
+    },
+    "denominator_issue": {
+      "table_header": "Käynyt kolonoskopiassa (osallistuneista)",
+      "reported_percent": "72,7",
+      "colonoscopy_N": 10244,
+      "test_positive_N": 14083,
+      "participants_N": 309871,
+      "percent_of_positive": 72.74018319960236,
+      "percent_of_participants": 3.3058918065904845
+    }
+  },
+  "rinta": {
+    "sha256_html": "69acd38a60558e177d4b196b8de271e1897e95d041f27de76fa16cf483255a2b",
+    "real_table_count": 61,
+    "extracted_table_count": 61,
+    "raw_table_token_count": 66,
+    "all_cells_match_independent_parser": true,
+    "manual_checks": [
+      {
+        "table_index": 50,
+        "row_index": 2,
+        "column_index": 2,
+        "region": "Etelä-Karjala",
+        "raw_html_value": "7047",
+        "extracted_value": "7047"
+      },
+      {
+        "table_index": 50,
+        "row_index": 3,
+        "column_index": 2,
+        "region": "Etelä-Pohjanmaa",
+        "raw_html_value": "10069",
+        "extracted_value": "10069"
+      },
+      {
+        "table_index": 50,
+        "row_index": 4,
+        "column_index": 2,
+        "region": "Etelä-Savo",
+        "raw_html_value": "7741",
+        "extracted_value": "7741"
+      }
+    ],
+    "special_tokens_after_two_header_rows": {
+      "0": 249,
+      "0,0": 204,
+      "--": 2
+    },
+    "special_token_locations": [
+      {
+        "table": 60,
+        "row": 6,
+        "column": 3,
+        "value": "--",
+        "heading": [
+          "Rintasyövän seulontaohjelma:\nvuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "row_label": "Seulontaikää nuorempi"
+      },
+      {
+        "table": 60,
+        "row": 7,
+        "column": 3,
+        "value": "--",
+        "heading": [
+          "Rintasyövän seulontaohjelma:\nvuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "row_label": "Seulontaikää vanhempi"
+      }
+    ],
+    "area_year_profiles": [
+      {
+        "year": "2024",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2023",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2022",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2021",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2020",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      }
+    ],
+    "arithmetic_checks": [
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7047,
+        "denominator": 8466,
+        "reported_pct": 83.2,
+        "calculated_pct": 83.2388377037562,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "recall",
+        "numerator": 168,
+        "denominator": 7047,
+        "reported_pct": 2.4,
+        "calculated_pct": 2.38399318859089,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 60,
+        "denominator": 168,
+        "reported_pct": 35.7,
+        "calculated_pct": 35.714285714285715,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10069,
+        "denominator": 11844,
+        "reported_pct": 85.0,
+        "calculated_pct": 85.01350894967916,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 217,
+        "denominator": 10069,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.1551296057205285,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 60,
+        "denominator": 217,
+        "reported_pct": 27.6,
+        "calculated_pct": 27.649769585253456,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 7741,
+        "denominator": 9422,
+        "reported_pct": 82.2,
+        "calculated_pct": 82.158777329654,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "recall",
+        "numerator": 217,
+        "denominator": 7741,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.803255393360031,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Etelä-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 78,
+        "denominator": 217,
+        "reported_pct": 35.9,
+        "calculated_pct": 35.944700460829495,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 28686,
+        "denominator": 38630,
+        "reported_pct": 74.3,
+        "calculated_pct": 74.2583484338597,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "recall",
+        "numerator": 1001,
+        "denominator": 28686,
+        "reported_pct": 3.5,
+        "calculated_pct": 3.489507076622743,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Helsingin kaupunki",
+        "metric": "referral_recall_denominator",
+        "numerator": 243,
+        "denominator": 1001,
+        "reported_pct": 24.3,
+        "calculated_pct": 24.275724275724276,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5546,
+        "denominator": 6948,
+        "reported_pct": 79.8,
+        "calculated_pct": 79.82153137593552,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "recall",
+        "numerator": 158,
+        "denominator": 5546,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.84890010818608,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Itä-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 34,
+        "denominator": 158,
+        "reported_pct": 21.5,
+        "calculated_pct": 21.518987341772153,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4033,
+        "denominator": 4798,
+        "reported_pct": 84.1,
+        "calculated_pct": 84.05585660691955,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "recall",
+        "numerator": 134,
+        "denominator": 4033,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.3225886436895613,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kainuu",
+        "metric": "referral_recall_denominator",
+        "numerator": 28,
+        "denominator": 134,
+        "reported_pct": 20.9,
+        "calculated_pct": 20.895522388059703,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 9467,
+        "denominator": 11355,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.37296345222369,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "recall",
+        "numerator": 326,
+        "denominator": 9467,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.443540720397169,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kanta-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 77,
+        "denominator": 326,
+        "reported_pct": 23.6,
+        "calculated_pct": 23.619631901840492,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3329,
+        "denominator": 3898,
+        "reported_pct": 85.4,
+        "calculated_pct": 85.40277065161621,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 117,
+        "denominator": 3329,
+        "reported_pct": 3.5,
+        "calculated_pct": 3.514568939621508,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 39,
+        "denominator": 117,
+        "reported_pct": 33.3,
+        "calculated_pct": 33.333333333333336,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14073,
+        "denominator": 16537,
+        "reported_pct": 85.1,
+        "calculated_pct": 85.10007861159824,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "recall",
+        "numerator": 245,
+        "denominator": 14073,
+        "reported_pct": 1.7,
+        "calculated_pct": 1.7409223335465076,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 109,
+        "denominator": 245,
+        "reported_pct": 44.5,
+        "calculated_pct": 44.48979591836735,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 10944,
+        "denominator": 13592,
+        "reported_pct": 80.5,
+        "calculated_pct": 80.51795173631548,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "recall",
+        "numerator": 594,
+        "denominator": 10944,
+        "reported_pct": 5.4,
+        "calculated_pct": 5.427631578947368,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Keski-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 88,
+        "denominator": 594,
+        "reported_pct": 14.8,
+        "calculated_pct": 14.814814814814815,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 9142,
+        "denominator": 11143,
+        "reported_pct": 82.0,
+        "calculated_pct": 82.04253791618056,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "recall",
+        "numerator": 268,
+        "denominator": 9142,
+        "reported_pct": 2.9,
+        "calculated_pct": 2.931524830452855,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Kymenlaakso",
+        "metric": "referral_recall_denominator",
+        "numerator": 77,
+        "denominator": 268,
+        "reported_pct": 28.7,
+        "calculated_pct": 28.73134328358209,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 9678,
+        "denominator": 11548,
+        "reported_pct": 83.8,
+        "calculated_pct": 83.80671977831659,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "recall",
+        "numerator": 254,
+        "denominator": 9678,
+        "reported_pct": 2.6,
+        "calculated_pct": 2.6245091961148996,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Lappi",
+        "metric": "referral_recall_denominator",
+        "numerator": 78,
+        "denominator": 254,
+        "reported_pct": 30.7,
+        "calculated_pct": 30.708661417322833,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22860,
+        "denominator": 30039,
+        "reported_pct": 76.1,
+        "calculated_pct": 76.10106861080595,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "recall",
+        "numerator": 700,
+        "denominator": 22860,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.062117235345582,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Länsi-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 176,
+        "denominator": 700,
+        "reported_pct": 25.1,
+        "calculated_pct": 25.142857142857142,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 26449,
+        "denominator": 31677,
+        "reported_pct": 83.5,
+        "calculated_pct": 83.49591186034031,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "recall",
+        "numerator": 646,
+        "denominator": 26449,
+        "reported_pct": 2.4,
+        "calculated_pct": 2.4424363870089607,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pirkanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 263,
+        "denominator": 646,
+        "reported_pct": 40.7,
+        "calculated_pct": 40.71207430340557,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8487,
+        "denominator": 9991,
+        "reported_pct": 84.9,
+        "calculated_pct": 84.94645180662596,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "recall",
+        "numerator": 194,
+        "denominator": 8487,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.2858489454459763,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 76,
+        "denominator": 194,
+        "reported_pct": 39.2,
+        "calculated_pct": 39.175257731958766,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 8940,
+        "denominator": 10619,
+        "reported_pct": 84.2,
+        "calculated_pct": 84.1887183350598,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "recall",
+        "numerator": 354,
+        "denominator": 8940,
+        "reported_pct": 4.0,
+        "calculated_pct": 3.959731543624161,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 68,
+        "denominator": 354,
+        "reported_pct": 19.2,
+        "calculated_pct": 19.2090395480226,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 20168,
+        "denominator": 23560,
+        "reported_pct": 85.6,
+        "calculated_pct": 85.60271646859083,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 470,
+        "denominator": 20168,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.330424434748116,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 183,
+        "denominator": 470,
+        "reported_pct": 38.9,
+        "calculated_pct": 38.93617021276596,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 13785,
+        "denominator": 16191,
+        "reported_pct": 85.1,
+        "calculated_pct": 85.13989253288864,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "recall",
+        "numerator": 480,
+        "denominator": 13785,
+        "reported_pct": 3.5,
+        "calculated_pct": 3.4820457018498367,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Pohjois-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 135,
+        "denominator": 480,
+        "reported_pct": 28.1,
+        "calculated_pct": 28.125,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 11313,
+        "denominator": 13832,
+        "reported_pct": 81.8,
+        "calculated_pct": 81.7886061307114,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "recall",
+        "numerator": 121,
+        "denominator": 11313,
+        "reported_pct": 1.1,
+        "calculated_pct": 1.0695659860337665,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Päijät-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 61,
+        "denominator": 121,
+        "reported_pct": 50.4,
+        "calculated_pct": 50.413223140495866,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 11958,
+        "denominator": 14090,
+        "reported_pct": 84.9,
+        "calculated_pct": 84.86870120652945,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "recall",
+        "numerator": 395,
+        "denominator": 11958,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.3032279645425655,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Satakunta",
+        "metric": "referral_recall_denominator",
+        "numerator": 170,
+        "denominator": 395,
+        "reported_pct": 43.0,
+        "calculated_pct": 43.037974683544306,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12323,
+        "denominator": 16057,
+        "reported_pct": 76.7,
+        "calculated_pct": 76.7453447094725,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "recall",
+        "numerator": 369,
+        "denominator": 12323,
+        "reported_pct": 3.0,
+        "calculated_pct": 2.9944007141118236,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Vantaa ja Kerava",
+        "metric": "referral_recall_denominator",
+        "numerator": 93,
+        "denominator": 369,
+        "reported_pct": 25.2,
+        "calculated_pct": 25.203252032520325,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 25331,
+        "denominator": 30614,
+        "reported_pct": 82.7,
+        "calculated_pct": 82.74318939047495,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "recall",
+        "numerator": 848,
+        "denominator": 25331,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.3476767597015513,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Varsinais-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 262,
+        "denominator": 848,
+        "reported_pct": 30.9,
+        "calculated_pct": 30.89622641509434,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 281369,
+        "denominator": 344851,
+        "reported_pct": 81.6,
+        "calculated_pct": 81.59146993919113,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "recall",
+        "numerator": 8276,
+        "denominator": 281369,
+        "reported_pct": 2.9,
+        "calculated_pct": 2.941333266991033,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2024",
+        "region": "Yhteensä",
+        "metric": "referral_recall_denominator",
+        "numerator": 2458,
+        "denominator": 8276,
+        "reported_pct": 29.7,
+        "calculated_pct": 29.70033832769454,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Ahvenanmaa",
+        "metric": "participation",
+        "numerator": 1623,
+        "denominator": 1889,
+        "reported_pct": 85.9,
+        "calculated_pct": 85.91847538380095,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Ahvenanmaa",
+        "metric": "recall",
+        "numerator": 30,
+        "denominator": 1623,
+        "reported_pct": 1.8,
+        "calculated_pct": 1.8484288354898337,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Ahvenanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 4,
+        "denominator": 30,
+        "reported_pct": 13.3,
+        "calculated_pct": 13.333333333333334,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7153,
+        "denominator": 8594,
+        "reported_pct": 83.2,
+        "calculated_pct": 83.2324877821736,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "recall",
+        "numerator": 151,
+        "denominator": 7153,
+        "reported_pct": 2.1,
+        "calculated_pct": 2.1110023766251924,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 49,
+        "denominator": 151,
+        "reported_pct": 32.5,
+        "calculated_pct": 32.450331125827816,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10493,
+        "denominator": 12343,
+        "reported_pct": 85.0,
+        "calculated_pct": 85.01174754921819,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 230,
+        "denominator": 10493,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.1919374821309443,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 73,
+        "denominator": 230,
+        "reported_pct": 31.7,
+        "calculated_pct": 31.73913043478261,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 7898,
+        "denominator": 9418,
+        "reported_pct": 83.9,
+        "calculated_pct": 83.86069229135697,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "recall",
+        "numerator": 322,
+        "denominator": 7898,
+        "reported_pct": 4.1,
+        "calculated_pct": 4.07698151430742,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Etelä-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 64,
+        "denominator": 322,
+        "reported_pct": 19.9,
+        "calculated_pct": 19.875776397515526,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 27462,
+        "denominator": 37954,
+        "reported_pct": 72.4,
+        "calculated_pct": 72.3560099067292,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "recall",
+        "numerator": 982,
+        "denominator": 27462,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.5758502658218627,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Helsingin kaupunki",
+        "metric": "referral_recall_denominator",
+        "numerator": 263,
+        "denominator": 982,
+        "reported_pct": 26.8,
+        "calculated_pct": 26.782077393075358,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5576,
+        "denominator": 6823,
+        "reported_pct": 81.7,
+        "calculated_pct": 81.72358200205188,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "recall",
+        "numerator": 150,
+        "denominator": 5576,
+        "reported_pct": 2.7,
+        "calculated_pct": 2.6901004304160687,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Itä-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 28,
+        "denominator": 150,
+        "reported_pct": 18.7,
+        "calculated_pct": 18.666666666666668,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4201,
+        "denominator": 4983,
+        "reported_pct": 84.3,
+        "calculated_pct": 84.30664258478828,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "recall",
+        "numerator": 165,
+        "denominator": 4201,
+        "reported_pct": 3.9,
+        "calculated_pct": 3.9276362770768865,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kainuu",
+        "metric": "referral_recall_denominator",
+        "numerator": 26,
+        "denominator": 165,
+        "reported_pct": 15.8,
+        "calculated_pct": 15.757575757575758,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 9640,
+        "denominator": 11726,
+        "reported_pct": 82.2,
+        "calculated_pct": 82.2104724543749,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "recall",
+        "numerator": 301,
+        "denominator": 9640,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.1224066390041494,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kanta-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 67,
+        "denominator": 301,
+        "reported_pct": 22.3,
+        "calculated_pct": 22.259136212624586,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3402,
+        "denominator": 4063,
+        "reported_pct": 83.7,
+        "calculated_pct": 83.73123307900566,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 92,
+        "denominator": 3402,
+        "reported_pct": 2.7,
+        "calculated_pct": 2.704291593180482,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 28,
+        "denominator": 92,
+        "reported_pct": 30.4,
+        "calculated_pct": 30.434782608695652,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14222,
+        "denominator": 16668,
+        "reported_pct": 85.3,
+        "calculated_pct": 85.32517398608111,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "recall",
+        "numerator": 281,
+        "denominator": 14222,
+        "reported_pct": 2.0,
+        "calculated_pct": 1.9758121220644072,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 126,
+        "denominator": 281,
+        "reported_pct": 44.8,
+        "calculated_pct": 44.83985765124555,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 10917,
+        "denominator": 13486,
+        "reported_pct": 81.0,
+        "calculated_pct": 80.95061545306244,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "recall",
+        "numerator": 674,
+        "denominator": 10917,
+        "reported_pct": 6.2,
+        "calculated_pct": 6.173857286800403,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Keski-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 86,
+        "denominator": 674,
+        "reported_pct": 12.8,
+        "calculated_pct": 12.759643916913946,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 9499,
+        "denominator": 11377,
+        "reported_pct": 83.5,
+        "calculated_pct": 83.49301221763207,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "recall",
+        "numerator": 263,
+        "denominator": 9499,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.768712496052216,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Kymenlaakso",
+        "metric": "referral_recall_denominator",
+        "numerator": 88,
+        "denominator": 263,
+        "reported_pct": 33.5,
+        "calculated_pct": 33.460076045627375,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 9804,
+        "denominator": 11818,
+        "reported_pct": 83.0,
+        "calculated_pct": 82.95819935691318,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "recall",
+        "numerator": 358,
+        "denominator": 9804,
+        "reported_pct": 3.7,
+        "calculated_pct": 3.6515707874337004,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Lappi",
+        "metric": "referral_recall_denominator",
+        "numerator": 118,
+        "denominator": 358,
+        "reported_pct": 33.0,
+        "calculated_pct": 32.960893854748605,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22479,
+        "denominator": 29498,
+        "reported_pct": 76.2,
+        "calculated_pct": 76.20516645196284,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "recall",
+        "numerator": 818,
+        "denominator": 22479,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.638951910672183,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Länsi-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 190,
+        "denominator": 818,
+        "reported_pct": 23.2,
+        "calculated_pct": 23.227383863080686,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 26132,
+        "denominator": 31329,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.41153563790736,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "recall",
+        "numerator": 652,
+        "denominator": 26132,
+        "reported_pct": 2.5,
+        "calculated_pct": 2.4950252563906323,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pirkanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 256,
+        "denominator": 652,
+        "reported_pct": 39.3,
+        "calculated_pct": 39.263803680981596,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8633,
+        "denominator": 10304,
+        "reported_pct": 83.8,
+        "calculated_pct": 83.78299689440993,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "recall",
+        "numerator": 282,
+        "denominator": 8633,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.2665353874666976,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 88,
+        "denominator": 282,
+        "reported_pct": 31.2,
+        "calculated_pct": 31.20567375886525,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 9091,
+        "denominator": 10864,
+        "reported_pct": 83.7,
+        "calculated_pct": 83.6800441826215,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "recall",
+        "numerator": 288,
+        "denominator": 9091,
+        "reported_pct": 3.2,
+        "calculated_pct": 3.1679683203167968,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 68,
+        "denominator": 288,
+        "reported_pct": 23.6,
+        "calculated_pct": 23.61111111111111,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 20110,
+        "denominator": 23782,
+        "reported_pct": 84.6,
+        "calculated_pct": 84.55975107223951,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 375,
+        "denominator": 20110,
+        "reported_pct": 1.9,
+        "calculated_pct": 1.8647439085032322,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 145,
+        "denominator": 375,
+        "reported_pct": 38.7,
+        "calculated_pct": 38.666666666666664,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 14151,
+        "denominator": 16519,
+        "reported_pct": 85.7,
+        "calculated_pct": 85.66499182759247,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "recall",
+        "numerator": 524,
+        "denominator": 14151,
+        "reported_pct": 3.7,
+        "calculated_pct": 3.702918521659247,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Pohjois-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 136,
+        "denominator": 524,
+        "reported_pct": 26.0,
+        "calculated_pct": 25.954198473282442,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 11433,
+        "denominator": 13794,
+        "reported_pct": 82.9,
+        "calculated_pct": 82.88386254893432,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "recall",
+        "numerator": 175,
+        "denominator": 11433,
+        "reported_pct": 1.5,
+        "calculated_pct": 1.5306568704626957,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Päijät-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 85,
+        "denominator": 175,
+        "reported_pct": 48.6,
+        "calculated_pct": 48.57142857142857,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 11864,
+        "denominator": 13890,
+        "reported_pct": 85.4,
+        "calculated_pct": 85.41396688264939,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "recall",
+        "numerator": 388,
+        "denominator": 11864,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.270397842211733,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Satakunta",
+        "metric": "referral_recall_denominator",
+        "numerator": 161,
+        "denominator": 388,
+        "reported_pct": 41.5,
+        "calculated_pct": 41.49484536082474,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12080,
+        "denominator": 15843,
+        "reported_pct": 76.2,
+        "calculated_pct": 76.24818531843717,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "recall",
+        "numerator": 344,
+        "denominator": 12080,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.847682119205298,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Vantaa ja Kerava",
+        "metric": "referral_recall_denominator",
+        "numerator": 98,
+        "denominator": 344,
+        "reported_pct": 28.5,
+        "calculated_pct": 28.488372093023255,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 24599,
+        "denominator": 29839,
+        "reported_pct": 82.4,
+        "calculated_pct": 82.43908978182915,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "recall",
+        "numerator": 963,
+        "denominator": 24599,
+        "reported_pct": 3.9,
+        "calculated_pct": 3.914793284279849,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Varsinais-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 257,
+        "denominator": 963,
+        "reported_pct": 26.7,
+        "calculated_pct": 26.687435098650052,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 282462,
+        "denominator": 346804,
+        "reported_pct": 81.4,
+        "calculated_pct": 81.44715747223215,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "recall",
+        "numerator": 8808,
+        "denominator": 282462,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.118295558340591,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2023",
+        "region": "Yhteensä",
+        "metric": "referral_recall_denominator",
+        "numerator": 2504,
+        "denominator": 8808,
+        "reported_pct": 28.4,
+        "calculated_pct": 28.428701180744778,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Ahvenanmaa",
+        "metric": "participation",
+        "numerator": 1940,
+        "denominator": 2273,
+        "reported_pct": 85.3,
+        "calculated_pct": 85.34975802903652,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Ahvenanmaa",
+        "metric": "recall",
+        "numerator": 28,
+        "denominator": 1940,
+        "reported_pct": 1.4,
+        "calculated_pct": 1.443298969072165,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Ahvenanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 8,
+        "denominator": 28,
+        "reported_pct": 28.6,
+        "calculated_pct": 28.571428571428573,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7275,
+        "denominator": 8821,
+        "reported_pct": 82.5,
+        "calculated_pct": 82.47364244416733,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "recall",
+        "numerator": 171,
+        "denominator": 7275,
+        "reported_pct": 2.4,
+        "calculated_pct": 2.350515463917526,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 68,
+        "denominator": 171,
+        "reported_pct": 39.8,
+        "calculated_pct": 39.76608187134503,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10505,
+        "denominator": 12347,
+        "reported_pct": 85.1,
+        "calculated_pct": 85.0813962905969,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 268,
+        "denominator": 10505,
+        "reported_pct": 2.6,
+        "calculated_pct": 2.5511661113755353,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 92,
+        "denominator": 268,
+        "reported_pct": 34.3,
+        "calculated_pct": 34.32835820895522,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 8257,
+        "denominator": 9834,
+        "reported_pct": 84.0,
+        "calculated_pct": 83.96379906447021,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "recall",
+        "numerator": 282,
+        "denominator": 8257,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.4152840014533123,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Etelä-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 55,
+        "denominator": 282,
+        "reported_pct": 19.5,
+        "calculated_pct": 19.50354609929078,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 28430,
+        "denominator": 38719,
+        "reported_pct": 73.4,
+        "calculated_pct": 73.42648312198146,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "recall",
+        "numerator": 895,
+        "denominator": 28430,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.148083010903975,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Helsingin kaupunki",
+        "metric": "referral_recall_denominator",
+        "numerator": 230,
+        "denominator": 895,
+        "reported_pct": 25.7,
+        "calculated_pct": 25.69832402234637,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5599,
+        "denominator": 6878,
+        "reported_pct": 81.4,
+        "calculated_pct": 81.40447804594359,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "recall",
+        "numerator": 123,
+        "denominator": 5599,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.196820860868012,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Itä-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 28,
+        "denominator": 123,
+        "reported_pct": 22.8,
+        "calculated_pct": 22.764227642276424,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4337,
+        "denominator": 5047,
+        "reported_pct": 85.9,
+        "calculated_pct": 85.93223697245888,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "recall",
+        "numerator": 188,
+        "denominator": 4337,
+        "reported_pct": 4.3,
+        "calculated_pct": 4.334793636154023,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kainuu",
+        "metric": "referral_recall_denominator",
+        "numerator": 32,
+        "denominator": 188,
+        "reported_pct": 17.0,
+        "calculated_pct": 17.02127659574468,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 9722,
+        "denominator": 11661,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.37192350570277,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "recall",
+        "numerator": 247,
+        "denominator": 9722,
+        "reported_pct": 2.5,
+        "calculated_pct": 2.5406295001028596,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kanta-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 63,
+        "denominator": 247,
+        "reported_pct": 25.5,
+        "calculated_pct": 25.506072874493928,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3421,
+        "denominator": 4015,
+        "reported_pct": 85.2,
+        "calculated_pct": 85.20547945205479,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 65,
+        "denominator": 3421,
+        "reported_pct": 1.9,
+        "calculated_pct": 1.9000292312189417,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 21,
+        "denominator": 65,
+        "reported_pct": 32.3,
+        "calculated_pct": 32.30769230769231,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14243,
+        "denominator": 16858,
+        "reported_pct": 84.5,
+        "calculated_pct": 84.48807687744691,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "recall",
+        "numerator": 334,
+        "denominator": 14243,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.3450115846380677,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 109,
+        "denominator": 334,
+        "reported_pct": 32.6,
+        "calculated_pct": 32.634730538922156,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 10773,
+        "denominator": 13377,
+        "reported_pct": 80.5,
+        "calculated_pct": 80.5337519623234,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "recall",
+        "numerator": 480,
+        "denominator": 10773,
+        "reported_pct": 4.5,
+        "calculated_pct": 4.455583402951824,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Keski-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 79,
+        "denominator": 480,
+        "reported_pct": 16.5,
+        "calculated_pct": 16.458333333333332,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 9627,
+        "denominator": 11541,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.4156485573174,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "recall",
+        "numerator": 306,
+        "denominator": 9627,
+        "reported_pct": 3.2,
+        "calculated_pct": 3.1785602991586166,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Kymenlaakso",
+        "metric": "referral_recall_denominator",
+        "numerator": 98,
+        "denominator": 306,
+        "reported_pct": 32.0,
+        "calculated_pct": 32.02614379084967,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 9970,
+        "denominator": 12149,
+        "reported_pct": 82.1,
+        "calculated_pct": 82.0643674376492,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "recall",
+        "numerator": 300,
+        "denominator": 9970,
+        "reported_pct": 3.0,
+        "calculated_pct": 3.009027081243731,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Lappi",
+        "metric": "referral_recall_denominator",
+        "numerator": 99,
+        "denominator": 300,
+        "reported_pct": 33.0,
+        "calculated_pct": 33.0,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22713,
+        "denominator": 29682,
+        "reported_pct": 76.5,
+        "calculated_pct": 76.52112391348292,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "recall",
+        "numerator": 589,
+        "denominator": 22713,
+        "reported_pct": 2.6,
+        "calculated_pct": 2.5932285475278474,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Länsi-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 154,
+        "denominator": 589,
+        "reported_pct": 26.1,
+        "calculated_pct": 26.146010186757216,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 26218,
+        "denominator": 31867,
+        "reported_pct": 82.3,
+        "calculated_pct": 82.27319797910064,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "recall",
+        "numerator": 576,
+        "denominator": 26218,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.196963917918987,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pirkanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 203,
+        "denominator": 576,
+        "reported_pct": 35.2,
+        "calculated_pct": 35.24305555555556,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8636,
+        "denominator": 10214,
+        "reported_pct": 84.6,
+        "calculated_pct": 84.55061680046994,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "recall",
+        "numerator": 200,
+        "denominator": 8636,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.3158869847151458,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 79,
+        "denominator": 200,
+        "reported_pct": 39.5,
+        "calculated_pct": 39.5,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 9396,
+        "denominator": 11143,
+        "reported_pct": 84.3,
+        "calculated_pct": 84.32199587184779,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "recall",
+        "numerator": 279,
+        "denominator": 9396,
+        "reported_pct": 3.0,
+        "calculated_pct": 2.9693486590038316,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 66,
+        "denominator": 279,
+        "reported_pct": 23.7,
+        "calculated_pct": 23.655913978494624,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 20322,
+        "denominator": 23933,
+        "reported_pct": 84.9,
+        "calculated_pct": 84.91204612877617,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 453,
+        "denominator": 20322,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.229111307942132,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 163,
+        "denominator": 453,
+        "reported_pct": 36.0,
+        "calculated_pct": 35.98233995584989,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 14297,
+        "denominator": 16854,
+        "reported_pct": 84.8,
+        "calculated_pct": 84.82852735255726,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "recall",
+        "numerator": 508,
+        "denominator": 14297,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.553192977547737,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Pohjois-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 126,
+        "denominator": 508,
+        "reported_pct": 24.8,
+        "calculated_pct": 24.80314960629921,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 11751,
+        "denominator": 14170,
+        "reported_pct": 82.9,
+        "calculated_pct": 82.9287226534933,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "recall",
+        "numerator": 152,
+        "denominator": 11751,
+        "reported_pct": 1.3,
+        "calculated_pct": 1.2935069355799507,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Päijät-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 59,
+        "denominator": 152,
+        "reported_pct": 38.8,
+        "calculated_pct": 38.81578947368421,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 12351,
+        "denominator": 14566,
+        "reported_pct": 84.8,
+        "calculated_pct": 84.79335438692847,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "recall",
+        "numerator": 454,
+        "denominator": 12351,
+        "reported_pct": 3.7,
+        "calculated_pct": 3.6758157234232045,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Satakunta",
+        "metric": "referral_recall_denominator",
+        "numerator": 182,
+        "denominator": 454,
+        "reported_pct": 40.1,
+        "calculated_pct": 40.08810572687225,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12304,
+        "denominator": 16025,
+        "reported_pct": 76.8,
+        "calculated_pct": 76.78003120124805,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "recall",
+        "numerator": 242,
+        "denominator": 12304,
+        "reported_pct": 2.0,
+        "calculated_pct": 1.9668400520156046,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Vantaa ja Kerava",
+        "metric": "referral_recall_denominator",
+        "numerator": 74,
+        "denominator": 242,
+        "reported_pct": 30.6,
+        "calculated_pct": 30.578512396694215,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 25929,
+        "denominator": 31108,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.35154944065835,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "recall",
+        "numerator": 932,
+        "denominator": 25929,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.594430946044969,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Varsinais-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 245,
+        "denominator": 932,
+        "reported_pct": 26.3,
+        "calculated_pct": 26.28755364806867,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 288016,
+        "denominator": 353082,
+        "reported_pct": 81.6,
+        "calculated_pct": 81.57198611087509,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "recall",
+        "numerator": 8072,
+        "denominator": 288016,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.8026220765513026,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2022",
+        "region": "Yhteensä",
+        "metric": "referral_recall_denominator",
+        "numerator": 2333,
+        "denominator": 8072,
+        "reported_pct": 28.9,
+        "calculated_pct": 28.902378592666008,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Ahvenanmaa",
+        "metric": "participation",
+        "numerator": 1836,
+        "denominator": 2130,
+        "reported_pct": 86.2,
+        "calculated_pct": 86.19718309859155,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Ahvenanmaa",
+        "metric": "recall",
+        "numerator": 29,
+        "denominator": 1836,
+        "reported_pct": 1.6,
+        "calculated_pct": 1.579520697167756,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Ahvenanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 6,
+        "denominator": 29,
+        "reported_pct": 20.7,
+        "calculated_pct": 20.689655172413794,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7696,
+        "denominator": 8982,
+        "reported_pct": 85.7,
+        "calculated_pct": 85.68247606323759,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Karjala",
+        "metric": "recall",
+        "numerator": 168,
+        "denominator": 7696,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.182952182952183,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 59,
+        "denominator": 168,
+        "reported_pct": 35.1,
+        "calculated_pct": 35.11904761904762,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10925,
+        "denominator": 12730,
+        "reported_pct": 85.8,
+        "calculated_pct": 85.82089552238806,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 295,
+        "denominator": 10925,
+        "reported_pct": 2.7,
+        "calculated_pct": 2.7002288329519453,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 86,
+        "denominator": 295,
+        "reported_pct": 29.2,
+        "calculated_pct": 29.152542372881356,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 8338,
+        "denominator": 9883,
+        "reported_pct": 84.4,
+        "calculated_pct": 84.36709501163614,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Savo",
+        "metric": "recall",
+        "numerator": 268,
+        "denominator": 8338,
+        "reported_pct": 3.2,
+        "calculated_pct": 3.214200047973135,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Etelä-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 50,
+        "denominator": 268,
+        "reported_pct": 18.7,
+        "calculated_pct": 18.65671641791045,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 28949,
+        "denominator": 38859,
+        "reported_pct": 74.5,
+        "calculated_pct": 74.49754239687074,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Helsingin kaupunki",
+        "metric": "recall",
+        "numerator": 846,
+        "denominator": 28949,
+        "reported_pct": 2.9,
+        "calculated_pct": 2.922380738540191,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Helsingin kaupunki",
+        "metric": "referral_recall_denominator",
+        "numerator": 157,
+        "denominator": 846,
+        "reported_pct": 18.6,
+        "calculated_pct": 18.55791962174941,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5569,
+        "denominator": 6851,
+        "reported_pct": 81.3,
+        "calculated_pct": 81.2874032987885,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Itä-Uusimaa",
+        "metric": "recall",
+        "numerator": 142,
+        "denominator": 5569,
+        "reported_pct": 2.5,
+        "calculated_pct": 2.5498294128209733,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Itä-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 29,
+        "denominator": 142,
+        "reported_pct": 20.4,
+        "calculated_pct": 20.422535211267604,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4538,
+        "denominator": 5348,
+        "reported_pct": 84.9,
+        "calculated_pct": 84.85415108451758,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kainuu",
+        "metric": "recall",
+        "numerator": 165,
+        "denominator": 4538,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.6359629792860293,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kainuu",
+        "metric": "referral_recall_denominator",
+        "numerator": 26,
+        "denominator": 165,
+        "reported_pct": 15.8,
+        "calculated_pct": 15.757575757575758,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 10109,
+        "denominator": 12110,
+        "reported_pct": 83.5,
+        "calculated_pct": 83.476465730801,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kanta-Häme",
+        "metric": "recall",
+        "numerator": 244,
+        "denominator": 10109,
+        "reported_pct": 2.4,
+        "calculated_pct": 2.413690770600455,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kanta-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 54,
+        "denominator": 244,
+        "reported_pct": 22.1,
+        "calculated_pct": 22.131147540983605,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3641,
+        "denominator": 4278,
+        "reported_pct": 85.1,
+        "calculated_pct": 85.1098644226274,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 82,
+        "denominator": 3641,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.2521285361164516,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 29,
+        "denominator": 82,
+        "reported_pct": 35.4,
+        "calculated_pct": 35.36585365853659,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14782,
+        "denominator": 17221,
+        "reported_pct": 85.8,
+        "calculated_pct": 85.83705940421578,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Suomi",
+        "metric": "recall",
+        "numerator": 315,
+        "denominator": 14782,
+        "reported_pct": 2.1,
+        "calculated_pct": 2.1309700987687727,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 83,
+        "denominator": 315,
+        "reported_pct": 26.3,
+        "calculated_pct": 26.349206349206348,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 10339,
+        "denominator": 13442,
+        "reported_pct": 76.9,
+        "calculated_pct": 76.91563755393543,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Uusimaa",
+        "metric": "recall",
+        "numerator": 349,
+        "denominator": 10339,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.375568236773382,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Keski-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 63,
+        "denominator": 349,
+        "reported_pct": 18.1,
+        "calculated_pct": 18.05157593123209,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 9898,
+        "denominator": 11845,
+        "reported_pct": 83.6,
+        "calculated_pct": 83.56268467707893,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kymenlaakso",
+        "metric": "recall",
+        "numerator": 273,
+        "denominator": 9898,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.758132956152758,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Kymenlaakso",
+        "metric": "referral_recall_denominator",
+        "numerator": 86,
+        "denominator": 273,
+        "reported_pct": 31.5,
+        "calculated_pct": 31.501831501831504,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 10366,
+        "denominator": 12443,
+        "reported_pct": 83.3,
+        "calculated_pct": 83.30788395081572,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Lappi",
+        "metric": "recall",
+        "numerator": 350,
+        "denominator": 10366,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.3764229210881727,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Lappi",
+        "metric": "referral_recall_denominator",
+        "numerator": 87,
+        "denominator": 350,
+        "reported_pct": 24.9,
+        "calculated_pct": 24.857142857142858,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22769,
+        "denominator": 29433,
+        "reported_pct": 77.4,
+        "calculated_pct": 77.35874698467707,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Länsi-Uusimaa",
+        "metric": "recall",
+        "numerator": 631,
+        "denominator": 22769,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.771311871404102,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Länsi-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 159,
+        "denominator": 631,
+        "reported_pct": 25.2,
+        "calculated_pct": 25.198098256735342,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 26490,
+        "denominator": 31751,
+        "reported_pct": 83.4,
+        "calculated_pct": 83.43044313564927,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pirkanmaa",
+        "metric": "recall",
+        "numerator": 573,
+        "denominator": 26490,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.163080407701019,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pirkanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 240,
+        "denominator": 573,
+        "reported_pct": 41.9,
+        "calculated_pct": 41.8848167539267,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8936,
+        "denominator": 10563,
+        "reported_pct": 84.6,
+        "calculated_pct": 84.59717883177127,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjanmaa",
+        "metric": "recall",
+        "numerator": 207,
+        "denominator": 8936,
+        "reported_pct": 2.3,
+        "calculated_pct": 2.3164726947179948,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 63,
+        "denominator": 207,
+        "reported_pct": 30.4,
+        "calculated_pct": 30.434782608695652,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 9692,
+        "denominator": 11439,
+        "reported_pct": 84.7,
+        "calculated_pct": 84.72768598653728,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Karjala",
+        "metric": "recall",
+        "numerator": 260,
+        "denominator": 9692,
+        "reported_pct": 2.7,
+        "calculated_pct": 2.682624845233182,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 81,
+        "denominator": 260,
+        "reported_pct": 31.2,
+        "calculated_pct": 31.153846153846153,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 20688,
+        "denominator": 24350,
+        "reported_pct": 85.0,
+        "calculated_pct": 84.96098562628337,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 392,
+        "denominator": 20688,
+        "reported_pct": 1.9,
+        "calculated_pct": 1.8948182521268369,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 125,
+        "denominator": 392,
+        "reported_pct": 31.9,
+        "calculated_pct": 31.887755102040817,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 14698,
+        "denominator": 17168,
+        "reported_pct": 85.6,
+        "calculated_pct": 85.61276794035415,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Savo",
+        "metric": "recall",
+        "numerator": 656,
+        "denominator": 14698,
+        "reported_pct": 4.5,
+        "calculated_pct": 4.463192271057287,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Pohjois-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 157,
+        "denominator": 656,
+        "reported_pct": 23.9,
+        "calculated_pct": 23.932926829268293,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 12017,
+        "denominator": 14393,
+        "reported_pct": 83.5,
+        "calculated_pct": 83.49197526575419,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Päijät-Häme",
+        "metric": "recall",
+        "numerator": 142,
+        "denominator": 12017,
+        "reported_pct": 1.2,
+        "calculated_pct": 1.1816593159690438,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Päijät-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 78,
+        "denominator": 142,
+        "reported_pct": 54.9,
+        "calculated_pct": 54.929577464788736,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 12512,
+        "denominator": 14591,
+        "reported_pct": 85.8,
+        "calculated_pct": 85.7514906449181,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Satakunta",
+        "metric": "recall",
+        "numerator": 496,
+        "denominator": 12512,
+        "reported_pct": 4.0,
+        "calculated_pct": 3.9641943734015346,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Satakunta",
+        "metric": "referral_recall_denominator",
+        "numerator": 179,
+        "denominator": 496,
+        "reported_pct": 36.1,
+        "calculated_pct": 36.08870967741935,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12626,
+        "denominator": 16109,
+        "reported_pct": 78.4,
+        "calculated_pct": 78.37854615432367,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Vantaa ja Kerava",
+        "metric": "recall",
+        "numerator": 220,
+        "denominator": 12626,
+        "reported_pct": 1.7,
+        "calculated_pct": 1.7424362426738476,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Vantaa ja Kerava",
+        "metric": "referral_recall_denominator",
+        "numerator": 71,
+        "denominator": 220,
+        "reported_pct": 32.3,
+        "calculated_pct": 32.27272727272727,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 25636,
+        "denominator": 30674,
+        "reported_pct": 83.6,
+        "calculated_pct": 83.5756666884006,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Varsinais-Suomi",
+        "metric": "recall",
+        "numerator": 964,
+        "denominator": 25636,
+        "reported_pct": 3.8,
+        "calculated_pct": 3.7603370260571074,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Varsinais-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 223,
+        "denominator": 964,
+        "reported_pct": 23.1,
+        "calculated_pct": 23.13278008298755,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 293050,
+        "denominator": 356593,
+        "reported_pct": 82.2,
+        "calculated_pct": 82.18052513650015,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Yhteensä",
+        "metric": "recall",
+        "numerator": 8067,
+        "denominator": 293050,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.752772564408804,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2021",
+        "region": "Yhteensä",
+        "metric": "referral_recall_denominator",
+        "numerator": 2191,
+        "denominator": 8067,
+        "reported_pct": 27.2,
+        "calculated_pct": 27.16003470930953,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Ahvenanmaa",
+        "metric": "participation",
+        "numerator": 1920,
+        "denominator": 2256,
+        "reported_pct": 85.1,
+        "calculated_pct": 85.1063829787234,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Ahvenanmaa",
+        "metric": "recall",
+        "numerator": 37,
+        "denominator": 1920,
+        "reported_pct": 1.9,
+        "calculated_pct": 1.9270833333333333,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Ahvenanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 10,
+        "denominator": 37,
+        "reported_pct": 27.0,
+        "calculated_pct": 27.027027027027028,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Karjala",
+        "metric": "participation",
+        "numerator": 7768,
+        "denominator": 9171,
+        "reported_pct": 84.7,
+        "calculated_pct": 84.70177734162033,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Karjala",
+        "metric": "recall",
+        "numerator": 166,
+        "denominator": 7768,
+        "reported_pct": 2.1,
+        "calculated_pct": 2.13697219361483,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 67,
+        "denominator": 166,
+        "reported_pct": 40.4,
+        "calculated_pct": 40.36144578313253,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 10939,
+        "denominator": 12901,
+        "reported_pct": 84.8,
+        "calculated_pct": 84.79187659871327,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 240,
+        "denominator": 10939,
+        "reported_pct": 2.2,
+        "calculated_pct": 2.193984824938294,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 79,
+        "denominator": 240,
+        "reported_pct": 32.9,
+        "calculated_pct": 32.916666666666664,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Savo",
+        "metric": "participation",
+        "numerator": 8559,
+        "denominator": 10365,
+        "reported_pct": 82.6,
+        "calculated_pct": 82.57597684515196,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Savo",
+        "metric": "recall",
+        "numerator": 311,
+        "denominator": 8559,
+        "reported_pct": 3.6,
+        "calculated_pct": 3.6336020563149902,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Etelä-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 70,
+        "denominator": 311,
+        "reported_pct": 22.5,
+        "calculated_pct": 22.508038585209004,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Helsingin kaupunki",
+        "metric": "participation",
+        "numerator": 28993,
+        "denominator": 39903,
+        "reported_pct": 72.7,
+        "calculated_pct": 72.65869734105205,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Helsingin kaupunki",
+        "metric": "recall",
+        "numerator": 963,
+        "denominator": 28993,
+        "reported_pct": 3.3,
+        "calculated_pct": 3.321491394474528,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Helsingin kaupunki",
+        "metric": "referral_recall_denominator",
+        "numerator": 214,
+        "denominator": 963,
+        "reported_pct": 22.2,
+        "calculated_pct": 22.22222222222222,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Itä-Uusimaa",
+        "metric": "participation",
+        "numerator": 5640,
+        "denominator": 6900,
+        "reported_pct": 81.7,
+        "calculated_pct": 81.73913043478261,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Itä-Uusimaa",
+        "metric": "recall",
+        "numerator": 177,
+        "denominator": 5640,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.1382978723404253,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Itä-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 26,
+        "denominator": 177,
+        "reported_pct": 14.7,
+        "calculated_pct": 14.689265536723164,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kainuu",
+        "metric": "participation",
+        "numerator": 4603,
+        "denominator": 5416,
+        "reported_pct": 85.0,
+        "calculated_pct": 84.98892171344166,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kainuu",
+        "metric": "recall",
+        "numerator": 213,
+        "denominator": 4603,
+        "reported_pct": 4.6,
+        "calculated_pct": 4.627416902020421,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kainuu",
+        "metric": "referral_recall_denominator",
+        "numerator": 34,
+        "denominator": 213,
+        "reported_pct": 16.0,
+        "calculated_pct": 15.96244131455399,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kanta-Häme",
+        "metric": "participation",
+        "numerator": 9830,
+        "denominator": 11998,
+        "reported_pct": 81.9,
+        "calculated_pct": 81.93032172028671,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kanta-Häme",
+        "metric": "recall",
+        "numerator": 410,
+        "denominator": 9830,
+        "reported_pct": 4.2,
+        "calculated_pct": 4.170905391658189,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kanta-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 82,
+        "denominator": 410,
+        "reported_pct": 20.0,
+        "calculated_pct": 20.0,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 3496,
+        "denominator": 4145,
+        "reported_pct": 84.3,
+        "calculated_pct": 84.34258142340168,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 93,
+        "denominator": 3496,
+        "reported_pct": 2.7,
+        "calculated_pct": 2.660183066361556,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 34,
+        "denominator": 93,
+        "reported_pct": 36.6,
+        "calculated_pct": 36.55913978494624,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Suomi",
+        "metric": "participation",
+        "numerator": 14566,
+        "denominator": 17407,
+        "reported_pct": 83.7,
+        "calculated_pct": 83.67897972080198,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Suomi",
+        "metric": "recall",
+        "numerator": 402,
+        "denominator": 14566,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.759851709460387,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 122,
+        "denominator": 402,
+        "reported_pct": 30.3,
+        "calculated_pct": 30.34825870646766,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Uusimaa",
+        "metric": "participation",
+        "numerator": 10293,
+        "denominator": 13417,
+        "reported_pct": 76.7,
+        "calculated_pct": 76.71610643213833,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Uusimaa",
+        "metric": "recall",
+        "numerator": 290,
+        "denominator": 10293,
+        "reported_pct": 2.8,
+        "calculated_pct": 2.817448751578743,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Keski-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 81,
+        "denominator": 290,
+        "reported_pct": 27.9,
+        "calculated_pct": 27.93103448275862,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kymenlaakso",
+        "metric": "participation",
+        "numerator": 10076,
+        "denominator": 12191,
+        "reported_pct": 82.7,
+        "calculated_pct": 82.65113608399639,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kymenlaakso",
+        "metric": "recall",
+        "numerator": 383,
+        "denominator": 10076,
+        "reported_pct": 3.8,
+        "calculated_pct": 3.8011115522032553,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Kymenlaakso",
+        "metric": "referral_recall_denominator",
+        "numerator": 125,
+        "denominator": 383,
+        "reported_pct": 32.6,
+        "calculated_pct": 32.637075718015666,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Lappi",
+        "metric": "participation",
+        "numerator": 10274,
+        "denominator": 12679,
+        "reported_pct": 81.0,
+        "calculated_pct": 81.03162709992901,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Lappi",
+        "metric": "recall",
+        "numerator": 352,
+        "denominator": 10274,
+        "reported_pct": 3.4,
+        "calculated_pct": 3.4261241970021414,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Lappi",
+        "metric": "referral_recall_denominator",
+        "numerator": 95,
+        "denominator": 352,
+        "reported_pct": 27.0,
+        "calculated_pct": 26.988636363636363,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Länsi-Uusimaa",
+        "metric": "participation",
+        "numerator": 22344,
+        "denominator": 29811,
+        "reported_pct": 75.0,
+        "calculated_pct": 74.95219885277247,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Länsi-Uusimaa",
+        "metric": "recall",
+        "numerator": 685,
+        "denominator": 22344,
+        "reported_pct": 3.1,
+        "calculated_pct": 3.0656999641962046,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Länsi-Uusimaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 162,
+        "denominator": 685,
+        "reported_pct": 23.6,
+        "calculated_pct": 23.64963503649635,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pirkanmaa",
+        "metric": "participation",
+        "numerator": 26049,
+        "denominator": 32339,
+        "reported_pct": 80.5,
+        "calculated_pct": 80.549800550419,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pirkanmaa",
+        "metric": "recall",
+        "numerator": 642,
+        "denominator": 26049,
+        "reported_pct": 2.5,
+        "calculated_pct": 2.4645859725901187,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pirkanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 246,
+        "denominator": 642,
+        "reported_pct": 38.3,
+        "calculated_pct": 38.3177570093458,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjanmaa",
+        "metric": "participation",
+        "numerator": 8747,
+        "denominator": 10502,
+        "reported_pct": 83.3,
+        "calculated_pct": 83.28889735288516,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjanmaa",
+        "metric": "recall",
+        "numerator": 165,
+        "denominator": 8747,
+        "reported_pct": 1.9,
+        "calculated_pct": 1.8863610380701954,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 67,
+        "denominator": 165,
+        "reported_pct": 40.6,
+        "calculated_pct": 40.60606060606061,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Karjala",
+        "metric": "participation",
+        "numerator": 9870,
+        "denominator": 11693,
+        "reported_pct": 84.4,
+        "calculated_pct": 84.40947575472505,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Karjala",
+        "metric": "recall",
+        "numerator": 289,
+        "denominator": 9870,
+        "reported_pct": 2.9,
+        "calculated_pct": 2.92806484295846,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Karjala",
+        "metric": "referral_recall_denominator",
+        "numerator": 77,
+        "denominator": 289,
+        "reported_pct": 26.6,
+        "calculated_pct": 26.643598615916954,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "participation",
+        "numerator": 20615,
+        "denominator": 24545,
+        "reported_pct": 84.0,
+        "calculated_pct": 83.9885923813404,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "recall",
+        "numerator": 442,
+        "denominator": 20615,
+        "reported_pct": 2.1,
+        "calculated_pct": 2.1440698520494785,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Pohjanmaa",
+        "metric": "referral_recall_denominator",
+        "numerator": 134,
+        "denominator": 442,
+        "reported_pct": 30.3,
+        "calculated_pct": 30.316742081447963,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Savo",
+        "metric": "participation",
+        "numerator": 14752,
+        "denominator": 17637,
+        "reported_pct": 83.6,
+        "calculated_pct": 83.64234280206384,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Savo",
+        "metric": "recall",
+        "numerator": 783,
+        "denominator": 14752,
+        "reported_pct": 5.3,
+        "calculated_pct": 5.3077548806941435,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Pohjois-Savo",
+        "metric": "referral_recall_denominator",
+        "numerator": 190,
+        "denominator": 783,
+        "reported_pct": 24.3,
+        "calculated_pct": 24.26564495530013,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Päijät-Häme",
+        "metric": "participation",
+        "numerator": 10803,
+        "denominator": 13299,
+        "reported_pct": 81.2,
+        "calculated_pct": 81.2316715542522,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Päijät-Häme",
+        "metric": "recall",
+        "numerator": 196,
+        "denominator": 10803,
+        "reported_pct": 1.8,
+        "calculated_pct": 1.8143108395815977,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Päijät-Häme",
+        "metric": "referral_recall_denominator",
+        "numerator": 84,
+        "denominator": 196,
+        "reported_pct": 42.9,
+        "calculated_pct": 42.857142857142854,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Satakunta",
+        "metric": "participation",
+        "numerator": 12804,
+        "denominator": 15237,
+        "reported_pct": 84.0,
+        "calculated_pct": 84.03228982083087,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Satakunta",
+        "metric": "recall",
+        "numerator": 272,
+        "denominator": 12804,
+        "reported_pct": 2.1,
+        "calculated_pct": 2.1243361449547016,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Satakunta",
+        "metric": "referral_recall_denominator",
+        "numerator": 115,
+        "denominator": 272,
+        "reported_pct": 42.3,
+        "calculated_pct": 42.279411764705884,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Vantaa ja Kerava",
+        "metric": "participation",
+        "numerator": 12406,
+        "denominator": 16354,
+        "reported_pct": 75.9,
+        "calculated_pct": 75.85911703558763,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Vantaa ja Kerava",
+        "metric": "recall",
+        "numerator": 305,
+        "denominator": 12406,
+        "reported_pct": 2.5,
+        "calculated_pct": 2.458487828470095,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Vantaa ja Kerava",
+        "metric": "referral_recall_denominator",
+        "numerator": 85,
+        "denominator": 305,
+        "reported_pct": 27.9,
+        "calculated_pct": 27.868852459016395,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Varsinais-Suomi",
+        "metric": "participation",
+        "numerator": 26185,
+        "denominator": 32038,
+        "reported_pct": 81.7,
+        "calculated_pct": 81.73106935514078,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Varsinais-Suomi",
+        "metric": "recall",
+        "numerator": 909,
+        "denominator": 26185,
+        "reported_pct": 3.5,
+        "calculated_pct": 3.4714531220164218,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Varsinais-Suomi",
+        "metric": "referral_recall_denominator",
+        "numerator": 232,
+        "denominator": 909,
+        "reported_pct": 25.5,
+        "calculated_pct": 25.522552255225524,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Yhteensä",
+        "metric": "participation",
+        "numerator": 291532,
+        "denominator": 362204,
+        "reported_pct": 80.5,
+        "calculated_pct": 80.48834358538282,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Yhteensä",
+        "metric": "recall",
+        "numerator": 8725,
+        "denominator": 291532,
+        "reported_pct": 3.0,
+        "calculated_pct": 2.992810394742258,
+        "within_half_tenth": true
+      },
+      {
+        "year": "2020",
+        "region": "Yhteensä",
+        "metric": "referral_recall_denominator",
+        "numerator": 2431,
+        "denominator": 8725,
+        "reported_pct": 27.9,
+        "calculated_pct": 27.86246418338109,
+        "within_half_tenth": true
+      }
+    ],
+    "arithmetic_summary": {
+      "checks": 357,
+      "failed": 0
+    }
+  },
+  "thl": {
+    "dimension_ids": [
+      "tuottaja",
+      "ajankohta"
+    ],
+    "shape": [
+      20,
+      110
+    ],
+    "explicit_value_count": 1444,
+    "absent_cell_count": 756,
+    "explicit_null_count": 0,
+    "explicit_zero_count": 0,
+    "value_types": {
+      "str": 1444
+    },
+    "explicit_filter_equals_original": true,
+    "specialty": {
+      "sid": 862186,
+      "label": "65 Syöpätaudit"
+    },
+    "measure": {
+      "sid": 738214,
+      "label": "Hoitoa odottaneet"
+    },
+    "html_rows": 20,
+    "html_all_cells_equal_json": true,
+    "manual_checks": [
+      {
+        "producer": "Etelä-Karjalan hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "9",
+        "json_value": "9"
+      },
+      {
+        "producer": "Etelä-Pohjanmaan hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "13",
+        "json_value": "13"
+      },
+      {
+        "producer": "Etelä-Savon hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "12",
+        "json_value": "12"
+      }
+    ],
+    "latest_date_absences": [
+      "Helsingin sosiaali-, terveys- ja pelastustoimi",
+      "Kainuun hyvinvointialue",
+      "Pirkanmaan hyvinvointialue",
+      "Päijät-Hämeen hyvinvointialue"
+    ],
+    "absent_cells_warning": "Not a measured missing-data rate: cells include aggregate selections and structurally unavailable producer-period combinations; absent is not zero."
+  }
+}

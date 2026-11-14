@@ -1,0 +1,19 @@
+{
+  "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_manifest.tsv",
+  "utc": "2026-11-13T23:39:17.940639+00:00",
+  "status": 200,
+  "content_type": "text/tab-separated-values",
+  "bytes": 820805,
+  "sha256": "c9caafa9b98ee5ef050a705766bd1c451fc2154fb8e81b069022012a2f75ae20",
+  "columns": [
+    "phenocode",
+    "phenotype",
+    "category",
+    "num_cases",
+    "num_controls",
+    "path_bucket",
+    "path_https"
+  ],
+  "rows": 2754,
+  "example_first_line": "AB1_ACTINOMYCOSIS\tActinomycosis\tI Certain infectious and parasitic diseases (AB1_)\t132\t433757\tgs://finngen-public-data-r13/summary_stats/finngen_R13_AB1_ACTINOMYCOSIS.gz\thttps://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_AB1_ACTINOMYCOSIS.gz"
+}

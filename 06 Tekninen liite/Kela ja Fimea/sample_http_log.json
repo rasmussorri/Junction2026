@@ -1,0 +1,42 @@
+[
+  {
+    "file": "rights_schema.json",
+    "url": "https://avoindata.suomi.fi/data/dataset/70832958-f7b6-4e09-8350-615362e6ee30/resource/b223d529-6ccb-48e8-9124-662da96ce97f/download/package.json",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:38:21.807010+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 38598,
+    "sha256": "63a42cab24a1f737a5a6f9d786a504ef08ff6a980d10f4e2698b34a1c792ecee"
+  },
+  {
+    "file": "general_schema.json",
+    "url": "https://avoindata.suomi.fi/data/dataset/22368122-4f1b-4a8c-8a82-e70cdca843c9/resource/58500dce-e46e-476c-be70-6e54c2fac44c/download/package.json",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:38:22.651655+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 55136,
+    "sha256": "da6d93e8c424717f8fa2ba82fd4bd3c8595555a8c55d2dd974e33cf39b4af987"
+  },
+  {
+    "file": "rights_sample.json",
+    "url": "https://avoindata.suomi.fi/data/api/3/action/datastore_search?resource_id=cc74cc46-2b92-42b5-9a52-55adb3df512f&limit=3",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:38:23.911780+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 2676,
+    "sha256": "7dc001234adb604eda629b1c4c341540775f52d2befaecfeba5297b57bfdd7ca"
+  },
+  {
+    "file": "general2025_sample.json",
+    "url": "https://avoindata.suomi.fi/data/api/3/action/datastore_search?resource_id=ed6d4355-f72e-4b4c-8f08-3b7875327b72&limit=3",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:38:24.759789+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 2076,
+    "sha256": "904ecae9557f29cf80fde30cae62c0fd92eb3018cf808cbb4884b873de145023"
+  }
+]

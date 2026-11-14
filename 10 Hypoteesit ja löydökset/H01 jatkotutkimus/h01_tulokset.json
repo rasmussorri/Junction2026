@@ -1,0 +1,440 @@
+{
+  "source": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+  "raw_sha256": "3d1de50ec0cb6641ae9a39abf975d8f1b5b34ad879194fd46230796705e991e6",
+  "source_definition_confirmed": {
+    "participation": "At least one successful FIT result per round / selected eligible people, including people not mailed an invitation.",
+    "history": "2019–2021 pilot histories included."
+  },
+  "stratified_records": [
+    {
+      "year": 2024,
+      "sex": "Miehet",
+      "previous_result": "Negatiivinen",
+      "selected_N": 116319,
+      "participating_P": 105559,
+      "pct": 90.74957659539714
+    },
+    {
+      "year": 2024,
+      "sex": "Miehet",
+      "previous_result": "Positiivinen",
+      "selected_N": 8129,
+      "participating_P": 5595,
+      "pct": 68.82765407799238
+    },
+    {
+      "year": 2024,
+      "sex": "Miehet",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 43362,
+      "participating_P": 7583,
+      "pct": 17.487662008209952
+    },
+    {
+      "year": 2024,
+      "sex": "Miehet",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 37392,
+      "participating_P": 23185,
+      "pct": 62.005241762943946
+    },
+    {
+      "year": 2024,
+      "sex": "Naiset",
+      "previous_result": "Negatiivinen",
+      "selected_N": 140507,
+      "participating_P": 129971,
+      "pct": 92.50144120933477
+    },
+    {
+      "year": 2024,
+      "sex": "Naiset",
+      "previous_result": "Positiivinen",
+      "selected_N": 5621,
+      "participating_P": 3972,
+      "pct": 70.66358299235011
+    },
+    {
+      "year": 2024,
+      "sex": "Naiset",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 32404,
+      "participating_P": 6169,
+      "pct": 19.037773114430316
+    },
+    {
+      "year": 2024,
+      "sex": "Naiset",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 37631,
+      "participating_P": 27837,
+      "pct": 73.97358560761074
+    },
+    {
+      "year": 2023,
+      "sex": "Miehet",
+      "previous_result": "Negatiivinen",
+      "selected_N": 12535,
+      "participating_P": 11600,
+      "pct": 92.54088552054247
+    },
+    {
+      "year": 2023,
+      "sex": "Miehet",
+      "previous_result": "Positiivinen",
+      "selected_N": 657,
+      "participating_P": 440,
+      "pct": 66.9710806697108
+    },
+    {
+      "year": 2023,
+      "sex": "Miehet",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 4687,
+      "participating_P": 1055,
+      "pct": 22.509067633880946
+    },
+    {
+      "year": 2023,
+      "sex": "Miehet",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 188165,
+      "participating_P": 130528,
+      "pct": 69.36890495044243
+    },
+    {
+      "year": 2023,
+      "sex": "Naiset",
+      "previous_result": "Negatiivinen",
+      "selected_N": 16041,
+      "participating_P": 15078,
+      "pct": 93.99663362633252
+    },
+    {
+      "year": 2023,
+      "sex": "Naiset",
+      "previous_result": "Positiivinen",
+      "selected_N": 477,
+      "participating_P": 342,
+      "pct": 71.69811320754717
+    },
+    {
+      "year": 2023,
+      "sex": "Naiset",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 3570,
+      "participating_P": 965,
+      "pct": 27.030812324929972
+    },
+    {
+      "year": 2023,
+      "sex": "Naiset",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 196518,
+      "participating_P": 154295,
+      "pct": 78.51443633662056
+    },
+    {
+      "year": 2022,
+      "sex": "Miehet",
+      "previous_result": "Negatiivinen",
+      "selected_N": 10239,
+      "participating_P": 9592,
+      "pct": 93.68102353745483
+    },
+    {
+      "year": 2022,
+      "sex": "Miehet",
+      "previous_result": "Positiivinen",
+      "selected_N": 382,
+      "participating_P": 270,
+      "pct": 70.68062827225131
+    },
+    {
+      "year": 2022,
+      "sex": "Miehet",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 3322,
+      "participating_P": 728,
+      "pct": 21.914509331727874
+    },
+    {
+      "year": 2022,
+      "sex": "Miehet",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 158744,
+      "participating_P": 115742,
+      "pct": 72.91110215189235
+    },
+    {
+      "year": 2022,
+      "sex": "Naiset",
+      "previous_result": "Negatiivinen",
+      "selected_N": 12239,
+      "participating_P": 11679,
+      "pct": 95.4244627829071
+    },
+    {
+      "year": 2022,
+      "sex": "Naiset",
+      "previous_result": "Positiivinen",
+      "selected_N": 466,
+      "participating_P": 319,
+      "pct": 68.45493562231759
+    },
+    {
+      "year": 2022,
+      "sex": "Naiset",
+      "previous_result": "Ei osallistunut",
+      "selected_N": 2666,
+      "participating_P": 675,
+      "pct": 25.318829707426858
+    },
+    {
+      "year": 2022,
+      "sex": "Naiset",
+      "previous_result": "Ensimmäinen kutsu",
+      "selected_N": 166116,
+      "participating_P": 134703,
+      "pct": 81.08972043632161
+    }
+  ],
+  "annual": [
+    {
+      "year": 2022,
+      "N": 354174,
+      "P": 273708,
+      "observed_pct": 77.28065865930306,
+      "sex_history_std_2022_pct": 77.28065865930307,
+      "sex_history_std_2023_pct": 77.2083150574199,
+      "groups": [
+        {
+          "previous_result": "Ensimmäinen kutsu",
+          "selected_N": 324860,
+          "participating_P": 250445,
+          "participation_pct": 77.09320938250323,
+          "population_share_pct": 91.72327725920027
+        },
+        {
+          "previous_result": "Negatiivinen",
+          "selected_N": 22478,
+          "participating_P": 21271,
+          "participation_pct": 94.63030518729424,
+          "population_share_pct": 6.34659799985318
+        },
+        {
+          "previous_result": "Positiivinen",
+          "selected_N": 848,
+          "participating_P": 589,
+          "participation_pct": 69.45754716981132,
+          "population_share_pct": 0.23943033650126774
+        },
+        {
+          "previous_result": "Ei osallistunut",
+          "selected_N": 5988,
+          "participating_P": 1403,
+          "participation_pct": 23.430193720774884,
+          "population_share_pct": 1.6906944044452727
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "N": 422650,
+      "P": 314303,
+      "observed_pct": 74.36484088489294,
+      "sex_history_std_2022_pct": 74.4215725085782,
+      "sex_history_std_2023_pct": 74.36484088489294,
+      "groups": [
+        {
+          "previous_result": "Ensimmäinen kutsu",
+          "selected_N": 384683,
+          "participating_P": 284823,
+          "participation_pct": 74.04096359859936,
+          "population_share_pct": 91.01691707086242
+        },
+        {
+          "previous_result": "Negatiivinen",
+          "selected_N": 28576,
+          "participating_P": 26678,
+          "participation_pct": 93.3580627099664,
+          "population_share_pct": 6.761149887613865
+        },
+        {
+          "previous_result": "Positiivinen",
+          "selected_N": 1134,
+          "participating_P": 782,
+          "participation_pct": 68.95943562610229,
+          "population_share_pct": 0.26830710990181
+        },
+        {
+          "previous_result": "Ei osallistunut",
+          "selected_N": 8257,
+          "participating_P": 2020,
+          "participation_pct": 24.464091074240038,
+          "population_share_pct": 1.9536259316219093
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "N": 421365,
+      "P": 309871,
+      "observed_pct": 73.53980515704912,
+      "sex_history_std_2022_pct": 68.78126685973147,
+      "sex_history_std_2023_pct": 68.74381827396338,
+      "groups": [
+        {
+          "previous_result": "Ensimmäinen kutsu",
+          "selected_N": 75023,
+          "participating_P": 51022,
+          "participation_pct": 68.00847740026391,
+          "population_share_pct": 17.80475359842417
+        },
+        {
+          "previous_result": "Negatiivinen",
+          "selected_N": 256826,
+          "participating_P": 235530,
+          "participation_pct": 91.70800464127464,
+          "population_share_pct": 60.950957008769116
+        },
+        {
+          "previous_result": "Positiivinen",
+          "selected_N": 13750,
+          "participating_P": 9567,
+          "participation_pct": 69.57818181818182,
+          "population_share_pct": 3.2632041104505594
+        },
+        {
+          "previous_result": "Ei osallistunut",
+          "selected_N": 75766,
+          "participating_P": 13752,
+          "participation_pct": 18.150621650872424,
+          "population_share_pct": 17.98108528235615
+        }
+      ]
+    }
+  ],
+  "decompositions": [
+    {
+      "from": 2022,
+      "to": 2023,
+      "observed_delta_pp": -2.9158177744101295,
+      "symmetric_composition_component_pp": -0.06453761278421144,
+      "symmetric_within_stratum_component_pp": -2.851280161625912,
+      "warning": "Algebraic decomposition only; strata are not age-adjusted or exchangeable. No causal interpretation."
+    },
+    {
+      "from": 2023,
+      "to": 2024,
+      "observed_delta_pp": -0.8250357278438258,
+      "symmetric_composition_component_pp": 3.5662128883972066,
+      "symmetric_within_stratum_component_pp": -4.391248616241027,
+      "warning": "Algebraic decomposition only; strata are not age-adjusted or exchangeable. No causal interpretation."
+    },
+    {
+      "from": 2022,
+      "to": 2024,
+      "observed_delta_pp": -3.7408535022539553,
+      "symmetric_composition_component_pp": 2.674902111003469,
+      "symmetric_within_stratum_component_pp": -6.41575561325741,
+      "warning": "Algebraic decomposition only; strata are not age-adjusted or exchangeable. No causal interpretation."
+    }
+  ],
+  "invitation_sensitivity": {
+    "year": 2024,
+    "selected": 421365,
+    "invited": 419966,
+    "participants": 309871,
+    "not_sent_invitation_N": 1399,
+    "not_sent_invitation_share_pct": 0.3320161854923878,
+    "reported_selected_denominator_pct": 73.53980515704912,
+    "hypothetical_same_numerator_invited_denominator_pct": 73.78478257763723,
+    "denominator_only_difference_pp": 0.24497742058811411,
+    "maximum_increment_if_all_unsent_became_additional_participants_pp": 0.3320161854923878,
+    "warning": "Numerator may include people without mailed invitation. Invited-denominator calculation is sensitivity, not verified invited-person participation rate or causal estimate."
+  },
+  "availability": {
+    "screening_app_initial_cancer_choices": [
+      "breast",
+      "cervical"
+    ],
+    "help_updated": "26.05.2026",
+    "help_has_cc_by_4": true,
+    "colorectal_region_age_sex_history_joint_export": "not verified; absent from inspected static report tables and initial app choices",
+    "license_scope": "CC BY4.0 explicitly stated for screening application; applicability to separate colorectal report requires confirmation."
+  },
+  "test_counts": {
+    "sex_history_year_rate_checks": 24,
+    "sum_checks": 6,
+    "algebraic_decompositions": 3,
+    "age60_year_rates": 9
+  },
+  "H01_full_joint_test_status": "unresolved: age × sex × history × region joint strata unavailable in verified samples",
+  "proposed_status_change": "retain H01; record contrary evidence for simpler sex-history-only composition explanation",
+  "age60_repeated_cross_sections": [
+    {
+      "year": 2022,
+      "sex": "Miehet",
+      "selected_N": 36233,
+      "participating_P": 24773,
+      "pct": 68.37137416167582
+    },
+    {
+      "year": 2022,
+      "sex": "Naiset",
+      "selected_N": 36541,
+      "participating_P": 28572,
+      "pct": 78.19162037163734
+    },
+    {
+      "year": 2022,
+      "sex": "Yhteensä",
+      "selected_N": 72774,
+      "participating_P": 53345,
+      "pct": 73.30227828620112
+    },
+    {
+      "year": 2023,
+      "sex": "Miehet",
+      "selected_N": 36576,
+      "participating_P": 23063,
+      "pct": 63.05500874890639
+    },
+    {
+      "year": 2023,
+      "sex": "Naiset",
+      "selected_N": 36941,
+      "participating_P": 27702,
+      "pct": 74.98984867762107
+    },
+    {
+      "year": 2023,
+      "sex": "Yhteensä",
+      "selected_N": 73517,
+      "participating_P": 50765,
+      "pct": 69.05205598705061
+    },
+    {
+      "year": 2024,
+      "sex": "Miehet",
+      "selected_N": 36281,
+      "participating_P": 22671,
+      "pct": 62.487252280808136
+    },
+    {
+      "year": 2024,
+      "sex": "Naiset",
+      "selected_N": 36565,
+      "participating_P": 27245,
+      "pct": 74.51114453712567
+    },
+    {
+      "year": 2024,
+      "sex": "Yhteensä",
+      "selected_N": 72846,
+      "participating_P": 49916,
+      "pct": 68.52263679543145
+    }
+  ]
+}

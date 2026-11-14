@@ -1,0 +1,3811 @@
+{
+  "kohtu": {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+    "file": "06 Tekninen liite/Kohdunkaula ja seulontaviiveet/work/kohtu.html",
+    "sha256": "275e967bd2c9e38455f21261fa15d88e8ea9407cc67f01d282044463ac58f5b7",
+    "bytes": 10197651,
+    "real_table_count": 126,
+    "raw_table_token_count": 131,
+    "independent_parser_equal": true,
+    "table_section_counts": {
+      "Koko maa": 30,
+      "Väestöryhmät": 15,
+      "Yhteistyöalueet": 30,
+      "Hyvinvointialueet": 30,
+      "Testimenetelmä": 20,
+      "Syövän havaitsemistapa": 1
+    },
+    "explicit_group_counts": {
+      "Ikäryhmäseulonta": 55,
+      "Riskiryhmäseulonta": 55,
+      "None": 16
+    },
+    "table_header_delay_keyword_matches": [],
+    "special_numeric_tokens": {
+      "–": 105,
+      "--": 2
+    },
+    "special_numeric_locations": [
+      {
+        "table": 41,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 42,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 42,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 44,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 44,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 58,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Yhteistyöalueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Pohjois-Suomi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 60,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Yhteistyöalueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Pohjois-Suomi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 64,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Yhteistyöalueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Pohjois-Suomi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 75,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2024"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 76,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2024"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 82,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 82,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 84,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontaketju",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 86,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2024"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 87,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 87,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 87,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 87,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 17,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 87,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 19,
+        "label": "Pohjois-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 14,
+        "label": "Lappi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 17,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 88,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2023"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 19,
+        "label": "Pohjois-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 89,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 89,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 89,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 89,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 14,
+        "label": "Lappi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 89,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 17,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 14,
+        "label": "Lappi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 17,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 90,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2022"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 19,
+        "label": "Pohjois-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 91,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 92,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 92,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 3,
+        "label": "Etelä-Karjala",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 92,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 92,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 92,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 17,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 93,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 93,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Ikäryhmäseulonta",
+        "row": 20,
+        "label": "Pohjois-Savo",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 3,
+        "label": "Etelä-Karjala",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 10,
+        "label": "Keski-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 12,
+        "label": "Kymenlaakso",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 13,
+        "label": "Lappi",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 15,
+        "label": "Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 17,
+        "label": "Pohjois-Pohjanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 94,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Seulontatulokset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 18,
+        "label": "Pohjois-Savo",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 102,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2021"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 2,
+        "label": "Ahvenanmaa",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 5,
+        "label": "Etelä-Savo",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 6,
+        "label": "Helsingin kaupunki",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 7,
+        "label": "Itä-Uusimaa",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 13,
+        "token": "–"
+      },
+      {
+        "table": 104,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Histologiset löydökset",
+          "2020"
+        ],
+        "screening_group": "Riskiryhmäseulonta",
+        "row": 8,
+        "label": "Kainuu",
+        "column": 15,
+        "token": "–"
+      },
+      {
+        "table": 125,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "screening_group": null,
+        "row": 6,
+        "label": "Seulontaikää nuorempi",
+        "column": 3,
+        "token": "--"
+      },
+      {
+        "table": 125,
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "screening_group": null,
+        "row": 7,
+        "label": "Seulontaikää vanhempi",
+        "column": 3,
+        "token": "--"
+      }
+    ],
+    "numeric_zero_tokens": {
+      "0": 1033,
+      "0,0": 836
+    },
+    "widgets": [
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          "Muutokset osallistumisaktiivisuudessa"
+        ],
+        "bytes": 127098,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "attrs",
+          "source",
+          "config",
+          "highlight",
+          "subplot",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "xaxis2": "Kutsuvuosi",
+          "yaxis2": "",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 36,
+        "trace_names": [
+          "30",
+          "35",
+          "40",
+          "45",
+          "50",
+          "55",
+          "60",
+          "65",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          "Muutokset positiivisuusosuudessa"
+        ],
+        "bytes": 129094,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "attrs",
+          "source",
+          "config",
+          "highlight",
+          "subplot",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "xaxis2": "Kutsuvuosi",
+          "yaxis2": "",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 36,
+        "trace_names": [
+          "30",
+          "35",
+          "40",
+          "45",
+          "50",
+          "55",
+          "60",
+          "65",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          "Muutokset syöpä-/esiasteosuudessa"
+        ],
+        "bytes": 125544,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "attrs",
+          "source",
+          "config",
+          "highlight",
+          "subplot",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "xaxis2": "Kutsuvuosi",
+          "yaxis2": "",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 36,
+        "trace_names": [
+          "30",
+          "35",
+          "40",
+          "45",
+          "50",
+          "55",
+          "60",
+          "65",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Hyvinvointialueet"
+        ],
+        "bytes": 390338,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "",
+          "yaxis": "",
+          "xaxis2": "",
+          "legend": {
+            "text": "%",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 49,
+        "trace_names": [
+          "799001e22702800fb9ee82e015850310"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Kunnat"
+        ],
+        "bytes": 433518,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "yaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "legend": {
+            "text": "%",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 311,
+        "trace_names": [
+          "8fdef6853cce81ae46b78501126fd42b"
+        ],
+        "delay_keyword_in_payload": false
+      }
+    ],
+    "delay_images": [
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2024"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_00.png",
+        "bytes": 33485,
+        "sha256": "db031b6bf9266b5b9404e4fd0f981e66f867985ee77a9c9f6647e06228a19fdc"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2023"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_01.png",
+        "bytes": 34365,
+        "sha256": "15c28e221aa24af44468935022f89ad1b2e6eaef813e1c24218af304c2e5a0d7"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2022"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_02.png",
+        "bytes": 37672,
+        "sha256": "ff8e7f51c9a67d3d356754f9e254b6f890254151754ac1233f547c72aaa27429"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2021"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_03.png",
+        "bytes": 35665,
+        "sha256": "c2d40393ad6eb835eabf059fc9b0ebfb3bc63d9db3aafecff7a6d0b2087a71f8"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2020"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta hyvinvointialueittain ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_04.png",
+        "bytes": 33567,
+        "sha256": "c10be43d3d667803eeaa5be1e3a7178a92cf3b19f34425fe25e415e3d70ed37c"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Testimenetelmä",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2024"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_05.png",
+        "bytes": 22739,
+        "sha256": "00e692c0e213e6f22001d8c88a488cf419c1ee2f101cb13e2356d839b19b006f"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Testimenetelmä",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2023"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_06.png",
+        "bytes": 23232,
+        "sha256": "246d1170e8213f13ffb45c4038e5b9720cabc32a588fdba9b66e07ff8d5d2864"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Testimenetelmä",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2022"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_07.png",
+        "bytes": 21349,
+        "sha256": "814d73735c32a29c6b10cd80fcb82a322e4bb66b9d242c737cd0eb9ea35302b3"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Testimenetelmä",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2021"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_08.png",
+        "bytes": 23957,
+        "sha256": "f9bcaa00ec7e6a25ffc6de367ffc0ea992c00ecd8c3490935267ad76feb0defa"
+      },
+      {
+        "headings": [
+          "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+          "Testimenetelmä",
+          "Viipeet kolposkopiaan pääsyssä",
+          "2020"
+        ],
+        "alt": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "aria_label": "Pistekuvio kolposkopian odotusajasta seulontamenetelmittÃ¤in ja kutsutyypin mukaan mediaaneineen ja desiileineen",
+        "embedded_png": true,
+        "file": "work/kohtu_delay_09.png",
+        "bytes": 22709,
+        "sha256": "7b8c7617a849eb80aaa4248eb06552d2c8a578c99ba694e91975d65c0f32505b"
+      }
+    ],
+    "external_csv_xlsx_json_links": [],
+    "geography": [
+      {
+        "table": 75,
+        "year": "2024",
+        "group": "Ikäryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 76,
+        "year": "2024",
+        "group": "Riskiryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 77,
+        "year": "2023",
+        "group": "Ikäryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 78,
+        "year": "2023",
+        "group": "Riskiryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 79,
+        "year": "2022",
+        "group": "Ikäryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 80,
+        "year": "2022",
+        "group": "Riskiryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 81,
+        "year": "2021",
+        "group": "Ikäryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 82,
+        "year": "2021",
+        "group": "Riskiryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 83,
+        "year": "2020",
+        "group": "Ikäryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ]
+      },
+      {
+        "table": 84,
+        "year": "2020",
+        "group": "Riskiryhmäseulonta",
+        "areas": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Kymenlaakso",
+          "Lappi",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Varsinais-Suomi"
+        ]
+      }
+    ],
+    "arithmetic": {
+      "ratio_checks": 2310,
+      "defined_checks": 2291,
+      "failures": [],
+      "undefined": [
+        {
+          "table": 41,
+          "year": "2023",
+          "group": null,
+          "row": "Oseania",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 42,
+          "year": "2022",
+          "group": null,
+          "row": "Oseania",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 42,
+          "year": "2022",
+          "group": null,
+          "row": "Oseania",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 44,
+          "year": "2020",
+          "group": null,
+          "row": "Oseania",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 44,
+          "year": "2020",
+          "group": null,
+          "row": "Oseania",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 75,
+          "year": "2024",
+          "group": "Ikäryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 76,
+          "year": "2024",
+          "group": "Riskiryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 82,
+          "year": "2021",
+          "group": "Riskiryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 82,
+          "year": "2021",
+          "group": "Riskiryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Ahvenanmaa",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Etelä-Savo",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Etelä-Savo",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Helsingin kaupunki",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Helsingin kaupunki",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Itä-Uusimaa",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Itä-Uusimaa",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Kainuu",
+          "metric": "colposcopy_recorded",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        },
+        {
+          "table": 84,
+          "year": "2020",
+          "group": "Riskiryhmäseulonta",
+          "row": "Kainuu",
+          "metric": "hsil_plus",
+          "numerator": 0,
+          "denominator": 0,
+          "calculated_pct": null,
+          "reported_pct": null,
+          "reported_token": "–",
+          "within_half_tenth": null
+        }
+      ],
+      "sum_checks": 270,
+      "sum_failures": []
+    },
+    "manual_checks": [
+      {
+        "table": 0,
+        "row": 2,
+        "column": 2,
+        "expected_from_raw_html": "23907",
+        "extracted": "23907"
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "column": 1,
+        "expected_from_raw_html": "2442",
+        "extracted": "2442"
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "column": 8,
+        "expected_from_raw_html": "2071",
+        "extracted": "2071"
+      }
+    ],
+    "national_2024": {
+      "age": [
+        "Yhteensä",
+        "280812",
+        "206337",
+        "73,5",
+        "11453",
+        "5,6",
+        "2445",
+        "1,2",
+        "2071",
+        "84,7",
+        "796",
+        "38,4"
+      ],
+      "risk": [
+        "Yhteensä",
+        "11298",
+        "9341",
+        "82,7",
+        "123",
+        "1,3",
+        "4132",
+        "44,2",
+        "3517",
+        "85,1",
+        "695",
+        "19,8"
+      ],
+      "histology_age": [
+        "Yhteensä",
+        "2445",
+        "27",
+        "1,1",
+        "33",
+        "1,3",
+        "736",
+        "30,1",
+        "612",
+        "25,0",
+        "622",
+        "25,4",
+        "41",
+        "1,7",
+        "374",
+        "15,3"
+      ],
+      "histology_risk": [
+        "Yhteensä",
+        "4132",
+        "16",
+        "0,4",
+        "26",
+        "0,6",
+        "653",
+        "15,8",
+        "1019",
+        "24,7",
+        "1675",
+        "40,5",
+        "128",
+        "3,1",
+        "615",
+        "14,9"
+      ],
+      "detection_mode_2020_2024": [
+        [
+          "Seulontasyöpä",
+          "356",
+          "30,1",
+          "39,1"
+        ],
+        [
+          "Välisyöpä",
+          "175",
+          "14,8",
+          "19,2"
+        ],
+        [
+          "Osallistumaton",
+          "345",
+          "29,1",
+          "37,9"
+        ],
+        [
+          "Ei kutsua",
+          "35",
+          "3,0",
+          "3,8"
+        ],
+        [
+          "Seulontaikää nuorempi",
+          "25",
+          "2,1",
+          "--"
+        ],
+        [
+          "Seulontaikää vanhempi",
+          "248",
+          "20,9",
+          "--"
+        ],
+        [
+          "Yhteensä",
+          "1184",
+          "100,0",
+          "100,0"
+        ]
+      ]
+    }
+  },
+  "rinta": {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/rinta.html",
+    "file": "06 Tekninen liite/rinta.html",
+    "sha256": "736943ae3ee8d665173e52affd00dae9bf328c37962c3ae89f54504fc046380c",
+    "bytes": 8662680,
+    "real_table_count": 61,
+    "raw_table_token_count": 66,
+    "independent_parser_equal": true,
+    "table_section_counts": {
+      "Koko maa": 10,
+      "Väestöryhmät": 30,
+      "Yhteistyöalueet": 10,
+      "Hyvinvointialueet": 10,
+      "Syövän havaitsemistapa": 1
+    },
+    "explicit_group_counts": {
+      "None": 61
+    },
+    "table_header_delay_keyword_matches": [],
+    "special_numeric_tokens": {
+      "–": 42,
+      "--": 2
+    },
+    "special_numeric_locations": [
+      {
+        "table": 31,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 32,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 33,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 35,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 36,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 36,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 36,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 36,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 36,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 37,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 3,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 38,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2021"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 5,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 39,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "",
+          "2020"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 11,
+        "token": "–"
+      },
+      {
+        "table": 60,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "screening_group": null,
+        "row": 6,
+        "label": "Seulontaikää nuorempi",
+        "column": 3,
+        "token": "--"
+      },
+      {
+        "table": 60,
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "screening_group": null,
+        "row": 7,
+        "label": "Seulontaikää vanhempi",
+        "column": 3,
+        "token": "--"
+      }
+    ],
+    "numeric_zero_tokens": {
+      "0": 249,
+      "0,0": 204
+    },
+    "widgets": [
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          ""
+        ],
+        "bytes": 44912,
+        "top_x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 22,
+        "trace_names": [
+          "50",
+          "52",
+          "54",
+          "56",
+          "58",
+          "60",
+          "62",
+          "64",
+          "66",
+          "68",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          ""
+        ],
+        "bytes": 45918,
+        "top_x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 22,
+        "trace_names": [
+          "50",
+          "52",
+          "54",
+          "56",
+          "58",
+          "60",
+          "62",
+          "64",
+          "66",
+          "68",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Hyvinvointialueet"
+        ],
+        "bytes": 198232,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "yaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "legend": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 24,
+        "trace_names": [
+          "99_7afd58931adace2576920a6b4291d7fb"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Kunnat"
+        ],
+        "bytes": 423047,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "yaxis": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          },
+          "legend": {
+            "text": "",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 294,
+        "trace_names": [
+          "99_96fb84963f84dd59c0494402e17d9a84"
+        ],
+        "delay_keyword_in_payload": false
+      }
+    ],
+    "delay_images": [
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet varmistutkimuksiin pääsyssä",
+          "2024"
+        ],
+        "alt": "delays",
+        "aria_label": "delays",
+        "embedded_png": true,
+        "file": "work/rinta_delay_00.png",
+        "bytes": 32524,
+        "sha256": "147c9c851939afc81d04c1235f2b9a70775ecf4f383b0af6c0ee8499a1a02728"
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet varmistutkimuksiin pääsyssä",
+          "2023"
+        ],
+        "alt": "delays",
+        "aria_label": "delays",
+        "embedded_png": true,
+        "file": "work/rinta_delay_01.png",
+        "bytes": 34579,
+        "sha256": "3a74ec1b97daa9e96848368abdece92a839a94084b1dabd7fd3bec17bb564a99"
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet varmistutkimuksiin pääsyssä",
+          "2022"
+        ],
+        "alt": "delays",
+        "aria_label": "delays",
+        "embedded_png": true,
+        "file": "work/rinta_delay_02.png",
+        "bytes": 33674,
+        "sha256": "7cb2430302eeabe2d1818497cbbc57d83c8b7c6187b11e8389d71d287df28b8f"
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet varmistutkimuksiin pääsyssä",
+          "2021"
+        ],
+        "alt": "delays",
+        "aria_label": "delays",
+        "embedded_png": true,
+        "file": "work/rinta_delay_03.png",
+        "bytes": 31616,
+        "sha256": "5a31d1188ab50c8bfb3df172d50b16e2d7a65dcfca3758c56c8a3a6bd2e400ef"
+      },
+      {
+        "headings": [
+          "Rintasyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet varmistutkimuksiin pääsyssä",
+          "2020"
+        ],
+        "alt": "delays",
+        "aria_label": "delays",
+        "embedded_png": true,
+        "file": "work/rinta_delay_04.png",
+        "bytes": 31729,
+        "sha256": "0f94774c006d241292586f91a0373185f4302094173bb99e6f3f68cafa9f44ed"
+      }
+    ],
+    "external_csv_xlsx_json_links": []
+  },
+  "suolisto": {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/suolisto.html",
+    "file": "06 Tekninen liite/suolisto.html",
+    "sha256": "8700c9618456bb29ed7465b04b70492c408e4c47cf1259dbc18638ee2e5e7e52",
+    "bytes": 7368210,
+    "real_table_count": 34,
+    "raw_table_token_count": 39,
+    "independent_parser_equal": true,
+    "table_section_counts": {
+      "Koko maa": 9,
+      "Väestöryhmät": 9,
+      "Yhteistyöalueet": 6,
+      "Hyvinvointialueet": 6,
+      "Erikoistilastot": 4
+    },
+    "explicit_group_counts": {
+      "None": 34
+    },
+    "table_header_delay_keyword_matches": [],
+    "special_numeric_tokens": {
+      "–": 7
+    },
+    "special_numeric_locations": [
+      {
+        "table": 15,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 15,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2024"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 16,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 16,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 16,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2023"
+        ],
+        "screening_group": null,
+        "row": 8,
+        "label": "Tuntematon",
+        "column": 9,
+        "token": "–"
+      },
+      {
+        "table": 17,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 7,
+        "token": "–"
+      },
+      {
+        "table": 17,
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Väestöryhmät",
+          "Syntymäalue",
+          "2022"
+        ],
+        "screening_group": null,
+        "row": 3,
+        "label": "Oseania",
+        "column": 9,
+        "token": "–"
+      }
+    ],
+    "numeric_zero_tokens": {
+      "0": 17,
+      "0,0": 10
+    },
+    "widgets": [
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          ""
+        ],
+        "bytes": 28708,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "attrs",
+          "source",
+          "config",
+          "highlight",
+          "subplot",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "xaxis2": "Kutsuvuosi",
+          "yaxis2": "",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 28,
+        "trace_names": [
+          "60",
+          "62",
+          "64",
+          "66",
+          "68",
+          "70",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Koko maa",
+          ""
+        ],
+        "bytes": 28964,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "attrs",
+          "source",
+          "config",
+          "highlight",
+          "subplot",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "Kutsuvuosi",
+          "xaxis2": "Kutsuvuosi",
+          "yaxis2": "",
+          "yaxis": "",
+          "legend": {
+            "text": ""
+          }
+        },
+        "trace_count": 28,
+        "trace_names": [
+          "60",
+          "62",
+          "64",
+          "66",
+          "68",
+          "70",
+          "Yhteensä"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Hyvinvointialueet"
+        ],
+        "bytes": 384601,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "",
+          "yaxis": "",
+          "xaxis2": "",
+          "legend": {
+            "text": "%",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 47,
+        "trace_names": [
+          "06fa8f1d00df1464733717c32a94f34f"
+        ],
+        "delay_keyword_in_payload": false
+      },
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Kartat osallistumisaktiivisuudesta",
+          "Kunnat"
+        ],
+        "bytes": 835069,
+        "top_x_keys": [
+          "data",
+          "layout",
+          "config",
+          "source",
+          "attrs",
+          "cur_data",
+          "visdat",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "axis_titles": {
+          "xaxis": "",
+          "yaxis": "",
+          "xaxis2": "",
+          "legend": {
+            "text": "%",
+            "font": {
+              "color": "rgba(0,0,0,1)",
+              "family": "",
+              "size": 14.611872146118724
+            }
+          }
+        },
+        "trace_count": 587,
+        "trace_names": [
+          "66336377a1c89c135b64901c925b70ae"
+        ],
+        "delay_keyword_in_payload": false
+      }
+    ],
+    "delay_images": [
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolonoskopiaan pääsyssä",
+          "2024"
+        ],
+        "alt": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "aria_label": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "embedded_png": true,
+        "file": "work/suolisto_delay_00.png",
+        "bytes": 33431,
+        "sha256": "88a2f1299b3898d642a9982e2fa9c158aa272878c93c6554997a928375251285"
+      },
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolonoskopiaan pääsyssä",
+          "2023"
+        ],
+        "alt": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "aria_label": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "embedded_png": true,
+        "file": "work/suolisto_delay_01.png",
+        "bytes": 33048,
+        "sha256": "1c27ee0bacd5792a72a553cc08e8fc3b31467b9799ca0e14c42aba6fa16edebb"
+      },
+      {
+        "headings": [
+          "Suolistosyövän seulontaohjelma: vuositilasto",
+          "Hyvinvointialueet",
+          "Viipeet kolonoskopiaan pääsyssä",
+          "2022"
+        ],
+        "alt": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "aria_label": "Pistekuvio koloskopian odotusajasta hyvinvointialueittain mediaaneineen ja desiilien rajoineen",
+        "embedded_png": true,
+        "file": "work/suolisto_delay_02.png",
+        "bytes": 32380,
+        "sha256": "3722e8f243b43caa0be25af7a0547550cc31e9d6e52cab49941daaec3d6fbbf7"
+      }
+    ],
+    "external_csv_xlsx_json_links": []
+  },
+  "created_utc": "2026-11-13T23:43:17.306905+00:00",
+  "scope": "Only exact saved report snapshots. No quantile estimates or digitised image values. Initial app HTML is not a completed CSV export."
+}

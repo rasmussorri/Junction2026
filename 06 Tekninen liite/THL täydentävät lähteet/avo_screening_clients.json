@@ -1,0 +1,109 @@
+{
+"dataset": {
+"version": "2.0",
+"class": "dataset",
+"label": "Avohilmo: Terveydenhuollon avohoidon toimenpiteet hyvinvointialueittain ja kunnittain",
+"dimension": {
+"id": [
+"alue","aika"
+],
+"size": [
+26,10
+],
+"alue" : {
+"category": {
+"index": {
+"862521": 0,
+"862779": 1,
+"863064": 2,
+"863062": 3,
+"862658": 4,
+"862751": 5,
+"862590": 6,
+"863077": 7,
+"862747": 8,
+"863048": 9,
+"862810": 10,
+"862813": 11,
+"862943": 12,
+"862882": 13,
+"862969": 14,
+"862447": 15,
+"863001": 16,
+"862794": 17,
+"862975": 18,
+"863002": 19,
+"862606": 20,
+"862500": 21,
+"862692": 22,
+"862561": 23,
+"862535": 24,
+"11810": 25
+},
+"label": {
+"862521": "Ahvenanmaa",
+"862779": "Etelä-Karjalan hyvinvointialue",
+"863064": "Etelä-Pohjanmaan hyvinvointialue",
+"863062": "Etelä-Savon hyvinvointialue",
+"862658": "Helsingin kaupunki",
+"862751": "Itä-Uudenmaan hyvinvointialue",
+"862590": "Kainuun hyvinvointialue",
+"863077": "Kanta-Hämeen hyvinvointialue",
+"862747": "Keski-Pohjanmaan hyvinvointialue",
+"863048": "Keski-Suomen hyvinvointialue",
+"862810": "Keski-Uudenmaan hyvinvointialue",
+"862813": "Kymenlaakson hyvinvointialue",
+"862943": "Lapin hyvinvointialue",
+"862882": "Länsi-Uudenmaan hyvinvointialue",
+"862969": "Pirkanmaan hyvinvointialue",
+"862447": "Pohjanmaan hyvinvointialue",
+"863001": "Pohjois-Karjalan hyvinvointialue",
+"862794": "Pohjois-Pohjanmaan hyvinvointialue",
+"862975": "Pohjois-Savon hyvinvointialue",
+"863002": "Päijät-Hämeen hyvinvointialue",
+"862606": "Satakunnan hyvinvointialue",
+"862500": "Vantaan ja Keravan hyvinvointialue",
+"862692": "Varsinais-Suomen hyvinvointialue",
+"862561": "Ulkomaat",
+"862535": "Tieto puuttuu",
+"11810": "Kaikki kunnat"
+}
+}
+},
+"aika" : {
+"category": {
+"index": {
+"251317": 0,
+"340847": 1,
+"429307": 2,
+"510033": 3,
+"660839": 4,
+"835338": 5,
+"1088412": 6,
+"1154745": 7,
+"1209256": 8,
+"87596": 9
+},
+"label": {
+"251317": "2018",
+"340847": "2019",
+"429307": "2020",
+"510033": "2021",
+"660839": "2022",
+"835338": "2023",
+"1088412": "2024",
+"1154745": "2025",
+"1209256": "2026",
+"87596": "Kaikki vuodet"
+}
+}
+}
+},
+"value": {
+"174": "1405",
+"175": "1731",
+"254": "1407",
+"255": "1734"
+}
+}
+}

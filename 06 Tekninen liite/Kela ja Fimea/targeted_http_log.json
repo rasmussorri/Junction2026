@@ -1,0 +1,19 @@
+[
+  {
+    "file": "rights_breast2025_sample.json",
+    "url": "https://avoindata.suomi.fi/data/api/3/action/datastore_search?resource_id=cc74cc46-2b92-42b5-9a52-55adb3df512f&limit=10&filters=%7B%22korvausoikeus_koodi%22%3A+115%2C+%22vuosi%22%3A+2025%7D&sort=vuodenlopussa_lkm+desc",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:39:24.055900+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 5172,
+    "sha256": "7e065e7b0f808052f2b012d6658fd3f4d9698b6b86a6ca77108388c54bf444c6"
+  },
+  {
+    "file": "fimea_adverse2024_atc.pdf",
+    "url": "https://sic.fimea.fi/documents/135733865/231624454/TEKSTIVASTINE%20EXCEL%20Kuva%201.%20Haittavaikutusilmoitusten%20m%C3%A4%C3%A4r%C3%A4%20l%C3%A4%C3%A4keaineiden%20ATC-luokittain%20(1).pdf/476ea4d7-daa0-7caa-27bd-60b6504cd2da?t=1765475080391",
+    "method": "GET",
+    "at_utc": "2026-11-13T23:39:29.488669+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

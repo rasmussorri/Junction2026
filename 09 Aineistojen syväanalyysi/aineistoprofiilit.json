@@ -1,0 +1,485 @@
+{
+  "created_utc": "2026-11-13T23:25:18.203316+00:00",
+  "scope": "Saved snapshots; verification is sample-specific, not population completeness.",
+  "suolisto": {
+    "sha256_html": "3d1de50ec0cb6641ae9a39abf975d8f1b5b34ad879194fd46230796705e991e6",
+    "real_table_count": 34,
+    "extracted_table_count": 34,
+    "raw_table_token_count": 39,
+    "all_cells_match_independent_parser": true,
+    "manual_checks": [
+      {
+        "table_index": 24,
+        "row_index": 2,
+        "column_index": 2,
+        "region": "Etelä-Karjala",
+        "raw_html_value": "8241",
+        "extracted_value": "8241"
+      },
+      {
+        "table_index": 24,
+        "row_index": 3,
+        "column_index": 2,
+        "region": "Etelä-Pohjanmaa",
+        "raw_html_value": "11899",
+        "extracted_value": "11899"
+      },
+      {
+        "table_index": 24,
+        "row_index": 4,
+        "column_index": 2,
+        "region": "Etelä-Savo",
+        "raw_html_value": "10093",
+        "extracted_value": "10093"
+      }
+    ],
+    "special_tokens_after_two_header_rows": {
+      "0": 17,
+      "0,0": 10
+    },
+    "special_token_locations": [],
+    "area_year_profiles": [
+      {
+        "year": "2024",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      },
+      {
+        "year": "2023",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      },
+      {
+        "year": "2022",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "10": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true,
+          "8": true
+        }
+      }
+    ],
+    "arithmetic_summary": {
+      "checks": 276,
+      "failed": 0
+    },
+    "denominator_issue": {
+      "table_header": "Käynyt kolonoskopiassa (osallistuneista)",
+      "reported_percent": "72,7",
+      "colonoscopy_N": 10244,
+      "test_positive_N": 14083,
+      "participants_N": 309871,
+      "percent_of_positive": 72.74018319960236,
+      "percent_of_participants": 3.3058918065904845
+    }
+  },
+  "rinta": {
+    "sha256_html": "69acd38a60558e177d4b196b8de271e1897e95d041f27de76fa16cf483255a2b",
+    "real_table_count": 61,
+    "extracted_table_count": 61,
+    "raw_table_token_count": 66,
+    "all_cells_match_independent_parser": true,
+    "manual_checks": [
+      {
+        "table_index": 50,
+        "row_index": 2,
+        "column_index": 2,
+        "region": "Etelä-Karjala",
+        "raw_html_value": "7047",
+        "extracted_value": "7047"
+      },
+      {
+        "table_index": 50,
+        "row_index": 3,
+        "column_index": 2,
+        "region": "Etelä-Pohjanmaa",
+        "raw_html_value": "10069",
+        "extracted_value": "10069"
+      },
+      {
+        "table_index": 50,
+        "row_index": 4,
+        "column_index": 2,
+        "region": "Etelä-Savo",
+        "raw_html_value": "7741",
+        "extracted_value": "7741"
+      }
+    ],
+    "special_tokens_after_two_header_rows": {
+      "0": 249,
+      "0,0": 204,
+      "--": 2
+    },
+    "special_token_locations": [
+      {
+        "table": 60,
+        "row": 6,
+        "column": 3,
+        "value": "--",
+        "heading": [
+          "Rintasyövän seulontaohjelma:\nvuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "row_label": "Seulontaikää nuorempi"
+      },
+      {
+        "table": 60,
+        "row": 7,
+        "column": 3,
+        "value": "--",
+        "heading": [
+          "Rintasyövän seulontaohjelma:\nvuositilasto",
+          "Syövän havaitsemistapa",
+          ""
+        ],
+        "row_label": "Seulontaikää vanhempi"
+      }
+    ],
+    "area_year_profiles": [
+      {
+        "year": "2024",
+        "regions": [
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 23
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2023",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2022",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2021",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      },
+      {
+        "year": "2020",
+        "regions": [
+          "Ahvenanmaa",
+          "Etelä-Karjala",
+          "Etelä-Pohjanmaa",
+          "Etelä-Savo",
+          "Helsingin kaupunki",
+          "Itä-Uusimaa",
+          "Kainuu",
+          "Kanta-Häme",
+          "Keski-Pohjanmaa",
+          "Keski-Suomi",
+          "Keski-Uusimaa",
+          "Kymenlaakso",
+          "Lappi",
+          "Länsi-Uusimaa",
+          "Pirkanmaa",
+          "Pohjanmaa",
+          "Pohjois-Karjala",
+          "Pohjois-Pohjanmaa",
+          "Pohjois-Savo",
+          "Päijät-Häme",
+          "Satakunta",
+          "Vantaa ja Kerava",
+          "Varsinais-Suomi"
+        ],
+        "row_widths": {
+          "8": 24
+        },
+        "duplicate_region_labels": 0,
+        "total_count_matches": {
+          "1": true,
+          "2": true,
+          "4": true,
+          "6": true
+        }
+      }
+    ],
+    "arithmetic_summary": {
+      "checks": 357,
+      "failed": 0
+    }
+  },
+  "thl": {
+    "dimension_ids": [
+      "tuottaja",
+      "ajankohta"
+    ],
+    "shape": [
+      20,
+      110
+    ],
+    "explicit_value_count": 1444,
+    "absent_cell_count": 756,
+    "explicit_null_count": 0,
+    "explicit_zero_count": 0,
+    "value_types": {
+      "str": 1444
+    },
+    "explicit_filter_equals_original": true,
+    "specialty": {
+      "sid": 862186,
+      "label": "65 Syöpätaudit"
+    },
+    "measure": {
+      "sid": 738214,
+      "label": "Hoitoa odottaneet"
+    },
+    "html_rows": 20,
+    "html_all_cells_equal_json": true,
+    "manual_checks": [
+      {
+        "producer": "Etelä-Karjalan hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "9",
+        "json_value": "9"
+      },
+      {
+        "producer": "Etelä-Pohjanmaan hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "13",
+        "json_value": "13"
+      },
+      {
+        "producer": "Etelä-Savon hyvinvointialue",
+        "date": "30.09.2026",
+        "html_value": "12",
+        "json_value": "12"
+      }
+    ],
+    "latest_date_absences": [
+      "Helsingin sosiaali-, terveys- ja pelastustoimi",
+      "Kainuun hyvinvointialue",
+      "Pirkanmaan hyvinvointialue",
+      "Päijät-Hämeen hyvinvointialue"
+    ],
+    "absent_cells_warning": "Not a measured missing-data rate: cells include aggregate selections and structurally unavailable producer-period combinations; absent is not zero."
+  }
+}

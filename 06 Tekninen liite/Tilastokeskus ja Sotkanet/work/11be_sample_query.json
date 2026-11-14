@@ -1,0 +1,54 @@
+{
+  "query": [
+    {
+      "code": "kuolinsyyt_80_20210101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "C50",
+          "C18"
+        ]
+      }
+    },
+    {
+      "code": "ikaryhma_10_20180101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS"
+        ]
+      }
+    },
+    {
+      "code": "timeperiod_y",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2024",
+          "2025"
+        ]
+      }
+    },
+    {
+      "code": "sukupuoli_9_20180101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS"
+        ]
+      }
+    },
+    {
+      "code": "contentscode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "ksyylkm"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

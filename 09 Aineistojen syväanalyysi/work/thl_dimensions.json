@@ -1,0 +1,2896 @@
+thl.pivot.loadDimensions(
+[
+{
+	"id":"tuottaja",
+	"label":"Hyvinvointialueet",
+	"children": [
+{
+	"id":"tuottaja1",
+	"sid":976329,
+	"label":"Kaikki hyvinvointialueet",
+	"stage":"root",
+	"code":"tuottajat",
+	"sort":1,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/root/tuottajat",
+	"children": [
+{
+	"id":"tuottaja2",
+	"sid":1038653,
+	"label":"Etelä-Karjalan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.7259373.10.0",
+	"sort":2,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.7259373.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja3",
+	"sid":1038634,
+	"label":"Etelä-Pohjanmaan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213238.10.0",
+	"sort":3,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213238.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja4",
+	"sid":1038622,
+	"label":"Etelä-Savon hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213158.10.0",
+	"sort":4,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213158.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja5",
+	"sid":1038638,
+	"label":"HUS",
+	"stage":"hva",
+	"code":"1.2.246.537.10.15675350.10.0",
+	"sort":5,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.537.10.15675350.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja6",
+	"sid":1038607,
+	"label":"Helsingin sosiaali-, terveys- ja pelastustoimi",
+	"stage":"hva",
+	"code":"1.2.246.10.2012566.10.40",
+	"sort":6,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.2012566.10.40",
+	"children": []
+
+},
+{
+	"id":"tuottaja7",
+	"sid":1038670,
+	"label":"Kainuun hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.19056522.10.0",
+	"sort":7,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.19056522.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja8",
+	"sid":1038590,
+	"label":"Kanta-Hämeen hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213078.10.0",
+	"sort":8,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213078.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja9",
+	"sid":1038612,
+	"label":"Keski-Pohjanmaan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.2164623.10.0",
+	"sort":9,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.2164623.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja10",
+	"sid":1038628,
+	"label":"Keski-Suomen hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213182.10.0",
+	"sort":10,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213182.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja11",
+	"sid":1038658,
+	"label":"Kymenlaakson hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.7259015.10.0",
+	"sort":11,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.7259015.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja12",
+	"sid":1038627,
+	"label":"Lapin hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213326.10.0",
+	"sort":12,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213326.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja13",
+	"sid":1038668,
+	"label":"Pirkanmaan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213086.10.0",
+	"sort":13,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213086.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja14",
+	"sid":1094788,
+	"label":"Pohjanmaan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.3493883.10.0",
+	"sort":14,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.3493883.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja15",
+	"sid":1038615,
+	"label":"Pohjois-Karjalan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213174.10.0",
+	"sort":15,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213174.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja16",
+	"sid":1038682,
+	"label":"Pohjois-Pohjanmaan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213262.10.0",
+	"sort":16,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213262.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja17",
+	"sid":1038667,
+	"label":"Pohjois-Savon hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213166.10.0",
+	"sort":17,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213166.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja18",
+	"sid":1038592,
+	"label":"Päijät-Hämeen hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213094.10.0",
+	"sort":18,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213094.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja19",
+	"sid":1038619,
+	"label":"Satakunnan hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32213043.10.0",
+	"sort":19,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32213043.10.0",
+	"children": []
+
+},
+{
+	"id":"tuottaja20",
+	"sid":1038643,
+	"label":"Varsinais-Suomen hyvinvointialue",
+	"stage":"hva",
+	"code":"1.2.246.10.32210651.10.0",
+	"sort":20,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/tuottaja/1/hva/1.2.246.10.32210651.10.0",
+	"children": []
+
+}]
+}]},
+{
+	"id":"ajankohta",
+	"label":"Ajankohdat",
+	"children": [
+{
+	"id":"ajankohta1",
+	"sid":976319,
+	"label":"Kaikki ajankohdat",
+	"stage":"root",
+	"code":"ajankohdat",
+	"sort":1,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/root/ajankohdat",
+	"children": [
+{
+	"id":"ajankohta2",
+	"sid":1040512,
+	"label":"31.12.2007",
+	"stage":"ajankohta",
+	"code":"31.12.2007",
+	"sort":2,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2007",
+	"children": []
+
+},
+{
+	"id":"ajankohta3",
+	"sid":1040566,
+	"label":"30.04.2008",
+	"stage":"ajankohta",
+	"code":"30.04.2008",
+	"sort":3,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2008",
+	"children": []
+
+},
+{
+	"id":"ajankohta4",
+	"sid":1040505,
+	"label":"31.08.2008",
+	"stage":"ajankohta",
+	"code":"31.08.2008",
+	"sort":4,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2008",
+	"children": []
+
+},
+{
+	"id":"ajankohta5",
+	"sid":1040563,
+	"label":"31.12.2008",
+	"stage":"ajankohta",
+	"code":"31.12.2008",
+	"sort":5,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2008",
+	"children": []
+
+},
+{
+	"id":"ajankohta6",
+	"sid":1040518,
+	"label":"30.04.2009",
+	"stage":"ajankohta",
+	"code":"30.04.2009",
+	"sort":6,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2009",
+	"children": []
+
+},
+{
+	"id":"ajankohta7",
+	"sid":1040564,
+	"label":"31.08.2009",
+	"stage":"ajankohta",
+	"code":"31.08.2009",
+	"sort":7,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2009",
+	"children": []
+
+},
+{
+	"id":"ajankohta8",
+	"sid":1040575,
+	"label":"31.12.2009",
+	"stage":"ajankohta",
+	"code":"31.12.2009",
+	"sort":8,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2009",
+	"children": []
+
+},
+{
+	"id":"ajankohta9",
+	"sid":1040532,
+	"label":"30.04.2010",
+	"stage":"ajankohta",
+	"code":"30.04.2010",
+	"sort":9,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2010",
+	"children": []
+
+},
+{
+	"id":"ajankohta10",
+	"sid":1040570,
+	"label":"31.08.2010",
+	"stage":"ajankohta",
+	"code":"31.08.2010",
+	"sort":10,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2010",
+	"children": []
+
+},
+{
+	"id":"ajankohta11",
+	"sid":1040561,
+	"label":"31.12.2010",
+	"stage":"ajankohta",
+	"code":"31.12.2010",
+	"sort":11,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2010",
+	"children": []
+
+},
+{
+	"id":"ajankohta12",
+	"sid":1040548,
+	"label":"30.04.2011",
+	"stage":"ajankohta",
+	"code":"30.04.2011",
+	"sort":12,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2011",
+	"children": []
+
+},
+{
+	"id":"ajankohta13",
+	"sid":1040550,
+	"label":"31.08.2011",
+	"stage":"ajankohta",
+	"code":"31.08.2011",
+	"sort":13,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2011",
+	"children": []
+
+},
+{
+	"id":"ajankohta14",
+	"sid":1040516,
+	"label":"31.12.2011",
+	"stage":"ajankohta",
+	"code":"31.12.2011",
+	"sort":14,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2011",
+	"children": []
+
+},
+{
+	"id":"ajankohta15",
+	"sid":1040574,
+	"label":"30.04.2012",
+	"stage":"ajankohta",
+	"code":"30.04.2012",
+	"sort":15,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2012",
+	"children": []
+
+},
+{
+	"id":"ajankohta16",
+	"sid":1040569,
+	"label":"31.08.2012",
+	"stage":"ajankohta",
+	"code":"31.08.2012",
+	"sort":16,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2012",
+	"children": []
+
+},
+{
+	"id":"ajankohta17",
+	"sid":1040520,
+	"label":"31.12.2012",
+	"stage":"ajankohta",
+	"code":"31.12.2012",
+	"sort":17,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2012",
+	"children": []
+
+},
+{
+	"id":"ajankohta18",
+	"sid":1040553,
+	"label":"30.04.2013",
+	"stage":"ajankohta",
+	"code":"30.04.2013",
+	"sort":18,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2013",
+	"children": []
+
+},
+{
+	"id":"ajankohta19",
+	"sid":1040524,
+	"label":"31.08.2013",
+	"stage":"ajankohta",
+	"code":"31.08.2013",
+	"sort":19,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2013",
+	"children": []
+
+},
+{
+	"id":"ajankohta20",
+	"sid":1040510,
+	"label":"31.12.2013",
+	"stage":"ajankohta",
+	"code":"31.12.2013",
+	"sort":20,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2013",
+	"children": []
+
+},
+{
+	"id":"ajankohta21",
+	"sid":1040536,
+	"label":"30.04.2014",
+	"stage":"ajankohta",
+	"code":"30.04.2014",
+	"sort":21,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2014",
+	"children": []
+
+},
+{
+	"id":"ajankohta22",
+	"sid":1040542,
+	"label":"31.08.2014",
+	"stage":"ajankohta",
+	"code":"31.08.2014",
+	"sort":22,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2014",
+	"children": []
+
+},
+{
+	"id":"ajankohta23",
+	"sid":1040541,
+	"label":"31.12.2014",
+	"stage":"ajankohta",
+	"code":"31.12.2014",
+	"sort":23,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2014",
+	"children": []
+
+},
+{
+	"id":"ajankohta24",
+	"sid":1040543,
+	"label":"30.04.2015",
+	"stage":"ajankohta",
+	"code":"30.04.2015",
+	"sort":24,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2015",
+	"children": []
+
+},
+{
+	"id":"ajankohta25",
+	"sid":1040534,
+	"label":"31.08.2015",
+	"stage":"ajankohta",
+	"code":"31.08.2015",
+	"sort":25,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2015",
+	"children": []
+
+},
+{
+	"id":"ajankohta26",
+	"sid":1040527,
+	"label":"31.12.2015",
+	"stage":"ajankohta",
+	"code":"31.12.2015",
+	"sort":26,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2015",
+	"children": []
+
+},
+{
+	"id":"ajankohta27",
+	"sid":1040540,
+	"label":"30.04.2016",
+	"stage":"ajankohta",
+	"code":"30.04.2016",
+	"sort":27,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2016",
+	"children": []
+
+},
+{
+	"id":"ajankohta28",
+	"sid":1040546,
+	"label":"31.08.2016",
+	"stage":"ajankohta",
+	"code":"31.08.2016",
+	"sort":28,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2016",
+	"children": []
+
+},
+{
+	"id":"ajankohta29",
+	"sid":1040549,
+	"label":"31.12.2016",
+	"stage":"ajankohta",
+	"code":"31.12.2016",
+	"sort":29,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2016",
+	"children": []
+
+},
+{
+	"id":"ajankohta30",
+	"sid":1040530,
+	"label":"30.04.2017",
+	"stage":"ajankohta",
+	"code":"30.04.2017",
+	"sort":30,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2017",
+	"children": []
+
+},
+{
+	"id":"ajankohta31",
+	"sid":1040562,
+	"label":"31.08.2017",
+	"stage":"ajankohta",
+	"code":"31.08.2017",
+	"sort":31,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2017",
+	"children": []
+
+},
+{
+	"id":"ajankohta32",
+	"sid":1040537,
+	"label":"31.12.2017",
+	"stage":"ajankohta",
+	"code":"31.12.2017",
+	"sort":32,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2017",
+	"children": []
+
+},
+{
+	"id":"ajankohta33",
+	"sid":1040559,
+	"label":"30.04.2018",
+	"stage":"ajankohta",
+	"code":"30.04.2018",
+	"sort":33,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2018",
+	"children": []
+
+},
+{
+	"id":"ajankohta34",
+	"sid":1040535,
+	"label":"31.08.2018",
+	"stage":"ajankohta",
+	"code":"31.08.2018",
+	"sort":34,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2018",
+	"children": []
+
+},
+{
+	"id":"ajankohta35",
+	"sid":1040519,
+	"label":"31.12.2018",
+	"stage":"ajankohta",
+	"code":"31.12.2018",
+	"sort":35,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2018",
+	"children": []
+
+},
+{
+	"id":"ajankohta36",
+	"sid":1040511,
+	"label":"30.04.2019",
+	"stage":"ajankohta",
+	"code":"30.04.2019",
+	"sort":36,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2019",
+	"children": []
+
+},
+{
+	"id":"ajankohta37",
+	"sid":1040539,
+	"label":"31.08.2019",
+	"stage":"ajankohta",
+	"code":"31.08.2019",
+	"sort":37,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2019",
+	"children": []
+
+},
+{
+	"id":"ajankohta38",
+	"sid":1040552,
+	"label":"31.12.2019",
+	"stage":"ajankohta",
+	"code":"31.12.2019",
+	"sort":38,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2019",
+	"children": []
+
+},
+{
+	"id":"ajankohta39",
+	"sid":1040509,
+	"label":"30.04.2020",
+	"stage":"ajankohta",
+	"code":"30.04.2020",
+	"sort":39,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2020",
+	"children": []
+
+},
+{
+	"id":"ajankohta40",
+	"sid":1040554,
+	"label":"31.08.2020",
+	"stage":"ajankohta",
+	"code":"31.08.2020",
+	"sort":40,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2020",
+	"children": []
+
+},
+{
+	"id":"ajankohta41",
+	"sid":1040545,
+	"label":"31.12.2020",
+	"stage":"ajankohta",
+	"code":"31.12.2020",
+	"sort":41,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2020",
+	"children": []
+
+},
+{
+	"id":"ajankohta42",
+	"sid":1040508,
+	"label":"31.01.2021",
+	"stage":"ajankohta",
+	"code":"31.01.2021",
+	"sort":42,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta43",
+	"sid":1040517,
+	"label":"28.02.2021",
+	"stage":"ajankohta",
+	"code":"28.02.2021",
+	"sort":43,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/28.02.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta44",
+	"sid":1040572,
+	"label":"31.03.2021",
+	"stage":"ajankohta",
+	"code":"31.03.2021",
+	"sort":44,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta45",
+	"sid":1040538,
+	"label":"30.04.2021",
+	"stage":"ajankohta",
+	"code":"30.04.2021",
+	"sort":45,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta46",
+	"sid":1040533,
+	"label":"31.05.2021",
+	"stage":"ajankohta",
+	"code":"31.05.2021",
+	"sort":46,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta47",
+	"sid":1040555,
+	"label":"30.06.2021",
+	"stage":"ajankohta",
+	"code":"30.06.2021",
+	"sort":47,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta48",
+	"sid":1040567,
+	"label":"31.07.2021",
+	"stage":"ajankohta",
+	"code":"31.07.2021",
+	"sort":48,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta49",
+	"sid":1040558,
+	"label":"31.08.2021",
+	"stage":"ajankohta",
+	"code":"31.08.2021",
+	"sort":49,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta50",
+	"sid":1040571,
+	"label":"30.09.2021",
+	"stage":"ajankohta",
+	"code":"30.09.2021",
+	"sort":50,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta51",
+	"sid":1040529,
+	"label":"31.10.2021",
+	"stage":"ajankohta",
+	"code":"31.10.2021",
+	"sort":51,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.10.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta52",
+	"sid":1040528,
+	"label":"30.11.2021",
+	"stage":"ajankohta",
+	"code":"30.11.2021",
+	"sort":52,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.11.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta53",
+	"sid":1040565,
+	"label":"31.12.2021",
+	"stage":"ajankohta",
+	"code":"31.12.2021",
+	"sort":53,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2021",
+	"children": []
+
+},
+{
+	"id":"ajankohta54",
+	"sid":1040551,
+	"label":"31.01.2022",
+	"stage":"ajankohta",
+	"code":"31.01.2022",
+	"sort":54,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta55",
+	"sid":1040547,
+	"label":"28.02.2022",
+	"stage":"ajankohta",
+	"code":"28.02.2022",
+	"sort":55,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/28.02.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta56",
+	"sid":1040522,
+	"label":"31.03.2022",
+	"stage":"ajankohta",
+	"code":"31.03.2022",
+	"sort":56,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta57",
+	"sid":1040507,
+	"label":"30.04.2022",
+	"stage":"ajankohta",
+	"code":"30.04.2022",
+	"sort":57,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta58",
+	"sid":1040525,
+	"label":"31.05.2022",
+	"stage":"ajankohta",
+	"code":"31.05.2022",
+	"sort":58,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta59",
+	"sid":1040568,
+	"label":"30.06.2022",
+	"stage":"ajankohta",
+	"code":"30.06.2022",
+	"sort":59,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta60",
+	"sid":1040556,
+	"label":"31.07.2022",
+	"stage":"ajankohta",
+	"code":"31.07.2022",
+	"sort":60,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta61",
+	"sid":1040560,
+	"label":"31.08.2022",
+	"stage":"ajankohta",
+	"code":"31.08.2022",
+	"sort":61,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta62",
+	"sid":1040514,
+	"label":"30.09.2022",
+	"stage":"ajankohta",
+	"code":"30.09.2022",
+	"sort":62,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta63",
+	"sid":1040515,
+	"label":"31.10.2022",
+	"stage":"ajankohta",
+	"code":"31.10.2022",
+	"sort":63,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.10.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta64",
+	"sid":1040576,
+	"label":"30.11.2022",
+	"stage":"ajankohta",
+	"code":"30.11.2022",
+	"sort":64,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.11.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta65",
+	"sid":1040577,
+	"label":"31.12.2022",
+	"stage":"ajankohta",
+	"code":"31.12.2022",
+	"sort":65,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2022",
+	"children": []
+
+},
+{
+	"id":"ajankohta66",
+	"sid":1040531,
+	"label":"31.01.2023",
+	"stage":"ajankohta",
+	"code":"31.01.2023",
+	"sort":66,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta67",
+	"sid":1040557,
+	"label":"28.02.2023",
+	"stage":"ajankohta",
+	"code":"28.02.2023",
+	"sort":67,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/28.02.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta68",
+	"sid":1040506,
+	"label":"31.03.2023",
+	"stage":"ajankohta",
+	"code":"31.03.2023",
+	"sort":68,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta69",
+	"sid":1040526,
+	"label":"30.04.2023",
+	"stage":"ajankohta",
+	"code":"30.04.2023",
+	"sort":69,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta70",
+	"sid":1040521,
+	"label":"31.05.2023",
+	"stage":"ajankohta",
+	"code":"31.05.2023",
+	"sort":70,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta71",
+	"sid":1040544,
+	"label":"30.06.2023",
+	"stage":"ajankohta",
+	"code":"30.06.2023",
+	"sort":71,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta72",
+	"sid":1040523,
+	"label":"31.07.2023",
+	"stage":"ajankohta",
+	"code":"31.07.2023",
+	"sort":72,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta73",
+	"sid":1040513,
+	"label":"31.08.2023",
+	"stage":"ajankohta",
+	"code":"31.08.2023",
+	"sort":73,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta74",
+	"sid":1040573,
+	"label":"30.09.2023",
+	"stage":"ajankohta",
+	"code":"30.09.2023",
+	"sort":74,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta75",
+	"sid":1040691,
+	"label":"31.10.2023",
+	"stage":"ajankohta",
+	"code":"31.10.2023",
+	"sort":75,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.10.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta76",
+	"sid":1088286,
+	"label":"30.11.2023",
+	"stage":"ajankohta",
+	"code":"30.11.2023",
+	"sort":76,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.11.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta77",
+	"sid":1094786,
+	"label":"31.12.2023",
+	"stage":"ajankohta",
+	"code":"31.12.2023",
+	"sort":77,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2023",
+	"children": []
+
+},
+{
+	"id":"ajankohta78",
+	"sid":1101777,
+	"label":"31.01.2024",
+	"stage":"ajankohta",
+	"code":"31.01.2024",
+	"sort":78,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta79",
+	"sid":1116524,
+	"label":"29.02.2024",
+	"stage":"ajankohta",
+	"code":"29.02.2024",
+	"sort":79,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/29.02.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta80",
+	"sid":1120073,
+	"label":"31.03.2024",
+	"stage":"ajankohta",
+	"code":"31.03.2024",
+	"sort":80,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta81",
+	"sid":1120784,
+	"label":"30.04.2024",
+	"stage":"ajankohta",
+	"code":"30.04.2024",
+	"sort":81,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta82",
+	"sid":1121174,
+	"label":"31.05.2024",
+	"stage":"ajankohta",
+	"code":"31.05.2024",
+	"sort":82,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta83",
+	"sid":1128687,
+	"label":"30.06.2024",
+	"stage":"ajankohta",
+	"code":"30.06.2024",
+	"sort":83,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta84",
+	"sid":1130417,
+	"label":"31.07.2024",
+	"stage":"ajankohta",
+	"code":"31.07.2024",
+	"sort":84,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta85",
+	"sid":1130764,
+	"label":"31.08.2024",
+	"stage":"ajankohta",
+	"code":"31.08.2024",
+	"sort":85,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta86",
+	"sid":1133257,
+	"label":"30.09.2024",
+	"stage":"ajankohta",
+	"code":"30.09.2024",
+	"sort":86,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta87",
+	"sid":1148422,
+	"label":"31.10.2024",
+	"stage":"ajankohta",
+	"code":"31.10.2024",
+	"sort":87,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.10.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta88",
+	"sid":1154639,
+	"label":"30.11.2024",
+	"stage":"ajankohta",
+	"code":"30.11.2024",
+	"sort":88,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.11.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta89",
+	"sid":1156430,
+	"label":"31.12.2024",
+	"stage":"ajankohta",
+	"code":"31.12.2024",
+	"sort":89,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2024",
+	"children": []
+
+},
+{
+	"id":"ajankohta90",
+	"sid":1173404,
+	"label":"31.01.2025",
+	"stage":"ajankohta",
+	"code":"31.01.2025",
+	"sort":90,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta91",
+	"sid":1174010,
+	"label":"28.02.2025",
+	"stage":"ajankohta",
+	"code":"28.02.2025",
+	"sort":91,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/28.02.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta92",
+	"sid":1180838,
+	"label":"31.03.2025",
+	"stage":"ajankohta",
+	"code":"31.03.2025",
+	"sort":92,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta93",
+	"sid":1184665,
+	"label":"30.04.2025",
+	"stage":"ajankohta",
+	"code":"30.04.2025",
+	"sort":93,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta94",
+	"sid":1185412,
+	"label":"31.05.2025",
+	"stage":"ajankohta",
+	"code":"31.05.2025",
+	"sort":94,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta95",
+	"sid":1186968,
+	"label":"30.06.2025",
+	"stage":"ajankohta",
+	"code":"30.06.2025",
+	"sort":95,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta96",
+	"sid":1187535,
+	"label":"31.07.2025",
+	"stage":"ajankohta",
+	"code":"31.07.2025",
+	"sort":96,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta97",
+	"sid":1196115,
+	"label":"31.08.2025",
+	"stage":"ajankohta",
+	"code":"31.08.2025",
+	"sort":97,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta98",
+	"sid":1200272,
+	"label":"30.09.2025",
+	"stage":"ajankohta",
+	"code":"30.09.2025",
+	"sort":98,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta99",
+	"sid":1201812,
+	"label":"31.10.2025",
+	"stage":"ajankohta",
+	"code":"31.10.2025",
+	"sort":99,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.10.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta100",
+	"sid":1208316,
+	"label":"30.11.2025",
+	"stage":"ajankohta",
+	"code":"30.11.2025",
+	"sort":100,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.11.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta101",
+	"sid":1214672,
+	"label":"31.12.2025",
+	"stage":"ajankohta",
+	"code":"31.12.2025",
+	"sort":101,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.12.2025",
+	"children": []
+
+},
+{
+	"id":"ajankohta102",
+	"sid":1215350,
+	"label":"31.01.2026",
+	"stage":"ajankohta",
+	"code":"31.01.2026",
+	"sort":102,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.01.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta103",
+	"sid":1222722,
+	"label":"28.02.2026",
+	"stage":"ajankohta",
+	"code":"28.02.2026",
+	"sort":103,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/28.02.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta104",
+	"sid":1228232,
+	"label":"31.03.2026",
+	"stage":"ajankohta",
+	"code":"31.03.2026",
+	"sort":104,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.03.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta105",
+	"sid":1230892,
+	"label":"30.04.2026",
+	"stage":"ajankohta",
+	"code":"30.04.2026",
+	"sort":105,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.04.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta106",
+	"sid":1233307,
+	"label":"31.05.2026",
+	"stage":"ajankohta",
+	"code":"31.05.2026",
+	"sort":106,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.05.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta107",
+	"sid":1233928,
+	"label":"30.06.2026",
+	"stage":"ajankohta",
+	"code":"30.06.2026",
+	"sort":107,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.06.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta108",
+	"sid":1236536,
+	"label":"31.07.2026",
+	"stage":"ajankohta",
+	"code":"31.07.2026",
+	"sort":108,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.07.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta109",
+	"sid":1237464,
+	"label":"31.08.2026",
+	"stage":"ajankohta",
+	"code":"31.08.2026",
+	"sort":109,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/31.08.2026",
+	"children": []
+
+},
+{
+	"id":"ajankohta110",
+	"sid":1239137,
+	"label":"30.09.2026",
+	"stage":"ajankohta",
+	"code":"30.09.2026",
+	"sort":110,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/ajankohta/1/ajankohta/30.09.2026",
+	"children": []
+
+}]
+}]},
+{
+	"id":"erikoisala",
+	"label":"Erikoisalat",
+	"children": [
+{
+	"id":"erikoisala1",
+	"sid":976324,
+	"label":"Kaikki erikoisalat",
+	"stage":"root",
+	"code":"erikoisalat",
+	"sort":0,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/root/erikoisalat",
+	"children": [
+{
+	"id":"erikoisala7",
+	"sid":1071294,
+	"label":"Sisätaudit",
+	"stage":"ealuokka",
+	"code":"10_",
+	"sort":1,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/10_",
+	"children": [
+{
+	"id":"erikoisala66",
+	"sid":1071224,
+	"label":"10 Sisätaudit",
+	"stage":"ea",
+	"code":"10",
+	"sort":27,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10",
+	"children": []
+
+},
+{
+	"id":"erikoisala33",
+	"sid":1071238,
+	"label":"10A Sisätautien allergologia",
+	"stage":"ea",
+	"code":"10A",
+	"sort":28,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10A",
+	"children": []
+
+},
+{
+	"id":"erikoisala64",
+	"sid":1071226,
+	"label":"10E Sisätautien endokrinologia",
+	"stage":"ea",
+	"code":"10E",
+	"sort":29,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10E",
+	"children": []
+
+},
+{
+	"id":"erikoisala67",
+	"sid":1071250,
+	"label":"10F Geriatria  (sisätaudit)",
+	"stage":"ea",
+	"code":"10F",
+	"sort":30,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10F",
+	"children": []
+
+},
+{
+	"id":"erikoisala50",
+	"sid":1071264,
+	"label":"10G Sisätautien gastroenterologia",
+	"stage":"ea",
+	"code":"10G",
+	"sort":31,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10G",
+	"children": []
+
+},
+{
+	"id":"erikoisala56",
+	"sid":1071255,
+	"label":"10H Kliininen hematologia",
+	"stage":"ea",
+	"code":"10H",
+	"sort":32,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10H",
+	"children": []
+
+},
+{
+	"id":"erikoisala43",
+	"sid":1071253,
+	"label":"10I Infektiosairaudet",
+	"stage":"ea",
+	"code":"10I",
+	"sort":33,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10I",
+	"children": []
+
+},
+{
+	"id":"erikoisala60",
+	"sid":1071220,
+	"label":"10K Kardiologia",
+	"stage":"ea",
+	"code":"10K",
+	"sort":34,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10K",
+	"children": []
+
+},
+{
+	"id":"erikoisala51",
+	"sid":1071266,
+	"label":"10M Nefrologia",
+	"stage":"ea",
+	"code":"10M",
+	"sort":35,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10M",
+	"children": []
+
+},
+{
+	"id":"erikoisala48",
+	"sid":1071267,
+	"label":"10R Reumatologia",
+	"stage":"ea",
+	"code":"10R",
+	"sort":36,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/10R",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala17",
+	"sid":1071289,
+	"label":"Anestesiologia ja tehohoito",
+	"stage":"ealuokka",
+	"code":"11_",
+	"sort":2,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/11_",
+	"children": [
+{
+	"id":"erikoisala70",
+	"sid":1071236,
+	"label":"11 Anestesiologia ja tehohoito",
+	"stage":"ea",
+	"code":"11",
+	"sort":37,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/11",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala21",
+	"sid":1071313,
+	"label":"Akuuttilääketiede",
+	"stage":"ealuokka",
+	"code":"15_",
+	"sort":3,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/15_",
+	"children": [
+{
+	"id":"erikoisala87",
+	"sid":1071229,
+	"label":"15 Akuuttilääketiede",
+	"stage":"ea",
+	"code":"15",
+	"sort":38,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/15",
+	"children": []
+
+},
+{
+	"id":"erikoisala81",
+	"sid":1071260,
+	"label":"15E Akuuttilääketiede/erikoissairaanhoito",
+	"stage":"ea",
+	"code":"15E",
+	"sort":39,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/15E",
+	"children": []
+
+},
+{
+	"id":"erikoisala83",
+	"sid":1071242,
+	"label":"15Y Akuuttilääketiede/yleislääketiede",
+	"stage":"ea",
+	"code":"15Y",
+	"sort":40,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/15Y",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala12",
+	"sid":1071293,
+	"label":"Kirurgia",
+	"stage":"ealuokka",
+	"code":"20_",
+	"sort":4,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/20_",
+	"children": [
+{
+	"id":"erikoisala82",
+	"sid":1071284,
+	"label":"20 Kirurgia",
+	"stage":"ea",
+	"code":"20",
+	"sort":41,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20",
+	"children": []
+
+},
+{
+	"id":"erikoisala54",
+	"sid":1071258,
+	"label":"20G Gastroenterologinen kirurgia",
+	"stage":"ea",
+	"code":"20G",
+	"sort":42,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20G",
+	"children": []
+
+},
+{
+	"id":"erikoisala42",
+	"sid":1071240,
+	"label":"20J Käsikirurgia",
+	"stage":"ea",
+	"code":"20J",
+	"sort":43,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20J",
+	"children": []
+
+},
+{
+	"id":"erikoisala72",
+	"sid":1071217,
+	"label":"20L Lastenkirurgia",
+	"stage":"ea",
+	"code":"20L",
+	"sort":44,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20L",
+	"children": []
+
+},
+{
+	"id":"erikoisala47",
+	"sid":1071277,
+	"label":"20O Ortopedia ja traumatologia",
+	"stage":"ea",
+	"code":"20O",
+	"sort":45,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20O",
+	"children": []
+
+},
+{
+	"id":"erikoisala57",
+	"sid":1071227,
+	"label":"20P Plastiikkakirurgia",
+	"stage":"ea",
+	"code":"20P",
+	"sort":46,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20P",
+	"children": []
+
+},
+{
+	"id":"erikoisala52",
+	"sid":1071283,
+	"label":"20R Sydän- ja rintaelinkirurgia",
+	"stage":"ea",
+	"code":"20R",
+	"sort":47,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20R",
+	"children": []
+
+},
+{
+	"id":"erikoisala99",
+	"sid":1133265,
+	"label":"20T Thorax- ja verisuonikirurgia",
+	"stage":"ea",
+	"code":"20T",
+	"sort":48,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20T",
+	"children": []
+
+},
+{
+	"id":"erikoisala44",
+	"sid":1071256,
+	"label":"20U Urologia",
+	"stage":"ea",
+	"code":"20U",
+	"sort":49,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20U",
+	"children": []
+
+},
+{
+	"id":"erikoisala63",
+	"sid":1071271,
+	"label":"20V Verisuonikirurgia",
+	"stage":"ea",
+	"code":"20V",
+	"sort":50,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20V",
+	"children": []
+
+},
+{
+	"id":"erikoisala71",
+	"sid":1071265,
+	"label":"20Y Yleiskirurgia",
+	"stage":"ea",
+	"code":"20Y",
+	"sort":51,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/20Y",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala24",
+	"sid":1071296,
+	"label":"Neurokirurgia",
+	"stage":"ealuokka",
+	"code":"25_",
+	"sort":5,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/25_",
+	"children": [
+{
+	"id":"erikoisala91",
+	"sid":1071282,
+	"label":"25 Neurokirurgia",
+	"stage":"ea",
+	"code":"25",
+	"sort":52,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/25",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala4",
+	"sid":1071301,
+	"label":"Naistentaudit ja synnytykset",
+	"stage":"ealuokka",
+	"code":"30_",
+	"sort":6,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/30_",
+	"children": [
+{
+	"id":"erikoisala75",
+	"sid":738294,
+	"label":"30 Naistentaudit ja synnytykset",
+	"stage":"ea",
+	"code":"30",
+	"sort":53,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30",
+	"children": []
+
+},
+{
+	"id":"erikoisala96",
+	"sid":1156431,
+	"label":"30A Raskauden seuranta, synnytys ja lapsivuode",
+	"stage":"ea",
+	"code":"30A",
+	"sort":54,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30A",
+	"children": []
+
+},
+{
+	"id":"erikoisala38",
+	"sid":1071272,
+	"label":"30E Gynekologinen endokrinologia, andrologia ja lisääntymislääketiede",
+	"stage":"ea",
+	"code":"30E",
+	"sort":55,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30E",
+	"children": []
+
+},
+{
+	"id":"erikoisala95",
+	"sid":1156432,
+	"label":"30N Naistentaudit",
+	"stage":"ea",
+	"code":"30N",
+	"sort":56,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30N",
+	"children": []
+
+},
+{
+	"id":"erikoisala62",
+	"sid":1071232,
+	"label":"30Q Perinatologia",
+	"stage":"ea",
+	"code":"30Q",
+	"sort":57,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30Q",
+	"children": []
+
+},
+{
+	"id":"erikoisala68",
+	"sid":1071228,
+	"label":"30S Gynekologinen onkologia",
+	"stage":"ea",
+	"code":"30S",
+	"sort":58,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30S",
+	"children": []
+
+},
+{
+	"id":"erikoisala29",
+	"sid":1071218,
+	"label":"30U Urogynekologia ja gynekologinen kirurgia",
+	"stage":"ea",
+	"code":"30U",
+	"sort":59,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/30U",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala5",
+	"sid":1071306,
+	"label":"Lastentaudit",
+	"stage":"ealuokka",
+	"code":"40_",
+	"sort":7,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/40_",
+	"children": [
+{
+	"id":"erikoisala53",
+	"sid":738314,
+	"label":"40 Lastentaudit",
+	"stage":"ea",
+	"code":"40",
+	"sort":60,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40",
+	"children": []
+
+},
+{
+	"id":"erikoisala35",
+	"sid":1071235,
+	"label":"40A Lasten allergologia",
+	"stage":"ea",
+	"code":"40A",
+	"sort":61,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40A",
+	"children": []
+
+},
+{
+	"id":"erikoisala34",
+	"sid":1071225,
+	"label":"40D Neonatologia",
+	"stage":"ea",
+	"code":"40D",
+	"sort":62,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40D",
+	"children": []
+
+},
+{
+	"id":"erikoisala55",
+	"sid":1071261,
+	"label":"40E Lastenendokrinologia",
+	"stage":"ea",
+	"code":"40E",
+	"sort":63,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40E",
+	"children": []
+
+},
+{
+	"id":"erikoisala31",
+	"sid":1071254,
+	"label":"40G Lasten gastroenterologia",
+	"stage":"ea",
+	"code":"40G",
+	"sort":64,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40G",
+	"children": []
+
+},
+{
+	"id":"erikoisala30",
+	"sid":1071276,
+	"label":"40H Lasten hematologia",
+	"stage":"ea",
+	"code":"40H",
+	"sort":65,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40H",
+	"children": []
+
+},
+{
+	"id":"erikoisala65",
+	"sid":1071252,
+	"label":"40I Lasten infektiosairaudet",
+	"stage":"ea",
+	"code":"40I",
+	"sort":66,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40I",
+	"children": []
+
+},
+{
+	"id":"erikoisala36",
+	"sid":1071249,
+	"label":"40K Lasten kardiologia",
+	"stage":"ea",
+	"code":"40K",
+	"sort":67,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40K",
+	"children": []
+
+},
+{
+	"id":"erikoisala58",
+	"sid":1071246,
+	"label":"40M Lasten nefrologia",
+	"stage":"ea",
+	"code":"40M",
+	"sort":68,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/40M",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala14",
+	"sid":1071298,
+	"label":"Silmätaudit",
+	"stage":"ealuokka",
+	"code":"50_",
+	"sort":8,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/50_",
+	"children": [
+{
+	"id":"erikoisala59",
+	"sid":738325,
+	"label":"50 Silmätaudit",
+	"stage":"ea",
+	"code":"50",
+	"sort":69,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/50",
+	"children": []
+
+},
+{
+	"id":"erikoisala97",
+	"sid":1071288,
+	"label":"50N Neuro-oftalmologia",
+	"stage":"ea",
+	"code":"50N",
+	"sort":70,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/50N",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala8",
+	"sid":1071300,
+	"label":"Korva-, nenä- ja kurkkutaudit",
+	"stage":"ealuokka",
+	"code":"55_",
+	"sort":9,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/55_",
+	"children": [
+{
+	"id":"erikoisala37",
+	"sid":738357,
+	"label":"55 Korva-, nenä- ja kurkkutaudit",
+	"stage":"ea",
+	"code":"55",
+	"sort":71,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/55",
+	"children": []
+
+},
+{
+	"id":"erikoisala49",
+	"sid":1071274,
+	"label":"55A Korva-, nenä ja kurkkutautien allergologia",
+	"stage":"ea",
+	"code":"55A",
+	"sort":72,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/55A",
+	"children": []
+
+},
+{
+	"id":"erikoisala86",
+	"sid":1071285,
+	"label":"55B Audiologia",
+	"stage":"ea",
+	"code":"55B",
+	"sort":73,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/55B",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala20",
+	"sid":1071311,
+	"label":"Foniatria",
+	"stage":"ealuokka",
+	"code":"57_",
+	"sort":10,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/57_",
+	"children": [
+{
+	"id":"erikoisala78",
+	"sid":738349,
+	"label":"57 Foniatria",
+	"stage":"ea",
+	"code":"57",
+	"sort":74,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/57",
+	"children": []
+
+},
+{
+	"id":"erikoisala94",
+	"sid":1071269,
+	"label":"57B Audiologia (foniatria)",
+	"stage":"ea",
+	"code":"57B",
+	"sort":75,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/57B",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala2",
+	"sid":1071291,
+	"label":"Hammas-, suu- ja leukasairaudet",
+	"stage":"ealuokka",
+	"code":"58_",
+	"sort":11,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/58_",
+	"children": [
+{
+	"id":"erikoisala45",
+	"sid":738324,
+	"label":"58 Hammas-, suu- ja leukasairaudet",
+	"stage":"ea",
+	"code":"58",
+	"sort":76,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/58",
+	"children": []
+
+},
+{
+	"id":"erikoisala76",
+	"sid":1071244,
+	"label":"58V Suu-ja leukakirurgia",
+	"stage":"ea",
+	"code":"58V",
+	"sort":77,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/58V",
+	"children": []
+
+},
+{
+	"id":"erikoisala77",
+	"sid":1071287,
+	"label":"58X Hampaiston oikomishoito",
+	"stage":"ea",
+	"code":"58X",
+	"sort":78,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/58X",
+	"children": []
+
+},
+{
+	"id":"erikoisala27",
+	"sid":1071280,
+	"label":"58Y Kliininen hammashoito",
+	"stage":"ea",
+	"code":"58Y",
+	"sort":79,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/58Y",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala11",
+	"sid":1071290,
+	"label":"Ihotaudit ja allergologia",
+	"stage":"ealuokka",
+	"code":"60_",
+	"sort":12,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/60_",
+	"children": [
+{
+	"id":"erikoisala41",
+	"sid":738293,
+	"label":"60 Ihotaudit ja allergologia",
+	"stage":"ea",
+	"code":"60",
+	"sort":80,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/60",
+	"children": []
+
+},
+{
+	"id":"erikoisala84",
+	"sid":1071278,
+	"label":"60A Ihotautien allergologia",
+	"stage":"ea",
+	"code":"60A",
+	"sort":81,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/60A",
+	"children": []
+
+},
+{
+	"id":"erikoisala79",
+	"sid":1071279,
+	"label":"60B Ammatti-ihotaudit",
+	"stage":"ea",
+	"code":"60B",
+	"sort":82,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/60B",
+	"children": []
+
+},
+{
+	"id":"erikoisala100",
+	"sid":1071237,
+	"label":"60C Ammatti-ihotaudit",
+	"stage":"ea",
+	"code":"60C",
+	"sort":83,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/60C",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala22",
+	"sid":1071303,
+	"label":"Syöpätaudit",
+	"stage":"ealuokka",
+	"code":"65_",
+	"sort":13,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/65_",
+	"children": [
+{
+	"id":"erikoisala85",
+	"sid":862186,
+	"label":"65 Syöpätaudit",
+	"stage":"ea",
+	"code":"65",
+	"sort":84,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/65",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala15",
+	"sid":1071308,
+	"label":"Psykiatria",
+	"stage":"ealuokka",
+	"code":"70_",
+	"sort":14,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/70_",
+	"children": [
+{
+	"id":"erikoisala61",
+	"sid":862232,
+	"label":"70 Psykiatria",
+	"stage":"ea",
+	"code":"70",
+	"sort":85,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/70",
+	"children": []
+
+},
+{
+	"id":"erikoisala89",
+	"sid":1071262,
+	"label":"70F Geriatrinen psykiatria",
+	"stage":"ea",
+	"code":"70F",
+	"sort":86,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/70F",
+	"children": []
+
+},
+{
+	"id":"erikoisala88",
+	"sid":1071248,
+	"label":"70Z Oikeuspsykiatria",
+	"stage":"ea",
+	"code":"70Z",
+	"sort":87,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/70Z",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala16",
+	"sid":1071304,
+	"label":"Nuorisopsykiatria",
+	"stage":"ealuokka",
+	"code":"74_",
+	"sort":15,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/74_",
+	"children": [
+{
+	"id":"erikoisala69",
+	"sid":862202,
+	"label":"74 Nuorisopsykiatria",
+	"stage":"ea",
+	"code":"74",
+	"sort":88,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/74",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala6",
+	"sid":1071302,
+	"label":"Lastenpsykiatria",
+	"stage":"ealuokka",
+	"code":"75_",
+	"sort":16,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/75_",
+	"children": [
+{
+	"id":"erikoisala32",
+	"sid":862281,
+	"label":"75 Lastenpsykiatria",
+	"stage":"ea",
+	"code":"75",
+	"sort":89,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/75",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala13",
+	"sid":1071310,
+	"label":"Neurologia",
+	"stage":"ealuokka",
+	"code":"77_",
+	"sort":17,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/77_",
+	"children": [
+{
+	"id":"erikoisala46",
+	"sid":862251,
+	"label":"77 Neurologia",
+	"stage":"ea",
+	"code":"77",
+	"sort":90,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/77",
+	"children": []
+
+},
+{
+	"id":"erikoisala80",
+	"sid":1071233,
+	"label":"77F Neurologinen geriatria",
+	"stage":"ea",
+	"code":"77F",
+	"sort":91,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/77F",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala10",
+	"sid":1071297,
+	"label":"Lastenneurologia",
+	"stage":"ealuokka",
+	"code":"78_",
+	"sort":18,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/78_",
+	"children": [
+{
+	"id":"erikoisala40",
+	"sid":862191,
+	"label":"78 Lastenneurologia",
+	"stage":"ea",
+	"code":"78",
+	"sort":92,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/78",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala9",
+	"sid":1071309,
+	"label":"Keuhkosairaudet",
+	"stage":"ealuokka",
+	"code":"80_",
+	"sort":19,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/80_",
+	"children": [
+{
+	"id":"erikoisala39",
+	"sid":862301,
+	"label":"80 Keuhkosairaudet",
+	"stage":"ea",
+	"code":"80",
+	"sort":93,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/80",
+	"children": []
+
+},
+{
+	"id":"erikoisala92",
+	"sid":1071234,
+	"label":"80A Keuhkosairaudet ja allergologia",
+	"stage":"ea",
+	"code":"80A",
+	"sort":94,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/80A",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala26",
+	"sid":1071312,
+	"label":"Liikuntalääketiede",
+	"stage":"ealuokka",
+	"code":"93_",
+	"sort":20,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/93_",
+	"children": [
+{
+	"id":"erikoisala98",
+	"sid":862206,
+	"label":"93 Liikuntalääketiede",
+	"stage":"ea",
+	"code":"93",
+	"sort":95,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/93",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala23",
+	"sid":1071307,
+	"label":"Perinnöllisyyslääketiede",
+	"stage":"ealuokka",
+	"code":"94_",
+	"sort":21,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/94_",
+	"children": [
+{
+	"id":"erikoisala90",
+	"sid":862249,
+	"label":"94 Perinnöllisyyslääketiede",
+	"stage":"ea",
+	"code":"94",
+	"sort":96,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/94",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala25",
+	"sid":1071292,
+	"label":"Työlääketiede ja työterveyshuolto",
+	"stage":"ealuokka",
+	"code":"95_",
+	"sort":22,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/95_",
+	"children": [
+{
+	"id":"erikoisala93",
+	"sid":862297,
+	"label":"95 Työlääketiede ja työterveyshuolto",
+	"stage":"ea",
+	"code":"95",
+	"sort":97,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/95",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala3",
+	"sid":1071305,
+	"label":"Fysiatria",
+	"stage":"ealuokka",
+	"code":"96_",
+	"sort":23,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/96_",
+	"children": [
+{
+	"id":"erikoisala28",
+	"sid":862265,
+	"label":"96 Fysiatria",
+	"stage":"ea",
+	"code":"96",
+	"sort":98,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/96",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala19",
+	"sid":1071299,
+	"label":"Geriatria",
+	"stage":"ealuokka",
+	"code":"97_",
+	"sort":24,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/97_",
+	"children": [
+{
+	"id":"erikoisala74",
+	"sid":862317,
+	"label":"97 Geriatria",
+	"stage":"ea",
+	"code":"97",
+	"sort":99,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/97",
+	"children": []
+
+}]
+},
+{
+	"id":"erikoisala18",
+	"sid":1071295,
+	"label":"Yleislääketiede",
+	"stage":"ealuokka",
+	"code":"98_",
+	"sort":25,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ealuokka/98_",
+	"children": [
+{
+	"id":"erikoisala73",
+	"sid":1071230,
+	"label":"98 Yleislääketiede",
+	"stage":"ea",
+	"code":"98",
+	"sort":100,
+	"uri":"http://meta.thl.fi/codes/wild/dimension/erikoisala/1/ea/98",
+	"children": []
+
+}]
+}]
+}]},
+{
+	"id":"measure",
+	"label":"Mittari",
+	"children": [
+{
+	"id":"1000",
+	"sid":141082,
+	"label":"Mittarit",
+	"stage":"root",
+	"sort":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/root/1/",
+	"children": [
+{
+	"id":"49691",
+	"sid":13390,
+	"label":"Hoitoa odottaneet potilaat",
+	"stage":"folder",
+	"sort":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/folder/mittarikansio1",
+	"children": [
+{
+	"id":"measure/h0_odottavat",
+	"sid":738214,
+	"label":"Hoitoa odottaneet",
+	"stage":"leaf",
+	"sort":3,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_odottavat/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_1_90",
+	"sid":738218,
+	"label":"1-90 vrk hoitoa odottaneet",
+	"stage":"leaf",
+	"sort":4,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_1_90/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_91_180",
+	"sid":738221,
+	"label":"91-180 vrk hoitoa odottaneet",
+	"stage":"leaf",
+	"sort":5,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_91_180/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_90_plus",
+	"sid":738219,
+	"label":"Yli 90 vrk hoitoa odottaneet",
+	"stage":"leaf",
+	"sort":6,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_90_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_180_plus",
+	"sid":738216,
+	"label":"Yli 180 vrk hoitoa odottaneet",
+	"stage":"leaf",
+	"sort":7,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_180_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_90_plus_perc",
+	"sid":738220,
+	"label":"Yli 90 vrk hoitoa odottaneet, %",
+	"stage":"leaf",
+	"sort":8,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_90_plus_perc/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_vrk_180_plus_perc",
+	"sid":738217,
+	"label":"Yli 180 vrk hoitoa odottaneet, %",
+	"stage":"leaf",
+	"sort":9,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_vrk_180_plus_perc/1/leaf",
+	"children": []
+
+}]
+},
+{
+	"id":"49692",
+	"sid":13288,
+	"label":"Hoidon tarpeen arviointia odottaneet potilaat",
+	"stage":"folder",
+	"sort":2,
+	"uri":"http://meta.thl.fi/codes/wild/measure/folder/mittarikansio2",
+	"children": [
+{
+	"id":"measure/hA_odottavat",
+	"sid":738222,
+	"label":"Hoidon tarpeen arviointia odottaneet",
+	"stage":"leaf",
+	"sort":10,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_odottavat/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_1_90",
+	"sid":738226,
+	"label":"1-90 vrk hoidon tarpeen arviointia odottaneet",
+	"stage":"leaf",
+	"sort":11,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_1_90/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_91_180",
+	"sid":738229,
+	"label":"91-180 vrk hoidon tarpeen arviointia odottaneet",
+	"stage":"leaf",
+	"sort":12,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_91_180/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_90_plus",
+	"sid":738227,
+	"label":"Yli 90 vrk hoidon tarpeen arviointia odottaneet",
+	"stage":"leaf",
+	"sort":13,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_90_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_180_plus",
+	"sid":738224,
+	"label":"Yli 180 vrk hoidon tarpeen arviointia odottaneet",
+	"stage":"leaf",
+	"sort":14,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_180_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_90_plus_perc",
+	"sid":738228,
+	"label":"Yli 90 vrk hoidon tarpeen arviointia odottaneet, %",
+	"stage":"leaf",
+	"sort":15,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_90_plus_perc/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/hA_vrk_180_plus_perc",
+	"sid":738225,
+	"label":"Yli 180 vrk hoidon tarpeen arviointia odottaneet, %",
+	"stage":"leaf",
+	"sort":16,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/hA_vrk_180_plus_perc/1/leaf",
+	"children": []
+
+}]
+},
+{
+	"id":"49693",
+	"sid":13713,
+	"label":"Lähetteet vuoden alusta",
+	"stage":"folder",
+	"sort":3,
+	"uri":"http://meta.thl.fi/codes/wild/measure/folder/mittarikansio3",
+	"children": [
+{
+	"id":"measure/lah_yht",
+	"sid":980631,
+	"label":"Lähetteet yhteensä",
+	"stage":"leaf",
+	"sort":26,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_yht/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_kas_yht",
+	"sid":980625,
+	"label":"Lähetteitä käsitelty yhteensä",
+	"stage":"leaf",
+	"sort":27,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_kas_yht/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_vrk_3",
+	"sid":980627,
+	"label":"Lähete käsitelty 3 vrk:ssa",
+	"stage":"leaf",
+	"sort":28,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_vrk_3/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_vrk_4_21",
+	"sid":980626,
+	"label":"Lähete käsitelty 4-21 vrk:ssa",
+	"stage":"leaf",
+	"sort":29,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_vrk_4_21/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_vrk_21_plus",
+	"sid":980628,
+	"label":"Lähete käsitelty yli 21 vrk:ssa",
+	"stage":"leaf",
+	"sort":30,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_vrk_21_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_vrk_21_plus_perc",
+	"sid":980629,
+	"label":"Lähete käsitelty yli 21 vrk:ssa, %",
+	"stage":"leaf",
+	"sort":31,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_vrk_21_plus_perc/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/lah_yht_1000as",
+	"sid":1121175,
+	"label":"Lähetteet yhteensä/1000 as",
+	"stage":"leaf",
+	"sort":32,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/lah_yht_1000as/1/leaf",
+	"children": []
+
+}]
+},
+{
+	"id":"49694",
+	"sid":13577,
+	"label":"Hoitoa odottaneet jäsenkuntien potilaat",
+	"stage":"folder",
+	"sort":4,
+	"uri":"http://meta.thl.fi/codes/wild/measure/folder/mittarikansio4",
+	"children": [
+{
+	"id":"measure/h0_omat_odottavat",
+	"sid":738665,
+	"label":"Hoitoa odottaneet potilaat, jäsenkunta",
+	"stage":"leaf",
+	"sort":17,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_odottavat/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_1_90",
+	"sid":738666,
+	"label":"1-90 vrk hoitoa odottaneet, jäsenkunta",
+	"stage":"leaf",
+	"sort":18,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_1_90/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_91_180",
+	"sid":738664,
+	"label":"91-180 vrk hoitoa odottaneet, jäsenkunta",
+	"stage":"leaf",
+	"sort":19,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_91_180/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_90_plus",
+	"sid":738668,
+	"label":"Yli 90 vrk hoitoa odottaneet, jäsenkunta",
+	"stage":"leaf",
+	"sort":20,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_90_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_180_plus",
+	"sid":738667,
+	"label":"Yli 180 vrk hoitoa odottaneet, jäsenkunta",
+	"stage":"leaf",
+	"sort":21,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_180_plus/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_90_plus_perc",
+	"sid":738663,
+	"label":"Yli 90 vrk hoitoa odottaneet, %, jäsenkunta",
+	"stage":"leaf",
+	"sort":22,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_90_plus_perc/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_180_plus_perc",
+	"sid":738661,
+	"label":"Yli 180 vrk hoitoa odottaneet, %, jäsenkunta",
+	"stage":"leaf",
+	"sort":23,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_180_plus_perc/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/h0_omat_vrk_180_plus_10000as",
+	"sid":1098986,
+	"label":"Hoitoa yli 180 vrk odottaneet/10 000 as",
+	"stage":"leaf",
+	"sort":24,
+	"decimals":1,
+	"uri":"http://meta.thl.fi/codes/wild/measure/h0_omat_vrk_180_plus_10000as/1/leaf",
+	"children": []
+
+},
+{
+	"id":"measure/asukasluku",
+	"sid":1098985,
+	"label":"Asukasluku",
+	"stage":"leaf",
+	"sort":25,
+	"decimals":0,
+	"uri":"http://meta.thl.fi/codes/wild/measure/asukasluku/1/leaf",
+	"children": []
+
+}]
+}]
+}]}]
+);

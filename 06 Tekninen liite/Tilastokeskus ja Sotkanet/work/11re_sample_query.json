@@ -1,0 +1,57 @@
+{
+  "query": [
+    {
+      "code": "alue_23_20260101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "KU091"
+        ]
+      }
+    },
+    {
+      "code": "ikaryhma_10_20180101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "060",
+          "062",
+          "064",
+          "066",
+          "068"
+        ]
+      }
+    },
+    {
+      "code": "sukupuoli_9_20180101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "timeperiod_y",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2024"
+        ]
+      }
+    },
+    {
+      "code": "contentscode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "vaerak-vaesto"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

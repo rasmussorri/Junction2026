@@ -1,0 +1,64 @@
+{
+  "scripts": [
+    {
+      "attrs": {
+        "src": "polyfills-LI6MVZF3.js",
+        "type": "module"
+      },
+      "chars": 0,
+      "start": ""
+    },
+    {
+      "attrs": {
+        "src": "main-ARRA7V2R.js",
+        "type": "module"
+      },
+      "chars": 0,
+      "start": ""
+    }
+  ],
+  "links": [
+    {
+      "tag": "link",
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "16x16",
+      "href": "/favicon-16x16.png"
+    },
+    {
+      "tag": "link",
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32x32.png"
+    },
+    {
+      "tag": "link",
+      "rel": "stylesheet",
+      "href": "styles-ZTFSQYBF.css",
+      "media": "print",
+      "onload": "this.media='all'"
+    },
+    {
+      "tag": "link",
+      "rel": "stylesheet",
+      "href": "styles-ZTFSQYBF.css"
+    },
+    {
+      "tag": "link",
+      "rel": "modulepreload",
+      "href": "chunk-NMXSCDUT.js"
+    },
+    {
+      "tag": "script",
+      "src": "polyfills-LI6MVZF3.js",
+      "type": "module"
+    },
+    {
+      "tag": "script",
+      "src": "main-ARRA7V2R.js",
+      "type": "module"
+    }
+  ],
+  "selects": []
+}

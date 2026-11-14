@@ -1,0 +1,222 @@
+[
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Etelä-Karjala",
+    "region_code": "HVA11",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 8466,
+    "participated_count": 7047,
+    "participation_percent_published": 83.2
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Etelä-Pohjanmaa",
+    "region_code": "HVA16",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 11844,
+    "participated_count": 10069,
+    "participation_percent_published": 85.0
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Etelä-Savo",
+    "region_code": "HVA12",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 9422,
+    "participated_count": 7741,
+    "participation_percent_published": 82.2
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Helsingin kaupunki",
+    "region_code": "HVA90",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 38630,
+    "participated_count": 28686,
+    "participation_percent_published": 74.3
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Itä-Uusimaa",
+    "region_code": "HVA01",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 6948,
+    "participated_count": 5546,
+    "participation_percent_published": 79.8
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Kainuu",
+    "region_code": "HVA20",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 4798,
+    "participated_count": 4033,
+    "participation_percent_published": 84.1
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Kanta-Häme",
+    "region_code": "HVA07",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 11355,
+    "participated_count": 9467,
+    "participation_percent_published": 83.4
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Keski-Pohjanmaa",
+    "region_code": "HVA18",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 3898,
+    "participated_count": 3329,
+    "participation_percent_published": 85.4
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Keski-Suomi",
+    "region_code": "HVA15",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 16537,
+    "participated_count": 14073,
+    "participation_percent_published": 85.1
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Keski-Uusimaa",
+    "region_code": "HVA02",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 13592,
+    "participated_count": 10944,
+    "participation_percent_published": 80.5
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Kymenlaakso",
+    "region_code": "HVA10",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 11143,
+    "participated_count": 9142,
+    "participation_percent_published": 82.0
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Lappi",
+    "region_code": "HVA21",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 11548,
+    "participated_count": 9678,
+    "participation_percent_published": 83.8
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Länsi-Uusimaa",
+    "region_code": "HVA03",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 30039,
+    "participated_count": 22860,
+    "participation_percent_published": 76.1
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Pirkanmaa",
+    "region_code": "HVA08",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 31677,
+    "participated_count": 26449,
+    "participation_percent_published": 83.5
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Pohjanmaa",
+    "region_code": "HVA17",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 9991,
+    "participated_count": 8487,
+    "participation_percent_published": 84.9
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Pohjois-Karjala",
+    "region_code": "HVA14",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 10619,
+    "participated_count": 8940,
+    "participation_percent_published": 84.2
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Pohjois-Pohjanmaa",
+    "region_code": "HVA19",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 23560,
+    "participated_count": 20168,
+    "participation_percent_published": 85.6
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Pohjois-Savo",
+    "region_code": "HVA13",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 16191,
+    "participated_count": 13785,
+    "participation_percent_published": 85.1
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Päijät-Häme",
+    "region_code": "HVA09",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 13832,
+    "participated_count": 11313,
+    "participation_percent_published": 81.8
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Satakunta",
+    "region_code": "HVA06",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 14090,
+    "participated_count": 11958,
+    "participation_percent_published": 84.9
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Vantaa ja Kerava",
+    "region_code": "HVA04",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 16057,
+    "participated_count": 12323,
+    "participation_percent_published": 76.7
+  },
+  {
+    "program": "rinta",
+    "year": 2024,
+    "source_region_name": "Varsinais-Suomi",
+    "region_code": "HVA05",
+    "denominator_source_label": "Kutsuttu",
+    "denominator_source_value": 30614,
+    "participated_count": 25331,
+    "participation_percent_published": 82.7
+  }
+]

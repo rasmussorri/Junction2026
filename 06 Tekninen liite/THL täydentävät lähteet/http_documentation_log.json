@@ -1,0 +1,57 @@
+[
+  {
+    "file": "cancellation_code.html",
+    "url": "https://koodistopalvelu.kanta.fi/codeserver/pages/classification-view-page.xhtml?classificationKey=309&versionKey=386",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:36.915401+00:00",
+    "status": 200,
+    "final_url": "https://koodistopalvelu.kanta.fi/codeserver/pages/classification-view-page.xhtml?classificationKey=309&versionKey=386",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 99346,
+    "sha256": "5ed77fc7cdc8498fc7b2346cf280771b8ecb26a9ca1aca12a37900576528df34"
+  },
+  {
+    "file": "pth_definition.html",
+    "url": "https://thl.fi/data-ja-tilastot/hoitoon-paasy/perusterveydenhuolto",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:36.915857+00:00",
+    "status": 200,
+    "final_url": "https://thl.fi/data-ja-tilastot/hoitoon-paasy/perusterveydenhuolto",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 161209,
+    "sha256": "9bc875b0073ce7809048a7647a40f674b5d8fef048482d46bae424d85c527a82"
+  },
+  {
+    "file": "avohilmo_summary.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/summary_ahil_perus13acc",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:36.915979+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/summary_ahil_perus13acc",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 748158,
+    "sha256": "2973fc02d2184e43705be2032954d6490afde357f590f6e65691ce16f0bf44b2"
+  },
+  {
+    "file": "hilmo_api_index.json",
+    "url": "https://sampo.thl.fi/pivot/prod/api/thil/perus01.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:36.916075+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/api/thil/perus01.json",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 382,
+    "sha256": "811dd0a959cfafadff42af33ddf10de46cf245092e21493329d21f82b5ea6023"
+  },
+  {
+    "file": "avohilmo_api_index.json",
+    "url": "https://sampo.thl.fi/pivot/prod/api/avo/perus13.json",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:37.442692+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/api/avo/perus13.json",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 500,
+    "sha256": "249c9ef946efea05fcb898d1944b26f5af40f43689f598535cfc0ab6cb829708"
+  }
+]

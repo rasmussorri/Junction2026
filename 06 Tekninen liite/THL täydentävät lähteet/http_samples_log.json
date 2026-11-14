@@ -1,0 +1,68 @@
+[
+  {
+    "file": "hilmo_screening.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.json?row=operation_type-190666&column=time-6656&filter=measure-197895",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.731429+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.json?row=operation_type-190666&column=time-6656&filter=measure-197895",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 810,
+    "sha256": "9c45beeebfb2704b038f101317becaaabe613ac6b5eb1b002a7f66b301c2a3c0"
+  },
+  {
+    "file": "hilmo_mammography.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.json?row=operation_type-189394&column=time-6656&filter=measure-197895",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.731949+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus01/fact_thil_perus01.json?row=operation_type-189394&column=time-6656&filter=measure-197895",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 850,
+    "sha256": "40e0cea215944c22f7e5024fe8f874ec06be822b7e4a8cebd9e13e45708e83bf"
+  },
+  {
+    "file": "avo_screening_count.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.json?row=alue-11810&column=aika-87596&filter=toimenpide-508421&filter=measure-131425",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.732058+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.json?row=alue-11810&column=aika-87596&filter=toimenpide-508421&filter=measure-131425",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 2116,
+    "sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33"
+  },
+  {
+    "file": "avo_screening_clients.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.json?row=alue-11810&column=aika-87596&filter=toimenpide-508421&filter=measure-87454",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.732165+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus13/fact_ahil_perus13.json?row=alue-11810&column=aika-87596&filter=toimenpide-508421&filter=measure-87454",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 2116,
+    "sha256": "35619c1d0a2c41b2adea33ba4b95d46b6903967d2f60e93a1719e8cc554b8f33"
+  },
+  {
+    "file": "pth_sept2026_doctor_count.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.json?row=palveluntuottaja-26624&column=odotusaika-25575&filter=aika-1236759&filter=ammatti-1195969&filter=ikaluokka-1158678&filter=lainsaadanto-1015912&filter=palvelumuoto-121032&filter=measure-25618",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.887832+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.json?row=palveluntuottaja-26624&column=odotusaika-25575&filter=aika-1236759&filter=ammatti-1195969&filter=ikaluokka-1158678&filter=lainsaadanto-1015912&filter=palvelumuoto-121032&filter=measure-25618",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 3868,
+    "sha256": "3e707482feca072e97f5b016bb42d05a9af18a89d82e5bc4f8a37a5de04222c3"
+  },
+  {
+    "file": "pth_sept2026_doctor_pct.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.json?row=palveluntuottaja-26624&column=odotusaika-25575&filter=aika-1236759&filter=ammatti-1195969&filter=ikaluokka-1158678&filter=lainsaadanto-1015912&filter=palvelumuoto-121032&filter=measure-486013",
+    "method": "GET",
+    "utc": "2026-11-13T23:50:04.896198+00:00",
+    "status": 200,
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avohpaasy/pthjono01/fact_ahil_pthjono01.json?row=palveluntuottaja-26624&column=odotusaika-25575&filter=aika-1236759&filter=ammatti-1195969&filter=ikaluokka-1158678&filter=lainsaadanto-1015912&filter=palvelumuoto-121032&filter=measure-486013",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 3714,
+    "sha256": "cd5712101363ab5c5938d955d8d67f3d7c41a47cf43978a5b38b31e6ec26964c"
+  }
+]

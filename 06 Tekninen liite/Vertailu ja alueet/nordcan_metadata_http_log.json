@@ -1,0 +1,46 @@
+[
+  {
+    "file": "nordcan_cancers.json",
+    "url": "https://canapi.iarc.who.int/api/nordcan/v2/961/meta/cancers/all/",
+    "method": "GET",
+    "utc": "2026-11-13T23:44:31.849271+00:00",
+    "status": 200,
+    "final_url": "https://canapi.iarc.who.int/api/nordcan/v2/961/meta/cancers/all/",
+    "content_type": "application/json",
+    "bytes": 12791,
+    "sha256": "dda43d439769b0ebbb83757ab170c7b5bc9ae974e1de5e606eb5afc33d46c067"
+  },
+  {
+    "file": "nordcan_populations.json",
+    "url": "https://canapi.iarc.who.int/api/nordcan/v2/961/meta/populations/all/",
+    "method": "GET",
+    "utc": "2026-11-13T23:44:31.849579+00:00",
+    "status": 200,
+    "final_url": "https://canapi.iarc.who.int/api/nordcan/v2/961/meta/populations/all/",
+    "content_type": "application/json",
+    "bytes": 7500,
+    "sha256": "49f2b9f23195978e236ea6b11bff4d2e47e11d4daf83c1926f87b275f77d545f"
+  },
+  {
+    "file": "nordcan_tables.js",
+    "url": "https://nordcan.iarc.who.int/assets/Tables-BSC2YCJ8.js",
+    "method": "GET",
+    "utc": "2026-11-13T23:44:31.849705+00:00",
+    "status": 200,
+    "final_url": "https://nordcan.iarc.who.int/assets/Tables-BSC2YCJ8.js",
+    "content_type": "application/javascript",
+    "bytes": 25682,
+    "sha256": "c5b5af72f485b2932aca8f32eae32fab746799311ab727f4ef2699a4e707def2"
+  },
+  {
+    "file": "nordcan_database.js",
+    "url": "https://nordcan.iarc.who.int/assets/Database-BA-JM42B.js",
+    "method": "GET",
+    "utc": "2026-11-13T23:44:31.849802+00:00",
+    "status": 200,
+    "final_url": "https://nordcan.iarc.who.int/assets/Database-BA-JM42B.js",
+    "content_type": "application/javascript",
+    "bytes": 37842,
+    "sha256": "ec5e7e126d94b7376ceedf7a0b4e356d9894e54c2070ddd15979baec660fdd72"
+  }
+]

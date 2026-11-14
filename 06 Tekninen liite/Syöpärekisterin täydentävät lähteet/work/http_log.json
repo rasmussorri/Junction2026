@@ -1,0 +1,76 @@
+[
+  {
+    "key": "clinical_page",
+    "url": "https://syoparekisteri.fi/tilastot/kliinisten-ilmoitusten-tilasto/",
+    "timestamp_utc": "2026-11-13T23:47:37.839174+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "myeloma",
+    "url": "https://syoparekisteri.fi/assets/themes/ssy3/factsheets/myeloma.html",
+    "timestamp_utc": "2026-11-13T23:47:38.073873+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "requests",
+    "url": "https://cancerregistry.fi/services/information-requests/",
+    "timestamp_utc": "2026-11-13T23:47:38.180905+00:00",
+    "method": "GET",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "catalog",
+    "url": "https://aineistokatalogi.fi/catalog/studies/21085403-7be8-4f93-bf05-231518c642a0",
+    "timestamp_utc": "2026-11-13T23:47:38.344727+00:00",
+    "method": "GET",
+    "status": 200,
+    "bytes": 7489,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://aineistokatalogi.fi/catalog/studies/21085403-7be8-4f93-bf05-231518c642a0",
+    "sha256": "8d29460dfaab592ddbb7907c525a60b4729b334e7c83d1b0c720f25b7d3cb222"
+  },
+  {
+    "key": "clinical_app",
+    "url": "https://tilastot.syoparekisteri.fi/syopalaatu/",
+    "timestamp_utc": "2026-11-13T23:48:06.456114+00:00",
+    "method": "GET",
+    "headers_profile": "standard browser User-Agent and HTML Accept",
+    "status": 200,
+    "bytes": 14786,
+    "sha256": "bd3f5ddb5cd6897d7298ca550a350b75a1141e49d2edbf72ecdbe3be0cc03e2f",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "myeloma_browser_headers",
+    "url": "https://syoparekisteri.fi/assets/themes/ssy3/factsheets/myeloma.html",
+    "timestamp_utc": "2026-11-13T23:48:06.907038+00:00",
+    "method": "GET",
+    "headers_profile": "standard browser User-Agent and HTML Accept",
+    "status": 200,
+    "bytes": 10105131,
+    "sha256": "72f59613b27731152ce5f320f83451e3c7dc805ed1bba018dc32dc5864774fed",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "catalog_main",
+    "url": "https://aineistokatalogi.fi/main-ARRA7V2R.js",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:49:11.435424+00:00",
+    "status": 200,
+    "bytes": 2127694,
+    "sha256": "765b2d00d4a6682c43fd5e9a195b696294b60e944428d2153338f5019148ba06",
+    "content_type": "text/javascript"
+  },
+  {
+    "key": "catalog_study",
+    "url": "https://aineistokatalogi.fi/api/v1/public/studies/21085403-7be8-4f93-bf05-231518c642a0",
+    "method": "GET",
+    "timestamp_utc": "2026-11-13T23:49:31.446725+00:00",
+    "status": 200,
+    "bytes": 594567,
+    "sha256": "9c754941718f9d271eb0ce55b6b9f2738c00e7118f0d8af53971192675cb8690",
+    "content_type": "application/json"
+  }
+]

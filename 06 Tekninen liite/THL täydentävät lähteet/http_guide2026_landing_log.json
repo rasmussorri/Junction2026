@@ -1,0 +1,13 @@
+[
+  {
+    "file": "hilmo_guide2026_landing.html",
+    "url": "https://urn.fi/URN:ISBN:978-952-408-786-5",
+    "method": "GET",
+    "utc": "2026-11-13T23:51:49.534427+00:00",
+    "status": 200,
+    "final_url": "https://www.julkari.fi/items/daf5001c-ba3e-4b0f-acb3-ccaaf6704711",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 455812,
+    "sha256": "580365cc7547766f8adcd021bfc0a7fae60734fdd7aa32cd0838928e42140cc8"
+  }
+]

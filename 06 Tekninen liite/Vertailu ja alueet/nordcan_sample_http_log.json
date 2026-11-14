@@ -1,0 +1,13 @@
+[
+  {
+    "file": "nordcan_finland_breast_2024.json",
+    "url": "https://canapi.iarc.who.int/api/nordcan/v2/961/data/population/0/2/(246)/(180)/?ages_group=0_17&year_start=2024&year_end=2024&year_grouped=1",
+    "method": "GET",
+    "utc": "2026-11-13T23:45:08.723668+00:00",
+    "status": 200,
+    "final_url": "https://canapi.iarc.who.int/api/nordcan/v2/961/data/population/0/2/(246)/(180)/?ages_group=0_17&year_start=2024&year_end=2024&year_grouped=1",
+    "content_type": "application/json",
+    "bytes": 1236,
+    "sha256": "9d356b19eefb60059092224e3373e952c47b2cee3e7c56c54a59957f985178a7"
+  }
+]

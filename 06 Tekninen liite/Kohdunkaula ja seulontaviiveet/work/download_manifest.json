@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/cervix.html",
+    "utc": "2026-11-13T23:38:22.484547+00:00",
+    "request_user_agent": "Junction2026 public-data verification",
+    "http": 200,
+    "bytes": 10235041,
+    "content_type": "text/html",
+    "sha256": "9dc86a46dd2c9b67041d0a100fc1e198e816aa16aeece8375d5d0091a429ecda"
+  },
+  {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/kohdunkaula.html",
+    "utc": "2026-11-13T23:38:28.109329+00:00",
+    "request_user_agent": "Junction2026 public-data verification",
+    "http": 404
+  },
+  {
+    "url": "https://stats.cancerregistry.fi/joukkistilastot/kohtu.html",
+    "http": 200,
+    "bytes": 10197651,
+    "content_type": "text/html",
+    "utc": "2026-11-13T23:38:41.122828+00:00",
+    "sha256": "275e967bd2c9e38455f21261fa15d88e8ea9407cc67f01d282044463ac58f5b7"
+  }
+]

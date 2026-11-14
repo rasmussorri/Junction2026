@@ -1,0 +1,98 @@
+{
+"dataset": {
+"version": "2.0",
+"class": "dataset",
+"label": "Avohilmo: Terveydenhuollon avohoidon ICD-10-diagnoosit kunnittain ja hyvinvointialueittain",
+"dimension": {
+"id": [
+"diagnoosi","aika"
+],
+"size": [
+23,10
+],
+"diagnoosi" : {
+"category": {
+"index": {
+"121153": 0,
+"121246": 1,
+"120996": 2,
+"120896": 3,
+"121313": 4,
+"120959": 5,
+"121190": 6,
+"121212": 7,
+"121147": 8,
+"120963": 9,
+"121143": 10,
+"120921": 11,
+"120931": 12,
+"121149": 13,
+"121208": 14,
+"120947": 15,
+"121154": 16,
+"121160": 17,
+"121138": 18,
+"125303": 19,
+"121186": 20,
+"288595": 21,
+"121105": 22
+},
+"label": {
+"121153": "A00-B99 Tartunta- ja loistauteja",
+"121246": "C00-D48 Kasvaimet",
+"120996": "D50-D89 Veren ja verta muodostavien elinten sairaudet sekä eräät immuunimekanismin häiriöt",
+"120896": "E00-E90 Umpierityssairaudet, ravitsemussairaudet ja aineenvaihduntasairaudet",
+"121313": "F00-F99 Mielenterveyden ja käyttäytymisen häiriöt",
+"120959": "G00-G99 Hermoston sairaudet",
+"121190": "H00-H59 Silmän ja sen apuelinten sairaudet",
+"121212": "H60-H95 Korvan ja kartiolisäkkeen sairaudet",
+"121147": "I00-I99 Verenkiertoelinten sairaudet",
+"120963": "J00-J99 Hengityselinten sairaudet",
+"121143": "K00-K93 Ruuansulatuselinten sairaudet",
+"120921": "L00-L99 Ihon ja ihonalaiskudoksen sairaudet",
+"120931": "M00-M99 Tuki- ja liikuntaelinten sekä sidekudoksen sairaudet",
+"121149": "N00-N99 Virtsa- ja sukupuolielinten sairaudet",
+"121208": "O00-O99 Raskaus, synnytys ja lapsivuoteus",
+"120947": "P00-P96 Eräät perinataaliaikana alkaneet tilat",
+"121154": "Q00-Q99 Synnynnäiset epämuodostumat, epämuotoisuudet ja kromosomipoikkeavuudet",
+"121160": "R00-R99 Muualla luokittamattomat oireet, sairaudenmerkit sekä poikkeavat kliiniset ja laboratoriolöy",
+"121138": "S00-T98 Vammat, myrkytykset ja eräät muut ulkoisten syiden seuraukset",
+"125303": "U00-U99 Diagnoosikoodeja erityistapauksille",
+"121186": "Z00-ZZB Tekijöitä jotka vaikuttavat terveydentilaan ja yhteydenottoihin terveyspalvelujen tuottajiin",
+"288595": "Virheellinen koodi",
+"121105": "Kaikki diagnoosit"
+}
+}
+},
+"aika" : {
+"category": {
+"index": {
+"251317": 0,
+"340847": 1,
+"429307": 2,
+"510033": 3,
+"660839": 4,
+"835338": 5,
+"1088412": 6,
+"1154745": 7,
+"1209256": 8,
+"87596": 9
+},
+"label": {
+"251317": "2018",
+"340847": "2019",
+"429307": "2020",
+"510033": "2021",
+"660839": "2022",
+"835338": "2023",
+"1088412": "2024",
+"1154745": "2025",
+"1209256": "2026",
+"87596": "Kaikki vuodet"
+}
+}
+}
+},
+"value": []
+}
+}

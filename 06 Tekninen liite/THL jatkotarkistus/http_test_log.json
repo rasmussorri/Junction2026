@@ -1,0 +1,123 @@
+[
+  {
+    "filename": "queue_gt180_pct.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738217",
+    "requested_at_utc": "2026-11-13T23:33:26.641828+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738217",
+    "bytes": 26970,
+    "sha256": "5edb4f67b9e06a8c3b518ae46fdf4b1ad48b44468a698b6367861d7e984e26ac"
+  },
+  {
+    "filename": "queue_gt180_count.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738216",
+    "requested_at_utc": "2026-11-13T23:33:26.642078+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738216",
+    "bytes": 24018,
+    "sha256": "16a07a2ffab14cea8e269c54c670bff9bbe60cae8b937bcf91664defdb9776e8"
+  },
+  {
+    "filename": "queue_1_90_count.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738218",
+    "requested_at_utc": "2026-11-13T23:33:26.642188+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne.json?row=tuottaja-976329&column=ajankohta-976319&filter=erikoisala-862186&filter=measure-738218",
+    "bytes": 25124,
+    "sha256": "c3c018e5a1dd1caf4a46f79367aaa7de89bda3721064d536c3b98a4884dfb848"
+  },
+  {
+    "filename": "queue_measure_pct.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne/738217",
+    "requested_at_utc": "2026-11-13T23:33:26.642273+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne/738217",
+    "bytes": 1435,
+    "sha256": "9c7b647dc8490885ff20b40af22c65de84153621e843fd7563049d393d22d47c"
+  },
+  {
+    "filename": "queue_measure_count.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne/738216",
+    "requested_at_utc": "2026-11-13T23:33:26.818297+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne/738216",
+    "bytes": 1421,
+    "sha256": "e13d298a4bb0e847152c4cabbf412b26b07c10339f9f919d97b7e66017595996"
+  },
+  {
+    "filename": "hilmo_oncology.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j.json?filter=speciality-17958",
+    "requested_at_utc": "2026-11-13T23:33:26.914135+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j.json?filter=speciality-17958",
+    "bytes": 6195,
+    "sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e"
+  },
+  {
+    "filename": "hilmo_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j.dimensions.json",
+    "requested_at_utc": "2026-11-13T23:33:26.937996+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/javascript;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j.dimensions.json",
+    "bytes": 36807,
+    "sha256": "9e210980af78639b638def5500c614561aa137cc5d385712b884c1dbfa615705"
+  },
+  {
+    "filename": "hilmo_view.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j?filter=speciality-17958",
+    "requested_at_utc": "2026-11-13T23:33:26.943251+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j?filter=speciality-17958",
+    "bytes": 40769,
+    "sha256": "063bd73020c6cb428ff6d8068d66f0cd38f5522965056396cd3da04019a6d6b1"
+  },
+  {
+    "filename": "avohilmo_c50.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06.json?filter=diagnoosi-121077",
+    "requested_at_utc": "2026-11-13T23:33:27.062682+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06.json?filter=diagnoosi-121077",
+    "bytes": 2475,
+    "sha256": "c6d7462251343ca74c447bf0a3076b7814efe8a0659edddec1eccc6f67d4d9e2"
+  },
+  {
+    "filename": "avohilmo_dimensions.js",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06.dimensions.json",
+    "requested_at_utc": "2026-11-13T23:33:27.200206+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/javascript;charset=utf-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06.dimensions.json",
+    "bytes": 514261,
+    "sha256": "1eb96b479521f44bacebdf15dca492ac85b7040f89967a6bb4145813ea9aff27"
+  },
+  {
+    "filename": "avohilmo_view.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06?filter=diagnoosi-121077",
+    "requested_at_utc": "2026-11-13T23:33:27.393804+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06?row=diagnoosi-121105&column=aika-87596",
+    "bytes": 40763,
+    "sha256": "798f5e54c1aa9e33a4f5d9ef356bc06f326dc4a26e10a536fd0da421634324d7"
+  }
+]

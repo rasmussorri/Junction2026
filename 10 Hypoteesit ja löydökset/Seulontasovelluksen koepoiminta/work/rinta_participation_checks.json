@@ -1,0 +1,1352 @@
+[
+  {
+    "year": 2010,
+    "age": "50-51",
+    "numerator": 3292.0,
+    "denominator": 4129.0,
+    "reported_pct": 79.7287478808428,
+    "calculated_pct": 79.72874788084282,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "52-53",
+    "numerator": 2830.0,
+    "denominator": 3788.0,
+    "reported_pct": 74.7096092925027,
+    "calculated_pct": 74.70960929250263,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "54-55",
+    "numerator": 3130.0,
+    "denominator": 4002.0,
+    "reported_pct": 78.2108945527236,
+    "calculated_pct": 78.21089455272364,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "56-57",
+    "numerator": 3117.0,
+    "denominator": 4058.0,
+    "reported_pct": 76.8112370625924,
+    "calculated_pct": 76.81123706259241,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "58-59",
+    "numerator": 3268.0,
+    "denominator": 4068.0,
+    "reported_pct": 80.3343166175025,
+    "calculated_pct": 80.33431661750245,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "60-61",
+    "numerator": 3194.0,
+    "denominator": 4067.0,
+    "reported_pct": 78.53454634866,
+    "calculated_pct": 78.53454634865994,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "62-63",
+    "numerator": 3537.0,
+    "denominator": 4389.0,
+    "reported_pct": 80.5878332194122,
+    "calculated_pct": 80.58783321941216,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "64-65",
+    "numerator": 3577.0,
+    "denominator": 4475.0,
+    "reported_pct": 79.9329608938547,
+    "calculated_pct": 79.93296089385476,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "66-67",
+    "numerator": 2565.0,
+    "denominator": 3296.0,
+    "reported_pct": 77.8216019417476,
+    "calculated_pct": 77.82160194174757,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2010,
+    "age": "68-69",
+    "numerator": 1932.0,
+    "denominator": 2407.0,
+    "reported_pct": 80.2658911508101,
+    "calculated_pct": 80.26589115081013,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "50-51",
+    "numerator": 3269.0,
+    "denominator": 4041.0,
+    "reported_pct": 80.8958178668646,
+    "calculated_pct": 80.89581786686463,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "52-53",
+    "numerator": 3069.0,
+    "denominator": 3996.0,
+    "reported_pct": 76.8018018018018,
+    "calculated_pct": 76.8018018018018,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "54-55",
+    "numerator": 3052.0,
+    "denominator": 3926.0,
+    "reported_pct": 77.7381558838513,
+    "calculated_pct": 77.73815588385125,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "56-57",
+    "numerator": 3021.0,
+    "denominator": 3948.0,
+    "reported_pct": 76.5197568389058,
+    "calculated_pct": 76.51975683890578,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "58-59",
+    "numerator": 3110.0,
+    "denominator": 3949.0,
+    "reported_pct": 78.7541149658141,
+    "calculated_pct": 78.75411496581413,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "60-61",
+    "numerator": 3100.0,
+    "denominator": 3870.0,
+    "reported_pct": 80.1033591731266,
+    "calculated_pct": 80.10335917312662,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "62-63",
+    "numerator": 3388.0,
+    "denominator": 4284.0,
+    "reported_pct": 79.0849673202614,
+    "calculated_pct": 79.08496732026144,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "64-65",
+    "numerator": 3594.0,
+    "denominator": 4472.0,
+    "reported_pct": 80.3667262969589,
+    "calculated_pct": 80.36672629695886,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "66-67",
+    "numerator": 3256.0,
+    "denominator": 4032.0,
+    "reported_pct": 80.7539682539683,
+    "calculated_pct": 80.75396825396825,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2011,
+    "age": "68-69",
+    "numerator": 2434.0,
+    "denominator": 3041.0,
+    "reported_pct": 80.0394607037159,
+    "calculated_pct": 80.03946070371589,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "50-51",
+    "numerator": 3308.0,
+    "denominator": 4178.0,
+    "reported_pct": 79.17663954045,
+    "calculated_pct": 79.17663954044997,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "52-53",
+    "numerator": 3145.0,
+    "denominator": 4143.0,
+    "reported_pct": 75.9111754767077,
+    "calculated_pct": 75.9111754767077,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "54-55",
+    "numerator": 2865.0,
+    "denominator": 3807.0,
+    "reported_pct": 75.2561071710008,
+    "calculated_pct": 75.25610717100079,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "56-57",
+    "numerator": 3022.0,
+    "denominator": 3999.0,
+    "reported_pct": 75.5688922230558,
+    "calculated_pct": 75.56889222305577,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "58-59",
+    "numerator": 3094.0,
+    "denominator": 4024.0,
+    "reported_pct": 76.8886679920477,
+    "calculated_pct": 76.88866799204771,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "60-61",
+    "numerator": 3178.0,
+    "denominator": 4037.0,
+    "reported_pct": 78.7218231359921,
+    "calculated_pct": 78.72182313599207,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "62-63",
+    "numerator": 3158.0,
+    "denominator": 3962.0,
+    "reported_pct": 79.7072185764765,
+    "calculated_pct": 79.70721857647652,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "64-65",
+    "numerator": 3452.0,
+    "denominator": 4282.0,
+    "reported_pct": 80.6165343297525,
+    "calculated_pct": 80.61653432975245,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "66-67",
+    "numerator": 3443.0,
+    "denominator": 4325.0,
+    "reported_pct": 79.606936416185,
+    "calculated_pct": 79.60693641618496,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2012,
+    "age": "68-69",
+    "numerator": 2438.0,
+    "denominator": 3196.0,
+    "reported_pct": 76.2828535669587,
+    "calculated_pct": 76.28285356695869,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "50-51",
+    "numerator": 3328.0,
+    "denominator": 4326.0,
+    "reported_pct": 76.9301895515488,
+    "calculated_pct": 76.93018955154878,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "52-53",
+    "numerator": 3154.0,
+    "denominator": 4040.0,
+    "reported_pct": 78.0693069306931,
+    "calculated_pct": 78.06930693069307,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "54-55",
+    "numerator": 3071.0,
+    "denominator": 4011.0,
+    "reported_pct": 76.5644477686363,
+    "calculated_pct": 76.56444776863626,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "56-57",
+    "numerator": 2984.0,
+    "denominator": 3944.0,
+    "reported_pct": 75.659229208925,
+    "calculated_pct": 75.65922920892496,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "58-59",
+    "numerator": 3000.0,
+    "denominator": 3929.0,
+    "reported_pct": 76.3553066938152,
+    "calculated_pct": 76.35530669381522,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "60-61",
+    "numerator": 3028.0,
+    "denominator": 3943.0,
+    "reported_pct": 76.7943190464114,
+    "calculated_pct": 76.79431904641136,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "62-63",
+    "numerator": 2962.0,
+    "denominator": 3786.0,
+    "reported_pct": 78.2356048600106,
+    "calculated_pct": 78.23560486001057,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "64-65",
+    "numerator": 3278.0,
+    "denominator": 4160.0,
+    "reported_pct": 78.7980769230769,
+    "calculated_pct": 78.79807692307692,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "66-67",
+    "numerator": 3365.0,
+    "denominator": 4340.0,
+    "reported_pct": 77.5345622119816,
+    "calculated_pct": 77.53456221198157,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2013,
+    "age": "68-69",
+    "numerator": 3061.0,
+    "denominator": 3898.0,
+    "reported_pct": 78.5274499743458,
+    "calculated_pct": 78.52744997434581,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "50-51",
+    "numerator": 3280.0,
+    "denominator": 4337.0,
+    "reported_pct": 75.6283145031128,
+    "calculated_pct": 75.62831450311275,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "52-53",
+    "numerator": 3176.0,
+    "denominator": 4194.0,
+    "reported_pct": 75.727229375298,
+    "calculated_pct": 75.72722937529805,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "54-55",
+    "numerator": 3141.0,
+    "denominator": 4171.0,
+    "reported_pct": 75.3056820906258,
+    "calculated_pct": 75.30568209062575,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "56-57",
+    "numerator": 2804.0,
+    "denominator": 3807.0,
+    "reported_pct": 73.6537956396113,
+    "calculated_pct": 73.65379563961125,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "58-59",
+    "numerator": 3092.0,
+    "denominator": 4019.0,
+    "reported_pct": 76.9345608360289,
+    "calculated_pct": 76.93456083602887,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "60-61",
+    "numerator": 3070.0,
+    "denominator": 3988.0,
+    "reported_pct": 76.9809428284855,
+    "calculated_pct": 76.98094282848545,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "62-63",
+    "numerator": 3118.0,
+    "denominator": 3987.0,
+    "reported_pct": 78.2041635314773,
+    "calculated_pct": 78.2041635314773,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "64-65",
+    "numerator": 3049.0,
+    "denominator": 3834.0,
+    "reported_pct": 79.5252999478352,
+    "calculated_pct": 79.52529994783517,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "66-67",
+    "numerator": 3197.0,
+    "denominator": 4136.0,
+    "reported_pct": 77.2969052224372,
+    "calculated_pct": 77.29690522243713,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2014,
+    "age": "68-69",
+    "numerator": 3257.0,
+    "denominator": 4215.0,
+    "reported_pct": 77.2716488730724,
+    "calculated_pct": 77.27164887307237,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "50-51",
+    "numerator": 3191.0,
+    "denominator": 4377.0,
+    "reported_pct": 72.9038153986749,
+    "calculated_pct": 72.9038153986749,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "52-53",
+    "numerator": 3106.0,
+    "denominator": 4306.0,
+    "reported_pct": 72.131908964236,
+    "calculated_pct": 72.13190896423595,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "54-55",
+    "numerator": 3052.0,
+    "denominator": 4089.0,
+    "reported_pct": 74.6392761066275,
+    "calculated_pct": 74.63927610662753,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "56-57",
+    "numerator": 2923.0,
+    "denominator": 3979.0,
+    "reported_pct": 73.4606685096758,
+    "calculated_pct": 73.4606685096758,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "58-59",
+    "numerator": 2942.0,
+    "denominator": 3918.0,
+    "reported_pct": 75.0893312914753,
+    "calculated_pct": 75.08933129147525,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "60-61",
+    "numerator": 2832.0,
+    "denominator": 3879.0,
+    "reported_pct": 73.0085073472545,
+    "calculated_pct": 73.00850734725445,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "62-63",
+    "numerator": 2907.0,
+    "denominator": 3853.0,
+    "reported_pct": 75.4477030885025,
+    "calculated_pct": 75.44770308850246,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "64-65",
+    "numerator": 2832.0,
+    "denominator": 3661.0,
+    "reported_pct": 77.3559136847856,
+    "calculated_pct": 77.35591368478558,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "66-67",
+    "numerator": 3098.0,
+    "denominator": 4042.0,
+    "reported_pct": 76.6452251360713,
+    "calculated_pct": 76.64522513607125,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2015,
+    "age": "68-69",
+    "numerator": 3275.0,
+    "denominator": 4254.0,
+    "reported_pct": 76.9863657733898,
+    "calculated_pct": 76.98636577338975,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "50-51",
+    "numerator": 3151.0,
+    "denominator": 4321.0,
+    "reported_pct": 72.9229345059014,
+    "calculated_pct": 72.92293450590141,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "52-53",
+    "numerator": 3135.0,
+    "denominator": 4408.0,
+    "reported_pct": 71.1206896551724,
+    "calculated_pct": 71.12068965517241,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "54-55",
+    "numerator": 3152.0,
+    "denominator": 4236.0,
+    "reported_pct": 74.409820585458,
+    "calculated_pct": 74.40982058545798,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "56-57",
+    "numerator": 3067.0,
+    "denominator": 4198.0,
+    "reported_pct": 73.0585993330157,
+    "calculated_pct": 73.05859933301572,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "58-59",
+    "numerator": 2798.0,
+    "denominator": 3804.0,
+    "reported_pct": 73.5541535226078,
+    "calculated_pct": 73.55415352260778,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "60-61",
+    "numerator": 2923.0,
+    "denominator": 3991.0,
+    "reported_pct": 73.2397895264345,
+    "calculated_pct": 73.23978952643448,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "62-63",
+    "numerator": 2967.0,
+    "denominator": 3933.0,
+    "reported_pct": 75.4385964912281,
+    "calculated_pct": 75.43859649122807,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "64-65",
+    "numerator": 3012.0,
+    "denominator": 3891.0,
+    "reported_pct": 77.4094063222822,
+    "calculated_pct": 77.4094063222822,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "66-67",
+    "numerator": 2854.0,
+    "denominator": 3738.0,
+    "reported_pct": 76.3509898341359,
+    "calculated_pct": 76.3509898341359,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2016,
+    "age": "68-69",
+    "numerator": 3057.0,
+    "denominator": 4030.0,
+    "reported_pct": 75.8560794044665,
+    "calculated_pct": 75.8560794044665,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "50-51",
+    "numerator": 3048.0,
+    "denominator": 4283.0,
+    "reported_pct": 71.1650712117675,
+    "calculated_pct": 71.16507121176745,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "52-53",
+    "numerator": 3146.0,
+    "denominator": 4412.0,
+    "reported_pct": 71.3055303717135,
+    "calculated_pct": 71.3055303717135,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "54-55",
+    "numerator": 3167.0,
+    "denominator": 4378.0,
+    "reported_pct": 72.3389675650982,
+    "calculated_pct": 72.33896756509822,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "56-57",
+    "numerator": 2984.0,
+    "denominator": 4097.0,
+    "reported_pct": 72.8337808152307,
+    "calculated_pct": 72.83378081523065,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "58-59",
+    "numerator": 2933.0,
+    "denominator": 3984.0,
+    "reported_pct": 73.6194779116466,
+    "calculated_pct": 73.61947791164658,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "60-61",
+    "numerator": 2819.0,
+    "denominator": 3869.0,
+    "reported_pct": 72.8612044455932,
+    "calculated_pct": 72.86120444559317,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "62-63",
+    "numerator": 2819.0,
+    "denominator": 3831.0,
+    "reported_pct": 73.5839206473506,
+    "calculated_pct": 73.58392064735057,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "64-65",
+    "numerator": 2869.0,
+    "denominator": 3771.0,
+    "reported_pct": 76.0806152214267,
+    "calculated_pct": 76.08061522142668,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "66-67",
+    "numerator": 2719.0,
+    "denominator": 3581.0,
+    "reported_pct": 75.9285115889416,
+    "calculated_pct": 75.92851158894163,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2017,
+    "age": "68-69",
+    "numerator": 2997.0,
+    "denominator": 3962.0,
+    "reported_pct": 75.6436143361939,
+    "calculated_pct": 75.64361433619383,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "50-51",
+    "numerator": 2871.0,
+    "denominator": 4164.0,
+    "reported_pct": 68.9481268011527,
+    "calculated_pct": 68.94812680115274,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "52-53",
+    "numerator": 3073.0,
+    "denominator": 4307.0,
+    "reported_pct": 71.3489667982354,
+    "calculated_pct": 71.34896679823544,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "54-55",
+    "numerator": 3117.0,
+    "denominator": 4409.0,
+    "reported_pct": 70.696303016557,
+    "calculated_pct": 70.69630301655704,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "56-57",
+    "numerator": 3030.0,
+    "denominator": 4247.0,
+    "reported_pct": 71.3444784553803,
+    "calculated_pct": 71.34447845538027,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "58-59",
+    "numerator": 3087.0,
+    "denominator": 4194.0,
+    "reported_pct": 73.6051502145923,
+    "calculated_pct": 73.60515021459227,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "60-61",
+    "numerator": 2710.0,
+    "denominator": 3811.0,
+    "reported_pct": 71.1099448963527,
+    "calculated_pct": 71.10994489635266,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "62-63",
+    "numerator": 2888.0,
+    "denominator": 3921.0,
+    "reported_pct": 73.6546799285897,
+    "calculated_pct": 73.65467992858964,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "64-65",
+    "numerator": 2887.0,
+    "denominator": 3844.0,
+    "reported_pct": 75.1040582726327,
+    "calculated_pct": 75.10405827263267,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "66-67",
+    "numerator": 2839.0,
+    "denominator": 3808.0,
+    "reported_pct": 74.5535714285714,
+    "calculated_pct": 74.55357142857143,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2018,
+    "age": "68-69",
+    "numerator": 2749.0,
+    "denominator": 3648.0,
+    "reported_pct": 75.3563596491228,
+    "calculated_pct": 75.35635964912281,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "50-51",
+    "numerator": 2729.0,
+    "denominator": 3899.0,
+    "reported_pct": 69.9923057194152,
+    "calculated_pct": 69.99230571941523,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "52-53",
+    "numerator": 3051.0,
+    "denominator": 4287.0,
+    "reported_pct": 71.1686494051785,
+    "calculated_pct": 71.16864940517844,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "54-55",
+    "numerator": 3237.0,
+    "denominator": 4415.0,
+    "reported_pct": 73.3182332955833,
+    "calculated_pct": 73.31823329558324,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "56-57",
+    "numerator": 3131.0,
+    "denominator": 4366.0,
+    "reported_pct": 71.7132386623912,
+    "calculated_pct": 71.7132386623912,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "58-59",
+    "numerator": 3008.0,
+    "denominator": 4044.0,
+    "reported_pct": 74.3818001978239,
+    "calculated_pct": 74.38180019782394,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "60-61",
+    "numerator": 2886.0,
+    "denominator": 3944.0,
+    "reported_pct": 73.1744421906694,
+    "calculated_pct": 73.17444219066937,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "62-63",
+    "numerator": 2799.0,
+    "denominator": 3790.0,
+    "reported_pct": 73.8522427440633,
+    "calculated_pct": 73.85224274406332,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "64-65",
+    "numerator": 2767.0,
+    "denominator": 3739.0,
+    "reported_pct": 74.0037443166622,
+    "calculated_pct": 74.0037443166622,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "66-67",
+    "numerator": 2709.0,
+    "denominator": 3637.0,
+    "reported_pct": 74.4844652185868,
+    "calculated_pct": 74.48446521858675,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2019,
+    "age": "68-69",
+    "numerator": 2653.0,
+    "denominator": 3479.0,
+    "reported_pct": 76.2575452716298,
+    "calculated_pct": 76.25754527162978,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "50-51",
+    "numerator": 2705.0,
+    "denominator": 3722.0,
+    "reported_pct": 72.6759806555615,
+    "calculated_pct": 72.67598065556153,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "52-53",
+    "numerator": 2993.0,
+    "denominator": 4174.0,
+    "reported_pct": 71.7057977958793,
+    "calculated_pct": 71.70579779587925,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "54-55",
+    "numerator": 3179.0,
+    "denominator": 4283.0,
+    "reported_pct": 74.223674994163,
+    "calculated_pct": 74.22367499416298,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "56-57",
+    "numerator": 3044.0,
+    "denominator": 4374.0,
+    "reported_pct": 69.5930498399634,
+    "calculated_pct": 69.59304983996341,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "58-59",
+    "numerator": 3085.0,
+    "denominator": 4256.0,
+    "reported_pct": 72.4859022556391,
+    "calculated_pct": 72.4859022556391,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "60-61",
+    "numerator": 3043.0,
+    "denominator": 4150.0,
+    "reported_pct": 73.3253012048193,
+    "calculated_pct": 73.32530120481928,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "62-63",
+    "numerator": 2682.0,
+    "denominator": 3709.0,
+    "reported_pct": 72.3105958479375,
+    "calculated_pct": 72.31059584793745,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "64-65",
+    "numerator": 2803.0,
+    "denominator": 3812.0,
+    "reported_pct": 73.5309548793284,
+    "calculated_pct": 73.53095487932843,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "66-67",
+    "numerator": 2716.0,
+    "denominator": 3724.0,
+    "reported_pct": 72.9323308270677,
+    "calculated_pct": 72.93233082706767,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2020,
+    "age": "68-69",
+    "numerator": 2743.0,
+    "denominator": 3699.0,
+    "reported_pct": 74.1551770748851,
+    "calculated_pct": 74.1551770748851,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "50-51",
+    "numerator": 2701.0,
+    "denominator": 3584.0,
+    "reported_pct": 75.3627232142857,
+    "calculated_pct": 75.36272321428571,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "52-53",
+    "numerator": 2811.0,
+    "denominator": 3828.0,
+    "reported_pct": 73.4326018808778,
+    "calculated_pct": 73.43260188087774,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "54-55",
+    "numerator": 3144.0,
+    "denominator": 4216.0,
+    "reported_pct": 74.573055028463,
+    "calculated_pct": 74.573055028463,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "56-57",
+    "numerator": 3227.0,
+    "denominator": 4344.0,
+    "reported_pct": 74.2863720073665,
+    "calculated_pct": 74.28637200736648,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "58-59",
+    "numerator": 3176.0,
+    "denominator": 4256.0,
+    "reported_pct": 74.6240601503759,
+    "calculated_pct": 74.62406015037594,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "60-61",
+    "numerator": 2982.0,
+    "denominator": 3991.0,
+    "reported_pct": 74.718115760461,
+    "calculated_pct": 74.71811576046103,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "62-63",
+    "numerator": 2869.0,
+    "denominator": 3858.0,
+    "reported_pct": 74.364955935718,
+    "calculated_pct": 74.36495593571799,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "64-65",
+    "numerator": 2733.0,
+    "denominator": 3652.0,
+    "reported_pct": 74.8357064622125,
+    "calculated_pct": 74.83570646221249,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "66-67",
+    "numerator": 2659.0,
+    "denominator": 3601.0,
+    "reported_pct": 73.8405998333796,
+    "calculated_pct": 73.84059983337961,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2021,
+    "age": "68-69",
+    "numerator": 2648.0,
+    "denominator": 3530.0,
+    "reported_pct": 75.014164305949,
+    "calculated_pct": 75.01416430594901,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "50-51",
+    "numerator": 2587.0,
+    "denominator": 3523.0,
+    "reported_pct": 73.4317343173432,
+    "calculated_pct": 73.43173431734317,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "52-53",
+    "numerator": 2637.0,
+    "denominator": 3681.0,
+    "reported_pct": 71.638141809291,
+    "calculated_pct": 71.63814180929096,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "54-55",
+    "numerator": 2980.0,
+    "denominator": 4077.0,
+    "reported_pct": 73.0929605101791,
+    "calculated_pct": 73.09296051017905,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "56-57",
+    "numerator": 3029.0,
+    "denominator": 4190.0,
+    "reported_pct": 72.291169451074,
+    "calculated_pct": 72.29116945107398,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "58-59",
+    "numerator": 3112.0,
+    "denominator": 4227.0,
+    "reported_pct": 73.6219541045659,
+    "calculated_pct": 73.62195410456589,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "60-61",
+    "numerator": 3068.0,
+    "denominator": 4162.0,
+    "reported_pct": 73.7145603075445,
+    "calculated_pct": 73.71456030754445,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "62-63",
+    "numerator": 2971.0,
+    "denominator": 3992.0,
+    "reported_pct": 74.4238476953908,
+    "calculated_pct": 74.42384769539078,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "64-65",
+    "numerator": 2657.0,
+    "denominator": 3593.0,
+    "reported_pct": 73.9493459504592,
+    "calculated_pct": 73.94934595045923,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "66-67",
+    "numerator": 2675.0,
+    "denominator": 3639.0,
+    "reported_pct": 73.5092058257763,
+    "calculated_pct": 73.5092058257763,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2022,
+    "age": "68-69",
+    "numerator": 2714.0,
+    "denominator": 3635.0,
+    "reported_pct": 74.6629986244842,
+    "calculated_pct": 74.66299862448417,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "50-51",
+    "numerator": 2494.0,
+    "denominator": 3480.0,
+    "reported_pct": 71.6666666666667,
+    "calculated_pct": 71.66666666666667,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "52-53",
+    "numerator": 2506.0,
+    "denominator": 3564.0,
+    "reported_pct": 70.314253647587,
+    "calculated_pct": 70.31425364758698,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "54-55",
+    "numerator": 2689.0,
+    "denominator": 3760.0,
+    "reported_pct": 71.5159574468085,
+    "calculated_pct": 71.51595744680851,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "56-57",
+    "numerator": 2963.0,
+    "denominator": 4125.0,
+    "reported_pct": 71.830303030303,
+    "calculated_pct": 71.83030303030303,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "58-59",
+    "numerator": 3120.0,
+    "denominator": 4263.0,
+    "reported_pct": 73.1878958479944,
+    "calculated_pct": 73.18789584799437,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "60-61",
+    "numerator": 3027.0,
+    "denominator": 4166.0,
+    "reported_pct": 72.6596255400864,
+    "calculated_pct": 72.65962554008641,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "62-63",
+    "numerator": 2845.0,
+    "denominator": 3897.0,
+    "reported_pct": 73.0048755452912,
+    "calculated_pct": 73.00487554529126,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "64-65",
+    "numerator": 2757.0,
+    "denominator": 3750.0,
+    "reported_pct": 73.52,
+    "calculated_pct": 73.52,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "66-67",
+    "numerator": 2532.0,
+    "denominator": 3491.0,
+    "reported_pct": 72.5293612145517,
+    "calculated_pct": 72.5293612145517,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2023,
+    "age": "68-69",
+    "numerator": 2529.0,
+    "denominator": 3458.0,
+    "reported_pct": 73.1347599768652,
+    "calculated_pct": 73.13475997686524,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "50-51",
+    "numerator": 3023.0,
+    "denominator": 3972.0,
+    "reported_pct": 76.1077542799597,
+    "calculated_pct": 76.10775427995972,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "52-53",
+    "numerator": 2582.0,
+    "denominator": 3522.0,
+    "reported_pct": 73.3106189664963,
+    "calculated_pct": 73.3106189664963,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "54-55",
+    "numerator": 2752.0,
+    "denominator": 3716.0,
+    "reported_pct": 74.0581270182993,
+    "calculated_pct": 74.05812701829925,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "56-57",
+    "numerator": 2955.0,
+    "denominator": 4062.0,
+    "reported_pct": 72.7474150664697,
+    "calculated_pct": 72.74741506646971,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "58-59",
+    "numerator": 3124.0,
+    "denominator": 4157.0,
+    "reported_pct": 75.1503488092374,
+    "calculated_pct": 75.15034880923743,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "60-61",
+    "numerator": 3118.0,
+    "denominator": 4202.0,
+    "reported_pct": 74.2027605901952,
+    "calculated_pct": 74.20276059019514,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "62-63",
+    "numerator": 3024.0,
+    "denominator": 4096.0,
+    "reported_pct": 73.828125,
+    "calculated_pct": 73.828125,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "64-65",
+    "numerator": 2949.0,
+    "denominator": 3910.0,
+    "reported_pct": 75.4219948849105,
+    "calculated_pct": 75.42199488491049,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "66-67",
+    "numerator": 2530.0,
+    "denominator": 3454.0,
+    "reported_pct": 73.2484076433121,
+    "calculated_pct": 73.2484076433121,
+    "equal_to_1e_9": true
+  },
+  {
+    "year": 2024,
+    "age": "68-69",
+    "numerator": 2629.0,
+    "denominator": 3539.0,
+    "reported_pct": 74.2865216162758,
+    "calculated_pct": 74.28652161627578,
+    "equal_to_1e_9": true
+  }
+]

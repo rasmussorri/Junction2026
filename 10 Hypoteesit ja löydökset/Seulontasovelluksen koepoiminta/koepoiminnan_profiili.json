@@ -1,0 +1,639 @@
+{
+  "created_utc": "2026-11-13T23:52:10.798282+00:00",
+  "access": "Actual native Chrome public Guest session, CUA-operated; CSV download completed visibly and files verified locally. No sign-in.",
+  "url": "https://tilastot.syoparekisteri.fi/seulonta/",
+  "download_route_pattern": "/seulonta/session/{session_id}/download/download_csv?w=",
+  "route_note": "Observed session URL is state-dependent and temporary, not a stable standalone API.",
+  "license": {
+    "label": "CC BY 4.0",
+    "source": "https://tilastot.syoparekisteri.fi/seulonta/help_main_fi.html",
+    "source_update": "2026-05-26",
+    "scope": "These actual app CSV exports. No inferred extension to static HTML annual reports.",
+    "snapshot_sha256": "0dc04116c5154f2498ec4611ce234eb8e294181bf4713de2602066afbd2d8c79"
+  },
+  "ui_options": {
+    "programs": [
+      "Rintasyöpä",
+      "Kohdunkaulan syöpä"
+    ],
+    "breast_themes": [
+      "Kutsut ja tarkastukset",
+      "Testitulokset",
+      "Histologiset löydökset"
+    ],
+    "cervical_themes": [
+      "Kutsut ja tarkastukset (ikäryhmäseulonta)",
+      "Kutsut ja tarkastukset (riskiryhmäseulonta)",
+      "Testitulokset (ikäryhmäseulonta)",
+      "Testitulokset (riskiryhmäseulonta)",
+      "Histologiset löydökset (ikäryhmäseulonta)",
+      "Histologiset löydökset (riskiryhmäseulonta)"
+    ],
+    "delay_theme_observed": false,
+    "colon_program_observed": false
+  },
+  "exports": {
+    "rinta": {
+      "file": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/rinta_helsinki_vuosi_ika.csv",
+      "sha256": "42178050ef646cb666012e984f81d4da766bfdd93bea31b7d27daee5bf18ea89",
+      "bytes": 9402,
+      "saved_utc": "2026-11-13T23:49:32.805158+00:00",
+      "rows": 150,
+      "columns": [
+        "Kutsuvuosi (2010-2024)",
+        "Kutsuikä",
+        "Kohdeväestö",
+        "Rekisteröity kohdeväestö",
+        "Rekisteröity kohdeväestö, %",
+        "Kutsuttu",
+        "Peittävyys väestöstä, %",
+        "Tarkastettu",
+        "Tarkastettu kutsutuista, %"
+      ],
+      "selection_sidecar_required": true,
+      "selection": {
+        "program": "Rintasyöpä",
+        "theme": "Kutsut ja tarkastukset",
+        "sex": "Naiset",
+        "area": "Helsingin kaupunki",
+        "classification": "Kutsuvuosi (2010-2024) ja Kutsuikä",
+        "table_view": "Pitkä taulu"
+      },
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "age_groups": [
+        "50-51",
+        "52-53",
+        "54-55",
+        "56-57",
+        "58-59",
+        "60-61",
+        "62-63",
+        "64-65",
+        "66-67",
+        "68-69"
+      ],
+      "complete_year_age_grid": true,
+      "duplicate_keys": 0,
+      "nonnumeric_value_tokens": {},
+      "participation_arithmetic": {
+        "total": 150,
+        "defined": 150,
+        "failed": [],
+        "undefined": []
+      },
+      "coverage_cap_diagnostic": {
+        "invited_gt_registered_rows": 78,
+        "those_with_coverage_100": 78,
+        "interpretation": "Observed arithmetic diagnostic, not verified implementation of capping; definition may differ by program."
+      },
+      "annual_sums": [
+        {
+          "Kohdeväestö": 39567,
+          "Rekisteröity kohdeväestö": 39567,
+          "Kutsuttu": 39903,
+          "Tarkastettu": 28993,
+          "year": 2020,
+          "minimum_age": 50,
+          "rows": 10,
+          "participation_pct": 72.65869734105205
+        },
+        {
+          "Kohdeväestö": 38888,
+          "Rekisteröity kohdeväestö": 38888,
+          "Kutsuttu": 38860,
+          "Tarkastettu": 28950,
+          "year": 2021,
+          "minimum_age": 50,
+          "rows": 10,
+          "participation_pct": 74.4981986618631
+        },
+        {
+          "Kohdeväestö": 38699,
+          "Rekisteröity kohdeväestö": 38699,
+          "Kutsuttu": 38719,
+          "Tarkastettu": 28430,
+          "year": 2022,
+          "minimum_age": 50,
+          "rows": 10,
+          "participation_pct": 73.42648312198146
+        },
+        {
+          "Kohdeväestö": 37935,
+          "Rekisteröity kohdeväestö": 37935,
+          "Kutsuttu": 37954,
+          "Tarkastettu": 27462,
+          "year": 2023,
+          "minimum_age": 50,
+          "rows": 10,
+          "participation_pct": 72.3560099067292
+        },
+        {
+          "Kohdeväestö": 38443,
+          "Rekisteröity kohdeväestö": 38443,
+          "Kutsuttu": 38630,
+          "Tarkastettu": 28686,
+          "year": 2024,
+          "minimum_age": 50,
+          "rows": 10,
+          "participation_pct": 74.2583484338597
+        }
+      ],
+      "static_report_comparison": [
+        {
+          "year": 2024,
+          "app": {
+            "Kohdeväestö": 38443,
+            "Rekisteröity kohdeväestö": 38443,
+            "Kutsuttu": 38630,
+            "Tarkastettu": 28686,
+            "year": 2024,
+            "minimum_age": 50,
+            "rows": 10,
+            "participation_pct": 74.2583484338597
+          },
+          "static_report": {
+            "invited_or_selected": 38630,
+            "participated": 28686,
+            "reported_pct": "74,3",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2023,
+          "app": {
+            "Kohdeväestö": 37935,
+            "Rekisteröity kohdeväestö": 37935,
+            "Kutsuttu": 37954,
+            "Tarkastettu": 27462,
+            "year": 2023,
+            "minimum_age": 50,
+            "rows": 10,
+            "participation_pct": 72.3560099067292
+          },
+          "static_report": {
+            "invited_or_selected": 37954,
+            "participated": 27462,
+            "reported_pct": "72,4",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2022,
+          "app": {
+            "Kohdeväestö": 38699,
+            "Rekisteröity kohdeväestö": 38699,
+            "Kutsuttu": 38719,
+            "Tarkastettu": 28430,
+            "year": 2022,
+            "minimum_age": 50,
+            "rows": 10,
+            "participation_pct": 73.42648312198146
+          },
+          "static_report": {
+            "invited_or_selected": 38719,
+            "participated": 28430,
+            "reported_pct": "73,4",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2021,
+          "app": {
+            "Kohdeväestö": 38888,
+            "Rekisteröity kohdeväestö": 38888,
+            "Kutsuttu": 38860,
+            "Tarkastettu": 28950,
+            "year": 2021,
+            "minimum_age": 50,
+            "rows": 10,
+            "participation_pct": 74.4981986618631
+          },
+          "static_report": {
+            "invited_or_selected": 38859,
+            "participated": 28949,
+            "reported_pct": "74,5",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 1,
+            "participated": 1,
+            "percentage_points": 0.0006562649923580466
+          }
+        },
+        {
+          "year": 2020,
+          "app": {
+            "Kohdeväestö": 39567,
+            "Rekisteröity kohdeväestö": 39567,
+            "Kutsuttu": 39903,
+            "Tarkastettu": 28993,
+            "year": 2020,
+            "minimum_age": 50,
+            "rows": 10,
+            "participation_pct": 72.65869734105205
+          },
+          "static_report": {
+            "invited_or_selected": 39903,
+            "participated": 28993,
+            "reported_pct": "72,7",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        }
+      ],
+      "ui_spot_checks": [
+        {
+          "year": "2010",
+          "age": "50-51",
+          "column": "Kutsuttu",
+          "ui": "4129",
+          "csv": "4129"
+        },
+        {
+          "year": "2010",
+          "age": "50-51",
+          "column": "Tarkastettu",
+          "ui": "3292",
+          "csv": "3292"
+        },
+        {
+          "year": "2010",
+          "age": "52-53",
+          "column": "Kutsuttu",
+          "ui": "3788",
+          "csv": "3788"
+        }
+      ]
+    },
+    "kohtu": {
+      "file": "10 Hypoteesit ja löydökset/Seulontasovelluksen koepoiminta/work/kohtu_helsinki_vuosi_ika.csv",
+      "sha256": "f3ba29382709e02622b0e411f2f996dc82086a5b484f37424b3d5eace3e521b0",
+      "bytes": 20099,
+      "saved_utc": "2026-11-13T23:50:22.449263+00:00",
+      "rows": 306,
+      "columns": [
+        "Kutsuvuosi (1991-2024)",
+        "Kutsuikä",
+        "Kohdeväestö",
+        "Rekisteröity kohdeväestö",
+        "Rekisteröity kohdeväestö, %",
+        "Kutsuttu",
+        "Peittävyys väestöstä, %",
+        "Tarkastettu",
+        "Tarkastettu kutsutuista, %"
+      ],
+      "selection_sidecar_required": true,
+      "selection": {
+        "program": "Kohdunkaulan syöpä",
+        "theme": "Kutsut ja tarkastukset (ikäryhmäseulonta)",
+        "sex": "Naiset",
+        "area": "Helsingin kaupunki",
+        "classification": "Kutsuvuosi (1991-2024) ja Kutsuikä",
+        "table_view": "Pitkä taulu"
+      },
+      "years": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "age_groups": [
+        "25-29",
+        "30-34",
+        "35-39",
+        "40-44",
+        "45-49",
+        "50-54",
+        "55-59",
+        "60-64",
+        "65-69"
+      ],
+      "complete_year_age_grid": true,
+      "duplicate_keys": 0,
+      "nonnumeric_value_tokens": {},
+      "participation_arithmetic": {
+        "total": 306,
+        "defined": 306,
+        "failed": [],
+        "undefined": []
+      },
+      "coverage_cap_diagnostic": {
+        "invited_gt_registered_rows": 80,
+        "those_with_coverage_100": 80,
+        "interpretation": "Observed arithmetic diagnostic, not verified implementation of capping; definition may differ by program."
+      },
+      "annual_sums": [
+        {
+          "Kohdeväestö": 43090,
+          "Rekisteröity kohdeväestö": 43090,
+          "Kutsuttu": 43382,
+          "Tarkastettu": 28913,
+          "year": 2020,
+          "minimum_age": 25,
+          "rows": 9,
+          "participation_pct": 66.64745747084044
+        },
+        {
+          "Kohdeväestö": 37452,
+          "Rekisteröity kohdeväestö": 37452,
+          "Kutsuttu": 37752,
+          "Tarkastettu": 25531,
+          "year": 2020,
+          "minimum_age": 30,
+          "rows": 8,
+          "participation_pct": 67.62820512820512
+        },
+        {
+          "Kohdeväestö": 42660,
+          "Rekisteröity kohdeväestö": 42660,
+          "Kutsuttu": 42710,
+          "Tarkastettu": 30001,
+          "year": 2021,
+          "minimum_age": 25,
+          "rows": 9,
+          "participation_pct": 70.24350269257785
+        },
+        {
+          "Kohdeväestö": 37225,
+          "Rekisteröity kohdeväestö": 37225,
+          "Kutsuttu": 37239,
+          "Tarkastettu": 26570,
+          "year": 2021,
+          "minimum_age": 30,
+          "rows": 8,
+          "participation_pct": 71.34992883804614
+        },
+        {
+          "Kohdeväestö": 42802,
+          "Rekisteröity kohdeväestö": 42802,
+          "Kutsuttu": 43324,
+          "Tarkastettu": 30099,
+          "year": 2022,
+          "minimum_age": 25,
+          "rows": 9,
+          "participation_pct": 69.47419444187979
+        },
+        {
+          "Kohdeväestö": 37353,
+          "Rekisteröity kohdeväestö": 37353,
+          "Kutsuttu": 37763,
+          "Tarkastettu": 26753,
+          "year": 2022,
+          "minimum_age": 30,
+          "rows": 8,
+          "participation_pct": 70.84447739851177
+        },
+        {
+          "Kohdeväestö": 42798,
+          "Rekisteröity kohdeväestö": 42798,
+          "Kutsuttu": 42941,
+          "Tarkastettu": 30617,
+          "year": 2023,
+          "minimum_age": 25,
+          "rows": 9,
+          "participation_pct": 71.30015602803847
+        },
+        {
+          "Kohdeväestö": 37641,
+          "Rekisteröity kohdeväestö": 37641,
+          "Kutsuttu": 37770,
+          "Tarkastettu": 27385,
+          "year": 2023,
+          "minimum_age": 30,
+          "rows": 8,
+          "participation_pct": 72.5046333068573
+        },
+        {
+          "Kohdeväestö": 43602,
+          "Rekisteröity kohdeväestö": 43602,
+          "Kutsuttu": 43757,
+          "Tarkastettu": 31013,
+          "year": 2024,
+          "minimum_age": 25,
+          "rows": 9,
+          "participation_pct": 70.87551706012752
+        },
+        {
+          "Kohdeväestö": 38279,
+          "Rekisteröity kohdeväestö": 38279,
+          "Kutsuttu": 38382,
+          "Tarkastettu": 27514,
+          "year": 2024,
+          "minimum_age": 30,
+          "rows": 8,
+          "participation_pct": 71.6846438434683
+        }
+      ],
+      "static_report_comparison": [
+        {
+          "year": 2024,
+          "app": {
+            "Kohdeväestö": 38279,
+            "Rekisteröity kohdeväestö": 38279,
+            "Kutsuttu": 38382,
+            "Tarkastettu": 27514,
+            "year": 2024,
+            "minimum_age": 30,
+            "rows": 8,
+            "participation_pct": 71.6846438434683
+          },
+          "static_report": {
+            "invited_or_selected": 38382,
+            "participated": 27514,
+            "reported_pct": "71,7",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2023,
+          "app": {
+            "Kohdeväestö": 37641,
+            "Rekisteröity kohdeväestö": 37641,
+            "Kutsuttu": 37770,
+            "Tarkastettu": 27385,
+            "year": 2023,
+            "minimum_age": 30,
+            "rows": 8,
+            "participation_pct": 72.5046333068573
+          },
+          "static_report": {
+            "invited_or_selected": 37770,
+            "participated": 27385,
+            "reported_pct": "72,5",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2022,
+          "app": {
+            "Kohdeväestö": 37353,
+            "Rekisteröity kohdeväestö": 37353,
+            "Kutsuttu": 37763,
+            "Tarkastettu": 26753,
+            "year": 2022,
+            "minimum_age": 30,
+            "rows": 8,
+            "participation_pct": 70.84447739851177
+          },
+          "static_report": {
+            "invited_or_selected": 37763,
+            "participated": 26753,
+            "reported_pct": "70,8",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2021,
+          "app": {
+            "Kohdeväestö": 37225,
+            "Rekisteröity kohdeväestö": 37225,
+            "Kutsuttu": 37239,
+            "Tarkastettu": 26570,
+            "year": 2021,
+            "minimum_age": 30,
+            "rows": 8,
+            "participation_pct": 71.34992883804614
+          },
+          "static_report": {
+            "invited_or_selected": 37239,
+            "participated": 26570,
+            "reported_pct": "71,3",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        },
+        {
+          "year": 2020,
+          "app": {
+            "Kohdeväestö": 37452,
+            "Rekisteröity kohdeväestö": 37452,
+            "Kutsuttu": 37752,
+            "Tarkastettu": 25531,
+            "year": 2020,
+            "minimum_age": 30,
+            "rows": 8,
+            "participation_pct": 67.62820512820512
+          },
+          "static_report": {
+            "invited_or_selected": 37752,
+            "participated": 25531,
+            "reported_pct": "67,6",
+            "table_heading": "Kutsuttu"
+          },
+          "differences_app_minus_static": {
+            "invited_or_selected": 0,
+            "participated": 0,
+            "percentage_points": 0.0
+          }
+        }
+      ],
+      "ui_spot_checks": [
+        {
+          "year": "1991",
+          "age": "25-29",
+          "column": "Kutsuttu",
+          "ui": "4932",
+          "csv": "4932"
+        },
+        {
+          "year": "1991",
+          "age": "25-29",
+          "column": "Tarkastettu",
+          "ui": "2554",
+          "csv": "2554"
+        },
+        {
+          "year": "1991",
+          "age": "30-34",
+          "column": "Kutsuttu",
+          "ui": "4650",
+          "csv": "4650"
+        }
+      ]
+    }
+  }
+}

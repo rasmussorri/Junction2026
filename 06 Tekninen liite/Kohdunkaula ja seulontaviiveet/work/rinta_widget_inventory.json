@@ -1,0 +1,188 @@
+[
+  {
+    "headings": [
+      "Rintasyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      ""
+    ],
+    "bytes": 44912,
+    "top_x_keys": [
+      "visdat",
+      "cur_data",
+      "attrs",
+      "layout",
+      "source",
+      "config",
+      "data",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 22,
+    "trace_names": [
+      "50",
+      "52",
+      "54",
+      "56",
+      "58",
+      "60",
+      "62",
+      "64",
+      "66",
+      "68",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Rintasyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      ""
+    ],
+    "bytes": 45918,
+    "top_x_keys": [
+      "visdat",
+      "cur_data",
+      "attrs",
+      "layout",
+      "source",
+      "config",
+      "data",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 22,
+    "trace_names": [
+      "50",
+      "52",
+      "54",
+      "56",
+      "58",
+      "60",
+      "62",
+      "64",
+      "66",
+      "68",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Rintasyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Hyvinvointialueet"
+    ],
+    "bytes": 198232,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "yaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "legend": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 24,
+    "trace_names": [
+      "99_7afd58931adace2576920a6b4291d7fb"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Rintasyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Kunnat"
+    ],
+    "bytes": 423047,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "yaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "legend": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 294,
+    "trace_names": [
+      "99_96fb84963f84dd59c0494402e17d9a84"
+    ],
+    "delay_keyword_in_payload": false
+  }
+]

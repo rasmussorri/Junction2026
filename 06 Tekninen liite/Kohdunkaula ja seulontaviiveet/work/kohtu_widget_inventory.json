@@ -1,0 +1,214 @@
+[
+  {
+    "headings": [
+      "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      "Muutokset osallistumisaktiivisuudessa"
+    ],
+    "bytes": 127098,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "attrs",
+      "source",
+      "config",
+      "highlight",
+      "subplot",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "xaxis2": "Kutsuvuosi",
+      "yaxis2": "",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 36,
+    "trace_names": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60",
+      "65",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      "Muutokset positiivisuusosuudessa"
+    ],
+    "bytes": 129094,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "attrs",
+      "source",
+      "config",
+      "highlight",
+      "subplot",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "xaxis2": "Kutsuvuosi",
+      "yaxis2": "",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 36,
+    "trace_names": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60",
+      "65",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      "Muutokset syöpä-/esiasteosuudessa"
+    ],
+    "bytes": 125544,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "attrs",
+      "source",
+      "config",
+      "highlight",
+      "subplot",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "xaxis2": "Kutsuvuosi",
+      "yaxis2": "",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 36,
+    "trace_names": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60",
+      "65",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Hyvinvointialueet"
+    ],
+    "bytes": 390338,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "",
+      "yaxis": "",
+      "xaxis2": "",
+      "legend": {
+        "text": "%",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 49,
+    "trace_names": [
+      "799001e22702800fb9ee82e015850310"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Kohdunkaulasyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Kunnat"
+    ],
+    "bytes": 433518,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "yaxis": {
+        "text": "",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      },
+      "legend": {
+        "text": "%",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 311,
+    "trace_names": [
+      "8fdef6853cce81ae46b78501126fd42b"
+    ],
+    "delay_keyword_in_payload": false
+  }
+]

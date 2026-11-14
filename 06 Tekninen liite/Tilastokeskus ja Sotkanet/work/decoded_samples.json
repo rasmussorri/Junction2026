@@ -1,0 +1,885 @@
+{
+  "11be": {
+    "updated": "2026-10-29T06:00:00Z",
+    "shape": [
+      2,
+      1,
+      2,
+      1,
+      1
+    ],
+    "notes": [
+      "<A HREF='https://stat.fi/en/statistics/documentation/ksyyt' TARGET=_blank>Documentation of statistics</A>",
+      "... confidential\r\n- magnitude nil",
+      "11be -- Deaths by underlying cause of death (ICD-10, 3-character level), age and sex, 1998-2025, Causes of death, Statistics Finland"
+    ],
+    "rows": [
+      {
+        "kuolinsyyt_80_20210101": {
+          "code": "C18",
+          "label": "C18 Malignant neoplasm of colon"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 928,
+        "status": null
+      },
+      {
+        "kuolinsyyt_80_20210101": {
+          "code": "C18",
+          "label": "C18 Malignant neoplasm of colon"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 926,
+        "status": null
+      },
+      {
+        "kuolinsyyt_80_20210101": {
+          "code": "C50",
+          "label": "C50 Malignant neoplasm of breast"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 899,
+        "status": null
+      },
+      {
+        "kuolinsyyt_80_20210101": {
+          "code": "C50",
+          "label": "C50 Malignant neoplasm of breast"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "SSS",
+          "label": "Total"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 907,
+        "status": null
+      }
+    ],
+    "status": null
+  },
+  "13u5": {
+    "updated": "2026-10-29T06:00:00Z",
+    "shape": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "notes": [
+      "<A HREF='https://stat.fi/en/statistics/documentation/ksyyt' TARGET=_blank>Documentation of statistics</A>",
+      ". missing",
+      "13u5 -- Deaths and crude death rates by underlying cause of death (time series classification) and wellbeing services county, 1969-2025, Causes of death, Statistics Finland"
+    ],
+    "rows": [
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 13316,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 236.9,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 13424,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 237.8,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 899,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 16,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 907,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "SSS",
+          "label": "WHOLE COUNTRY"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 16.1,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 1213,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 178.6,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 1273,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "04-21",
+          "label": "04-21 Malignant neoplasms (C00-C97)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 184.7,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 89,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 13.1,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyylkm",
+          "label": "Deaths"
+        },
+        "value": 88,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "HVA90",
+          "label": "HVA90 City of Helsinki"
+        },
+        "kuolinsyyt_1_20210101": {
+          "code": "13",
+          "label": "13 Malignant neoplasm of breast (C50)"
+        },
+        "timeperiod_y": {
+          "code": "2025",
+          "label": "2025"
+        },
+        "contentscode": {
+          "code": "ksyycdr",
+          "label": "Crude death rate, whole population (1/100 000)"
+        },
+        "value": 12.8,
+        "status": null
+      }
+    ],
+    "status": null
+  },
+  "11re": {
+    "updated": "2026-04-01T05:00:00Z",
+    "shape": [
+      1,
+      5,
+      2,
+      1,
+      1
+    ],
+    "notes": [
+      "<A HREF='https://stat.fi/en/statistics/documentation/vaerak' TARGET=_blank>Documentation of statistics</A>",
+      "Starting from 1750 Population statistics have been digitised into PDF format in the National Library's Doria service:\r\n <A HREF=http://www.doria.fi/handle/10024/67161 TARGET=_blank>  Publications on Population structure and Vital statistics in Doria (in Finnish)</A>\r\n <A HREF=http://www.doria.fi/handle/10024/67160 TARGET=_blank>  Publications on Population censuses in Doria (in Finnish)</A>\r\n \r\n ---"
+    ],
+    "rows": [
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "060",
+          "label": "60"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "1",
+          "label": "Males"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3819,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "060",
+          "label": "60"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "2",
+          "label": "Females"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 4169,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "062",
+          "label": "62"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "1",
+          "label": "Males"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3615,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "062",
+          "label": "62"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "2",
+          "label": "Females"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 4049,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "064",
+          "label": "64"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "1",
+          "label": "Males"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3250,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "064",
+          "label": "64"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "2",
+          "label": "Females"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3850,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "066",
+          "label": "66"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "1",
+          "label": "Males"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 2918,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "066",
+          "label": "66"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "2",
+          "label": "Females"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3415,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "068",
+          "label": "68"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "1",
+          "label": "Males"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 2811,
+        "status": null
+      },
+      {
+        "alue_23_20260101": {
+          "code": "KU091",
+          "label": "Helsinki"
+        },
+        "ikaryhma_10_20180101": {
+          "code": "068",
+          "label": "68"
+        },
+        "sukupuoli_9_20180101": {
+          "code": "2",
+          "label": "Females"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "contentscode": {
+          "code": "vaerak-vaesto",
+          "label": "Population 31 Dec"
+        },
+        "value": 3491,
+        "status": null
+      }
+    ],
+    "status": null
+  },
+  "paavo12ey": {
+    "updated": "2026-01-26T06:00:00Z",
+    "shape": [
+      2,
+      5,
+      1
+    ],
+    "notes": [
+      "... confidential",
+      "POPULATION STRUCTURE (HE) \r\nPopulation:\r\nInhabitants are people residing permanently in the area. Anybody whose place of residence according to the Population Information System was in Finland at the end of the year (31 December) qualifies as an inhabitant regardless of nationality. The location of inhabitants is determined by the coordinates of the building they live in. The location of people living in institutions is determined by the coordinates of the institution, if known. However, people living in institutions without coordinates, Finnish nationals living temporarily abroad and people whose location in the municipality is unknown are not included. Approximately one percent of the population lack coordinates. \r\n \r\nData protection:\r\nData on population structure are confidential if there are less than 30 inhabitants in the area. The value in confidential fields is '...'."
+    ],
+    "rows": [
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00100",
+          "label": "00100  Helsinki keskusta - Etu-Töölö (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_vakiy",
+          "label": "Inhabitants, total (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 18492,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00100",
+          "label": "00100  Helsinki keskusta - Etu-Töölö (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_miehet",
+          "label": "Males (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 8758,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00100",
+          "label": "00100  Helsinki keskusta - Etu-Töölö (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_naiset",
+          "label": "Females (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 9734,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00100",
+          "label": "00100  Helsinki keskusta - Etu-Töölö (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_kika",
+          "label": "Average age of inhabitants (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 42,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00100",
+          "label": "00100  Helsinki keskusta - Etu-Töölö (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_60_64",
+          "label": "60-64 years (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 994,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00230",
+          "label": "00230  Helsinki postikeskus (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_vakiy",
+          "label": "Inhabitants, total (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 0,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00230",
+          "label": "00230  Helsinki postikeskus (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_miehet",
+          "label": "Males (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 0,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00230",
+          "label": "00230  Helsinki postikeskus (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_naiset",
+          "label": "Females (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 0,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00230",
+          "label": "00230  Helsinki postikeskus (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_kika",
+          "label": "Average age of inhabitants (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 0,
+        "status": null
+      },
+      {
+        "postinumeroalue_4_20260101": {
+          "code": "00230",
+          "label": "00230  Helsinki postikeskus (Helsinki)"
+        },
+        "contentscode": {
+          "code": "he_60_64",
+          "label": "60-64 years (HE)"
+        },
+        "timeperiod_y": {
+          "code": "2024",
+          "label": "2024"
+        },
+        "value": 0,
+        "status": null
+      }
+    ],
+    "status": null
+  }
+}

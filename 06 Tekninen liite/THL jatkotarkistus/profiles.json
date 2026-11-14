@@ -1,0 +1,222 @@
+{
+  "waiting_gt180_pct": {
+    "dimensions": [
+      "tuottaja",
+      "ajankohta"
+    ],
+    "shape": [
+      20,
+      110
+    ],
+    "stored_values": 1444,
+    "missing_index_count": 756,
+    "nulls": 0,
+    "zeros": 1117,
+    "non_numeric_tokens": {}
+  },
+  "waiting_gt180_count": {
+    "dimensions": [
+      "tuottaja",
+      "ajankohta"
+    ],
+    "shape": [
+      20,
+      110
+    ],
+    "stored_values": 1444,
+    "missing_index_count": 756,
+    "nulls": 0,
+    "zeros": 1117,
+    "non_numeric_tokens": {}
+  },
+  "ratio_check_count": 1444,
+  "ratio_check_failures": 0,
+  "latest_queue_rows": [
+    {
+      "producer": "Etelä-Karjalan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "9",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Etelä-Pohjanmaan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "13",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Etelä-Savon hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "12",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "HUS",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "283",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Helsingin sosiaali-, terveys- ja pelastustoimi",
+      "date": "30.09.2026",
+      "gt180_count": null,
+      "waiting_total": null,
+      "gt180_pct": null
+    },
+    {
+      "producer": "Kainuun hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": null,
+      "waiting_total": null,
+      "gt180_pct": null
+    },
+    {
+      "producer": "Kanta-Hämeen hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "11",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Keski-Pohjanmaan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "18",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Keski-Suomen hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "10",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Kymenlaakson hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "6",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Lapin hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "4",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Pirkanmaan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": null,
+      "waiting_total": null,
+      "gt180_pct": null
+    },
+    {
+      "producer": "Pohjanmaan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "1",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Pohjois-Karjalan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "36",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Pohjois-Pohjanmaan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "54",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Pohjois-Savon hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "6",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Päijät-Hämeen hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": null,
+      "waiting_total": null,
+      "gt180_pct": null
+    },
+    {
+      "producer": "Satakunnan hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "2",
+      "waiting_total": "8",
+      "gt180_pct": "25.0"
+    },
+    {
+      "producer": "Varsinais-Suomen hyvinvointialue",
+      "date": "30.09.2026",
+      "gt180_count": "0",
+      "waiting_total": "15",
+      "gt180_pct": "0.0"
+    },
+    {
+      "producer": "Kaikki hyvinvointialueet",
+      "date": "30.09.2026",
+      "gt180_count": "2",
+      "waiting_total": "486",
+      "gt180_pct": "0.4"
+    }
+  ],
+  "hilmo": {
+    "dimensions": [
+      "area",
+      "time"
+    ],
+    "shape": [
+      26,
+      12
+    ],
+    "stored_values": 286,
+    "missing_index_count": 26,
+    "nulls": 0,
+    "zeros": 0,
+    "non_numeric_tokens": {}
+  },
+  "hilmo_explicit_equal": true,
+  "avohilmo_bad_query": {
+    "dimensions": [
+      "diagnoosi",
+      "aika"
+    ],
+    "shape": [
+      23,
+      10
+    ],
+    "stored_values": 0,
+    "missing_index_count": 230,
+    "nulls": 0,
+    "zeros": 0,
+    "non_numeric_tokens": {}
+  },
+  "avohilmo_corrected": {
+    "dimensions": [
+      "alue",
+      "aika"
+    ],
+    "shape": [
+      26,
+      10
+    ],
+    "stored_values": 258,
+    "missing_index_count": 2,
+    "nulls": 0,
+    "zeros": 0,
+    "non_numeric_tokens": {}
+  }
+}

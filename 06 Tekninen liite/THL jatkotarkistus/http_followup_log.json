@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "avohilmo_c50_area_clients.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06.json?row=alue-11810&column=aika-87596&filter=diagnoosi-121077&filter=measure-87454",
+    "requested_at_utc": "2026-11-13T23:34:13.466185+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 5556,
+    "sha256": "e590cb4dd3783001b7554f809e3cb69d33ce999b9585ff6cf013e75165f9d04c"
+  },
+  {
+    "filename": "avohilmo_c50_area_view.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06?row=alue-11810&column=aika-87596&filter=diagnoosi-121077&filter=measure-87454",
+    "requested_at_utc": "2026-11-13T23:34:13.725497+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 41382,
+    "sha256": "7d4bad80f27465924d2d1af236150bda2710508d90cf6dff01d911b2fc8fa913"
+  },
+  {
+    "filename": "hilmo_oncology_explicit.json",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j.json?row=area-2079&column=time-6656&filter=speciality-17958&filter=measure-17881",
+    "requested_at_utc": "2026-11-13T23:34:13.887956+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 6195,
+    "sha256": "004affac48e2a0d3951aae7b04b4638d7adb7973ca3788e669a518922cb2db9e"
+  },
+  {
+    "filename": "avohilmo_metadata.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/avo/perus06/fact_ahil_perus06/meta",
+    "requested_at_utc": "2026-11-13T23:34:14.002990+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 41,
+    "sha256": "77b5cafcd63968037142351f9f17b215b462a62fb1a2028e78aa6957bc8a5b7c"
+  },
+  {
+    "filename": "hilmo_metadata.html",
+    "url": "https://sampo.thl.fi/pivot/prod/fi/thil/perus03j/fact_thil_perus03j/meta",
+    "requested_at_utc": "2026-11-13T23:34:14.123776+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 41,
+    "sha256": "77b5cafcd63968037142351f9f17b215b462a62fb1a2028e78aa6957bc8a5b7c"
+  }
+]

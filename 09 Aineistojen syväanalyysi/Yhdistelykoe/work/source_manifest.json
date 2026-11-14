@@ -1,0 +1,30 @@
+{
+  "screening_files": [
+    {
+      "path": "06 Tekninen liite/suolisto_tables.json",
+      "sha256": "beba5eb6a275b7d673c833716c06a6949c049729a600f881ff85bef40437aa4e",
+      "table_index_zero_based": 24,
+      "headers": [
+        "Suolistosyövän seulontaohjelma:\nvuositilasto",
+        "Hyvinvointialueet",
+        "Seulontaketju",
+        "2024"
+      ]
+    },
+    {
+      "path": "06 Tekninen liite/rinta_tables.json",
+      "sha256": "c87ebda592c89d4ca3d1123122d89818492c6dcad62c41a57f82bc28febeed8f",
+      "table_index_zero_based": 50,
+      "headers": [
+        "Rintasyövän seulontaohjelma:\nvuositilasto",
+        "Hyvinvointialueet",
+        "Seulontaketju",
+        "2024"
+      ]
+    }
+  ],
+  "statfin_api": "https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaerak/11ra.px",
+  "statfin_metadata_sha256": "0564ea6170a51959f745689d1bd1424d4c896df8c18d64aeaae0e1e460771bc4",
+  "statfin_data_sha256": "2cdb8c8357450d70cd90d06799ad65d233593ca28e87e413423dc3ff02701162",
+  "generated_utc": "2026-11-13T23:46:24.727950+00:00"
+}

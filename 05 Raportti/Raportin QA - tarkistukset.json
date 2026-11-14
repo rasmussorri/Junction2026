@@ -1,0 +1,399 @@
+{
+  "checked_local_only": true,
+  "word_count_whitespace": 9853,
+  "characters": 94027,
+  "bytes": 97462,
+  "checks": {
+    "rinta_sha256": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_rows_and_keys": {
+      "pass": true,
+      "detail": 150
+    },
+    "rinta_rates": {
+      "pass": true,
+      "detail": {
+        "tested": 150,
+        "max_diff_pp": 7.105427357601002e-14
+      }
+    },
+    "rinta_2020": {
+      "pass": true,
+      "detail": {
+        "P": 28993,
+        "N": 39903,
+        "pct": 72.65869734105205
+      }
+    },
+    "rinta_2021": {
+      "pass": true,
+      "detail": {
+        "P": 28950,
+        "N": 38860,
+        "pct": 74.4981986618631
+      }
+    },
+    "rinta_2022": {
+      "pass": true,
+      "detail": {
+        "P": 28430,
+        "N": 38719,
+        "pct": 73.42648312198146
+      }
+    },
+    "rinta_2023": {
+      "pass": true,
+      "detail": {
+        "P": 27462,
+        "N": 37954,
+        "pct": 72.3560099067292
+      }
+    },
+    "rinta_2024": {
+      "pass": true,
+      "detail": {
+        "P": 28686,
+        "N": 38630,
+        "pct": 74.2583484338597
+      }
+    },
+    "kohtu_sha256": {
+      "pass": true,
+      "detail": null
+    },
+    "kohtu_rows_and_keys": {
+      "pass": true,
+      "detail": 306
+    },
+    "kohtu_rates": {
+      "pass": true,
+      "detail": {
+        "tested": 306,
+        "max_diff_pp": 7.105427357601002e-14
+      }
+    },
+    "queue_dimensions": {
+      "pass": true,
+      "detail": null
+    },
+    "queue_1444_ratios": {
+      "pass": true,
+      "detail": {
+        "tested": 1444,
+        "max_diff_pp": 0.04999999999999982
+      }
+    },
+    "queue_latest_missing": {
+      "pass": true,
+      "detail": [
+        {
+          "producer": "Etelä-Karjalan hyvinvointialue",
+          "N": "9",
+          "gt180": "0"
+        },
+        {
+          "producer": "Etelä-Pohjanmaan hyvinvointialue",
+          "N": "13",
+          "gt180": "0"
+        },
+        {
+          "producer": "Etelä-Savon hyvinvointialue",
+          "N": "12",
+          "gt180": "0"
+        },
+        {
+          "producer": "HUS",
+          "N": "283",
+          "gt180": "0"
+        },
+        {
+          "producer": "Helsingin sosiaali-, terveys- ja pelastustoimi",
+          "N": null,
+          "gt180": null
+        },
+        {
+          "producer": "Kainuun hyvinvointialue",
+          "N": null,
+          "gt180": null
+        },
+        {
+          "producer": "Kanta-Hämeen hyvinvointialue",
+          "N": "11",
+          "gt180": "0"
+        },
+        {
+          "producer": "Keski-Pohjanmaan hyvinvointialue",
+          "N": "18",
+          "gt180": "0"
+        },
+        {
+          "producer": "Keski-Suomen hyvinvointialue",
+          "N": "10",
+          "gt180": "0"
+        },
+        {
+          "producer": "Kymenlaakson hyvinvointialue",
+          "N": "6",
+          "gt180": "0"
+        },
+        {
+          "producer": "Lapin hyvinvointialue",
+          "N": "4",
+          "gt180": "0"
+        },
+        {
+          "producer": "Pirkanmaan hyvinvointialue",
+          "N": null,
+          "gt180": null
+        },
+        {
+          "producer": "Pohjanmaan hyvinvointialue",
+          "N": "1",
+          "gt180": "0"
+        },
+        {
+          "producer": "Pohjois-Karjalan hyvinvointialue",
+          "N": "36",
+          "gt180": "0"
+        },
+        {
+          "producer": "Pohjois-Pohjanmaan hyvinvointialue",
+          "N": "54",
+          "gt180": "0"
+        },
+        {
+          "producer": "Pohjois-Savon hyvinvointialue",
+          "N": "6",
+          "gt180": "0"
+        },
+        {
+          "producer": "Päijät-Hämeen hyvinvointialue",
+          "N": null,
+          "gt180": null
+        },
+        {
+          "producer": "Satakunnan hyvinvointialue",
+          "N": "8",
+          "gt180": "2"
+        },
+        {
+          "producer": "Varsinais-Suomen hyvinvointialue",
+          "N": "15",
+          "gt180": "0"
+        },
+        {
+          "producer": "Kaikki hyvinvointialueet",
+          "N": "486",
+          "gt180": "2"
+        }
+      ]
+    },
+    "queue_total": {
+      "pass": true,
+      "detail": null
+    },
+    "queue_satakunta": {
+      "pass": true,
+      "detail": {
+        "producer": "Satakunnan hyvinvointialue",
+        "gt180": "2",
+        "N": "8",
+        "pct": 25.0
+      }
+    },
+    "queue_license_date": {
+      "pass": true,
+      "detail": null
+    },
+    "mortality_four_cells": {
+      "pass": true,
+      "detail": "{('C18', '2024'): 928, ('C18', '2025'): 926, ('C50', '2024'): 899, ('C50', '2025'): 907}"
+    },
+    "11be_schema_cells": {
+      "pass": true,
+      "detail": {
+        "id": [
+          "kuolinsyyt_80_20210101",
+          "ikaryhma_10_20180101",
+          "timeperiod_y",
+          "sukupuoli_9_20180101",
+          "contentscode"
+        ],
+        "size": [
+          2,
+          1,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    "13u5_schema_cells": {
+      "pass": true,
+      "detail": {
+        "id": [
+          "alue_23_20260101",
+          "kuolinsyyt_1_20210101",
+          "timeperiod_y",
+          "contentscode"
+        ],
+        "size": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "11re_schema_cells": {
+      "pass": true,
+      "detail": {
+        "id": [
+          "alue_23_20260101",
+          "ikaryhma_10_20180101",
+          "sukupuoli_9_20180101",
+          "timeperiod_y",
+          "contentscode"
+        ],
+        "size": [
+          1,
+          5,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    "paavo12ey_schema_cells": {
+      "pass": true,
+      "detail": {
+        "id": [
+          "postinumeroalue_4_20260101",
+          "contentscode",
+          "timeperiod_y"
+        ],
+        "size": [
+          2,
+          5,
+          1
+        ]
+      }
+    },
+    "11ra_46_cells": {
+      "pass": true,
+      "detail": null
+    },
+    "join_22_unique": {
+      "pass": true,
+      "detail": null
+    },
+    "kela_486_complete": {
+      "pass": true,
+      "detail": null
+    },
+    "kela_486_unique": {
+      "pass": true,
+      "detail": null
+    },
+    "colon_22_declines": {
+      "pass": true,
+      "detail": null
+    },
+    "suolisto_summary_2022": {
+      "pass": true,
+      "detail": null
+    },
+    "suolisto_summary_2023": {
+      "pass": true,
+      "detail": null
+    },
+    "suolisto_summary_2024": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_summary_2020": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_summary_2021": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_summary_2022": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_summary_2023": {
+      "pass": true,
+      "detail": null
+    },
+    "rinta_summary_2024": {
+      "pass": true,
+      "detail": null
+    },
+    "reported_age_sex_std": {
+      "pass": true,
+      "detail": null
+    },
+    "reported_history_std": {
+      "pass": true,
+      "detail": null
+    },
+    "invitation_sensitivity": {
+      "pass": true,
+      "detail": null
+    },
+    "stage_arithmetic": {
+      "pass": true,
+      "detail": null
+    },
+    "ten_cards": {
+      "pass": true,
+      "detail": null
+    },
+    "catalogue_D01_D31": {
+      "pass": true,
+      "detail": null
+    },
+    "three_analyses": {
+      "pass": true,
+      "detail": null
+    },
+    "no_wikilinks": {
+      "pass": true,
+      "detail": null
+    },
+    "balanced_code_fences": {
+      "pass": true,
+      "detail": null
+    },
+    "local_link_targets": {
+      "pass": true,
+      "detail": {
+        "links": 11,
+        "missing": []
+      }
+    },
+    "external_url_syntax": {
+      "pass": true,
+      "detail": {
+        "references": 138,
+        "unique_urls": 78,
+        "invalid": [],
+        "live_HTTP_not_retested": true
+      }
+    },
+    "table_columns": {
+      "pass": true,
+      "detail": []
+    },
+    "portable_copy_identical": {
+      "pass": true,
+      "detail": "/Users/rasmussorri/Documents/Codex/2026-11-13/referenced-chatgpt-conversation-this-is-an/outputs/Junction 2026 - syöpädata ja MVP.md"
+    }
+  },
+  "failed": [],
+  "report_sha256": "6777f6211d42d17cdcdf6e037958830eb152f6a8bb183db7af9a093183f501ef"
+}

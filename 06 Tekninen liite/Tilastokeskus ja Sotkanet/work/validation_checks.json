@@ -1,0 +1,32 @@
+[
+  {
+    "test": "C50 national death count matches across products",
+    "year": "2024",
+    "11be": 899,
+    "13u5": 899
+  },
+  {
+    "test": "C50 national death count matches across products",
+    "year": "2025",
+    "11be": 907,
+    "13u5": 907
+  },
+  {
+    "test": "Paavo sex sum matches total in selected cell",
+    "postal_code": "00100",
+    "values": {
+      "he_vakiy": 18492,
+      "he_miehet": 8758,
+      "he_naiset": 9734
+    }
+  },
+  {
+    "test": "Paavo sex sum matches total in selected cell",
+    "postal_code": "00230",
+    "values": {
+      "he_vakiy": 0,
+      "he_miehet": 0,
+      "he_naiset": 0
+    }
+  }
+]

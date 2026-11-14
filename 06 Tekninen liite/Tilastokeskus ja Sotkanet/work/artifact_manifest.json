@@ -1,0 +1,120 @@
+{
+  "generated_utc": "2026-11-13T23:43:20.627738+00:00",
+  "files": [
+    {
+      "file": "11be_meta.json",
+      "bytes": 93453,
+      "sha256": "100b2baf7acd5df332fdba3f0bedb3d7a98aa499f4e239eb67cb077b8b0f8ba8"
+    },
+    {
+      "file": "11be_sample.json",
+      "bytes": 4269,
+      "sha256": "c63a006a60770c14893ef621e5f53db26ffc525470ce8bf860b13b0772f567e5"
+    },
+    {
+      "file": "11be_sample_query.json",
+      "bytes": 853,
+      "sha256": "917c83c86814a37af7ee6af3cfa02ba06eb5dc1b2c04afdb22bd0e2031939d9c"
+    },
+    {
+      "file": "11re_meta.json",
+      "bytes": 8280,
+      "sha256": "e2ceae6c3f74452f29181cc040551ad448c4b06f96a6661acaa44a120b8a6266"
+    },
+    {
+      "file": "11re_sample.json",
+      "bytes": 3112,
+      "sha256": "22c81d3bd046c5a572f49b653b4b5e245befb09e6b3950e88f5d36ed04bb0739"
+    },
+    {
+      "file": "11re_sample_query.json",
+      "bytes": 901,
+      "sha256": "f802d336301c286a5a28271517c0f7eb9097a23bb1b243fbf1e1eaa1907bd51d"
+    },
+    {
+      "file": "13u5_meta.json",
+      "bytes": 6496,
+      "sha256": "c294d9f1db6de67f184c9a69f0dc1d918422697d7ac20c661171d7a320e889d7"
+    },
+    {
+      "file": "13u5_sample.json",
+      "bytes": 3224,
+      "sha256": "2fc5b5f6b598e704b40e9b1cafd41eb8d8838a6592ee8611853e847872e6b96a"
+    },
+    {
+      "file": "13u5_sample_query.json",
+      "bytes": 737,
+      "sha256": "7d5ee125da3fb881b3bf1f832c2c2c3a998138423bcc04957f083709297f79f0"
+    },
+    {
+      "file": "decoded_samples.json",
+      "bytes": 22612,
+      "sha256": "d7ec2bfea537c91928170c10f3a7c2321af2db607f405947084843499483137d"
+    },
+    {
+      "file": "paavo12ey_meta.json",
+      "bytes": 121523,
+      "sha256": "bc4202b92f8bf1aa894e0caa593c4264c6fb607bc09346969052ace473e80376"
+    },
+    {
+      "file": "paavo12ey_sample.json",
+      "bytes": 4916,
+      "sha256": "cd57e56e0e4f432c7bb45ead590653e65811f71d20e7ea47c30868712a3aa4ab"
+    },
+    {
+      "file": "paavo12ey_sample_query.json",
+      "bytes": 629,
+      "sha256": "34c562f6343cdc4d53c779f106303eb0470de41efb0854c93c3a7a2355fb1b73"
+    },
+    {
+      "file": "paavo2026_catalog.json",
+      "bytes": 1255,
+      "sha256": "3fbf0bed2531512a6f130a60c339a59baeaac21ac864c6eebf9210b26e7c7dd4"
+    },
+    {
+      "file": "paavo_catalog.json",
+      "bytes": 752,
+      "sha256": "0c52f61c8d8eb4912658f6588f4cba2d6cc1ea75ecd86273b26055ac3e4f0813"
+    },
+    {
+      "file": "paavo_manual2026.pdf",
+      "bytes": 634188,
+      "sha256": "be9485a311e65e54815cd173669d81b44393fa5c251cdb072742de7fb3cf77dc"
+    },
+    {
+      "file": "paavo_manual_p2.png",
+      "bytes": 332404,
+      "sha256": "c92695da21268e0635f2e3411fb88b1993537772481b45e212c42579ad34f5d2"
+    },
+    {
+      "file": "paavo_manual_p4.png",
+      "bytes": 274503,
+      "sha256": "b786505fa95e04808227364ede4396785ff14a9964be15d2dd287f4c9da22d22"
+    },
+    {
+      "file": "paavo_sample.py",
+      "bytes": 2364,
+      "sha256": "4a530d2ee3dba9d10885da1019d976d0a66d26ce8b40811f22ff39243f4d0f8a"
+    },
+    {
+      "file": "query_sources.py",
+      "bytes": 2233,
+      "sha256": "cf39c7042abf9f7487274069d927c64dc6a9df3454766234acf92b633c5dcf42"
+    },
+    {
+      "file": "request_log.json",
+      "bytes": 5595,
+      "sha256": "06260b724c5350f84366e449eab49b3919784d760f70425a9e43caa8944104d0"
+    },
+    {
+      "file": "vaerak_catalog.json",
+      "bytes": 4614,
+      "sha256": "9637af6a0d2e21bab28475efcca873b1e795b16a4fd574f86db3a73285aaafc0"
+    },
+    {
+      "file": "validation_checks.json",
+      "bytes": 630,
+      "sha256": "0da370fb93fb30d083e773ffa7a692088f13557885f06ddc49d80ad22b125578"
+    }
+  ]
+}

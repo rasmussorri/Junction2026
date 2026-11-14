@@ -1,0 +1,26 @@
+{
+  "rights_sample_records": 10,
+  "rights_filtered_total_rows": 486,
+  "rights_year": 2025,
+  "rights_code": 115,
+  "rights_fields": [
+    "_id",
+    "aikatyyppi",
+    "vuosi",
+    "hyvinvointialue_nro",
+    "hyvinvointialue_nimi",
+    "ikaryhma",
+    "sukupuoli",
+    "korvausoikeus_koodi",
+    "korvausoikeus_selite",
+    "alkanut_lkm",
+    "kokovuosi_lkm",
+    "kuolema_lkm",
+    "voimassaolleet_lkm",
+    "vuodenlopussa_lkm"
+  ],
+  "bulk_download_performed": false,
+  "rights_license": "cc-by-4.0",
+  "NIT137A_live_years": "2008–2019",
+  "current_drug_report": "9105RS001, 2020–; actual data export untested"
+}

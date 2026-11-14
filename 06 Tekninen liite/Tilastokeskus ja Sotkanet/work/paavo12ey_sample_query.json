@@ -1,0 +1,39 @@
+{
+  "query": [
+    {
+      "code": "postinumeroalue_4_20260101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "00100",
+          "00230"
+        ]
+      }
+    },
+    {
+      "code": "contentscode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "he_vakiy",
+          "he_miehet",
+          "he_naiset",
+          "he_kika",
+          "he_60_64"
+        ]
+      }
+    },
+    {
+      "code": "timeperiod_y",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2024"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

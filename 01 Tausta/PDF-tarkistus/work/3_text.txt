@@ -1,0 +1,63 @@
+Cancer Strategy and Cancer data – pre-pack links
+
+Cancer control strategies and programmes in Finland and in the EU
+  •   Kansallinen syöpästrategia 2026–2035: Yhdessä syöpää vastaan – ihmislähtöistä
+      syövän ehkäisyä ja hoitoaTiedosto avautuu uudessa välilehdessä pdf 1.6MB
+
+  •   Toimeenpanon tiekartta vuosille 2026–2031Tiedosto avautuu uudessa välilehdessä
+      pdf 1.3MB
+
+  •   FICANin syöpästrategiasivu
+
+  •   EU:n syöväntorjuntasuunnitelma
+
+  •   EU:n syöpämissio
+
+Cancer data in Finland: data sources and websites
+  •   Syöpärekisteri, tilastot: syöpätilastosovellus, seulontatilastot
+  •   Syöpärekisteri, etusivu: Suomen Syöpärekisteri (tutkimus, seulonnat, raportit)
+  •   Findata: Sosiaali- ja terveysalan tietolupaviranomainen
+  •   THL: Data ja tilastot ja Sotkanet-indikaattoripankki
+  •   Tilastokeskus: Kuolemansyytilasto (syöpäkuolemat, StatFin-tietokanta)
+  •   Kela: Kelan tietotarjotin, avoin data ja lääkekorvausoikeudet (erityiskorvaus,
+      avoindata.ﬁ)
+  •   Kela ja Fimea: Suomen lääketilasto 2025 (lääkkeiden kulutus ja korvaukset)
+  •   FICAN: Syöpärekisteri ja laaturekisterit (kansallinen syöpäkeskus)
+  •   FICAN – Kansallinen syöpäkeskus
+  •   iCAN: iCAN Flagship Project (kasvainten molekyyliproﬁlointi ja biopankkidata)
+  •   FinRegistry: Finnish Registry Data (yhdistetyt rekisteriaineistot, mm. syöpärekisteri)
+  •   Syöpäjärjestöt: Cancer Society of Finland (järjestöt, tuki ja rahoitus)
+  •   Biopankit, yhteishaku: Fingenious-portaali ja FINBB (näytteet ja data ovat
+      tutkimuskäyttöön ja vaativat luvan)
+          o Helsingin Biopankki (Helsinki)
+          o Auria Biopankki (Turku)
+          o Finnish Clinical Biobank Tampere (Tampere)
+          o Keski-Suomen Biopankki (Jyväskylä)
+          o Itä-Suomen Biopankki (Kuopio)
+          o Pohjois-Suomen Biopankki Borealis (Oulu)
+          o Veripalvelun biopankki (valtakunnallinen; verenluovuttajien näytteet)
+          o   Hematologinen Biopankki (valtakunnallinen; hematologisten sairauksien
+              näytteet)
+          o   THL Biopankki (valtakunnallinen; väestötutkimukset)
+
+   •   Yksilöllisen Syövänhoidon Mallimaa: Mallimaa - Yksilöllisen syövänhoidon
+       mallimaa (Yksilöllisen syövänhoidon mallimaa -hankkeen tavoitteena on vahvistaa
+       ja edistää Suomen asemaa yksilöllisen syövänhoidon edelläkävijänä ja houkut-
+       televana tutkimusympäristönä. Tavoite on, että Suomi tunnetaan yksilöllisen syö-
+       vänhoidon mallimaana.)
+
+   •   Lääketeollisuus ry:n kannanotot syöpästrategiaan ja syövän hoitoon
+          o https://www.laaketeollisuus.ﬁ/uutishuone/uutiset/suomen-on-oltava-
+             maailman-karkea-syovanhoidossa-laaketeollisuus-ry-on-sitoutunut-uuden-
+             kansallisen-syopastrategian-toimeenpanoon.html
+          o https://www.laaketeollisuus.ﬁ/uutishuone/blogit/hyvinvointialueiden-
+             tavoitteellinen-kilvoittelu-voisi-olla-talouskasvumme-ydin.html
+          o https://www.laaketeollisuus.ﬁ/etusivu.html
+
+
+
+Fican Cancer Registry & Nordcan (Nordic) Cancer registry data
+Cancer registry – FICAN
+
+NORDCAN 2.0
+

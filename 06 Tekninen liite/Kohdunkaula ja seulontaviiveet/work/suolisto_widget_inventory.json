@@ -1,0 +1,156 @@
+[
+  {
+    "headings": [
+      "Suolistosyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      ""
+    ],
+    "bytes": 28708,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "attrs",
+      "source",
+      "config",
+      "highlight",
+      "subplot",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "xaxis2": "Kutsuvuosi",
+      "yaxis2": "",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 28,
+    "trace_names": [
+      "60",
+      "62",
+      "64",
+      "66",
+      "68",
+      "70",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Suolistosyövän seulontaohjelma: vuositilasto",
+      "Koko maa",
+      ""
+    ],
+    "bytes": 28964,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "attrs",
+      "source",
+      "config",
+      "highlight",
+      "subplot",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "Kutsuvuosi",
+      "xaxis2": "Kutsuvuosi",
+      "yaxis2": "",
+      "yaxis": "",
+      "legend": {
+        "text": ""
+      }
+    },
+    "trace_count": 28,
+    "trace_names": [
+      "60",
+      "62",
+      "64",
+      "66",
+      "68",
+      "70",
+      "Yhteensä"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Suolistosyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Hyvinvointialueet"
+    ],
+    "bytes": 384601,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "",
+      "yaxis": "",
+      "xaxis2": "",
+      "legend": {
+        "text": "%",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 47,
+    "trace_names": [
+      "06fa8f1d00df1464733717c32a94f34f"
+    ],
+    "delay_keyword_in_payload": false
+  },
+  {
+    "headings": [
+      "Suolistosyövän seulontaohjelma: vuositilasto",
+      "Kartat osallistumisaktiivisuudesta",
+      "Kunnat"
+    ],
+    "bytes": 835069,
+    "top_x_keys": [
+      "data",
+      "layout",
+      "config",
+      "source",
+      "attrs",
+      "cur_data",
+      "visdat",
+      "highlight",
+      "shinyEvents",
+      "base_url"
+    ],
+    "axis_titles": {
+      "xaxis": "",
+      "yaxis": "",
+      "xaxis2": "",
+      "legend": {
+        "text": "%",
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        }
+      }
+    },
+    "trace_count": 587,
+    "trace_names": [
+      "66336377a1c89c135b64901c925b70ae"
+    ],
+    "delay_keyword_in_payload": false
+  }
+]
