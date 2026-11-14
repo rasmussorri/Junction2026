@@ -1,5 +1,5 @@
 import express from 'express';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { GOALS } from '../src/goals.js';
@@ -8,6 +8,19 @@ import { createDataStore, digest, readSnapshotEvidence } from './data-store.js';
 import { askGemini } from './ai.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+for (const envPath of [resolve(root, '..', '.env'), resolve(root, '.env')]) {
+  if (existsSync(envPath)) {
+    for (const line of readFileSync(envPath, 'utf8').split('\n')) {
+      const match = line.trim().match(/^([^#=]+)=(.*)$/);
+      if (match) {
+        const key = match[1].trim();
+        const val = match[2].trim().replace(/^['"]|['"]$/g, '');
+        if (key && val) process.env[key] = val;
+      }
+    }
+    break;
+  }
+}
 const dataStore = createDataStore(resolve(root, 'data/dataset.json'));
 const app = express();
 app.disable('x-powered-by');
