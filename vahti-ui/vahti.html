@@ -4865,7 +4865,7 @@ function reportSlot(id) { return `<div class="card report" data-report="${esc(id
 function loadReports(root) {
   root.querySelectorAll('[data-report]').forEach(box => {
     const id = box.dataset.report, pre = window.__REPORTS__ && window.__REPORTS__[id];
-    const p = pre ? Promise.resolve(pre) : AI.offline ? Promise.resolve({ missing: true, reason: 'offline' }) : fetch(`api/report?id=${enc(id)}`).then(r => r.json());
+    const p = pre ? Promise.resolve(pre) : AI.offline ? Promise.resolve({ missing: true, reason: 'offline' }) : fetch(`/api/report?id=${enc(id)}`).then(r => r.json());
     p.then(rep => { box.innerHTML = reportHtml(rep); showSuggestions(box.querySelector('.sugg'), rep.search_suggestions); updateIntroduction(); }).catch(() => box.innerHTML = '<div class="note">Could not load the report.</div>');
   });
 }
@@ -5080,8 +5080,8 @@ function md(s) {
   }
   return html + (list ? '</ul>' : '');
 }
-const emptyText = () => AI.offline ? 'The chat needs the server: start Kaynnista_vahti.command and open http://localhost:8765.'
-  : !AI.ai ? 'The chat is not enabled yet: add GEMINI_API_KEY to the .env file and restart the server.'
+const emptyText = () => AI.offline ? (location.hostname === 'localhost' || location.protocol === 'file:' ? 'The chat needs the server: start Kaynnista_vahti.command and open http://localhost:8765.' : 'The chat is currently disconnected from the server. Check backend status.')
+  : !AI.ai ? 'The chat is not enabled yet: add GEMINI_API_KEY to your environment variables (or .env locally) and restart/redeploy.'
     : 'Ask anything about the targets, the areas or the data. I will also search the web when needed.';
 function chatCard(key) { return `<div class="card chat-card"><div class="chat-box" data-chat="${esc(key)}"></div></div>`; }
 function chatInner(key) {
@@ -5148,7 +5148,7 @@ function send(key, text, ctx, draw) {
     if (firstQuestion && introStep === 'chatWaiting') goToIntroStep('chatReview');
     else updateIntroduction();
   };
-  fetch('api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+  fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ messages: arr.filter(m => m !== pending).map(m => ({ role: m.role, text: m.text })), context: { ...ctx, page: pageText() } }) })
     .then(async res => {
       const reader = res.body.getReader(), dec = new TextDecoder();
