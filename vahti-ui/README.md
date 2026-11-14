@@ -12,5 +12,7 @@ The chat and new AI reports need a Gemini key: copy `.env.example` to `.env`, ad
 
 - `static/` UI (HTML/CSS/JS) and `data.json` (built from "Finland - Cancer data - Junction 2026.xlsx")
 - `reports/` ready AI reports (screening, waiting times, mortality, HPV); others are compiled from the web on first open
-- `build_data.py` builds `data.json`
-- Contacts are examples (example.com), not real people.
+- `data_adapter.py` reads the shared dataset (`../sisu-ui/data/dataset.json`) and falls back to `static/data.json`; `build_data.py` refreshes `static/data.json` from it
+- `make_standalone.py` builds `vahti.html` (everything in one file)
+- Font: DM Sans (`static/fonts`, SIL Open Font License)
+- Contacts are placeholders (Example Person, example.example@<area>.fi), not real people or addresses.

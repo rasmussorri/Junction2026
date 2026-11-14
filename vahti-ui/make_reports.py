@@ -1,6 +1,6 @@
 import json
 G='2026-11-14'
-def S(t,u,tier): return {'title':t,'url':u,'tier':tier}
+def S(t,u,tier=None): return {'title':t,'url':u}  # source level classes removed
 R={}
 R['S2.2']={'title':'How screening participation has been increased elsewhere','generated':G,'sections':[
  {'name':'Finland','items':[
@@ -23,9 +23,7 @@ R['S2.2']={'title':'How screening participation has been increased elsewhere','g
 R['S3.3']={'title':'How access to cancer treatment has been sped up elsewhere','generated':G,'sections':[
  {'name':'Finland','items':[
   {'text':'A peer-reviewed Nordic comparison found that patients with lung symptoms wait longer in Finland at every stage of the pathway. Elsewhere, CT is used more widely early in the pathway, which allows earlier diagnosis.',
-   'sources':[S('University of Helsinki: study in Acta Oncologica 2025','https://www.helsinki.fi/fi/uutiset/terveys/miksi-suomessa-keuhkosyopaan-kuollaan-aiemmin-kuin-pohjoismaissa','B')]},
-  {'text':'The national quality registry pilot report on lung cancer found large regional differences in diagnostics. Stage information was missing for almost half of the patients, which makes comparisons difficult.',
-   'sources':[S('Verkkouutiset: Cancer Society quality registry report','https://www.verkkouutiset.fi/a/keuhkosyopa-todetaan-usein-liian-myohaan-vain-joka-neljas-saa-parantavaa-hoitoa/','C')]}]},
+   'sources':[S('University of Helsinki: study in Acta Oncologica 2025','https://www.helsinki.fi/fi/uutiset/terveys/miksi-suomessa-keuhkosyopaan-kuollaan-aiemmin-kuin-pohjoismaissa','B')]}]},
  {'name':'Other Nordic countries','items':[
   {'text':'Denmark introduced national cancer patient pathways in 2008, with maximum time limits for diagnostics and the start of treatment. Waiting times fell significantly.',
    'sources':[S('Probst et al. 2012, Health Policy','https://doi.org/10.1016/j.healthpol.2011.11.001','B')]},
@@ -55,9 +53,7 @@ R['S3.2']={'title':'How cancer mortality has been reduced elsewhere','generated'
 R['S2.1']={'title':'How HPV vaccination coverage has been raised elsewhere (supporting indicator for preventable cancers)','generated':G,'sections':[
  {'name':'Finland','items':[
   {'text':'According to THL, most children receive the HPV vaccine as recommended in primary school. Few new vaccination series start after basic education, so reaching children at school age is decisive.',
-   'sources':[S('THL press release 29 Nov 2023','https://www.sttinfo.fi/tiedote/70064492/storsta-delen-av-barnen-far-hpv-vaccin-enligt-rekommendationen-flickornas-vaccinationstackning-ar-hogre-an-pojkarnas?publisherId=69817778','B')]},
-  {'text':'In THL figures, Finnish coverage is lower than in the other Nordic countries: 80% of girls born in 2012 received a first dose, while Sweden, Norway and Iceland exceeded 90%.',
-   'sources':[S('MTV Uutiset (THL data)','https://www.mtvuutiset.fi/artikkeli/halyttava-tieto-suomalaisnuorten-hpv-rokotuskattavuudesta/9227618','C')]}]},
+   'sources':[S('THL press release 29 Nov 2023','https://www.sttinfo.fi/tiedote/70064492/storsta-delen-av-barnen-far-hpv-vaccin-enligt-rekommendationen-flickornas-vaccinationstackning-ar-hogre-an-pojkarnas?publisherId=69817778','B')]}]},
  {'name':'Other Nordic countries','items':[
   {'text':'In Norway, the vaccine is given at school during school hours by a public health nurse and free of charge, so cost and access barriers are minimal.',
    'sources':[S('BMJ Open 2015: HPV vaccination in the Norwegian school programme','https://pmc.ncbi.nlm.nih.gov/articles/PMC4442157','B')]},
