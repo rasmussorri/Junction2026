@@ -1,0 +1,71 @@
+{
+  "query": [
+    {
+      "code": "alue_23_20260101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS",
+          "HVA01",
+          "HVA02",
+          "HVA03",
+          "HVA04",
+          "HVA05",
+          "HVA06",
+          "HVA07",
+          "HVA08",
+          "HVA09",
+          "HVA10",
+          "HVA11",
+          "HVA12",
+          "HVA13",
+          "HVA14",
+          "HVA15",
+          "HVA16",
+          "HVA17",
+          "HVA18",
+          "HVA19",
+          "HVA20",
+          "HVA21",
+          "HVA90"
+        ]
+      }
+    },
+    {
+      "code": "kuolinsyyt_1_20210101",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "04-21"
+        ]
+      }
+    },
+    {
+      "code": "timeperiod_y",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    },
+    {
+      "code": "contentscode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "ksyylkm",
+          "ksyycdr"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

@@ -35,7 +35,7 @@ export async function download(url, { fetchImpl = fetch, body, timeoutMs = 30000
 }
 
 export function screeningTables(raw) {
-  const result = spawnSync('python3', [resolve(root, 'scripts/parse-screening.py')], { input: raw, encoding: 'utf8', maxBuffer: 15 * 1024 * 1024, timeout: 30000 });
+  const result = spawnSync('python3', [resolve(root, 'scripts/parse-screening.py')], { input: raw, encoding: 'utf8', maxBuffer: 15 * 1024 * 1024, timeout: 90000 });
   if (result.error || result.status !== 0) throw new Error(`Screening parser failed: ${result.error?.message || result.stderr}`);
   return JSON.parse(result.stdout);
 }
