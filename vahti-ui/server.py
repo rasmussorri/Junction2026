@@ -30,8 +30,18 @@ def load_env():
 
 
 load_env()
-KEY = os.environ.get('GEMINI_API_KEY', '')
-MODEL = os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash')
+
+
+def get_key():
+    return os.environ.get('GEMINI_API_KEY', '')
+
+
+def get_model():
+    return os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash')
+
+
+KEY = get_key()
+MODEL = get_model()
 
 
 def ssl_context():
@@ -165,11 +175,13 @@ def get_system_prompt():
 
 
 def gemini(system, contents):
-    url = f'https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent'
+    key = get_key()
+    model = get_model()
+    url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
     body = {'system_instruction': {'parts': [{'text': system}]}, 'contents': contents,
             'tools': [{'google_search': {}}]}
     req = urllib.request.Request(url, data=json.dumps(body).encode('utf-8'),
-                                 headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY})
+                                 headers={'Content-Type': 'application/json', 'x-goog-api-key': key})
     with urllib.request.urlopen(req, timeout=120, context=SSL_CTX) as r:
         res = json.loads(r.read().decode('utf-8'))
     cand = (res.get('candidates') or [{}])[0]
@@ -190,11 +202,13 @@ LOCAL_DATA = '[[LOCAL-DATA]]'
 
 def gemini_stream(system, contents):
     """Yields (text delta, grounding metadata or None) as Gemini writes the answer."""
-    url = f'https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:streamGenerateContent?alt=sse'
+    key = get_key()
+    model = get_model()
+    url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:streamGenerateContent?alt=sse'
     body = {'system_instruction': {'parts': [{'text': system}]}, 'contents': contents,
             'tools': [{'google_search': {}}]}
     req = urllib.request.Request(url, data=json.dumps(body).encode('utf-8'),
-                                 headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY})
+                                 headers={'Content-Type': 'application/json', 'x-goog-api-key': key})
     with urllib.request.urlopen(req, timeout=120, context=SSL_CTX) as r:
         for raw in r:
             line = raw.decode('utf-8', errors='ignore').strip()
@@ -363,18 +377,20 @@ class H(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         u = urlparse(self.path)
+        key = get_key()
+        model = get_model()
         if u.path == '/api/data':
             return self.send_json(get_vahti_data())
         if u.path == '/api/data/status':
-            return self.send_json({**get_data_status(), 'ai': bool(KEY), 'aiConfigured': bool(KEY), 'model': MODEL})
+            return self.send_json({**get_data_status(), 'ai': bool(key), 'aiConfigured': bool(key), 'model': model})
         if u.path == '/api/status':
-            return self.send_json({'ai': bool(KEY), 'model': MODEL, 'dataState': get_data_status().get('dataState', 'ready')})
+            return self.send_json({'ai': bool(key), 'model': model, 'dataState': get_data_status().get('dataState', 'ready')})
         if u.path == '/api/report':
             tid = re.sub(r'[^A-Za-z0-9.]', '', parse_qs(u.query).get('id', [''])[0])
             p = os.path.join(REPORTS, f'{tid}.json')
             if os.path.exists(p):
                 return self.send_json(json.load(open(p, encoding='utf-8')))
-            if not KEY:
+            if not key:
                 return self.send_json({'missing': True, 'reason': 'no_key'})
             try:
                 rep = make_report(tid)
@@ -398,7 +414,8 @@ class H(SimpleHTTPRequestHandler):
             self.wfile.write((json.dumps(obj, ensure_ascii=False) + '\n').encode('utf-8'))
             self.wfile.flush()
 
-        if not KEY:
+        key = get_key()
+        if not key:
             return emit({'done': True, 'text': 'Chat is not enabled yet: add a Gemini key to the .env file (GEMINI_API_KEY=...) and restart the server.'})
         ctx = req.get('context') or {}
         msgs = req.get('messages', [])[-12:]
