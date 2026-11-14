@@ -512,7 +512,7 @@ function renderGoal(v, gid) {
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal ${g.id}`)}
     <div class="card hero"><div class="kicker">Goal ${g.id} · ${esc(rname(r))}</div>
-      <div class="hero-row"><div><h1>${esc(g.title)}</h1>${sourceLine(combineSources(g.targets.filter(t => tStatus(t, r) !== 'na').map(t => targetStatusSource(t, r))))}</div>${pill(s.c, gLabel(s), combineSources(g.targets.filter(t => tStatus(t, r) !== 'na').map(t => targetStatusSource(t, r))))}</div></div>
+      <div class="hero-row"><h1>${esc(g.title)}</h1>${pill(s.c, gLabel(s), combineSources(g.targets.filter(t => tStatus(t, r) !== 'na').map(t => targetStatusSource(t, r))))}</div></div>
     <h2>Targets</h2>
     ${g.targets.map(t => targetCard(t, r)).join('')}
     <h2>Contacts in ${esc(rname(r))}</h2>
@@ -541,7 +541,7 @@ function targetCard(t, r) {
     body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${s}"${sourceAttr(mortalitySource(x.last))}></span><span class="lbl"${sourceAttr(mortalitySource(x.last))}>Cancer deaths per year, whole country${sourceLine(mortalitySource(x.last))}</span>
       <span class="v ${cls(x.ok)}"${sourceAttr(mortalitySource(x.last))}>${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m"${sourceAttr(mortalitySource(x.last))}>year ${num(x.last)}</span><span class="go">›</span></a></div>`;
   }
-  return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}${sourceLine(targetStatusSource(t, r))}</div>${pill(s, tLabel(s), targetStatusSource(t, r))}</div>${body}</div>`;
+  return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}</div>${pill(s, tLabel(s), targetStatusSource(t, r))}</div>${body}</div>`;
 }
 function measureRow(m, r) {
   const v = val(m, r), o = isOk(m, v);
