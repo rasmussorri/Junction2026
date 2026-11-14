@@ -81,13 +81,13 @@ def merge_canonical_into_vahti(canonical_snapshot, base):
         return None
 
     # Keep provenance with each replaced value. The static national screening
-    # figures and any fallback regional values retain their original sources.
+    # figures and any fallback regional values retain their recorded sources.
     measure_observations = {
-        'suolisto': ('screening', 'screening-colon', 73.5),
-        'rinta': ('screening', 'screening-breast', 81.6),
-        'kohdunkaula': ('screening', 'screening-cervical', 76.3),
-        'hpv_tytot': ('preventable-cancers', 'hpv-girls', None),
-        'hpv_pojat': ('preventable-cancers', 'hpv-boys', None),
+        'suolisto': ('screening', 'screening-colon'),
+        'rinta': ('screening', 'screening-breast'),
+        'kohdunkaula': ('screening', 'screening-cervical'),
+        'hpv_tytot': ('preventable-cancers', 'hpv-girls'),
+        'hpv_pojat': ('preventable-cancers', 'hpv-boys'),
     }
     source_names = {
         'screening-colon': 'Finnish Cancer Registry — Colorectal Cancer Screening Statistics',
@@ -102,7 +102,7 @@ def merge_canonical_into_vahti(canonical_snapshot, base):
             return f'Finnish Institute for Health and Welfare — Sotkanet — {title}'
         return source_names.get(source_id) or title
 
-    for measure_id, (category, obs_id, national_default) in measure_observations.items():
+    for measure_id, (category, obs_id) in measure_observations.items():
         if measure_id not in measures:
             continue
         m = dict(measures[measure_id])
@@ -116,16 +116,10 @@ def merge_canonical_into_vahti(canonical_snapshot, base):
         m['values'] = vals
         m['value_sources'] = sources
         m['period'] = '2024' if category == 'screening' else '2026'
-        if national_default is not None:
-            m['national'] = national_default
-            if measure_id == 'kohdunkaula' or national_default != base['measures'][measure_id].get('national'):
-                # This hard-coded national figure has no linked observation.
-                m['national_source'] = None
-        else:
-            nat = get_national_obs(category, obs_id)
-            if nat and nat.get('value') is not None:
-                m['national'] = nat['value']
-                m['national_source'] = observation_source(nat)
+        nat = get_national_obs(category, obs_id)
+        if nat and nat.get('value') is not None:
+            m['national'] = nat['value']
+            m['national_source'] = observation_source(nat)
         measures[measure_id] = m
 
     out['measures'] = measures

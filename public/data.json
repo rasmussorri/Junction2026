@@ -65,6 +65,7 @@
       "period": "2024",
       "source": "THL Sotkanet 6103",
       "national": 73.5,
+      "national_source": "Finnish Cancer Registry",
       "values": {
         "Itä-Uusimaa": 72,
         "Keski-Uusimaa": 74,
@@ -243,6 +244,7 @@
       "period": "2024",
       "source": "THL Sotkanet 3621",
       "national": 81.6,
+      "national_source": "Finnish Cancer Registry",
       "values": {
         "Itä-Uusimaa": 79.8,
         "Keski-Uusimaa": 80.5,
@@ -535,7 +537,8 @@
       "unit": "%",
       "period": "2024",
       "source": "Finnish Cancer Registry, 2024 age-group screening",
-      "national": 76.3,
+      "national": 73.5,
+      "national_source": "Finnish Cancer Registry",
       "values": {
         "Itä-Uusimaa": 76.3,
         "Keski-Uusimaa": 76.7,

@@ -37,17 +37,18 @@ const rname = r => r === FI ? 'Whole country' : r;
 /* every area-specific figure says where it is from; THL waiting times for the HUS area are one shared figure */
 const inPlace = (r, care) => r === FI ? 'in the whole country' : `in ${r}${care && D.hus_area.includes(r) ? ' (HUS)' : ''}`;
 const val = (m, r) => r === FI ? M[m].national : M[m].values[r];
-const sourceNames = {
-  'THL Sotkanet 6103': 'Finnish Institute for Health and Welfare — Sotkanet — Colorectal cancer screening participation',
-  'THL Sotkanet 3621': 'Finnish Institute for Health and Welfare — Sotkanet — Breast cancer screening participation',
-  'THL Sotkanet 3620': 'Finnish Institute for Health and Welfare — Sotkanet — Cervical cancer screening participation',
-  'THL Sotkanet 3869': 'Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination coverage, girls',
-  'THL Sotkanet 3297': 'Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination coverage, boys',
-  'THL specialist care waiting times': 'Finnish Institute for Health and Welfare — Access to specialised healthcare',
-  'Statistics Finland, causes of death (13u5)': 'Statistics Finland — Causes of Death'
+const sourceName = name => {
+  if (!name) return '';
+  if (/^THL(?: |$)|^Finnish Institute for Health and Welfare(?: —|$)/.test(name)) return 'Finnish Institute for Health and Welfare';
+  for (const publisher of ['Finnish Cancer Registry', 'Statistics Finland']) {
+    if (name.startsWith(publisher)) return publisher;
+  }
+  return name;
 };
-const sourceName = name => sourceNames[name] || name;
-const sourceAttr = name => name ? ` title="${esc(sourceName(name))}"` : '';
+const combineSources = sources => sources.every(Boolean)
+  ? [...new Set(sources.flatMap(source => source.split(' / ').map(sourceName)))].join(' / ') : '';
+const sourceAttr = name => name ? ` title="${esc(name.split(' / ').map(sourceName).join(' / '))}"` : '';
+const sourceLine = name => name ? `<small class="data-source" style="display:block;margin-top:2px;color:#5b6b7c;font-size:11px;font-weight:400;line-height:1.35;white-space:nowrap;overflow-x:auto">${esc(name.split(' / ').map(sourceName).join(' / '))}</small>` : '';
 const measureSource = (m, r) => {
   if (val(m, r) == null) return '';
   const x = M[m];
@@ -58,11 +59,16 @@ const measureSource = (m, r) => {
 const aggregateSource = (t, r) => {
   const sources = t.measures
     .filter(m => val(m, r) != null && (M[t.measures[0]].kind !== 'zero' || M[m].unit === 'patients'))
-    .map(m => sourceName(measureSource(m, r)));
-  return sources.every(Boolean) ? [...new Set(sources)].join(' / ') : '';
+    .map(m => measureSource(m, r));
+  return combineSources(sources);
 };
 const mortalitySource = year => Object.hasOwn(D.mort.count_sources || {}, year)
   ? D.mort.count_sources[year] : D.mort.source_counts;
+const targetStatusSource = (t, r) => {
+  if (t.type === 'national') return mortalitySource(mort().last);
+  if (t.type !== 'measures') return '';
+  return combineSources(t.measures.filter(m => val(m, r) != null).map(m => measureSource(m, r)));
+};
 const isOk = (m, v) => v == null ? null : (M[m].kind === 'min' ? v >= M[m].target : v <= 0);
 const mOk = (m, r) => isOk(m, val(m, r));
 const fmt = (m, v) => v == null ? '–' : M[m].unit === '%' ? `${nf(v)}%` : nf(v, 0);
@@ -110,7 +116,7 @@ function agg(t, r) {
   return { label: AVG_LABEL[t.id] || 'Average', v, text: v == null ? '–' : `${nf(v)}%`, target: `≥ ${tg}%`, ok: v == null ? null : v >= tg };
 }
 const tLabel = s => ({ ok: 'Met', bad: 'Not met', na: 'No data', nat: 'National target' }[s]);
-const pill = (cls, txt) => `<span class="pill ${cls}">${esc(txt)}</span>`;
+const pill = (cls, txt, source) => `<span class="pill ${cls}"${sourceAttr(source)}>${esc(txt)}</span>`;
 
 /* ---------- start ---------- */
 /* data comes from the shared dataset through the server (/api/data); the file version uses the embedded copy */
@@ -434,7 +440,7 @@ function peersBlock(key, list, valueOf, role, intro, label, sourceOf) {
   const all = showAll[key], shown = all ? list : list.slice(0, 5);
   return `<div class="hint">${intro}</div><div class="peers">${shown.map(p => {
     const c = D.contacts[p.r][role];
-    return `<div class="card peer"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"${sourceAttr(sourceOf(p.r))}><span class="pk">${esc(`${label} ${inPlace(p.r, role === 'care')}`)}</span>${esc(valueOf(p.r))}</div>
+    return `<div class="card peer"><div class="pr">${esc(p.r)}</div><div class="pv ${p.good ? 'ok' : 'bad'}"${sourceAttr(sourceOf(p.r))}><span class="pk">${esc(label)}</span>${esc(valueOf(p.r))}${sourceLine(sourceOf(p.r))}</div>
       <div class="pc"><span class="n">${esc(c.name)}</span><span class="c">${esc(c.role)}</span>
       <span class="c"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · ${esc(c.phone)}</span></div></div>`;
   }).join('')}</div>
@@ -506,7 +512,7 @@ function renderGoal(v, gid) {
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal ${g.id}`)}
     <div class="card hero"><div class="kicker">Goal ${g.id} · ${esc(rname(r))}</div>
-      <div class="hero-row"><h1>${esc(g.title)}</h1>${pill(s.c, gLabel(s))}</div></div>
+      <div class="hero-row"><div><h1>${esc(g.title)}</h1>${sourceLine(combineSources(g.targets.filter(t => tStatus(t, r) !== 'na').map(t => targetStatusSource(t, r))))}</div>${pill(s.c, gLabel(s), combineSources(g.targets.filter(t => tStatus(t, r) !== 'na').map(t => targetStatusSource(t, r))))}</div></div>
     <h2>Targets</h2>
     ${g.targets.map(t => targetCard(t, r)).join('')}
     <h2>Contacts in ${esc(rname(r))}</h2>
@@ -524,21 +530,23 @@ function targetCard(t, r) {
   let body = '';
   if (t.type === 'measures') {
     const a = agg(t, r), n = agg(t, FI);
-    body = `<div class="mrows"><a class="mrow" href="#/t/${t.id}?r=${enc(r)}"><span class="dot ${a.ok === false ? 'bad' : a.ok ? 'ok' : 'na'}"></span><span class="lbl">${esc(`${a.label} ${inPlace(r, t.role === 'care')}`)}</span>
+    const sources = combineSources([aggregateSource(t, r), aggregateSource(t, FI)].filter(Boolean));
+    body = `<div class="mrows"><a class="mrow" href="#/t/${t.id}?r=${enc(r)}"><span class="dot ${a.ok === false ? 'bad' : a.ok ? 'ok' : 'na'}"${sourceAttr(aggregateSource(t, r))}></span><span class="lbl"${sourceAttr(aggregateSource(t, r))}>${esc(`${a.label} ${inPlace(r, t.role === 'care')}`)}${sourceLine(sources)}</span>
       <span class="v ${cls(a.ok)}"${sourceAttr(aggregateSource(t, r))}>${a.text}</span><span class="m">target ${num(a.target)}</span>
       <span class="m"${sourceAttr(aggregateSource(t, FI))}>${r === FI ? 'period ' + num(per(M[t.measures[0]].period)) : 'whole country ' + num(n.text, n.ok)}</span><span class="go">›</span></a>
       ${M[t.measures[0]].kind === 'zero' ? measureRow('lahete21', r) : ''}</div>`;
   }
   else if (t.type === 'national') {
     const x = mort();
-    body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${s}"></span><span class="lbl">Cancer deaths per year, whole country</span>
-      <span class="v ${cls(x.ok)}"${sourceAttr(mortalitySource(x.last))}>${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m">year ${num(x.last)}</span><span class="go">›</span></a></div>`;
+    body = `<div class="mrows"><a class="mrow" href="#/m/mort?r=${enc(r)}"><span class="dot ${s}"${sourceAttr(mortalitySource(x.last))}></span><span class="lbl"${sourceAttr(mortalitySource(x.last))}>Cancer deaths per year, whole country${sourceLine(mortalitySource(x.last))}</span>
+      <span class="v ${cls(x.ok)}"${sourceAttr(mortalitySource(x.last))}>${nf(x.v, 0)}</span><span class="m">target ${num('≤ ' + nf(x.mo.target, 0))} by ${x.mo.target_year}</span><span class="m"${sourceAttr(mortalitySource(x.last))}>year ${num(x.last)}</span><span class="go">›</span></a></div>`;
   }
-  return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}</div>${pill(s, tLabel(s))}</div>${body}</div>`;
+  return `<div class="card tcard"><div class="tcard-head"><div class="tcard-text">${esc(t.text.replace(/\*+$/, ''))}${sourceLine(targetStatusSource(t, r))}</div>${pill(s, tLabel(s), targetStatusSource(t, r))}</div>${body}</div>`;
 }
 function measureRow(m, r) {
   const v = val(m, r), o = isOk(m, v);
-  return `<a class="mrow" href="#/m/${m}?r=${enc(r)}"><span class="dot ${o === false ? 'bad' : o ? 'ok' : 'na'}"></span><span class="lbl">${esc(`${M[m].short} ${inPlace(r, M[m].role === 'care')}`)}</span>
+  const sources = combineSources([measureSource(m, r), measureSource(m, FI)].filter(Boolean));
+  return `<a class="mrow" href="#/m/${m}?r=${enc(r)}"><span class="dot ${o === false ? 'bad' : o ? 'ok' : 'na'}"${sourceAttr(measureSource(m, r))}></span><span class="lbl"${sourceAttr(measureSource(m, r))}>${esc(`${M[m].short} ${inPlace(r, M[m].role === 'care')}`)}${sourceLine(sources)}</span>
     <span class="v ${cls(o)}"${sourceAttr(measureSource(m, r))}>${fmt(m, v)}</span><span class="m">target ${num(fmtT(m))}</span>
     <span class="m"${sourceAttr(measureSource(m, FI))}>${r === FI ? 'period ' + num(per(M[m].period)) : 'whole country ' + num(fmt(m, M[m].national), mOk(m, FI))}</span><span class="go">›</span></a>`;
 }
@@ -551,10 +559,10 @@ function peersSection(t) {
   const p = peersForTarget(t);
   const intro = p.closest ? closestIntro(p, 'this target')
     : `${p.list.length} areas meet this target${sel === FI ? '' : ', closest in size to ' + esc(sel) + ' first'}.`;
-  return `<h2 data-intro-peers="${esc(t.id)}">Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t), r => aggregateSource(t, r))}`;
+  return `<h2 data-intro-peers="${esc(t.id)}">Regions that meet: ${esc(tName(t))}${contrib(t) ? ` <span class="h-sub">(${esc('contributes to: ' + SHORT[t.id])})</span>` : ''}</h2>${peersBlock('t' + t.id + sel, p.list, r => targetValueText(t, r), t.role || t.goal.role, intro, peerLabel(t), r => targetStatusSource(t, r))}`;
 }
 
-const kpi = (k, n, ok, sub, source, subSource) => `<div class="kpi"><div class="k">${esc(k)}</div><div class="n ${cls(ok)}"${sourceAttr(source)}>${n}</div>${sub ? `<div class="s"${sourceAttr(subSource)}>${esc(sub)}</div>` : ''}</div>`;
+const kpi = (k, n, ok, sub, source, subSource) => `<div class="kpi"><div class="k"${sourceAttr(source)}>${esc(k)}${sourceLine(combineSources([source, subSource].filter(Boolean)))}</div><div class="n ${cls(ok)}"${sourceAttr(source)}>${n}</div>${sub ? `<div class="s"${sourceAttr(subSource)}>${esc(sub)}</div>` : ''}</div>`;
 
 /* ---------- target page: summary first, then the breakdown ---------- */
 function renderTarget(v, tid) {
@@ -562,14 +570,14 @@ function renderTarget(v, tid) {
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal ${t.goal.id} › ${esc(tName(t))}`)}
     <div class="card hero"><div class="kicker">Goal ${t.goal.id} · ${esc(rname(r))}</div>
-      <div class="hero-row"><div><h1>${esc(tName(t))}</h1>${contrib(t) ? `<div class="contrib">${esc(contrib(t))}</div>` : ''}</div>${pill(s, tLabel(s))}</div>
+      <div class="hero-row"><div><h1>${esc(tName(t))}</h1>${sourceLine(targetStatusSource(t, r))}${contrib(t) ? `<div class="contrib">${esc(contrib(t))}</div>` : ''}</div>${pill(s, tLabel(s), targetStatusSource(t, r))}</div>
       <div class="kpis">${M[t.measures[0]].kind === 'zero' ? `
         ${kpi(`${a.label} ${inPlace(r, true)}`, a.text, a.ok, `target ${a.target}${r !== FI ? ' · whole country ' + agg(t, FI).text : ''}`, aggregateSource(t, r), r !== FI && aggregateSource(t, FI))}
         ${kpi(`${M.lahete21.label} ${inPlace(r, true)}`, fmt('lahete21', val('lahete21', r)), mOk('lahete21', r), `target ${fmtT('lahete21')}${r !== FI ? ' · whole country ' + fmt('lahete21', M.lahete21.national) : ''}`, measureSource('lahete21', r), r !== FI && measureSource('lahete21', FI))}` : `
-        <div class="kpi"><div class="k">${esc(`${a.label} ${inPlace(r)}`)}</div><div class="n ${cls(a.ok)}"${sourceAttr(aggregateSource(t, r))}>${a.text}</div></div>
+        <div class="kpi"${sourceAttr(aggregateSource(t, r))}><div class="k">${esc(`${a.label} ${inPlace(r)}`)}${sourceLine(aggregateSource(t, r))}</div><div class="n ${cls(a.ok)}"${sourceAttr(aggregateSource(t, r))}>${a.text}</div></div>
         <div class="kpi"><div class="k">Target</div><div class="n">${a.target}</div></div>
-        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(agg(t, FI).ok)}"${sourceAttr(aggregateSource(t, FI))}>${agg(t, FI).text}</div></div>` : ''}`}
-        <div class="kpi"><div class="k">Period</div><div class="n small">${per(M[t.measures[0]].period)}</div></div>
+        ${r !== FI ? `<div class="kpi"${sourceAttr(aggregateSource(t, FI))}><div class="k">Whole country${sourceLine(aggregateSource(t, FI))}</div><div class="n ${cls(agg(t, FI).ok)}"${sourceAttr(aggregateSource(t, FI))}>${agg(t, FI).text}</div></div>` : ''}`}
+        <div class="kpi"${sourceAttr(aggregateSource(t, r))}><div class="k">Period</div><div class="n small">${per(M[t.measures[0]].period)}</div></div>
       </div>
       ${D.hus_area.includes(r) && role === 'care' ? '<div class="note">THL reports Helsinki and the Uusimaa counties as one HUS row.</div>' : ''}
     </div>
@@ -593,16 +601,16 @@ function renderMeasure(v, m) {
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal ${t.goal.id} › ${t.type === 'measures' ? esc(tName(t)) + ' › ' : ''}${esc(x.short)}`)}
     <div class="card hero"><div class="kicker">${esc(tName(t))} · ${esc(rname(r))}</div>
-      <div class="hero-row"><h1>${esc(x.label)}</h1>${pill(st, st === 'na' ? 'No data' : tLabel(st))}</div>
+      <div class="hero-row"><div><h1>${esc(x.label)}</h1>${sourceLine(measureSource(m, r))}</div>${pill(st, st === 'na' ? 'No data' : tLabel(st), measureSource(m, r))}</div>
       <div class="kpis">
-        <div class="kpi"><div class="k">${esc(`${x.short} ${inPlace(r, x.role === 'care')}`)}</div><div class="n ${o === false ? 'bad' : o ? 'ok' : ''}"${sourceAttr(measureSource(m, r))}>${fmt(m, value)}</div></div>
+        <div class="kpi"${sourceAttr(measureSource(m, r))}><div class="k">${esc(`${x.short} ${inPlace(r, x.role === 'care')}`)}${sourceLine(measureSource(m, r))}</div><div class="n ${o === false ? 'bad' : o ? 'ok' : ''}"${sourceAttr(measureSource(m, r))}>${fmt(m, value)}</div></div>
         <div class="kpi"><div class="k">Target</div><div class="n">${fmtT(m)}</div></div>
-        ${r !== FI ? `<div class="kpi"><div class="k">Whole country</div><div class="n ${cls(isOk(m, x.national))}"${sourceAttr(measureSource(m, FI))}>${fmt(m, x.national)}</div></div>` : ''}
-        <div class="kpi"><div class="k">Period</div><div class="n small">${per(x.period)}</div></div>
+        ${r !== FI ? `<div class="kpi"${sourceAttr(measureSource(m, FI))}><div class="k">Whole country${sourceLine(measureSource(m, FI))}</div><div class="n ${cls(isOk(m, x.national))}"${sourceAttr(measureSource(m, FI))}>${fmt(m, x.national)}</div></div>` : ''}
+        <div class="kpi"${sourceAttr(measureSource(m, r))}><div class="k">Period</div><div class="n small">${per(x.period)}</div></div>
       </div>
       ${D.hus_area.includes(r) && x.role === 'care' ? '<div class="note">THL reports Helsinki and the Uusimaa counties as one HUS row.</div>' : ''}
     </div>
-    <h2>All areas</h2><div class="card chartcard">${barChart(m)}</div>
+    <h2>All areas${sourceLine(combineSources([FI, ...D.regions].filter(rr => val(m, rr) != null).map(rr => measureSource(m, rr))))}</h2><div class="card chartcard">${barChart(m)}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, x.role)}
     ${o === false ? `<h2>Areas that meet the target</h2>${peersBlock('m' + m + r, p.list, rr => fmt(m, val(m, rr)), x.role,
       p.closest ? closestIntro(p, 'the target') : `${p.list.length} areas meet the target ${fmtT(m)}.`, x.short, rr => measureSource(m, rr))}
@@ -615,7 +623,7 @@ function renderMeasure(v, m) {
 function barChart(m) {
   const x = M[m], rows = [FI, ...D.regions].map(r => ({ r, v: val(m, r) }));
   rows.sort((a, b) => (a.r === FI ? -1 : b.r === FI ? 1 : 0) || ((b.v ?? -1) - (a.v ?? -1)) || byName(a.r, b.r));
-  const W = 760, L = 170, Rr = 70, rh = 22, H = rows.length * rh + 30;
+  const W = 760, L = 170, Rr = 70, rh = 34, H = rows.length * rh + 30;
   const max = x.unit === '%' ? 100 : Math.max(5, ...rows.map(o => o.v || 0)) * 1.1;
   const X = v => L + (v / max) * (W - L - Rr);
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(x.label)} by area">
@@ -624,10 +632,12 @@ function barChart(m) {
     ${rows.map((o, i) => {
       const y = 8 + i * rh, ok = isOk(m, o.v), me = o.r === sel;
       const col = o.r === FI ? '#94a3b8' : ok === false ? '#f87171' : ok ? '#4ade80' : '#e2e8f0';
-      return `<g>${measureSource(m, o.r) ? `<title>${esc(sourceName(measureSource(m, o.r)))}</title>` : ''}${me ? `<rect x="0" y="${y - 2}" width="${W}" height="${rh}" fill="#e6edf7"/>` : ''}
+      const source = sourceName(measureSource(m, o.r));
+      return `<g>${source ? `<title>${esc(source)}</title>` : ''}<rect x="0" y="${y - 2}" width="${W}" height="${rh}" fill="${me ? '#e6edf7' : 'transparent'}"/>
         <text x="${L - 10}" y="${y + 13}" text-anchor="end" font-size="12" font-weight="${me || o.r === FI ? 700 : 400}" fill="#0f172a">${esc(rname(o.r))}${x.role === 'care' && D.hus_area.includes(o.r) ? ' (HUS)' : ''}</text>
-        <rect x="${L}" y="${y + 3}" width="${Math.max(1.5, o.v == null ? 0 : X(o.v) - L)}" height="${rh - 8}" rx="2" fill="${col}"/>
-        <text x="${(o.v == null ? L : X(o.v)) + 6}" y="${y + 13}" font-size="11.5" font-weight="600" stroke="#fff" stroke-width="4" paint-order="stroke" fill="${ok === false ? '#dc2626' : ok ? '#16a34a' : '#0f172a'}">${fmt(m, o.v)}</text></g>`;
+        <rect x="${L}" y="${y + 3}" width="${Math.max(1.5, o.v == null ? 0 : X(o.v) - L)}" height="14" rx="2" fill="${col}"/>
+        <text x="${(o.v == null ? L : X(o.v)) + 6}" y="${y + 13}" font-size="11.5" font-weight="600" stroke="#fff" stroke-width="4" paint-order="stroke" fill="${ok === false ? '#dc2626' : ok ? '#16a34a' : '#0f172a'}">${fmt(m, o.v)}</text>
+        ${source ? `<text x="${L}" y="${y + 28}" font-size="10" font-weight="400" fill="#5b6b7c">${esc(source)}</text>` : ''}</g>`;
     }).join('')}
   </svg>`;
 }
@@ -636,9 +646,9 @@ function renderMort(v, t) {
   v.innerHTML = `<div class="page">
     ${crumbs(`${esc(rname(r))} › Goal 3 › Cancer mortality`)}
     <div class="card hero"><div class="kicker">${esc(SHORT[t.id])} · ${esc(rname(r))}</div>
-      <div class="hero-row"><h1>Cancer deaths per year, whole country</h1>${pill(st, tLabel(st))}</div>
+      <div class="hero-row"><div><h1>Cancer deaths per year, whole country</h1>${sourceLine(mortalitySource(x.last))}</div>${pill(st, tLabel(st), mortalitySource(x.last))}</div>
       <div class="kpis">${kpi(`Cancer deaths ${x.last}`, nf(x.v, 0), x.ok, null, mortalitySource(x.last))}${kpi(`Target by ${x.mo.target_year}`, '≤ ' + nf(x.mo.target, 0))}</div></div>
-    <h2>Trend and target</h2><div class="card chartcard">${mortChart()}</div>
+    <h2>Trend and target${sourceLine(combineSources(Object.keys(x.mo.counts).map(mortalitySource)))}</h2><div class="card chartcard">${mortChart()}</div>
     <h2>Contact in ${esc(rname(r))}</h2>${contactCard(r, 'care')}
     ${st === 'bad' ? `<h2 data-intro-report>AI report: how others have solved it</h2>${reportSlot('S3.2')}` : ''}
     <h2>Ask about this</h2>${chatCard(`m-mort-${r}`)}

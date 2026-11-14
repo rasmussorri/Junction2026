@@ -267,3 +267,5 @@ h2 .h-sub{font-weight:400;color:var(--muted)}
 .msg.ai a{font-size:12px;font-weight:500}
 .msg.ai .spinner{margin-top:4px;vertical-align:middle}
 .sugg{margin-top:10px}
+.mrow .lbl,.peer .pv,.kpi,.hero-row > div{min-inline-size:0}
+.kpi{max-inline-size:100%}
