@@ -4396,7 +4396,7 @@ let locked = false; /* set once an area is clicked: hovering then only previews 
 const chats = {};
 const showAll = {};
 const introKey = 'vahti.introduction.v2';
-const introRegion = 'Pohjois-Savo';
+let introRegion = FI;
 let introStep = null;
 const introRoutes = {
   goal: '#/goal/2', screening: '#/t/S2.2', cervical: '#/m/kohdunkaula'
@@ -4563,25 +4563,25 @@ function route() {
 /* ---------- interactive introduction ---------- */
 const introSteps = {
   areas: { title: 'Choose any region', text: 'Click the map or the list.' },
-  areaReview: { title: () => `Review ${sel}`, text: 'See its status compared to the targets.', target: '.st-head, #status .gcard', next: 'chooseSavo', label: 'Next region' },
-  chooseSavo: { title: 'Select Pohjois-Savo', text: 'Click the highlighted region in the list or on the map.', target: '.area[data-r="Pohjois-Savo"], .mapbox path[data-r="Pohjois-Savo"]' },
+  areaReview: { title: () => `Review ${sel}`, text: 'See its status compared to the targets.', target: '.st-head, #status .gcard', next: 'secondArea', label: 'Continue' },
+  secondArea: { title: 'Choose a region to explore', text: 'Pick any region' },
   openGoal: { title: 'Open Goal 2', text: 'See its status compared to the targets, then open the highlighted card.', target: '#status', linkTarget: '.gcard[href^="#/goal/2?"]', link: 'goalTitle' },
-  goalTitle: { page: 'goal', title: 'Read the goal and targets', text: 'Take your time. Check Pohjois-Savo’s figures against each target.', target: '.hero, .tcard', next: 'goalContact', label: 'See contact details of this region' },
-  goalContact: { page: 'goal', title: 'Contacts in Pohjois-Savo', text: 'See who to contact in this region.', target: 'h2:has(+ .contact), .contact', next: 'goalPeers', label: 'Continue' },
-  goalPeers: { page: 'goal', title: 'Contact details for other regions', text: 'You can contact these regions to ask how they reached the target.', target: '[data-intro-peers], [data-intro-peers] + .hint, [data-intro-peers] + .hint + .peers', next: 'goalReport', label: 'Continue' },
-  goalReport: { page: 'goal', title: 'Read what others have done to reach these targets', text: 'See what others tried and where the findings came from.', target: '[data-intro-report], [data-intro-report] ~ .report', next: 'goalChat', label: 'Try to chat with AI about the situation' },
+  goalTitle: { page: 'goal', title: 'Read the goal and targets', text: () => `Check the figures for ${rname(introRegion)} against each target.`, target: '.hero, .tcard', next: 'goalContact', label: 'See contact details of this region' },
+  goalContact: { page: 'goal', title: () => `Contacts in ${rname(introRegion)}`, text: 'See who to contact in this region to spar about things related to cancer care', target: 'h2:has(+ .contact), .contact', next: 'goalPeers', label: 'Continue' },
+  goalPeers: { alignHeading: true, page: 'goal', title: 'Contact details for other regions', text: 'You can contact these regions to spar what they are doing to achieve the targets.', target: '[data-intro-peers], [data-intro-peers] + .hint, [data-intro-peers] + .hint + .peers', next: 'goalReport', label: 'Continue' },
+  goalReport: { alignHeading: true, page: 'goal', title: 'AI search results', text: 'See what others tried and where the findings came from.', target: '[data-intro-report], [data-intro-report] ~ .report', next: 'goalChat', label: 'Continue' },
   goalChat: { page: 'goal', title: 'Try the chat', text: () => AI.ai && !AI.offline
-    ? 'Ask about prevention or screening in Pohjois-Savo.'
+    ? `Ask about prevention or screening in ${rname(introRegion)}.`
     : 'Ask your own question. Practice mode shows a local summary.', target: '.chat-card' },
   chatWaiting: { page: 'goal', title: 'Waiting for the reply', text: 'The answer will appear in the chat.', target: '.chat-card' },
   chatReview: { page: 'goal', title: 'Read the reply', text: 'Keep chatting or continue to the next thing.', target: '.chat-card', next: 'openScreening', label: 'Continue' },
   openScreening: { page: 'goal', title: 'Open average screening participation', text: 'Click the highlighted screening row.', linkTarget: 'a[href^="#/t/S2.2?"]', link: 'screeningSummary' },
-  screeningSummary: { page: 'screening', title: 'Screening participation in more detail', text: 'See the overall result and the breakdown by cancer type.', target: '.hero, .hero + h2, .hero + h2 + .card', next: 'openCervical', label: 'Check out situation for a specific cancer type' },
+  screeningSummary: { page: 'screening', title: 'Screening participation in more detail', text: 'See the overall result and the breakdown by cancer type.', target: '.hero, .hero + h2, .hero + h2 + .card', next: 'openCervical', label: 'Continue' },
   openCervical: { page: 'screening', title: 'Open cervical screening', text: 'Select cervical screening to look closer.', scrollTarget: '.hero + h2', linkTarget: 'a[href^="#/m/kohdunkaula?"]', link: 'cervicalSummary' },
-  cervicalSummary: { page: 'cervical', title: 'Check the situation', target: '.hero', next: 'cervicalChart', label: 'Compare to different regions' },
-  cervicalChart: { page: 'cervical', title: 'Compare all areas', text: 'Check how Pohjois-Savo is doing compared to other regions.', target: '.chartcard', next: 'cervicalDetails', label: 'See the rest of the page' },
-  cervicalDetails: { page: 'cervical', title: 'Explore the rest of the page', text: 'Scroll for contacts, areas meeting the target, the AI report and chat.', target: '.contact, .peers, .report, .chat-card', next: 'done', label: 'Finish introduction' },
-  done: { title: 'Explore on your own', text: 'Choose any area or goal to keep exploring.', label: 'Got it' }
+  cervicalSummary: { page: 'cervical', title: 'Check the overview', target: '.hero', next: 'cervicalChart', label: 'Continue' },
+  cervicalChart: { page: 'cervical', title: 'Compare all areas', text: () => `Check how ${rname(introRegion)} is doing compared to other regions.`, target: '.chartcard', next: 'cervicalDetails', label: 'Take a quick look into the rest of the page' },
+  cervicalDetails: { alignHeading: true, page: 'cervical', title: 'Explore the rest of the page', text: 'Scroll for contacts, areas meeting the target, the AI report and chat.', target: 'h2:has(+ .contact), .contact, .peers, .report, .chat-card', next: 'done', label: 'Finish introduction' },
+  done: { title: 'Explore on your own', label: 'Got it' }
 };
 
 function initIntroduction() {
@@ -4595,7 +4595,7 @@ function initIntroduction() {
   };
   $('#introStart').onclick = () => {
     toggleDrawer(false);
-    sel = FI;
+    sel = introRegion = FI;
     locked = false;
     dialog.close();
     goToIntroStep('areas');
@@ -4626,6 +4626,9 @@ function introHash() {
 }
 
 function goToIntroStep(next) {
+  while (['goalPeers', 'goalReport'].includes(next) && !$(introSteps[next].target, $('#view'))) {
+    next = introSteps[next].next;
+  }
   const previous = introStep;
   introStep = next;
   if (next === 'done') {
@@ -4665,8 +4668,7 @@ function updateIntroduction({ reveal = false } = {}) {
   $('#view').querySelectorAll('a, button, textarea, .sugg, .mapbox path[data-r]').forEach(el => {
     const area = el.dataset.r;
     const allowedArea = area && (
-      (introStep === 'areas' && area !== FI) ||
-      (introStep === 'chooseSavo' && area === introRegion)
+      area !== FI && (introStep === 'areas' || introStep === 'secondArea')
     );
     const allowedChat = chatStep && target?.contains(el) && (
       el.matches('.msg.ai a[href^="https://"], .msg.ai a[href^="http://"]') ||
@@ -4693,19 +4695,19 @@ function updateIntroduction({ reveal = false } = {}) {
         if (column) revealIntroTarget(focusTarget, panel, behavior, column);
       }
     } else if (focusTarget) {
-      revealIntroTarget(focusTarget, panel, behavior, null, linkTarget);
+      revealIntroTarget(focusTarget, panel, behavior, null, linkTarget, step.alignHeading);
     }
   }
 }
 
-function revealIntroTarget(target, panel, behavior, column, requiredLink) {
+function revealIntroTarget(target, panel, behavior, column, requiredLink, alignHeading) {
   const rect = target.getBoundingClientRect();
   const topEdge = (column ? column.getBoundingClientRect().top : $('.top').getBoundingClientRect().bottom) + 12;
   const lowerEdge = Math.min(panel.getBoundingClientRect().top, column?.getBoundingClientRect().bottom ?? window.innerHeight) - 16;
   const available = Math.max(0, lowerEdge - topEdge);
   const revealHeight = target.matches('.chat-card') ? rect.height : Math.min(rect.height, available);
   const end = Math.max(rect.top + revealHeight, requiredLink?.getBoundingClientRect().bottom ?? 0);
-  const offset = end - lowerEdge;
+  const offset = alignHeading ? rect.top - topEdge : end - lowerEdge;
   const scroller = column || window;
   const position = column ? column.scrollTop : window.scrollY;
   // Keep as much of the preceding content visible as possible.
@@ -4770,10 +4772,8 @@ function preview(r) {
   if (h) h.setAttribute('d', p ? p.getAttribute('d') : '');
 }
 function chooseArea(r) {
-  if (introStep === 'areas') {
+  if (introStep === 'areas' || introStep === 'secondArea') {
     if (r === FI) return;
-  } else if (introStep === 'chooseSavo') {
-    if (r !== introRegion) return;
   } else if (introStep && introStep !== 'done') {
     return;
   }
@@ -4781,7 +4781,10 @@ function chooseArea(r) {
   preview(null);
   select(r);
   if (introStep === 'areas') goToIntroStep('areaReview');
-  else if (introStep === 'chooseSavo') goToIntroStep('openGoal');
+  else if (introStep === 'secondArea') {
+    introRegion = r;
+    goToIntroStep('openGoal');
+  }
 }
 function select(r) {
   if (r === sel) return;
@@ -5123,7 +5126,7 @@ function send(key, text, ctx, draw) {
   if (introStep && introStep !== 'done' && !practice) return;
   if (practice && (AI.offline || !AI.ai)) {
     const screening = agg(T('S2.2'), introRegion);
-    const summary = `Practice summary · Live AI is unavailable. Average screening participation in ${introRegion} is ${screening.text}. The target is ${screening.target}, and the national average is ${agg(T('S2.2'), FI).text}.`;
+    const summary = `Practice summary · Live AI is unavailable. Average screening participation in ${rname(introRegion)} is ${screening.text}. The target is ${screening.target}, and the national average is ${agg(T('S2.2'), FI).text}.`;
     const box = $('.chat-card [data-chat]');
     $('textarea', box).value = '';
     const messages = $('.msgs', box);
@@ -5170,7 +5173,13 @@ function send(key, text, ctx, draw) {
           if (!line) continue;
           const ev = JSON.parse(line);
           if (ev.delta) pending.text += ev.delta;
-          if (ev.done) { pending.text = ev.text || pending.text; pending.pending = false; }
+          if (ev.done) {
+            pending.text = ev.text ?? pending.text;
+            pending.pending = false;
+            finishReply();
+            void reader.cancel().catch(() => {});
+            return;
+          }
           paint();
         }
       }
