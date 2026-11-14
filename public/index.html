@@ -12,8 +12,27 @@
   <a class="brand" href="#/">
     <span><span class="brand-name">Cancer Strategy Monitor</span><span class="brand-sub">Finland's National Cancer Strategy 2026–2035</span></span>
   </a>
-  <button class="ask" id="askBtn">Ask AI</button>
+  <div class="top-actions">
+    <button class="ask" id="introReplay" type="button" hidden>Introduction</button>
+    <button class="ask" id="askBtn">Ask AI</button>
+  </div>
 </header>
+<dialog class="intro-welcome" id="introWelcome" aria-labelledby="introWelcomeTitle">
+  <h2 id="introWelcomeTitle">Go through an introduction (recommended) or skip straight to trying it out by yourself.</h2>
+  <div class="intro-actions">
+    <button class="ask" id="introSkip" type="button">Skip introduction</button>
+    <button class="intro-primary" id="introStart" type="button" disabled autofocus>Start introduction</button>
+  </div>
+</dialog>
+<section class="intro" id="intro" aria-labelledby="introTitle" hidden>
+  <div class="intro-copy" aria-live="polite">
+    <h2 id="introTitle" tabindex="-1"></h2>
+    <p id="introText"></p>
+  </div>
+  <div class="intro-actions">
+    <button class="intro-primary" id="introAction" type="button"></button>
+  </div>
+</section>
 <div id="view"></div>
 <aside class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer-head">
