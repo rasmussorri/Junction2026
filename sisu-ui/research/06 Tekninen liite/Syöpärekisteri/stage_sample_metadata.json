@@ -1,0 +1,104 @@
+{
+  "retrieved_utc": "2026-11-13T23:37:42.060Z",
+  "method": "Browser UI .CSV link downloadMedia; first waitForEvent attempt timed out",
+  "source": "https://tilastot.syoparekisteri.fi/syovat/",
+  "selection": {
+    "theme": "Uudet syöpätapaukset (ilmaantuvuus)",
+    "area": "Koko maa",
+    "sex": [
+      "Miehet",
+      "Naiset"
+    ],
+    "cancer": "Kaikki syövät yhdessä",
+    "classification": "Syövän levinneisyys (2020-2024)",
+    "measure": "Todettuja syöpiä"
+  },
+  "format": {
+    "encoding": "UTF-8",
+    "delimiter": ";",
+    "decimal": ","
+  },
+  "bytes": 439,
+  "sha256": "a5c1772c576ffdaf48473bf8ea72d80ce7067fc1c921eb0727c838037f37a7d2",
+  "columns": [
+    "Sukupuoli",
+    "Syövän levinneisyys",
+    "Todettuja syöpiä",
+    "Suhde per 100 000",
+    "Suhde per 100 000, ikävakioitu (Suomi 2014)",
+    "Suhde per 100 000, ikävakioitu (maailman vakioväestö)"
+  ],
+  "rows": [
+    {
+      "Sukupuoli": "Miehet",
+      "Syövän levinneisyys": "Tuntematon",
+      "Todettuja syöpiä": 66484,
+      "Suhde per 100 000": 483.04,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 474.4,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 196.59
+    },
+    {
+      "Sukupuoli": "Miehet",
+      "Syövän levinneisyys": "Paikallinen",
+      "Todettuja syöpiä": 9799,
+      "Suhde per 100 000": 71.19,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 69.93,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 33.19
+    },
+    {
+      "Sukupuoli": "Miehet",
+      "Syövän levinneisyys": "Ei paikallinen",
+      "Todettuja syöpiä": 23961,
+      "Suhde per 100 000": 174.09,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 169.36,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 79.89
+    },
+    {
+      "Sukupuoli": "Naiset",
+      "Syövän levinneisyys": "Tuntematon",
+      "Todettuja syöpiä": 51792,
+      "Suhde per 100 000": 368.19,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 311.14,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 152.2
+    },
+    {
+      "Sukupuoli": "Naiset",
+      "Syövän levinneisyys": "Paikallinen",
+      "Todettuja syöpiä": 12449,
+      "Suhde per 100 000": 88.5,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 80.47,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 44.88
+    },
+    {
+      "Sukupuoli": "Naiset",
+      "Syövän levinneisyys": "Ei paikallinen",
+      "Todettuja syöpiä": 27137,
+      "Suhde per 100 000": 192.92,
+      "Suhde per 100 000, ikävakioitu (Suomi 2014)": 168.22,
+      "Suhde per 100 000, ikävakioitu (maailman vakioväestö)": 87.09
+    }
+  ],
+  "ui_cells_checked": [
+    [
+      "Miehet",
+      "Tuntematon",
+      66484
+    ],
+    [
+      "Miehet",
+      "Paikallinen",
+      9799
+    ],
+    [
+      "Naiset",
+      "Ei paikallinen",
+      27137
+    ]
+  ],
+  "limitations": [
+    "Export omits selected years/area/cancer from columns, so sidecar is required",
+    "Coarse local/nonlocal/unknown classification; not TNM or stage IV",
+    "No stable API endpoint tested; session download URL is ephemeral",
+    "No HTTP status observed for browser transfer"
+  ]
+}

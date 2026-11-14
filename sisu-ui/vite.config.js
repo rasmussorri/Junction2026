@@ -1,0 +1,6 @@
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  optimizeDeps: { entries: ['index.html'] },
+  server: { watch: { ignored: ['**/research/**'] }, fs: { deny: ['.env', '.env.*', '*.{crt,pem}', '**/.git/**', '**/research/**'] } }
+});

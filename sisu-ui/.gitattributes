@@ -1,0 +1,4 @@
+# Preserve archived source bytes and checksums across platforms.
+research/** -text -diff linguist-generated=true
+data/*.json linguist-generated=true
+public/counties.json linguist-generated=true

@@ -1,0 +1,10 @@
+{
+  "strategy": {"title":"National cancer strategy 2026–2035", "file":"research/08 Liitteet/Kansallinen_syopastrategia_2026_2035_FINAL.pdf", "url":"https://stm.fi/documents/1271139/1329769/Kansallinen_syopastrategia_2026_2035_FINAL.pdf/05ad3c9d-d8ba-a629-3e90-e8d10f4f5bbc?t=1767863923329"},
+  "screening": {"title":"Local 2024 breast and colorectal data", "file":"research/09 Aineistojen syväanalyysi/Yhdistelykoe/work/joined_2024_regions.json"},
+  "cervical": {"title":"Local cervical tables (2024 age-group table 75)", "file":"research/06 Tekninen liite/Kohdunkaula ja seulontaviiveet/kohdunkaula_taulukot.json", "url":"https://stats.cancerregistry.fi/joukkistilastot/kohtu.html"},
+  "early-stage": {"title":"Local national stage sample, 2020–2024", "file":"research/06 Tekninen liite/Syöpärekisteri/stage_2020_2024_sample.csv", "url":"https://syoparekisteri.fi/assets/themes/ssy3/factsheets/cancer_in_finland_2024.html"},
+  "survival": {"title":"Local NORDCAN profile", "file":"research/06 Tekninen liite/Vertailu ja alueet/nordcan_profile.json", "url":"https://nordcan.iarc.who.int/en/database"},
+  "mortality": {"title":"Statistics Finland 13u5 mortality sample", "file":"research/06 Tekninen liite/Tilastokeskus ja Sotkanet/work/13u5_sample.json", "url":"https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__ksyyt/13u5.px/"},
+  "treatment": {"title":"Local treatment-access dataset assessment", "file":"research/03 Dataset-kortit/D14 Erikoissairaanhoidon hoitoonpääsy ja jonot.md", "url":"https://sampo.thl.fi/pivot/prod/fi/eshjono/jonotilanne/fact_eshjono_jonotilanne"},
+  "audit": {"title":"Strategy goal data audit", "file":"research/strategy-goal-audit.md"}
+}

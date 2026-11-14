@@ -1,0 +1,12 @@
+.env
+.env.local
+node_modules/
+__pycache__/
+dist/
+.DS_Store
+
+
+# Generated local data operations
+data/history/
+data/refresh-status.json
+data/.pipeline.lock/
