@@ -15,3 +15,5 @@ work/research.lock
 node_modules/
 __pycache__/
 *.pyc
+.agents/
+skills-lock.json

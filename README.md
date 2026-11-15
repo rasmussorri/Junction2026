@@ -13,10 +13,10 @@
   - HPV vaccination coverage (girls and boys)
   - Cancer treatment guarantee compliance (THL specialized healthcare queues and >90-day delays)
   - Cancer mortality trends and reduction trajectories
-- **Reliable, Grounded AI Chat (Gemini 3.5 Flash)**:
+- **Reliable, Grounded AI Chat (Gemini 3.5 Flash + Exa Neural Search)**:
   - Directly reads the active page view and canonical dataset to ground its responses.
-  - Powered by Google Search grounding for real-world research evidence.
-  - Whitelist-enforced source citations: only links from verified health authorities and academic publishers (THL, Finnish Cancer Registry, Duodecim, STM, Fimea, HUS) are displayed.
+  - Powered by **Exa Neural Search** for live retrieval of peer-reviewed clinical studies (PubMed, *The Lancet*, *Acta Oncologica*, NORDCAN) and international policy interventions.
+  - Whitelist-enforced source citations: only links from verified health authorities and academic publishers (THL, Finnish Cancer Registry, Duodecim, STM, Fimea, HUS, PubMed) are displayed.
 - **Action Reports & Peer Learning**: Pre-compiled policy reports highlighting peer solutions from Finnish counties and Nordic neighbours that successfully meet targets.
 - **Standalone Single-File Distribution**: Complete dashboard bundled into an offline, self-contained HTML file ([vahti.html](vahti-ui/vahti.html)).
 
@@ -47,6 +47,7 @@ The repository is pre-configured for one-click deployment on Vercel:
 2. Add Environment Variables:
    - `GEMINI_API_KEY`: your Gemini API key
    - `GEMINI_MODEL`: `gemini-3.5-flash`
+   - `EXA_API_KEY`: your Exa API key (optional, enables live neural web research)
 3. Click **Deploy**.
 
 ---

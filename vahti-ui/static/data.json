@@ -233,7 +233,31 @@
         }
       },
       "short": "Colorectal screening",
-      "role": "screening"
+      "role": "screening",
+      "value_sources": {
+        "Itä-Uusimaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Keski-Uusimaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Länsi-Uusimaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Vantaa ja Kerava": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Varsinais-Suomi": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Satakunta": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Kanta-Häme": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Pirkanmaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Päijät-Häme": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Kymenlaakso": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Etelä-Karjala": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Etelä-Savo": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Pohjois-Savo": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Pohjois-Karjala": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Keski-Suomi": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Etelä-Pohjanmaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Pohjanmaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Keski-Pohjanmaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Pohjois-Pohjanmaa": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Kainuu": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Lappi": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics",
+        "Helsinki": "Finnish Cancer Registry — Colorectal Cancer Screening Statistics"
+      }
     },
     "rinta": {
       "id": "rinta",
@@ -527,7 +551,31 @@
         }
       },
       "short": "Breast screening",
-      "role": "screening"
+      "role": "screening",
+      "value_sources": {
+        "Itä-Uusimaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Keski-Uusimaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Länsi-Uusimaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Vantaa ja Kerava": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Varsinais-Suomi": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Satakunta": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Kanta-Häme": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Pirkanmaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Päijät-Häme": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Kymenlaakso": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Etelä-Karjala": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Etelä-Savo": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Pohjois-Savo": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Pohjois-Karjala": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Keski-Suomi": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Etelä-Pohjanmaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Pohjanmaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Keski-Pohjanmaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Pohjois-Pohjanmaa": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Kainuu": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Lappi": "Finnish Cancer Registry — Breast Cancer Screening Statistics",
+        "Helsinki": "Finnish Cancer Registry — Breast Cancer Screening Statistics"
+      }
     },
     "kohdunkaula": {
       "id": "kohdunkaula",
@@ -821,7 +869,31 @@
         }
       },
       "short": "Cervical screening",
-      "role": "screening"
+      "role": "screening",
+      "value_sources": {
+        "Itä-Uusimaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Keski-Uusimaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Länsi-Uusimaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Vantaa ja Kerava": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Varsinais-Suomi": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Satakunta": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Kanta-Häme": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Pirkanmaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Päijät-Häme": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Kymenlaakso": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Etelä-Karjala": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Etelä-Savo": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Pohjois-Savo": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Pohjois-Karjala": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Keski-Suomi": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Etelä-Pohjanmaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Pohjanmaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Keski-Pohjanmaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Pohjois-Pohjanmaa": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Kainuu": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Lappi": "Finnish Cancer Registry — Cervical Cancer Screening Statistics",
+        "Helsinki": "Finnish Cancer Registry — Cervical Cancer Screening Statistics"
+      }
     },
     "hpv_tytot": {
       "id": "hpv_tytot",
@@ -1114,7 +1186,32 @@
         }
       },
       "short": "HPV vaccination, girls",
-      "role": "vaccination"
+      "role": "vaccination",
+      "value_sources": {
+        "Itä-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Keski-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Länsi-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Vantaa ja Kerava": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Varsinais-Suomi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Satakunta": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Kanta-Häme": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Pirkanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Päijät-Häme": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Kymenlaakso": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Etelä-Karjala": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Etelä-Savo": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Pohjois-Savo": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Pohjois-Karjala": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Keski-Suomi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Etelä-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Keski-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Pohjois-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Kainuu": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Lappi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13",
+        "Helsinki": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13"
+      },
+      "national_source": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · girls, two doses by age 13"
     },
     "hpv_pojat": {
       "id": "hpv_pojat",
@@ -1338,7 +1435,32 @@
         }
       },
       "short": "HPV vaccination, boys",
-      "role": "vaccination"
+      "role": "vaccination",
+      "value_sources": {
+        "Itä-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Keski-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Länsi-Uusimaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Vantaa ja Kerava": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Varsinais-Suomi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Satakunta": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Kanta-Häme": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Pirkanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Päijät-Häme": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Kymenlaakso": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Etelä-Karjala": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Etelä-Savo": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Pohjois-Savo": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Pohjois-Karjala": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Keski-Suomi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Etelä-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Keski-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Pohjois-Pohjanmaa": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Kainuu": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Lappi": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13",
+        "Helsinki": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13"
+      },
+      "national_source": "Finnish Institute for Health and Welfare — Sotkanet — HPV vaccination · boys, two doses by age 13"
     },
     "onk90": {
       "id": "onk90",
@@ -2923,7 +3045,15 @@
     "target": 11970,
     "target_year": 2035,
     "source_counts": "Statistics Finland, causes of death (13u5)",
-    "source_agestd": "Statistics Finland, causes of death (11ay)"
+    "source_agestd": "Statistics Finland, causes of death (11ay)",
+    "count_sources": {
+      "2020": "Statistics Finland cancer death counts",
+      "2021": "Statistics Finland cancer death counts",
+      "2022": "Statistics Finland cancer death counts",
+      "2023": "Statistics Finland cancer death counts",
+      "2024": "Statistics Finland cancer death counts",
+      "2025": "Statistics Finland cancer death counts"
+    }
   },
   "goals": [
     {
